@@ -29,7 +29,8 @@ function conferirLicao(l: { vocab: Vocab[]; gramatica: Gramatica[]; exercicios: 
   }
 }
 
-for (const pacote of ['public', 'private']) {
+// O privado fica fora do git: no GitHub Actions a pasta não existe e os testes dele são pulados.
+for (const pacote of ['public', 'private'].filter(p => existsSync(join(raiz, p)))) {
   describe(`seções (${pacote})`, () => {
     for (const arq of jsons(join(raiz, pacote, 'sections'))) {
       it(arq.split('/').pop()!, () => {
