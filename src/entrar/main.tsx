@@ -10,7 +10,7 @@ const api = (caminho: string, corpo?: unknown) => fetch(`/api${caminho}`, corpo 
 
 function PaginaEntrar() {
   const [modo, setModo] = useState<'entrar' | 'cadastro'>('entrar')
-  const [dados, setDados] = useState({ email: '', senha: '', nome: '' })
+  const [dados, setDados] = useState({ email: '', senha: '', confirmacao: '', nome: '' })
   const [google, setGoogle] = useState(false)
   const [erro, setErro] = useState(new URLSearchParams(location.search).get('erro') === 'google' ? 'Não foi possível entrar com o Google. Tente de novo.' : '')
   const [enviando, setEnviando] = useState(false)
@@ -24,8 +24,11 @@ function PaginaEntrar() {
 
   const enviar = async (ev: React.FormEvent) => {
     ev.preventDefault()
+    // Senhas diferentes: o aviso já aparece embaixo do campo; só leva o cursor até ele.
+    if (modo === 'cadastro' && dados.senha !== dados.confirmacao) return document.getElementById('confirmacao')?.focus()
     setErro(''); setEnviando(true)
-    const r = await api(`/auth/${modo}`, dados).catch(() => null)
+    const { confirmacao: _, ...corpo } = dados
+    const r = await api(`/auth/${modo}`, corpo).catch(() => null)
     if (r?.ok) return location.replace('/')
     setErro(r ? await r.text() : 'Sem conexão com o servidor.')
     setEnviando(false)
@@ -54,6 +57,11 @@ function PaginaEntrar() {
           <label>Senha<input {...campo('senha')} type="password" required minLength={modo === 'cadastro' ? 8 : undefined}
             autoComplete={modo === 'entrar' ? 'current-password' : 'new-password'} /></label>
           {modo === 'cadastro' && <small>Pelo menos 8 caracteres.</small>}
+          {modo === 'cadastro' && (
+            <label>Confirme a senha<input id="confirmacao" {...campo('confirmacao')} type="password" required autoComplete="new-password"
+              aria-invalid={!!dados.confirmacao && dados.confirmacao !== dados.senha} /></label>
+          )}
+          {modo === 'cadastro' && dados.confirmacao && dados.confirmacao !== dados.senha && <small className="aviso-senha">As senhas ainda não são iguais.</small>}
           {erro && <p className="editor-erro">{erro}</p>}
           <button className="botao" disabled={enviando}>{enviando ? 'Aguarde…' : modo === 'entrar' ? 'Entrar' : 'Criar conta'}</button>
         </form>

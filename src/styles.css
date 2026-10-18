@@ -457,6 +457,8 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
 .form-entrar input { font: inherit; font-size: 1rem; padding: .5rem .6rem; border: 1px solid var(--linha); border-radius: var(--raio); background: var(--papel); color: var(--tinta); }
 .form-entrar input:focus { outline: 2px solid var(--terracota); outline-offset: -1px; border-color: transparent; }
 .form-entrar small { color: var(--tinta-3); margin-top: -.5rem; }
+.form-entrar small.aviso-senha { color: var(--erro); }
+.form-entrar input[aria-invalid='true'] { border-color: var(--erro); }
 .form-entrar .botao { padding: .6rem 1rem; }
 .botao-google { display: flex; align-items: center; justify-content: center; gap: .6rem; margin-top: 1.2rem; padding: .6rem 1rem; border: 1px solid var(--linha); border-radius: var(--raio); background: var(--papel); color: var(--tinta); font-family: var(--sans); font-weight: 600; font-size: .95rem; }
 .botao-google:hover { border-color: var(--tinta-3); text-decoration: none; }
