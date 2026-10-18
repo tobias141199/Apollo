@@ -3,7 +3,7 @@
 //   /api/progresso   progresso do usuário (flashcards, respostas, preferências)
 //   /api/imagens     imagens dos flashcards (guardadas no banco)
 // Roda direto com `node server/index.ts` (o Node lê TypeScript sem compilar).
-import { existsSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { serve } from '@hono/node-server'
 import { serveStatic } from '@hono/node-server/serve-static'
@@ -27,7 +27,7 @@ app.use('/api/*', async (c, next) => {
   if (!pool) return c.text('O servidor está sem banco de dados.', 503)
   await next()
 })
-app.use('/api/*', lerSessao)
+app.use('*', lerSessao)
 app.route('/api/auth', auth)
 app.route('/api/progresso', progresso)
 app.route('/api/imagens', imagens)
@@ -35,11 +35,35 @@ app.all('/api/*', c => c.text('Não encontrado.', 404))
 app.onError((e, c) => { console.error(e); return c.text('Erro no servidor.', 500) })
 
 // O site construído (npm run build:public). O HashRouter faz tudo funcionar a partir de index.html.
+// SEM LOGIN, SEM ACESSO: quem não entrou só recebe a página de login (entrar.html) e os arquivos dela.
 const dist = join(import.meta.dirname, '../dist')
 if (existsSync(dist)) {
+  const livres = arquivosDoLogin(dist)
+  app.use('*', async (c, next) => {
+    const caminho = c.req.path
+    if (c.var.usuario || livres.has(caminho)) return next()
+    if (caminho === '/' || caminho.endsWith('.html')) return c.redirect('/entrar.html')
+    return c.text('Entre na sua conta.', 401)
+  })
   app.use('/assets/*', serveStatic({ root: dist, onFound: (_p, c) => { c.header('Cache-Control', 'public, max-age=31536000, immutable') } }))
   app.use('/*', serveStatic({ root: dist }))
   app.get('*', serveStatic({ path: join(dist, 'index.html') }))
+}
+
+/** Os arquivos que a página de login usa (do manifesto do Vite): a página, o JS, o CSS e as fontes deles. */
+function arquivosDoLogin(dist: string) {
+  const livres = new Set(['/entrar.html', '/favicon.ico'])
+  const arq = join(dist, '.vite/manifest.json')
+  if (!existsSync(arq)) return livres
+  const manifesto = JSON.parse(readFileSync(arq, 'utf8')) as Record<string, { file: string; css?: string[]; assets?: string[]; imports?: string[] }>
+  const visitar = (chave: string) => {
+    const m = manifesto[chave]
+    if (!m || livres.has(`/${m.file}`)) return
+    for (const f of [m.file, ...(m.css ?? []), ...(m.assets ?? [])]) livres.add(`/${f}`)
+    for (const i of m.imports ?? []) visitar(i)
+  }
+  visitar('entrar.html')
+  return livres
 }
 
 await preparar()

@@ -1,7 +1,8 @@
 // Conta do usuário e sincronização do progresso com o servidor (/api).
 //
+// O site só abre com login (o servidor bloqueia o resto; a página de login é src/entrar/main.tsx).
 // O progresso continua salvo no navegador (IndexedDB + localStorage), então o site funciona mesmo
-// sem internet ou sem conta. Com a conta aberta, o que muda localmente fica marcado como "pendente"
+// sem internet. Com a conta aberta, o que muda localmente fica marcado como "pendente"
 // e é enviado ao servidor; e o que mudou no servidor (em outro aparelho) é baixado.
 import { useSyncExternalStore } from 'react'
 import { definirCatalogo } from '../content'
@@ -93,6 +94,8 @@ export async function iniciar() {
     const r = await comPrazo(api('/auth/eu'), 4000)
     if (!r.ok) return // sem servidor (ex.: npm run dev sem o servidor): tudo fica só no navegador
     const { usuario, google } = await r.json() as { usuario: Usuario | null; google: boolean }
+    // Sem login, sem acesso: o servidor só entrega o site a quem entrou; se a sessão acabou, volta ao login.
+    if (!usuario) { location.replace('/entrar.html'); await new Promise(() => {}) }
     mudar({ usuario, google, servidor: true })
     const cat = await comPrazo(api('/imagens'), 4000).then(r => r.ok ? r.json() : null).catch(() => null)
     if (cat) definirCatalogo(cat, '/api/imagens/')
@@ -113,13 +116,6 @@ async function limparLocal() {
   for (const k of [...PREFS_SINC, 'ag:pendentes', 'ag:sinc-desde', 'ag:conta']) localStorage.removeItem(k)
 }
 
-/** Depois de entrar: o progresso feito sem conta neste navegador passa para a conta. */
-async function adotarLocal() {
-  if (lerLS<number | null>('ag:conta', null) != null) return
-  await marcarTudo()
-  localStorage.removeItem('ag:sinc-desde')
-}
-
 /** Marca todo o progresso local como pendente (ex.: depois de restaurar um backup). */
 export async function marcarTudo() {
   const [ids, resp] = await Promise.all([db.cartoes.toCollection().primaryKeys(), db.respostas.toArray()])
@@ -130,23 +126,11 @@ export async function marcarTudo() {
   if (estado.usuario) agendar()
 }
 
-export async function entrar(modo: 'entrar' | 'cadastro', dados: { email: string; senha: string; nome?: string }) {
-  const r = await api(`/auth/${modo}`, { method: 'POST', body: JSON.stringify(dados) })
-  if (!r.ok) throw new Error(await r.text())
-  await adotarLocal()
-  location.replace(`${location.pathname}#/`)
-  location.reload()
-}
-
-/** Para o botão do Google: o servidor volta para /#/?entrou=1 depois de entrar. */
-export async function antesDoGoogle() { await adotarLocal() }
-
 export async function sair() {
   await enviar().catch(() => {})
   await api('/auth/sair', { method: 'POST', body: '{}' })
   await limparLocal()
-  location.replace(`${location.pathname}#/`)
-  location.reload()
+  location.replace('/entrar.html')
 }
 
 /** "Apagar progresso" também apaga no servidor. */

@@ -1,7 +1,7 @@
 // Imagens dos flashcards, guardadas no banco. Todos veem; só o administrador troca ou remove.
 import { Hono } from 'hono'
 import sharp from 'sharp'
-import { exigirAdmin, type Env } from './auth.ts'
+import { exigirAdmin, exigirLogin, type Env } from './auth.ts'
 import { q } from './db.ts'
 
 const CAMPOS = 'id, titulo, descricao, autor, data, acervo, licenca, url, foco'
@@ -9,6 +9,7 @@ type Meta = { id: string; titulo: string } & Record<string, string | null>
 const limpar = (m: Meta) => Object.fromEntries(Object.entries(m).filter(([, v]) => v != null && v !== ''))
 
 export const imagens = new Hono<Env>()
+imagens.use(exigirLogin) // sem login, sem acesso (nem às imagens)
 
 /** Catálogo: dados de cada imagem (sem o arquivo) e qual imagem vai em cada palavra. */
 imagens.get('/', async c => {

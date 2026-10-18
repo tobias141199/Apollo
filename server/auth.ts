@@ -125,7 +125,7 @@ auth.get('/google', c => {
 
 auth.get('/google/retorno', async c => {
   const { code, state } = c.req.query()
-  if (!code || !state || state !== getCookie(c, 'ag_oauth')) return c.redirect('/#/entrar?erro=google')
+  if (!code || !state || state !== getCookie(c, 'ag_oauth')) return c.redirect('/entrar.html?erro=google')
   deleteCookie(c, 'ag_oauth', { path: '/' })
   const r = await fetch('https://oauth2.googleapis.com/token', {
     method: 'POST',
@@ -135,11 +135,11 @@ auth.get('/google/retorno', async c => {
       redirect_uri: retorno(c), grant_type: 'authorization_code',
     }),
   })
-  if (!r.ok) return c.redirect('/#/entrar?erro=google')
+  if (!r.ok) return c.redirect('/entrar.html?erro=google')
   const { access_token } = await r.json() as { access_token: string }
   const info = await (await fetch('https://openidconnect.googleapis.com/v1/userinfo', { headers: { Authorization: `Bearer ${access_token}` } }))
     .json() as { sub: string; email: string; email_verified: boolean; name?: string }
-  if (!info.email_verified) return c.redirect('/#/entrar?erro=google')
+  if (!info.email_verified) return c.redirect('/entrar.html?erro=google')
   const email = info.email.toLowerCase()
   // Mesma pessoa = mesmo e-mail: a conta com senha e a do Google viram uma só.
   const [u] = await q<{ id: number }>(
@@ -148,5 +148,5 @@ auth.get('/google/retorno', async c => {
        nome = coalesce(usuarios.nome, excluded.nome)
      returning id`, [email, info.name ?? null, info.sub, ehAdmin(email)])
   await abrirSessao(c, u.id)
-  return c.redirect('/#/?entrou=1')
+  return c.redirect('/')
 })

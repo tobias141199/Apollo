@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { temPrivado } from '../content'
 import { db, exportar, importar } from '../lib/db'
 import { apagarProgressoNaConta, marcarTudo, sair, useConta } from '../lib/nuvem'
-import { Link } from 'react-router-dom'
 
 export function Ajustes() {
   const [msg, setMsg] = useState('')
@@ -36,7 +35,7 @@ export function Ajustes() {
                 <p>Você entrou como <b>{usuario.email}</b>{usuario.admin && ' (administrador: pode trocar as imagens dos flashcards)'}. O seu progresso fica salvo na conta e aparece em qualquer aparelho.</p>
                 <button className="botao secundario" onClick={() => sair()}>Sair</button>
               </>
-            : <p>Você não entrou numa conta: o progresso fica só neste navegador. <Link to="/entrar">Entrar ou criar conta</Link></p>}
+            : <p>Você não entrou numa conta: o progresso fica só neste navegador.</p>}
         </section>
       )}
       <section>
