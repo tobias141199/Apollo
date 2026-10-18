@@ -5,11 +5,13 @@ import type { Exercicio, Vocab } from '../content/schema'
 import { FonteTag } from '../components/FonteTag'
 import { GregoInput } from '../components/GregoInput'
 import { TabelaParadigma } from '../components/TabelaParadigma'
+import { Avaliacao } from '../components/Avaliacao'
+import { bloqueadaPor, estaLiberada, useProgresso } from '../lib/progresso'
 import { db } from '../lib/db'
 import { marcar } from '../lib/nuvem'
 import { chave, ehGrego, respostaCorreta } from '../lib/greek'
 
-type Aba = 'vocab' | 'gramatica' | 'texto' | 'exercicios' | 'cultura' | 'ponte'
+type Aba = 'vocab' | 'gramatica' | 'texto' | 'exercicios' | 'cultura' | 'ponte' | 'avaliacao'
 
 /** Página de uma lição: seção da JACT (/secao/1A) ou capítulo do Athenaze (/capitulo/3). */
 export function LicaoPagina() {
@@ -17,6 +19,7 @@ export function LicaoPagina() {
   const id = params.n ? `ath${params.n}` : params.id!
   const l = licaoPorId.get(id)
   const [aba, setAba] = useState<Aba>('vocab')
+  const prog = useProgresso()
   useEffect(() => setAba(l?.emPreparacao ? 'ponte' : 'vocab'), [id, l?.emPreparacao])
   if (!l) return <div className="pagina"><p>Lição {id} não encontrada.</p></div>
 
@@ -28,7 +31,11 @@ export function LicaoPagina() {
     ['exercicios', 'Exercícios', l.exercicios.length],
     ['cultura', 'Cultura', l.cultura ? 1 : 0],
     ['ponte', `Ponte com ${outro}`, l.ponte ? 1 : 0],
+    ['avaliacao', 'Avaliação', l.emPreparacao ? 0 : 1],
   ]
+  const liberada = estaLiberada(l.id, prog)
+  const trava = passosTrilha.find(p => p.licao.id === bloqueadaPor(l.id, prog))?.licao
+  const registro = prog.avaliacoes[l.id]
   const contaveis: Aba[] = ['vocab', 'gramatica', 'texto', 'exercicios']
 
   return (
@@ -42,6 +49,12 @@ export function LicaoPagina() {
       </h1>
       {l.resumo && <p className="resumo">{l.resumo}</p>}
       <FonteTag fonte={l.fonte} />
+      {!l.emPreparacao && (prog.aprovadas.has(l.id)
+        ? <p className="situacao-licao ok">✓ Aprovada{registro && ` · melhor nota ${Math.round(registro.melhor * 100)}%`}</p>
+        : !liberada
+          ? <p className="situacao-licao trancada">🔒 Lição ainda trancada: você pode lê-la, mas a avaliação só abre depois de passar em{' '}
+              {trava ? <Link to={trava.rota}>{trava.rotulo}</Link> : 'nas lições anteriores'}.</p>
+          : <p className="situacao-licao">Ao terminar, faça a <button className="link" onClick={() => setAba('avaliacao')}>avaliação</button> (70% para liberar a próxima lição).</p>)}
 
       {l.emPreparacao && (
         <p className="aviso">
@@ -52,8 +65,8 @@ export function LicaoPagina() {
 
       <div className="abas" role="tablist">
         {abas.filter(([a, , n]) => n > 0 || (!l.emPreparacao && ['vocab', 'gramatica'].includes(a))).map(([a, rot, n]) => (
-          <button key={a} role="tab" aria-selected={aba === a} className={aba === a ? 'ativa' : ''} onClick={() => setAba(a)} disabled={n === 0}>
-            {rot}{n > 0 && contaveis.includes(a) && <small> {n}</small>}
+          <button key={a} role="tab" aria-selected={aba === a} className={`${aba === a ? 'ativa' : ''} ${a === 'avaliacao' ? 'aba-avaliacao' : ''}`} onClick={() => setAba(a)} disabled={n === 0}>
+            {a === 'avaliacao' && (prog.aprovadas.has(l.id) ? '✓ ' : liberada ? '' : '🔒 ')}{rot}{n > 0 && contaveis.includes(a) && <small> {n}</small>}
           </button>
         ))}
       </div>
@@ -76,6 +89,7 @@ export function LicaoPagina() {
         </section>
       )}
       {aba === 'ponte' && <AbaPonte l={l} />}
+      {aba === 'avaliacao' && <Avaliacao l={l} />}
 
       <AntProx l={l} />
     </div>

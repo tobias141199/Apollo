@@ -1,62 +1,80 @@
 import { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import { licaoPorId, licoes, passosTrilha, vocabulario } from '../content'
-import { useEstudadas } from '../lib/estudadas'
+import { Link } from 'react-router-dom'
+import { licoes, passosTrilha, paradigmas, vocabulario } from '../content'
 import { db } from '../lib/db'
-import { buscar } from '../lib/busca'
-import { betaParaGrego, ehGrego } from '../lib/greek'
-import { useSelecao } from '../lib/selecao'
+import { licaoAtual, NOTA_MINIMA, useProgresso } from '../lib/progresso'
 
+/** Tela inicial: o que é o programa, onde o aluno parou e, embaixo, os caminhos para cada parte. */
 export function Inicio() {
-  const [q, setQ] = useState('')
-  const nav = useNavigate()
-  const res = buscar(q, 12)
-  const { vocab } = useSelecao()
+  const prog = useProgresso()
   const [vencidos, setVencidos] = useState<number | null>(null)
-  const { estudadas } = useEstudadas()
-  const proximo = passosTrilha.find(p => !estudadas.has(p.licao.id) && !p.licao.emPreparacao)?.licao
   useEffect(() => { db.cartoes.where('card.due').belowOrEqual(new Date()).count().then(setVencidos) }, [])
+  const disponiveis = passosTrilha.filter(p => !p.licao.emPreparacao)
+  const feitos = disponiveis.filter(p => prog.aprovadas.has(p.licao.id)).length
+  const atual = passosTrilha.find(p => p.licao.id === licaoAtual(prog))?.licao
+  const capitulos = licoes.filter(l => l.livro === 'Athenaze' && !l.emPreparacao).length
 
   return (
     <div className="inicio">
-      <h1 className="titulo-grande">Aprendendo <span className="gr">Ἑλληνικά</span></h1>
-      <p className="sub">Dois métodos lado a lado: JACT, <i>Aprendendo Grego</i> (Seções 1–7), e <i>Athenaze</i> Book I, numa trilha só</p>
-      <div className="busca">
-        <input
-          autoFocus value={q} onChange={e => setQ(e.target.value)}
-          placeholder="Buscar: λόγος · lo/gos · navio"
-          aria-label="Buscar palavra"
-          onKeyDown={e => { if (e.key === 'Enter' && res[0]) nav(`/palavra/${encodeURIComponent(res[0].chave)}`) }}
-        />
-        {q && !ehGrego(q) && /[a-z]/.test(q) && <div className="beta-dica gr">{betaParaGrego(q)}</div>}
-        {q && (
-          <ul className="resultados">
-            {res.map(e => (
-              <li key={e.chave}>
-                <Link to={`/palavra/${encodeURIComponent(e.chave)}`}>
-                  <span className="gr lema">{e.grego}</span> <span className="glosa">{e.glosa}</span>
-                  <span className="secao-mini">{licaoPorId.get(e.licaoId)?.rotulo}</span>
-                </Link>
-              </li>
-            ))}
-            {res.length === 0 && <li className="vazio">Nada encontrado.</li>}
-          </ul>
-        )}
-      </div>
+      <header className="inicio-cab">
+        <h1 className="titulo-grande">Aprendendo <span className="gr">Ἑλληνικά</span></h1>
+        <div className="friso" aria-hidden />
+        <p className="inicio-lead">
+          Um caminho para ler grego antigo, feito para quem fala português. O programa junta dois cursos clássicos,
+          o <b>JACT</b> (<i>Aprendendo Grego</i>) e o <b>Athenaze</b>, numa única trilha de lições.
+        </p>
+      </header>
 
-      <div className="cartoes-inicio">
-        <Link to={proximo?.rota ?? '/trilha'} className="cartao-inicio destaque">
-          <b>Trilha</b>
-          <span>{proximo ? <>continuar em {proximo.rotulo}{proximo.tituloGrego && <> · <span className="gr">{proximo.tituloGrego}</span></>}</> : 'JACT e Athenaze intercalados'}</span>
+      <ol className="como-funciona">
+        <li><b>Siga a trilha.</b> As lições dos dois livros vêm intercaladas, cada uma retomando ou ampliando a outra. Comece pela Lição 0, do alfabeto.</li>
+        <li><b>Estude cada lição.</b> Vocabulário, gramática com tabelas, textos, exercícios e a “ponte” que liga os dois livros.</li>
+        <li><b>Passe na avaliação.</b> No fim de cada lição, acerte {Math.round(NOTA_MINIMA * 100)}% ou mais para liberar a seguinte.</li>
+        <li><b>Revise todo dia.</b> Os flashcards trazem de volta cada palavra na hora certa de não esquecer.</li>
+      </ol>
+
+      <section className="inicio-onde">
+        {atual ? (
+          <Link to={atual.rota} className="continuar-cartao">
+            <span className="continuar-rotulo">{feitos === 0 ? 'Comece por aqui' : 'Continue de onde parou'}</span>
+            <span className="continuar-licao">
+              <b className={`marca-livro livro-${atual.livro.toLowerCase()}`}>{atual.rotulo}</b>
+              {atual.tituloGrego && <span className="gr">{atual.tituloGrego}</span>} {atual.titulo}
+            </span>
+            <span className="continuar-meta">{feitos} de {disponiveis.length} lições aprovadas</span>
+            <span className="continuar-seta" aria-hidden>›</span>
+          </Link>
+        ) : (
+          <p className="continuar-cartao">Você passou em todas as lições disponíveis. Parabéns!</p>
+        )}
+      </section>
+
+      <nav className="menu-inicio" aria-label="Partes do programa">
+        <Link to="/trilha" className="item-menu">
+          <span className="item-letra gr" aria-hidden>τ</span>
+          <b>Trilha</b><span>As lições em ordem, com o seu progresso</span>
         </Link>
-        <Link to="/flashcards" className="cartao-inicio">
+        <Link to="/flashcards" className="item-menu">
+          <span className="item-letra gr" aria-hidden>μ</span>
           <b>Flashcards</b>
-          <span>{vencidos == null ? '…' : vencidos === 0 ? 'nenhuma revisão pendente' : `${vencidos} revisões pendentes`}</span>
+          <span>{vencidos == null ? 'Revisão do vocabulário' : vencidos === 0 ? 'Nenhuma revisão para hoje' : `${vencidos} ${vencidos === 1 ? 'revisão' : 'revisões'} para hoje`}</span>
         </Link>
-        <Link to="/quiz" className="cartao-inicio"><b>Quiz</b><span>{vocab.length} palavras selecionadas</span></Link>
-        <Link to="/tabelas" className="cartao-inicio"><b>Tabelas</b><span>paradigmas lado a lado</span></Link>
-        <Link to="/secoes" className="cartao-inicio"><b>Índice</b><span>{licoes.filter(l => l.livro === 'JACT').length} seções · {licoes.filter(l => l.livro === 'Athenaze' && !l.emPreparacao).length} capítulos · {vocabulario.length} palavras</span></Link>
-      </div>
+        <Link to="/vocabulario" className="item-menu">
+          <span className="item-letra gr" aria-hidden>λ</span>
+          <b>Vocabulário</b><span>{vocabulario.length} palavras, com busca</span>
+        </Link>
+        <Link to="/tabelas" className="item-menu">
+          <span className="item-letra gr" aria-hidden>π</span>
+          <b>Tabelas</b><span>{paradigmas.length} paradigmas para consultar e comparar</span>
+        </Link>
+        <Link to="/secoes" className="item-menu">
+          <span className="item-letra gr" aria-hidden>β</span>
+          <b>Índice</b><span>{licoes.filter(l => l.livro === 'JACT').length} seções da JACT · {capitulos} capítulos do Athenaze</span>
+        </Link>
+        <Link to="/ajustes" className="item-menu">
+          <span className="item-letra gr" aria-hidden>σ</span>
+          <b>Ajustes</b><span>Conta, backup e digitação do grego</span>
+        </Link>
+      </nav>
     </div>
   )
 }

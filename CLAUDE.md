@@ -106,7 +106,15 @@ Capítulo sem arquivo aparece na trilha como "em preparação". A ponte vale nos
 
 `content/public/trilha.json` lista as etapas e, em cada uma, os passos (`licao`: "1A" ou "ath3"), com um `porque` curto escrito por nós. O teste exige que **toda seção da JACT e todo capítulo 1–16 apareçam exatamente uma vez**. A etapa 0 ("Antes de começar") tem só a **Lição 0** (`alfabeto`, página `/alfabeto`): uma lição especial (`licaoAlfabeto` em `src/content/index.ts`, `especial: true`) que fica fora das listas dos livros e do seletor de lições. Os números das etapas mostrados na tela são o próprio índice (0, 1, 2…).
 
-A página da trilha é uma linha do tempo vertical: o que já foi estudado fica esmaecido e a lição atual (a primeira não estudada) fica em destaque.
+A página da trilha é uma linha do tempo vertical: o que já foi aprovado fica esmaecido, a lição atual (a primeira não aprovada) fica em destaque e as seguintes aparecem com 🔒.
+
+### Avaliação e desbloqueio
+
+Cada lição termina com uma **avaliação** (aba "Avaliação"; na Lição 0, no fim da página): 10 perguntas de múltipla escolha geradas por `src/lib/avaliacao.ts` a partir do vocabulário da lição (grego→português e português→grego) e das formas das tabelas da lição (`gramatica[].paradigmas`); se faltar material, completa com revisão das lições anteriores. Com **70%** (`NOTA_MINIMA`) a lição é aprovada e a próxima é liberada. Lições à frente podem ser abertas e lidas, mas a avaliação delas fica trancada (`src/lib/progresso.ts`: `estaLiberada`, `licaoAtual`). Aprovações ficam em `ag:estudadas` e notas em `ag:avaliacoes`, ambas sincronizadas com a conta. O teste `src/lib/avaliacao.test.ts` garante que toda lição gera uma avaliação válida. Não existe mais a página "Quiz" (`/quiz` redireciona para a trilha).
+
+### Tabelas
+
+`src/content/catalogoTabelas.ts` organiza os paradigmas como uma gramática (classe → subgrupo), cada subgrupo na ordem da trilha, com a primeira lição que ensina cada tabela e comparações prontas. **Paradigma novo: acrescente o id no subgrupo certo** (senão ele cai em "Outras").
 
 ### Lição 0: o alfabeto e a escrita
 

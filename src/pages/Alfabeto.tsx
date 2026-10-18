@@ -7,14 +7,13 @@ import { licaoAlfabeto, passosTrilha } from '../content'
 import { GRUPOS, LETRAS, PALAVRAS_LEITURA, type Letra } from '../alfabeto/letras'
 import { LetraAnimada } from '../alfabeto/LetraAnimada'
 import { Pratica } from '../alfabeto/Pratica'
-import { useEstudadas } from '../lib/estudadas'
+import { Avaliacao } from '../components/Avaliacao'
 
 export function Alfabeto() {
   const [sel, setSel] = useState(0)
   const [variante, setVariante] = useState(false)
   const [tocar, setTocar] = useState(0)
   const [devagar, setDevagar] = useState(false)
-  const { estudadas, alternar } = useEstudadas()
   const l = LETRAS[sel]
   const tracos = variante && l.tracosVariante ? l.tracosVariante : l.tracos
   const proxima = passosTrilha[passosTrilha.findIndex(p => p.licao.id === 'alfabeto') + 1]?.licao
@@ -107,18 +106,19 @@ export function Alfabeto() {
       </section>
 
       <section>
-        <h2>Teste rápido</h2>
+        <h2>Treino rápido</h2>
+        <p>Para treinar à vontade, sem nota. A avaliação da lição está logo abaixo.</p>
         <div className="testes-alfabeto">
           <TesteLetra />
           <TestePalavra />
         </div>
       </section>
 
+      <section id="avaliacao">
+        <Avaliacao l={licaoAlfabeto} />
+      </section>
       <footer className="fim-licao">
-        <label className="check feito-check">
-          <input type="checkbox" checked={estudadas.has('alfabeto')} onChange={() => alternar('alfabeto')} /> Marcar a Lição 0 como estudada
-        </label>
-        {proxima && <Link className="botao" to={proxima.rota}>Próxima: {proxima.rotulo} ›</Link>}
+        {proxima && <Link className="botao secundario" to={proxima.rota}>Próxima: {proxima.rotulo} ›</Link>}
       </footer>
     </article>
   )
