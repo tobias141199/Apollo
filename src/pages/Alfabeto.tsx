@@ -8,6 +8,8 @@ import { GRUPOS, LETRAS, PALAVRAS_LEITURA, type Letra } from '../alfabeto/letras
 import { LetraAnimada } from '../alfabeto/LetraAnimada'
 import { Pratica } from '../alfabeto/Pratica'
 import { Avaliacao } from '../components/Avaliacao'
+import { Certo, Lapis, Tocar } from '../components/Icones'
+import { registrarEscrita, useProgresso } from '../lib/progresso'
 
 export function Alfabeto() {
   const [sel, setSel] = useState(0)
@@ -16,6 +18,11 @@ export function Alfabeto() {
   const [devagar, setDevagar] = useState(false)
   const l = LETRAS[sel]
   const tracos = variante && l.tracosVariante ? l.tracosVariante : l.tracos
+  const formas = [l.tracosMaiuscula, tracos]
+  const { escrita } = useProgresso()
+  const feitas = LETRAS.filter(x => escrita.has(x.nome)).length
+  const proximaAEscrever = LETRAS.findIndex((x, i) => i > sel && !escrita.has(x.nome))
+  const algumaFaltando = proximaAEscrever >= 0 ? proximaAEscrever : LETRAS.findIndex(x => !escrita.has(x.nome))
   const proxima = passosTrilha[passosTrilha.findIndex(p => p.licao.id === 'alfabeto') + 1]?.licao
 
   const escolher = (i: number, rolar = false) => {
@@ -31,18 +38,25 @@ export function Alfabeto() {
         <h1>O alfabeto e a escrita <span className="gr titulo-grego">τὰ γράμματα</span></h1>
         <p className="sub">
           O grego tem 24 letras, e muitas você já conhece de vista (α, β, π, Ω…). Aqui você aprende o nome e o som de cada uma
-          e, principalmente, <b>como escrevê-las à mão</b>, traço por traço, na ordem e na direção certas.
+          e, principalmente, <b>como escrevê-las à mão</b>, maiúscula e minúscula, traço por traço, na ordem e na direção certas.
         </p>
+        <p className="sub"><b>Para concluir a lição, escreva as 24 letras</b> no quadro “Agora você” e depois faça a avaliação.</p>
         <FonteTag fonte={licaoAlfabeto.fonte!} />
       </header>
 
       {/* ---------- oficina: uma letra por vez ---------- */}
+      <div className="escrita-progresso">
+        <Lapis /> <b>{feitas} de {LETRAS.length}</b> letras escritas
+        <div className="trilha-barra"><div style={{ width: `${100 * feitas / LETRAS.length}%` }} /></div>
+        {feitas < LETRAS.length && algumaFaltando >= 0 && algumaFaltando !== sel &&
+          <button className="link" onClick={() => escolher(algumaFaltando, true)}>ir para a próxima que falta ({LETRAS[algumaFaltando].maiuscula} {LETRAS[algumaFaltando].minuscula})</button>}
+      </div>
       <section id="oficina" className="oficina">
         <div className="oficina-letra">
-          <LetraAnimada tracos={tracos} tocar={tocar} velocidade={devagar ? .45 : 1} rotulo={l.nomePt} />
+          <LetraAnimada formas={formas} tocar={tocar} velocidade={devagar ? .45 : 1} rotulo={`${l.nomePt}, maiúscula e minúscula`} />
           <div className="oficina-controles">
             <button className="icone-grande" onClick={() => escolher(sel - 1)} aria-label="Letra anterior">‹</button>
-            <button className="botao" onClick={() => setTocar(t => t + 1)}>▶ Ver de novo</button>
+            <button className="botao" onClick={() => setTocar(t => t + 1)}><Tocar /> Ver de novo</button>
             <label className="check"><input type="checkbox" checked={devagar} onChange={e => setDevagar(e.target.checked)} /> devagar</label>
             <button className="icone-grande" onClick={() => escolher(sel + 1)} aria-label="Próxima letra">›</button>
           </div>
@@ -59,8 +73,13 @@ export function Alfabeto() {
           )}
           <p className="grupo-letra"><b>{GRUPOS[l.grupo].titulo}.</b> {GRUPOS[l.grupo].texto}</p>
           <p className="dica-tracos">Os números marcam onde cada traço começa; a setinha mostra para onde a caneta vai.</p>
-          <h3>Agora você</h3>
-          <Pratica key={`${sel}-${variante}`} tracos={tracos} rotulo={l.nomePt} />
+          <h3>Agora você {escrita.has(l.nome) && <span className="ja-escrita"><Certo /> já escrita</span>}</h3>
+          <p className="dica-tracos">Escreva a maiúscula e a minúscula por cima do modelo e clique em Conferir.</p>
+          <Pratica key={`${sel}-${variante}`} formas={formas} nomes={['maiúscula', 'minúscula']} rotulo={`${l.nomePt}, maiúscula e minúscula`}
+            aoPassar={() => registrarEscrita(l.nome)} />
+          {escrita.has(l.nome) && feitas < LETRAS.length && algumaFaltando >= 0 && (
+            <button className="botao" onClick={() => escolher(algumaFaltando)}>Próxima letra: {LETRAS[algumaFaltando].maiuscula} {LETRAS[algumaFaltando].minuscula} ›</button>
+          )}
         </div>
       </section>
 
@@ -69,7 +88,8 @@ export function Alfabeto() {
         <p>Toque numa letra para vê-la sendo escrita e praticar.</p>
         <div className="grade-letras">
           {LETRAS.map((x, i) => (
-            <button key={x.nome} className={`ficha-letra ${i === sel ? 'ativa' : ''}`} onClick={() => escolher(i, true)}>
+            <button key={x.nome} className={`ficha-letra ${i === sel ? 'ativa' : ''} ${escrita.has(x.nome) ? 'escrita' : ''}`} onClick={() => escolher(i, true)}>
+              {escrita.has(x.nome) && <span className="ficha-feita" title="já escrita"><Certo /></span>}
               <span className="gr ficha-par">{x.maiuscula} {x.minuscula}</span>
               <span className="ficha-nome">{x.nomePt}</span>
               <span className="ficha-translit">{x.translit}</span>
@@ -115,7 +135,10 @@ export function Alfabeto() {
       </section>
 
       <section id="avaliacao">
-        <Avaliacao l={licaoAlfabeto} />
+        <Avaliacao l={licaoAlfabeto} exigencia={feitas < LETRAS.length ? <>
+          Primeiro escreva todas as letras: faltam <b>{LETRAS.length - feitas}</b>.{' '}
+          {algumaFaltando >= 0 && <button className="link" onClick={() => escolher(algumaFaltando, true)}>Escrever {LETRAS[algumaFaltando].maiuscula} {LETRAS[algumaFaltando].minuscula}</button>}
+        </> : undefined} />
       </section>
       <footer className="fim-licao">
         {proxima && <Link className="botao secundario" to={proxima.rota}>Próxima: {proxima.rotulo} ›</Link>}
@@ -134,7 +157,7 @@ function Grupo({ g, aoEscolher }: { g: Letra['grupo']; aoEscolher: (i: number) =
       <div className="fila-letras" onMouseEnter={() => setTocar(t => t + 1)}>
         {letras.map(({ l, i }) => (
           <button key={l.nome} className="mini-letra" onClick={() => aoEscolher(i)} title={`${l.nomePt}: ver e praticar`}>
-            <LetraAnimada tracos={l.tracos} tocar={tocar} compacta rotulo={l.nomePt} />
+            <LetraAnimada formas={[l.tracos]} tocar={tocar} compacta rotulo={l.nomePt} />
             <span className="gr">{l.minuscula}</span>
           </button>
         ))}

@@ -6,6 +6,7 @@ import { TabelaParadigma } from '../components/TabelaParadigma'
 import { abrirJanelaPropria, MAX_TABELAS, useJanelas } from '../lib/janelas'
 import { chave } from '../lib/greek'
 import { estaLiberada, useProgresso } from '../lib/progresso'
+import { Certo } from '../components/Icones'
 
 const tituloCurto = (t: string) => t.replace(/\s*\(.*?\)\s*$/, '')
 
@@ -67,7 +68,7 @@ export function Tabelas() {
                             <button className={`item-tabela ${ativa ? 'ativa' : ''} ${adiante ? 'adiante' : ''}`} onClick={() => alternar(id)}
                               disabled={cheio && !ativa} aria-pressed={ativa}
                               title={cheio && !ativa ? `Máximo de ${MAX_TABELAS} tabelas` : adiante ? 'Aparece numa lição que você ainda não alcançou' : undefined}>
-                              <span className="item-marca" aria-hidden>{ativa ? '✓' : '+'}</span>
+                              <span className="item-marca" aria-hidden>{ativa ? <Certo /> : '+'}</span>
                               <span className="item-titulo">{tituloCurto(p.titulo)}</span>
                               {l && <span className={`marca-livro livro-${l.livro.toLowerCase()}`}>{l.rotulo}</span>}
                             </button>

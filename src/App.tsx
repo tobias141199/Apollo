@@ -15,6 +15,7 @@ import { Vocabulario } from './pages/Vocabulario'
 import { JanelasProvider, useJanelas } from './lib/janelas'
 import { SelecaoProvider } from './lib/selecao'
 import { useConta } from './lib/nuvem'
+import { Engrenagem } from './components/Icones'
 
 const LINKS = [
   ['/trilha', 'Trilha'], ['/secoes', 'Índice'], ['/vocabulario', 'Vocabulário'], ['/flashcards', 'Flashcards'],
@@ -51,7 +52,7 @@ function Casca() {
           <nav>
             {LINKS.map(([to, rot]) => <NavLink key={to} to={to}>{rot}</NavLink>)}
             <IndicadorJanelas />
-            <NavLink to="/ajustes" title="Ajustes e backup" aria-label="Ajustes">⚙</NavLink>
+            <NavLink to="/ajustes" title="Ajustes e backup" aria-label="Ajustes" className="link-ajustes"><Engrenagem /></NavLink>
             <LinkConta />
           </nav>
         </div>

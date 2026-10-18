@@ -10,6 +10,7 @@ import { bloqueadaPor, estaLiberada, useProgresso } from '../lib/progresso'
 import { db } from '../lib/db'
 import { marcar } from '../lib/nuvem'
 import { chave, ehGrego, respostaCorreta } from '../lib/greek'
+import { Cadeado, Certo, Errado } from '../components/Icones'
 
 type Aba = 'vocab' | 'gramatica' | 'texto' | 'exercicios' | 'cultura' | 'ponte' | 'avaliacao'
 
@@ -50,9 +51,9 @@ export function LicaoPagina() {
       {l.resumo && <p className="resumo">{l.resumo}</p>}
       <FonteTag fonte={l.fonte} />
       {!l.emPreparacao && (prog.aprovadas.has(l.id)
-        ? <p className="situacao-licao ok">✓ Aprovada{registro && ` · melhor nota ${Math.round(registro.melhor * 100)}%`}</p>
+        ? <p className="situacao-licao ok"><Certo /> Aprovada{registro && ` · melhor nota ${Math.round(registro.melhor * 100)}%`}</p>
         : !liberada
-          ? <p className="situacao-licao trancada">🔒 Lição ainda trancada: você pode lê-la, mas a avaliação só abre depois de passar em{' '}
+          ? <p className="situacao-licao trancada"><Cadeado /> Lição ainda trancada: você pode lê-la, mas a avaliação só abre depois de passar em{' '}
               {trava ? <Link to={trava.rota}>{trava.rotulo}</Link> : 'nas lições anteriores'}.</p>
           : <p className="situacao-licao">Ao terminar, faça a <button className="link" onClick={() => setAba('avaliacao')}>avaliação</button> (70% para liberar a próxima lição).</p>)}
 
@@ -66,7 +67,7 @@ export function LicaoPagina() {
       <div className="abas" role="tablist">
         {abas.filter(([a, , n]) => n > 0 || (!l.emPreparacao && ['vocab', 'gramatica'].includes(a))).map(([a, rot, n]) => (
           <button key={a} role="tab" aria-selected={aba === a} className={`${aba === a ? 'ativa' : ''} ${a === 'avaliacao' ? 'aba-avaliacao' : ''}`} onClick={() => setAba(a)} disabled={n === 0}>
-            {a === 'avaliacao' && (prog.aprovadas.has(l.id) ? '✓ ' : liberada ? '' : '🔒 ')}{rot}{n > 0 && contaveis.includes(a) && <small> {n}</small>}
+            {a === 'avaliacao' && (prog.aprovadas.has(l.id) ? <><Certo />{' '}</> : !liberada && <><Cadeado />{' '}</>)}{rot}{n > 0 && contaveis.includes(a) && <small> {n}</small>}
           </button>
         ))}
       </div>
@@ -297,7 +298,7 @@ function ItemExercicio({ id, pergunta, resposta, grego }: { id: string; pergunta
         : <textarea rows={2} value={txt} onChange={ev => salvar(ev.target.value)} placeholder="Sua resposta" />}
       {resposta && (
         <div className="gabarito">
-          {certo != null && <span className={certo ? 'ok' : 'erro'}>{certo ? '✓' : '✗'}</span>}
+          {certo != null && <span className={certo ? 'ok' : 'erro'}>{certo ? <Certo titulo="certo" /> : <Errado titulo="errado" />}</span>}
           {ver ? <span className={ehGrego(resposta) ? 'gr' : ''}>{resposta}</span>
             : <button className="link" onClick={() => setVer(true)}>ver resposta</button>}
         </div>

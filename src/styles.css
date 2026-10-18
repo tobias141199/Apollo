@@ -396,7 +396,7 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
 
 /* ---------- Lição 0: o alfabeto ---------- */
 .cab-licao .titulo-grego { font-family: var(--grego); color: var(--tinta-3); font-size: .7em; margin-left: .3em; }
-.oficina { display: grid; grid-template-columns: minmax(0, 300px) 1fr; gap: 1.6rem; align-items: start; margin: 1.4rem 0 2rem; padding: 1.2rem; background: var(--argila); border: 1px solid var(--argila-2); border-radius: 6px; scroll-margin-top: 70px; }
+.oficina { display: grid; grid-template-columns: minmax(0, 360px) 1fr; gap: 1.6rem; align-items: start; margin: 1.4rem 0 2rem; padding: 1.2rem; background: var(--argila); border: 1px solid var(--argila-2); border-radius: 6px; scroll-margin-top: 70px; }
 .oficina-letra { position: sticky; top: 70px; }
 .letra-animada { width: 100%; display: block; background: var(--papel); border: 1px solid var(--argila-2); border-radius: 4px; }
 .pauta line { stroke: var(--linha); stroke-width: .6; }
@@ -422,7 +422,7 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
 .grupo-letra, .dica-tracos { font-size: .9rem; color: var(--tinta-2); }
 .dica-tracos { font-family: var(--sans); font-size: .8rem; color: var(--tinta-3); }
 .oficina h3 { margin-top: 1rem; }
-.pratica-area { width: 100%; max-width: 280px; display: block; background: var(--papel); border: 1px dashed var(--tinta-3); border-radius: 4px; touch-action: none; cursor: crosshair; }
+.pratica-area { width: 100%; max-width: 400px; display: block; background: var(--papel); border: 1px dashed var(--tinta-3); border-radius: 4px; touch-action: none; cursor: crosshair; }
 .pratica-area .modelo { fill: none; stroke: var(--argila-2); stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
 .pratica-area .tinta { fill: none; stroke: var(--terracota); stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
 .pratica-botoes { display: flex; gap: .5rem; margin-top: .6rem; }
@@ -518,7 +518,7 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
 
 @media (max-width: 720px) {
   .oficina { grid-template-columns: 1fr; padding: .9rem; }
-  .oficina-letra { position: static; max-width: 300px; margin: 0 auto; width: 100%; }
+  .oficina-letra { position: static; max-width: 400px; margin: 0 auto; width: 100%; }
   .oficina { scroll-margin-top: 140px; }
 }
 @media (max-width: 560px) {
@@ -624,7 +624,7 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
 .avaliacao.trancada { text-align: center; color: var(--tinta-2); }
 .avaliacao-cadeado { font-size: 2.4rem; margin: 0; }
 .passo-tempo.trancada .passo-cartao { opacity: .62; }
-.passo-tempo.trancada .no { font-size: .55rem; border-style: dotted; }
+.passo-tempo.trancada .no { border-style: dotted; }
 .nota-trilha { color: var(--ok); font-weight: 600; margin-right: .5rem; }
 
 /* ---------- tabelas ---------- */
@@ -665,3 +665,22 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
   .avaliacao-opcoes { grid-template-columns: 1fr; }
   .inicio { padding-top: 3vh; }
 }
+
+/* ícones SVG (no lugar de emojis) */
+.icone-svg { display: inline-block; vertical-align: -0.14em; flex: none; }
+.link-ajustes { display: inline-flex; align-items: center; font-size: 1.05rem; }
+.passo-tempo .no .icone-svg { font-size: 11px; vertical-align: 0; }
+.passo-tempo .no { display: grid; place-items: center; }
+.passo-tempo.trancada .no { color: var(--tinta-3); }
+.avaliacao-cadeado { font-size: 2.2rem; color: var(--tinta-3); }
+
+/* Lição 0: letras escritas */
+.escrita-progresso { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .8rem; margin-top: 1.4rem; font-family: var(--sans); font-size: .9rem; color: var(--tinta-2); }
+.escrita-progresso .trilha-barra { flex: 1; min-width: 120px; max-width: 260px; }
+.ja-escrita { font-family: var(--sans); font-size: .8rem; font-weight: 600; color: var(--ok); margin-left: .4rem; }
+.ficha-letra { position: relative; }
+.ficha-letra.escrita { border-color: var(--ok); }
+.ficha-feita { position: absolute; top: .3rem; right: .35rem; color: var(--ok); font-size: .8rem; }
+.pratica-nota.ok b { color: var(--ok); }
+.pratica-detalhe { color: var(--tinta-3); font-size: .8rem; }
+.traco-3 { stroke: var(--terracota); }

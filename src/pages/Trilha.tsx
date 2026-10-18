@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { passosTrilha, trilha } from '../content'
 import { estaLiberada, NOTA_MINIMA, useProgresso } from '../lib/progresso'
+import { Cadeado, Certo } from '../components/Icones'
 
 /**
  * A trilha única como uma linha do tempo vertical: uma linha reta com um ponto por lição.
@@ -28,7 +29,7 @@ export function Trilha() {
         <span className="marca-livro livro-athenaze">Athenaze</span>. Cada livro retoma, explica de outro jeito ou amplia o que o outro trouxe.
       </p>
       <p className="sub">Cada lição termina com uma <b>avaliação</b>: acerte {Math.round(NOTA_MINIMA * 100)}% ou mais para liberar a próxima.
-        As lições à frente (🔒) podem ser abertas para leitura, mas a avaliação delas espera a sua vez.</p>
+        As lições à frente (com cadeado) podem ser abertas para leitura, mas a avaliação delas espera a sua vez.</p>
       <div className="trilha-resumo">
         <div className="trilha-barra" role="progressbar" aria-valuenow={feitos} aria-valuemax={disponiveis.length}>
           <div style={{ width: `${100 * feitos / Math.max(disponiveis.length, 1)}%` }} />
@@ -59,7 +60,7 @@ export function Trilha() {
               return (
                 <li key={l.id} ref={ehAtual ? aqui : undefined}
                   className={`passo-tempo livro-${livro} ${feito ? 'feito' : ''} ${ehAtual ? 'atual' : ''} ${l.emPreparacao ? 'pendente' : ''} ${trancada ? 'trancada' : ''}`}>
-                  <span className="no" aria-hidden title={feito ? 'aprovada' : trancada ? 'trancada' : undefined}>{feito ? '✓' : trancada ? '🔒' : ''}</span>
+                  <span className="no" aria-hidden title={feito ? 'aprovada' : trancada ? 'trancada' : undefined}>{feito ? <Certo /> : trancada ? <Cadeado /> : null}</span>
                   <div className="passo-cartao">
                     {ehAtual && <span className="voce-esta-aqui">Você está aqui</span>}
                     <Link to={l.rota} className="passo-link">
@@ -70,7 +71,7 @@ export function Trilha() {
                       </span>
                       {porque && <span className="porque">{porque}</span>}
                       <small>
-                        {feito && <span className="nota-trilha">{nota != null ? `✓ ${Math.round(nota * 100)}%` : '✓ estudada'}</span>}
+                        {feito && <span className="nota-trilha"><Certo /> {nota != null ? `${Math.round(nota * 100)}%` : 'estudada'}</span>}
                         {l.emPreparacao ? 'em preparação'
                           : l.especial ? 'alfabeto · pronúncia · escrita à mão'
                           : `${l.vocab.filter(v => v.aprender).length} palavras · ${l.gramatica.length} tópicos · ${l.exercicios.length} exerc.`}
@@ -83,7 +84,7 @@ export function Trilha() {
             }),
           ]
         })}
-        <li className="marco fim" aria-hidden><span className="marco-num">✦</span><div className="marco-texto"><span className="marco-rotulo">Por enquanto, a trilha termina aqui</span></div></li>
+        <li className="marco fim" aria-hidden><span className="marco-num" /><div className="marco-texto"><span className="marco-rotulo">Por enquanto, a trilha termina aqui</span></div></li>
       </ol>
     </div>
   )

@@ -4,11 +4,13 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { licaoPorId, passosTrilha, type Licao } from '../content'
 import { gerarAvaliacao, type Pergunta } from '../lib/avaliacao'
+import { Cadeado, Certo, Errado } from './Icones'
 import { bloqueadaPor, estaLiberada, NOTA_MINIMA, registrarAvaliacao, useProgresso } from '../lib/progresso'
 
 const pct = (x: number) => `${Math.round(x * 100)}%`
 
-export function Avaliacao({ l }: { l: Licao }) {
+/** `exigencia`: algo que falta fazer antes da avaliação (ex.: escrever as letras na Lição 0). */
+export function Avaliacao({ l, exigencia }: { l: Licao; exigencia?: React.ReactNode }) {
   const prog = useProgresso()
   const [rodada, setRodada] = useState(0)
   const [fase, setFase] = useState<'inicio' | 'perguntas' | 'fim'>('inicio')
@@ -23,12 +25,19 @@ export function Avaliacao({ l }: { l: Licao }) {
     const trava = licaoPorId.get(bloqueadaPor(l.id, prog) ?? '') ?? passosTrilha.find(p => p.licao.id === bloqueadaPor(l.id, prog))?.licao
     return (
       <div className="avaliacao trancada">
-        <p className="avaliacao-cadeado" aria-hidden>🔒</p>
+        <p className="avaliacao-cadeado" aria-hidden><Cadeado /></p>
         <p>A avaliação desta lição abre quando você passar nas anteriores.
           {trava && <> Próximo passo: <Link to={trava.rota}>{trava.rotulo}{trava.titulo ? ` · ${trava.titulo}` : ''}</Link>.</>}</p>
       </div>
     )
   }
+  if (exigencia && fase === 'inicio') return (
+    <div className="avaliacao trancada">
+      <p className="avaliacao-cadeado" aria-hidden><Cadeado /></p>
+      <h2>Avaliação da lição</h2>
+      <p>{exigencia}</p>
+    </div>
+  )
   if (perguntas.length < 4) return <p className="vazio">Esta lição ainda não tem material suficiente para uma avaliação.</p>
 
   const comecar = () => { setRodada(r => r + 1); setI(0); setRespostas([]); setFase('perguntas') }
@@ -50,10 +59,10 @@ export function Avaliacao({ l }: { l: Licao }) {
         Acerte <b>{pct(NOTA_MINIMA)}</b> ou mais para {proxima ? <>liberar <b>{proxima.rotulo}</b></> : 'concluir a trilha'}.</p>
       {registro && (
         <p className={`avaliacao-situacao ${aprovada ? 'ok' : ''}`}>
-          {aprovada ? '✓ Aprovada' : 'Ainda não aprovada'} · melhor nota {pct(registro.melhor)} · {registro.tentativas} {registro.tentativas === 1 ? 'tentativa' : 'tentativas'}
+          {aprovada ? <><Certo /> Aprovada</> : 'Ainda não aprovada'} · melhor nota {pct(registro.melhor)} · {registro.tentativas} {registro.tentativas === 1 ? 'tentativa' : 'tentativas'}
         </p>
       )}
-      {!registro && aprovada && <p className="avaliacao-situacao ok">✓ Lição já marcada como estudada.</p>}
+      {!registro && aprovada && <p className="avaliacao-situacao ok"><Certo /> Lição já marcada como estudada.</p>}
       <button className="botao" onClick={comecar}>{registro || aprovada ? 'Fazer de novo' : 'Começar'}</button>
     </div>
   )
@@ -102,7 +111,7 @@ export function Avaliacao({ l }: { l: Licao }) {
       </div>
       {respondida && (
         <div className="avaliacao-seguir">
-          <span>{respostas[i] === q.certa ? '✓ Certo!' : <>✗ A resposta é <b className={q.opcoesGrego ? 'gr' : ''}>{q.certa}</b></>}</span>
+          <span>{respostas[i] === q.certa ? <><Certo /> Certo!</> : <><Errado /> A resposta é <b className={q.opcoesGrego ? 'gr' : ''}>{q.certa}</b></>}</span>
           <button className="botao" onClick={avancar} autoFocus>{i + 1 < perguntas.length ? 'Próxima ›' : 'Ver resultado'}</button>
         </div>
       )}

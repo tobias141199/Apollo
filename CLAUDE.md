@@ -118,7 +118,7 @@ Cada lição termina com uma **avaliação** (aba "Avaliação"; na Lição 0, n
 
 ### Lição 0: o alfabeto e a escrita
 
-`src/alfabeto/letras.ts` traz as 24 letras (nome, pronúncia em português, grupo de altura) e o **traçado à mão de cada minúscula** como caminhos SVG, um por traço, na ordem de escrita, numa pauta de 100 × 120 (y = 0, 40, 80, 120). As convenções (ponto de partida, direção, quatro grupos de altura) seguem o Athenaze, Introdução, Part III (p. xvi–xix), mas os desenhos são nossos. `LetraAnimada.tsx` anima os traços; `Pratica.tsx` deixa o aluno escrever por cima e mede quanto do traçado ele cobriu. Para conferir os traçados, desenhe todos numa folha (um SVG por letra, com o ponto de início de cada traço) e olhe a imagem. Mantenha a ordem interna de cada livro (a história do Athenaze é contínua) e ponha cada capítulo ao lado das seções da JACT com a mesma matéria (veja `concordancia.json`).
+`src/alfabeto/letras.ts` traz as 24 letras (nome, pronúncia em português, grupo de altura) e o **traçado à mão de cada maiúscula e minúscula** (`tracosMaiuscula`, `tracos`) como caminhos SVG, um por traço, na ordem de escrita, numa pauta de 100 × 120 (y = 0, 40, 80, 120). As convenções (ponto de partida, direção, quatro grupos de altura) seguem o Athenaze, Introdução, Part III (p. xvi–xix), mas os desenhos são nossos. `LetraAnimada.tsx` anima os traços (o par maiúscula + minúscula, lado a lado); `Pratica.tsx` deixa o aluno escrever as duas por cima do modelo e mede quanto de cada uma ele cobriu (mínimo 80%). **Escrever as 24 letras é obrigatório**: cada letra que passa no "Conferir" vai para `ag:escrita` (sincronizado), e a avaliação da Lição 0 só abre com as 24. Para conferir os traçados, desenhe todos numa folha (um SVG por letra, com o ponto de início de cada traço) e olhe a imagem. Mantenha a ordem interna de cada livro (a história do Athenaze é contínua) e ponha cada capítulo ao lado das seções da JACT com a mesma matéria (veja `concordancia.json`).
 
 ## Tabelas em janelas
 
@@ -133,6 +133,10 @@ O site roda no **Railway** (projeto "Apollo"): um serviço Node (`server/index.t
 - **Progresso** (`server/progresso.ts` + `src/lib/nuvem.ts`): continua no navegador (Dexie + localStorage) e funciona sem internet. O que muda fica "pendente" (`marcar()`) e é enviado; o que mudou em outro aparelho é baixado (`?desde=`). Ao sair, o navegador é limpo e volta para o login. Toda gravação nova de progresso precisa chamar `marcar()`.
 - **Variáveis no Railway**: `DATABASE_URL` (referência ao Postgres), `ADMIN_EMAIL` (quem pode trocar imagens; vários separados por vírgula), `NODE_ENV=production`, `PUBLIC_URL` e, para o Google, `GOOGLE_CLIENT_ID` e `GOOGLE_CLIENT_SECRET`.
 - **Desenvolvimento**: `npm run dev` sobe o servidor (porta 3000, lendo `.env`) e o Vite (5173, que repassa `/api`). Com `DATABASE_URL` no `.env` (o endereço público do Postgres do Railway), login, progresso e imagens funcionam localmente com os dados reais. Sem `.env`, o site funciona só com o navegador.
+
+## Ícones
+
+Nada de emojis na interface (mudam de aparelho para aparelho). Use os ícones SVG de `src/components/Icones.tsx` (Certo, Errado, Cadeado, Tocar, Engrenagem, Lápis), que seguem a cor do texto.
 
 ## Imagens dos flashcards
 

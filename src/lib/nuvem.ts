@@ -11,7 +11,7 @@ import { db, type Cartao } from './db'
 export interface Usuario { id: number; email: string; nome: string | null; admin: boolean }
 
 /** Preferências do localStorage que acompanham a conta. */
-export const PREFS_SINC = ['ag:estudadas', 'ag:avaliacoes', 'ag:selecao', 'ag:selecao-athenaze', 'ag:aprender']
+export const PREFS_SINC = ['ag:estudadas', 'ag:avaliacoes', 'ag:escrita', 'ag:selecao', 'ag:selecao-athenaze', 'ag:aprender']
 
 // ---- estado da conta (lido pelos componentes com useConta) ----
 let estado: { usuario: Usuario | null; google: boolean; servidor: boolean } = { usuario: null, google: false, servidor: false }

@@ -74,7 +74,7 @@ export function Flashcards() {
 
       {fila && !e && (
         <div className="fim">
-          <p>Nada para estudar agora. 🎉</p>
+          <p>Nada para estudar agora.</p>
           <p>Volte mais tarde para as revisões, aumente as “novas por sessão” ou continue na <Link to="/trilha">trilha</Link>.</p>
         </div>
       )}
