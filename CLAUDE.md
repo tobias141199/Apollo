@@ -104,7 +104,13 @@ Capítulo sem arquivo aparece na trilha como "em preparação". A ponte vale nos
 
 ## Trilha
 
-`content/public/trilha.json` lista as etapas e, em cada uma, os passos (`licao`: "1A" ou "ath3"), com um `porque` curto escrito por nós. O teste exige que **toda seção da JACT e todo capítulo 1–16 apareçam exatamente uma vez**. Mantenha a ordem interna de cada livro (a história do Athenaze é contínua) e ponha cada capítulo ao lado das seções da JACT com a mesma matéria (veja `concordancia.json`).
+`content/public/trilha.json` lista as etapas e, em cada uma, os passos (`licao`: "1A" ou "ath3"), com um `porque` curto escrito por nós. O teste exige que **toda seção da JACT e todo capítulo 1–16 apareçam exatamente uma vez**. A etapa 0 ("Antes de começar") tem só a **Lição 0** (`alfabeto`, página `/alfabeto`): uma lição especial (`licaoAlfabeto` em `src/content/index.ts`, `especial: true`) que fica fora das listas dos livros e do seletor de lições. Os números das etapas mostrados na tela são o próprio índice (0, 1, 2…).
+
+A página da trilha é uma linha do tempo vertical: o que já foi estudado fica esmaecido e a lição atual (a primeira não estudada) fica em destaque.
+
+### Lição 0: o alfabeto e a escrita
+
+`src/alfabeto/letras.ts` traz as 24 letras (nome, pronúncia em português, grupo de altura) e o **traçado à mão de cada minúscula** como caminhos SVG, um por traço, na ordem de escrita, numa pauta de 100 × 120 (y = 0, 40, 80, 120). As convenções (ponto de partida, direção, quatro grupos de altura) seguem o Athenaze, Introdução, Part III (p. xvi–xix), mas os desenhos são nossos. `LetraAnimada.tsx` anima os traços; `Pratica.tsx` deixa o aluno escrever por cima e mede quanto do traçado ele cobriu. Para conferir os traçados, desenhe todos numa folha (um SVG por letra, com o ponto de início de cada traço) e olhe a imagem. Mantenha a ordem interna de cada livro (a história do Athenaze é contínua) e ponha cada capítulo ao lado das seções da JACT com a mesma matéria (veja `concordancia.json`).
 
 ## Tabelas em janelas
 

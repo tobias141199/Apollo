@@ -2,6 +2,7 @@ import { HashRouter, NavLink, Route, Routes, useLocation } from 'react-router-do
 import { temPrivado } from './content'
 import { CamadaJanelas } from './components/JanelaFlutuante'
 import { Ajustes } from './pages/Ajustes'
+import { Alfabeto } from './pages/Alfabeto'
 import { Flashcards } from './pages/Flashcards'
 import { Inicio } from './pages/Inicio'
 import { JanelaTabelas } from './pages/JanelaTabelas'
@@ -60,6 +61,7 @@ function Casca() {
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/trilha" element={<Trilha />} />
+          <Route path="/alfabeto" element={<Alfabeto />} />
           <Route path="/secoes" element={<Secoes />} />
           <Route path="/secao/:id" element={<LicaoPagina />} />
           <Route path="/capitulo/:n" element={<LicaoPagina />} />

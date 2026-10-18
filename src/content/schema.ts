@@ -156,7 +156,7 @@ export const Trilha = z.object({
     nota: z.string().optional(),
     passos: z.array(z.object({
       /** id da lição: "1A" ou "ath1". */
-      licao: z.string().regex(/^(\d{1,2}[A-J]|ath([1-9]|1[0-6]))$/),
+      licao: z.string().regex(/^(\d{1,2}[A-J]|ath([1-9]|1[0-6])|alfabeto)$/),
       /** Por que este passo vem aqui (texto nosso, curto). */
       porque: z.string().optional(),
     })),

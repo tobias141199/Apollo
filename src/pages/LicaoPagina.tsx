@@ -87,7 +87,7 @@ function Migalhas({ l }: { l: Licao }) {
   return (
     <nav className="migalhas">
       <Link to="/trilha">Trilha</Link>
-      {passo && <> › Etapa {passo.etapa + 1}: {trilha.etapas[passo.etapa].titulo}</>}
+      {passo && <> › Etapa {passo.etapa}: {trilha.etapas[passo.etapa].titulo}</>}
       {' › '}{l.grupo}
     </nav>
   )

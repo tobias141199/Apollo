@@ -67,7 +67,7 @@ describe('trilha', () => {
     expect(repetidos, 'lições repetidas na trilha').toEqual([])
     for (const s of idsSecoes) expect(ids, `seção ${s} fora da trilha`).toContain(s)
     for (let n = 1; n <= 16; n++) expect(ids, `cap. ${n} fora da trilha`).toContain(`ath${n}`)
-    for (const id of ids) if (!id.startsWith('ath')) expect(idsSecoes.has(id), `seção inexistente: ${id}`).toBe(true)
+    for (const id of ids) if (!id.startsWith('ath') && id !== 'alfabeto') expect(idsSecoes.has(id), `seção inexistente: ${id}`).toBe(true)
   })
 })
 

@@ -171,6 +171,8 @@ export interface Licao {
   ponte?: Ponte
   /** Capítulo do Athenaze cujo conteúdo ainda não foi preparado. */
   emPreparacao: boolean
+  /** Lição que não é seção nem capítulo (a Lição 0, do alfabeto): fica na trilha, fora das listas dos livros. */
+  especial?: boolean
 }
 
 /** "cap. 3 (Ὁ ἄροτος)", "cap. 4 Gram. 6" → "ath3", "ath4". */
@@ -219,10 +221,21 @@ export const licoes: Licao[] = (() => {
 export const licaoPorId = new Map(licoes.map(l => [l.id, l]))
 for (const l of licoes) l.ponte?.correspondentes.sort((a, b) => licoes.indexOf(licaoPorId.get(a)!) - licoes.indexOf(licaoPorId.get(b)!))
 
-/** Os passos da trilha, já com a lição e o número da etapa. */
+/** Lição 0: o alfabeto e a escrita (baseada na Introdução do Athenaze, Part II–IV). Página própria em /alfabeto. */
+export const licaoAlfabeto: Licao = {
+  id: 'alfabeto', livro: 'Athenaze', rotulo: 'Lição 0', rota: '/alfabeto',
+  titulo: 'O alfabeto e a escrita', tituloGrego: 'τὰ γράμματα',
+  resumo: 'As 24 letras, como soam e como se escrevem à mão, traço por traço.',
+  fonte: { livro: 'Athenaze', pagina: 'xii–xx', local: 'Introdução, Part II–IV' },
+  grupo: 'Antes de começar', vocab: [], gramatica: [], exercicios: [], textos: [],
+  emPreparacao: false, especial: true,
+}
+const comEspeciais = new Map([...licaoPorId, [licaoAlfabeto.id, licaoAlfabeto]])
+
+/** Os passos da trilha, já com a lição e o número da etapa (a etapa 0 é "Antes de começar"). */
 export const passosTrilha = trilha.etapas.flatMap((e, etapa) => e.passos
-  .filter(p => licaoPorId.has(p.licao))
-  .map(p => ({ ...p, etapa, licao: licaoPorId.get(p.licao)! })))
+  .filter(p => comEspeciais.has(p.licao))
+  .map(p => ({ ...p, etapa, licao: comEspeciais.get(p.licao)! })))
 
 // ---------------------------------------------------------------------------------------------
 // Vocabulário geral: uma entrada por lema, reunindo as duas origens.

@@ -349,23 +349,125 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
 .cultura { margin: 1rem 0 2rem; }
 
 /* trilha */
-.progresso-trilha { font-family: var(--sans); font-size: .9rem; color: var(--tinta-2); }
-.etapa { margin: 2rem 0; }
-.num-etapa { display: inline-block; min-width: 1.6em; text-align: center; color: var(--papel); background: var(--tinta-2); border-radius: 999px; font-variant: normal; margin-right: .3em; }
-.passos { list-style: none; padding: 0; margin: .6rem 0; display: flex; flex-direction: column; gap: .4rem; }
-.passo { display: flex; align-items: center; gap: .6rem; border: 1px solid var(--linha); border-left: 4px solid var(--acento); border-radius: var(--raio); background: var(--papel); }
-.passo.livro-athenaze { border-left-color: var(--athenaze); margin-left: 1.2rem; }
-.passo.pendente { opacity: .6; border-style: dashed; }
-.passo.feito { background: var(--papel-2); }
-.passo.feito .passo-cab b::after { content: ' ✓'; }
-.passo-corpo { flex: 1; display: flex; flex-direction: column; gap: .1rem; padding: .5rem .8rem; color: var(--tinta); min-width: 0; }
-.passo-corpo:hover { text-decoration: none; }
-.passo:hover { border-color: var(--acento); }
-.passo.livro-athenaze:hover { border-color: var(--athenaze); }
-.passo-cab { display: flex; flex-wrap: wrap; gap: .2rem .6rem; align-items: baseline; }
-.porque { font-size: .9rem; color: var(--tinta-2); }
-.passo small { font-family: var(--sans); font-size: .72rem; color: var(--tinta-3); }
-.feito-check { padding-right: .8rem; font-size: .75rem; white-space: nowrap; }
+/* ---------- trilha: linha do tempo vertical ---------- */
+.trilha-resumo { display: flex; align-items: center; gap: .8rem; font-family: var(--sans); font-size: .85rem; color: var(--tinta-2); margin: 1rem 0 1.6rem; }
+.trilha-barra { flex: 1; max-width: 320px; height: 6px; border-radius: 3px; background: var(--linha); overflow: hidden; }
+.trilha-barra div { height: 100%; background: var(--terracota); }
+.linha-tempo { --x: 15px; list-style: none; margin: 0; padding: 0; position: relative; }
+.linha-tempo > li { position: relative; padding-left: calc(var(--x) * 2 + 18px); }
+/* o trilho: cada item desenha o seu pedaço da linha; o que já foi feito fica colorido */
+.linha-tempo > li::before { content: ''; position: absolute; left: calc(var(--x) - 1.5px); top: 0; bottom: 0; width: 3px; background: var(--linha); }
+.linha-tempo > li.feito::before { background: var(--terracota); }
+.linha-tempo > li.fim::before { bottom: 50%; }
+
+/* marcos de etapa */
+.marco { padding-top: 1.6rem; padding-bottom: .6rem; }
+.marco-num { position: absolute; left: calc(var(--x) - 15px); top: 1.55rem; width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%;
+  background: var(--papel); border: 2px solid var(--tinta-3); color: var(--tinta-2); font-family: var(--sans); font-weight: 600; font-size: .85rem; z-index: 1; }
+.marco.feito .marco-num { border-color: var(--terracota); background: var(--terracota); color: var(--papel); }
+.marco-rotulo { font-family: var(--sans); font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-3); }
+.marco h2 { border: none; margin: .1rem 0 .2rem; padding: 0; font-variant: normal; letter-spacing: 0; font-size: 1.3rem; color: var(--tinta); }
+.marco p { margin: 0; font-size: .92rem; color: var(--tinta-2); max-width: 60ch; }
+.marco.fim { padding-bottom: 2rem; }
+.marco.fim .marco-num { border-style: dashed; color: var(--tinta-3); }
+
+/* lições */
+.passo-tempo { padding-top: .35rem; padding-bottom: .35rem; }
+.passo-tempo .no { position: absolute; left: calc(var(--x) - 9px); top: calc(.35rem + 14px); width: 18px; height: 18px; padding: 0; border-radius: 50%;
+  border: 2px solid var(--tinta-3); background: var(--papel); z-index: 1; color: var(--papel); font-size: .65rem; line-height: 1; font-weight: 700; cursor: pointer; transition: transform .15s, background .15s; }
+.passo-tempo .no:hover { transform: scale(1.2); border-color: var(--terracota); }
+.passo-tempo.livro-athenaze .no { border-color: var(--athenaze); }
+.passo-tempo.feito .no { background: var(--terracota); border-color: var(--terracota); }
+.passo-tempo.pendente .no { border-style: dashed; cursor: default; }
+.passo-cartao { border: 1px solid var(--linha); border-radius: 6px; background: var(--papel); display: flex; align-items: center; gap: .6rem; transition: border-color .15s, opacity .15s; }
+.passo-cartao:hover { border-color: var(--tinta-3); }
+.passo-link { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: .1rem; padding: .55rem .85rem; color: var(--tinta); }
+.passo-link:hover { text-decoration: none; }
+.passo-titulo { display: flex; flex-wrap: wrap; gap: .2rem .6rem; align-items: baseline; }
+.porque { font-size: .88rem; color: var(--tinta-2); }
+.passo-link small { font-family: var(--sans); font-size: .72rem; color: var(--tinta-3); }
+/* já estudado: esmaecido */
+.passo-tempo.feito .passo-cartao { opacity: .5; background: transparent; }
+.passo-tempo.feito .passo-cartao:hover { opacity: .85; }
+.passo-tempo.pendente .passo-cartao { opacity: .5; border-style: dashed; }
+/* onde o aluno está: em destaque */
+.passo-tempo.atual { padding-top: 1rem; padding-bottom: 1rem; }
+.passo-tempo.atual .no { width: 26px; height: 26px; left: calc(var(--x) - 13px); top: calc(1rem + 22px); border: 3px solid var(--terracota); background: var(--papel);
+  box-shadow: 0 0 0 5px color-mix(in srgb, var(--terracota) 22%, transparent); animation: pulsar 2.2s ease-in-out infinite; }
+@keyframes pulsar { 50% { box-shadow: 0 0 0 9px color-mix(in srgb, var(--terracota) 8%, transparent); } }
+.passo-tempo.atual .passo-cartao { position: relative; border: 2px solid var(--terracota); background: var(--argila); box-shadow: 0 10px 28px -14px rgba(29,24,21,.35); padding-right: .8rem; }
+.passo-tempo.atual .passo-link { padding: 1rem 1rem .8rem; }
+.passo-tempo.atual .passo-titulo { font-size: 1.15rem; }
+.voce-esta-aqui { position: absolute; top: -.7rem; left: .8rem; background: var(--terracota); color: var(--papel); font-family: var(--sans); font-size: .68rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; padding: .1rem .55rem; border-radius: 3px; }
+.continuar { white-space: nowrap; flex: none; }
+.feito-check { font-size: .85rem; white-space: nowrap; }
+
+/* ---------- Lição 0: o alfabeto ---------- */
+.cab-licao .titulo-grego { font-family: var(--grego); color: var(--tinta-3); font-size: .7em; margin-left: .3em; }
+.oficina { display: grid; grid-template-columns: minmax(0, 300px) 1fr; gap: 1.6rem; align-items: start; margin: 1.4rem 0 2rem; padding: 1.2rem; background: var(--argila); border: 1px solid var(--argila-2); border-radius: 6px; scroll-margin-top: 70px; }
+.oficina-letra { position: sticky; top: 70px; }
+.letra-animada { width: 100%; display: block; background: var(--papel); border: 1px solid var(--argila-2); border-radius: 4px; }
+.pauta line { stroke: var(--linha); stroke-width: .6; }
+.pauta line.base { stroke: var(--tinta-3); stroke-width: .9; }
+.traco-fantasma { fill: none; stroke: var(--argila-2); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.traco { fill: none; stroke: var(--verniz); stroke-width: 4.2; stroke-linecap: round; stroke-linejoin: round; }
+.traco-1 { stroke: var(--athenaze); }
+.traco-2 { stroke: var(--ok); }
+.marca-inicio circle { fill: var(--terracota); }
+.marca-inicio text { fill: var(--papel); font-family: var(--sans); font-size: 7px; font-weight: 700; }
+.marca-inicio .seta { fill: var(--terracota); }
+.marca-inicio.ativa circle { fill: var(--terracota-2); }
+.caneta { fill: var(--terracota); opacity: 0; transition: opacity .2s; }
+.caneta.visivel { opacity: .9; }
+.oficina-controles { display: flex; align-items: center; justify-content: center; gap: .6rem; margin-top: .7rem; }
+.icone-grande { border: 1px solid var(--linha); background: var(--papel); color: var(--tinta-2); width: 2.2rem; height: 2.2rem; border-radius: 50%; font-size: 1.3rem; line-height: 1; }
+.icone-grande:hover { border-color: var(--terracota); color: var(--terracota); }
+.par-letras { font-family: var(--grego); font-size: 3.4rem; line-height: 1.1; color: var(--verniz); }
+.nome-letra { font-family: var(--sans); font-size: .95rem; color: var(--tinta-2); margin: .3rem 0 .6rem; }
+.nome-letra .gr { font-family: var(--grego); font-size: 1.1rem; color: var(--tinta); }
+.translit { font-style: italic; }
+.som { font-size: 1.05rem; margin: 0 0 .8rem; }
+.grupo-letra, .dica-tracos { font-size: .9rem; color: var(--tinta-2); }
+.dica-tracos { font-family: var(--sans); font-size: .8rem; color: var(--tinta-3); }
+.oficina h3 { margin-top: 1rem; }
+.pratica-area { width: 100%; max-width: 280px; display: block; background: var(--papel); border: 1px dashed var(--tinta-3); border-radius: 4px; touch-action: none; cursor: crosshair; }
+.pratica-area .modelo { fill: none; stroke: var(--argila-2); stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+.pratica-area .tinta { fill: none; stroke: var(--terracota); stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.pratica-botoes { display: flex; gap: .5rem; margin-top: .6rem; }
+.pratica-nota { font-family: var(--sans); font-size: .9rem; color: var(--tinta-2); }
+.grade-letras { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: .5rem; }
+.ficha-letra { display: flex; flex-direction: column; align-items: center; gap: .1rem; padding: .6rem .3rem; border: 1px solid var(--linha); border-radius: 6px; background: var(--papel); color: var(--tinta); transition: border-color .15s, transform .15s; }
+.ficha-letra:hover { border-color: var(--terracota); transform: translateY(-2px); }
+.ficha-letra.ativa { border: 2px solid var(--terracota); background: var(--argila); }
+.ficha-par { font-family: var(--grego); font-size: 1.8rem; color: var(--verniz); line-height: 1.1; }
+.ficha-nome { font-family: var(--sans); font-size: .82rem; }
+.ficha-translit { font-family: var(--sans); font-size: .72rem; color: var(--tinta-3); font-style: italic; }
+.grupo-tamanho { margin: 1.2rem 0 1.6rem; }
+.grupo-tamanho h3 { margin-bottom: .1rem; }
+.grupo-tamanho p { margin: 0 0 .6rem; color: var(--tinta-2); font-size: .95rem; }
+.fila-letras { display: flex; flex-wrap: wrap; gap: .5rem; }
+.mini-letra { width: 74px; padding: .2rem; border: 1px solid var(--linha); border-radius: 6px; background: var(--papel); display: flex; flex-direction: column; align-items: center; color: var(--tinta-2); }
+.mini-letra:hover { border-color: var(--terracota); }
+.mini-letra .letra-animada { border: none; }
+.mini-letra .gr { font-family: var(--grego); font-size: 1.1rem; }
+.sinais dl { display: grid; grid-template-columns: max-content 1fr; gap: .6rem 1.2rem; }
+.sinais dt { font-family: var(--sans); font-weight: 600; font-size: .9rem; color: var(--tinta-2); white-space: nowrap; }
+.sinais dt .gr { font-family: var(--grego); font-size: 1.2rem; color: var(--verniz); margin-right: .3rem; }
+.sinais dd { margin: 0; }
+.testes-alfabeto { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1rem; }
+.teste-alfabeto { border: 1px solid var(--argila-2); background: var(--argila); border-radius: 6px; padding: 1rem; }
+.teste-alfabeto h3 { margin-top: 0; font-size: 1rem; font-family: var(--sans); font-weight: 600; }
+.teste-pergunta { text-align: center; margin: .4rem 0 .8rem; }
+.pergunta-letra { font-family: var(--grego); font-size: 4rem; color: var(--verniz); line-height: 1; }
+.pergunta-palavra { font-family: var(--grego); font-size: 2.2rem; color: var(--verniz); }
+.teste-opcoes { display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; }
+.teste-opcoes button { padding: .5rem; border: 1px solid var(--linha); border-radius: 4px; background: var(--papel); color: var(--tinta); font-family: var(--sans); }
+.teste-opcoes button:hover { border-color: var(--terracota); }
+.teste-opcoes button.certa { background: var(--ok-fundo); border-color: var(--ok); color: var(--ok); font-weight: 600; }
+.teste-opcoes button.errada { background: var(--erro-fundo); border-color: var(--erro); color: var(--erro); }
+.teste-rodape { display: flex; justify-content: space-between; align-items: center; margin-top: .7rem; font-family: var(--sans); font-size: .85rem; color: var(--tinta-3); min-height: 2.2rem; }
+.fim-licao { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 2.4rem; padding-top: 1.2rem; border-top: 1px solid var(--linha); }
+@media (prefers-reduced-motion: reduce) { .passo-tempo.atual .no { animation: none; } }
 .cartao-inicio.destaque { border-color: var(--acento); background: var(--acento-fundo); }
 
 /* índice por livro */
@@ -423,8 +525,19 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
   .dois-livros { grid-template-columns: 1fr; }
 }
 
+@media (max-width: 720px) {
+  .oficina { grid-template-columns: 1fr; padding: .9rem; }
+  .oficina-letra { position: static; max-width: 300px; margin: 0 auto; width: 100%; }
+  .oficina { scroll-margin-top: 140px; }
+}
 @media (max-width: 560px) {
   body { font-size: 17px; }
+  .linha-tempo { --x: 11px; }
+  .linha-tempo > li { padding-left: calc(var(--x) * 2 + 12px); }
+  .passo-tempo.atual .passo-cartao { flex-direction: column; align-items: stretch; padding: 0 .8rem .8rem 0; }
+  .passo-tempo.atual .continuar { margin-left: 1rem; text-align: center; }
+  .sinais dl { grid-template-columns: 1fr; }
+  .sinais dd { margin-bottom: .4rem; }
   .face { min-height: 300px; }
   .etiqueta, .cartao-rotulo { padding-left: 1.1rem; padding-right: 1.1rem; }
   .glosa-cartao { font-size: 1.3rem; }
@@ -434,7 +547,6 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
   .lista-vocab td.lema { width: 50%; }
   .seletor-nome { width: 100%; }
   .grupo-tabelas .rotulo { width: 100%; }
-  .passo.livro-athenaze { margin-left: .5rem; }
   /* No celular, a janela flutuante vira um painel fixo na parte de baixo, na largura da tela. */
   .janela { left: 0 !important; right: 0; top: auto !important; bottom: 0; width: 100% !important; height: 55vh !important; border-radius: 8px 8px 0 0; }
   .janela-canto { display: none; }

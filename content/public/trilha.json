@@ -1,236 +1,246 @@
 {
- "etapas": [
-  {
-   "titulo": "Primeiros passos: artigo, substantivo e verbo",
-   "nota": "O Athenaze apresenta a gramática em doses pequenas, com frases muito curtas; a JACT entrega quadros completos e textos mais longos. Alternar os dois dá ao mesmo tempo leitura fácil e visão de conjunto.",
-   "passos": [
+  "etapas": [
     {
-     "licao": "ath1",
-     "porque": "Comece pelo Athenaze: frases curtíssimas sobre Diceópolis para fixar sujeito, objeto e o artigo no singular."
+      "titulo": "Antes de começar",
+      "nota": "Aprenda a ler e a escrever as letras antes da primeira lição. Volte aqui sempre que uma letra parecer estranha.",
+      "passos": [
+        {
+          "licao": "alfabeto",
+          "porque": "A Introdução do Athenaze ensina o alfabeto e o traçado de cada letra; é o primeiro passo dos dois livros."
+        }
+      ]
     },
     {
-     "licao": "1A",
-     "porque": "A JACT dá o artigo e a 2ª declinação de uma vez, num texto mais longo."
+      "titulo": "Primeiros passos: artigo, substantivo e verbo",
+      "nota": "O Athenaze apresenta a gramática em doses pequenas, com frases muito curtas; a JACT entrega quadros completos e textos mais longos. Alternar os dois dá ao mesmo tempo leitura fácil e visão de conjunto.",
+      "passos": [
+        {
+          "licao": "ath1",
+          "porque": "Comece pelo Athenaze: frases curtíssimas sobre Diceópolis para fixar sujeito, objeto e o artigo no singular."
+        },
+        {
+          "licao": "1A",
+          "porque": "A JACT dá o artigo e a 2ª declinação de uma vez, num texto mais longo."
+        },
+        {
+          "licao": "1B"
+        },
+        {
+          "licao": "ath2",
+          "porque": "As três pessoas do singular, o imperativo e os casos, com Xântias, o escravo preguiçoso."
+        },
+        {
+          "licao": "1C",
+          "porque": "Agora o presente completo e o imperativo na JACT."
+        },
+        {
+          "licao": "1D"
+        },
+        {
+          "licao": "ath3",
+          "porque": "O plural de todos os casos, os neutros e o infinitivo, que a JACT ainda não deu."
+        },
+        {
+          "licao": "1E",
+          "porque": "Verbos contratos na JACT; o Athenaze os retoma nos caps. 4 e 5."
+        },
+        {
+          "licao": "1F"
+        },
+        {
+          "licao": "1G",
+          "porque": "A JACT reúne a 2ª declinação inteira, as preposições e as partículas; o Athenaze 3 já deu o plural."
+        },
+        {
+          "licao": "1H"
+        },
+        {
+          "licao": "1I"
+        },
+        {
+          "licao": "1J"
+        },
+        {
+          "licao": "ath4",
+          "porque": "Todas as pessoas do verbo, os contratos em -έω, a 1ª declinação e os adjetivos de 1ª/2ª: revisão da Seção 1 e ponte para 2A."
+        }
+      ]
     },
     {
-     "licao": "1B"
+      "titulo": "Contratos, voz média e 1ª declinação",
+      "passos": [
+        {
+          "licao": "ath5",
+          "porque": "Contratos em -α-, pronomes pessoais e a posição atributiva (o 'sanduíche' da JACT)."
+        },
+        {
+          "licao": "2A",
+          "porque": "A JACT passa à voz média e à 1ª declinação completa."
+        },
+        {
+          "licao": "2B"
+        },
+        {
+          "licao": "ath6",
+          "porque": "A voz média e os depoentes no Athenaze, com o mito de Teseu."
+        },
+        {
+          "licao": "2C"
+        },
+        {
+          "licao": "2D",
+          "porque": "Leia junto com 6β do Athenaze (Teseu e o Minotauro)."
+        }
+      ]
     },
     {
-     "licao": "ath2",
-     "porque": "As três pessoas do singular, o imperativo e os casos, com Xântias, o escravo preguiçoso."
+      "titulo": "A 3ª declinação",
+      "passos": [
+        {
+          "licao": "ath7",
+          "porque": "O Ciclope: 3ª declinação em consoante, reflexivos e τίς/τις."
+        },
+        {
+          "licao": "3A",
+          "porque": "A JACT organiza a 3ª declinação por tipos de radical."
+        },
+        {
+          "licao": "3B"
+        },
+        {
+          "licao": "3C"
+        },
+        {
+          "licao": "ath8",
+          "porque": "A caminho da cidade: particípio médio, ἀνήρ, γυνή e ναῦς."
+        },
+        {
+          "licao": "3D"
+        },
+        {
+          "licao": "3E",
+          "porque": "O vocabulário de culto corresponde à festa dos caps. 8β–9 do Athenaze."
+        }
+      ]
     },
     {
-     "licao": "1C",
-     "porque": "Agora o presente completo e o imperativo na JACT."
+      "titulo": "Particípios",
+      "passos": [
+        {
+          "licao": "ath9",
+          "porque": "A festa: particípio ativo, πόλις/ἄστυ e πᾶς."
+        },
+        {
+          "licao": "4A",
+          "porque": "A cena de Atenas lotada é paralela a 8β–9α."
+        },
+        {
+          "licao": "4B"
+        },
+        {
+          "licao": "4C",
+          "porque": "A JACT dá o particípio ativo antes do médio; o Athenaze fez o contrário."
+        },
+        {
+          "licao": "4D",
+          "porque": "A procissão de 9β é paralela."
+        }
+      ]
     },
     {
-     "licao": "1D"
+      "titulo": "Imperfeito e futuro",
+      "passos": [
+        {
+          "licao": "5A",
+          "porque": "O imperfeito vem cedo na JACT; no Athenaze só no cap. 13, que servirá de revisão."
+        },
+        {
+          "licao": "5B"
+        },
+        {
+          "licao": "ath10",
+          "porque": "O futuro no Athenaze cobre a mesma matéria de 5C–D, na mesma ordem."
+        },
+        {
+          "licao": "5C"
+        },
+        {
+          "licao": "5D"
+        }
+      ]
     },
     {
-     "licao": "ath3",
-     "porque": "O plural de todos os casos, os neutros e o infinitivo, que a JACT ainda não deu."
+      "titulo": "O aoristo",
+      "passos": [
+        {
+          "licao": "6A",
+          "porque": "A JACT começa pelo aoristo sigmático (1º)."
+        },
+        {
+          "licao": "6B"
+        },
+        {
+          "licao": "ath11",
+          "porque": "O Athenaze começa pelo aoristo temático (2º), que é o tema de 6C–D."
+        },
+        {
+          "licao": "6C"
+        },
+        {
+          "licao": "6D"
+        },
+        {
+          "licao": "ath12",
+          "porque": "O aoristo 1º no Athenaze: revisão de 6A–B com textos novos."
+        }
+      ]
     },
     {
-     "licao": "1E",
-     "porque": "Verbos contratos na JACT; o Athenaze os retoma nos caps. 4 e 5."
-    },
-    {
-     "licao": "1F"
-    },
-    {
-     "licao": "1G",
-     "porque": "A JACT reúne a 2ª declinação inteira, as preposições e as partículas; o Athenaze 3 já deu o plural."
-    },
-    {
-     "licao": "1H"
-    },
-    {
-     "licao": "1I"
-    },
-    {
-     "licao": "1J"
-    },
-    {
-     "licao": "ath4",
-     "porque": "Todas as pessoas do verbo, os contratos em -έω, a 1ª declinação e os adjetivos de 1ª/2ª: revisão da Seção 1 e ponte para 2A."
+      "titulo": "Infinitivos, comparação e revisão",
+      "passos": [
+        {
+          "licao": "ath13",
+          "porque": "O imperfeito no Athenaze: revisão de 5A–B, mais orações relativas."
+        },
+        {
+          "licao": "7A",
+          "porque": "Infinitivos e comparação de adjetivos na JACT."
+        },
+        {
+          "licao": "7B"
+        },
+        {
+          "licao": "7C"
+        },
+        {
+          "licao": "ath14",
+          "porque": "Comparação de adjetivos e advérbios e os numerais, com as Termópilas."
+        },
+        {
+          "licao": "7D",
+          "porque": "Particípio do aoristo: o Athenaze o apresentou nos caps. 11–12."
+        },
+        {
+          "licao": "7E"
+        },
+        {
+          "licao": "7F"
+        },
+        {
+          "licao": "ath15",
+          "porque": "Contratos em -ο- e demonstrativos, com a batalha de Salamina."
+        },
+        {
+          "licao": "7G"
+        },
+        {
+          "licao": "7H"
+        },
+        {
+          "licao": "ath16",
+          "porque": "Fim do Athenaze Book I: aoristo e futuro passivos, além da JACT 1–7."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "titulo": "Contratos, voz média e 1ª declinação",
-   "passos": [
-    {
-     "licao": "ath5",
-     "porque": "Contratos em -α-, pronomes pessoais e a posição atributiva (o 'sanduíche' da JACT)."
-    },
-    {
-     "licao": "2A",
-     "porque": "A JACT passa à voz média e à 1ª declinação completa."
-    },
-    {
-     "licao": "2B"
-    },
-    {
-     "licao": "ath6",
-     "porque": "A voz média e os depoentes no Athenaze, com o mito de Teseu."
-    },
-    {
-     "licao": "2C"
-    },
-    {
-     "licao": "2D",
-     "porque": "Leia junto com 6β do Athenaze (Teseu e o Minotauro)."
-    }
-   ]
-  },
-  {
-   "titulo": "A 3ª declinação",
-   "passos": [
-    {
-     "licao": "ath7",
-     "porque": "O Ciclope: 3ª declinação em consoante, reflexivos e τίς/τις."
-    },
-    {
-     "licao": "3A",
-     "porque": "A JACT organiza a 3ª declinação por tipos de radical."
-    },
-    {
-     "licao": "3B"
-    },
-    {
-     "licao": "3C"
-    },
-    {
-     "licao": "ath8",
-     "porque": "A caminho da cidade: particípio médio, ἀνήρ, γυνή e ναῦς."
-    },
-    {
-     "licao": "3D"
-    },
-    {
-     "licao": "3E",
-     "porque": "O vocabulário de culto corresponde à festa dos caps. 8β–9 do Athenaze."
-    }
-   ]
-  },
-  {
-   "titulo": "Particípios",
-   "passos": [
-    {
-     "licao": "ath9",
-     "porque": "A festa: particípio ativo, πόλις/ἄστυ e πᾶς."
-    },
-    {
-     "licao": "4A",
-     "porque": "A cena de Atenas lotada é paralela a 8β–9α."
-    },
-    {
-     "licao": "4B"
-    },
-    {
-     "licao": "4C",
-     "porque": "A JACT dá o particípio ativo antes do médio; o Athenaze fez o contrário."
-    },
-    {
-     "licao": "4D",
-     "porque": "A procissão de 9β é paralela."
-    }
-   ]
-  },
-  {
-   "titulo": "Imperfeito e futuro",
-   "passos": [
-    {
-     "licao": "5A",
-     "porque": "O imperfeito vem cedo na JACT; no Athenaze só no cap. 13, que servirá de revisão."
-    },
-    {
-     "licao": "5B"
-    },
-    {
-     "licao": "ath10",
-     "porque": "O futuro no Athenaze cobre a mesma matéria de 5C–D, na mesma ordem."
-    },
-    {
-     "licao": "5C"
-    },
-    {
-     "licao": "5D"
-    }
-   ]
-  },
-  {
-   "titulo": "O aoristo",
-   "passos": [
-    {
-     "licao": "6A",
-     "porque": "A JACT começa pelo aoristo sigmático (1º)."
-    },
-    {
-     "licao": "6B"
-    },
-    {
-     "licao": "ath11",
-     "porque": "O Athenaze começa pelo aoristo temático (2º), que é o tema de 6C–D."
-    },
-    {
-     "licao": "6C"
-    },
-    {
-     "licao": "6D"
-    },
-    {
-     "licao": "ath12",
-     "porque": "O aoristo 1º no Athenaze: revisão de 6A–B com textos novos."
-    }
-   ]
-  },
-  {
-   "titulo": "Infinitivos, comparação e revisão",
-   "passos": [
-    {
-     "licao": "ath13",
-     "porque": "O imperfeito no Athenaze: revisão de 5A–B, mais orações relativas."
-    },
-    {
-     "licao": "7A",
-     "porque": "Infinitivos e comparação de adjetivos na JACT."
-    },
-    {
-     "licao": "7B"
-    },
-    {
-     "licao": "7C"
-    },
-    {
-     "licao": "ath14",
-     "porque": "Comparação de adjetivos e advérbios e os numerais, com as Termópilas."
-    },
-    {
-     "licao": "7D",
-     "porque": "Particípio do aoristo: o Athenaze o apresentou nos caps. 11–12."
-    },
-    {
-     "licao": "7E"
-    },
-    {
-     "licao": "7F"
-    },
-    {
-     "licao": "ath15",
-     "porque": "Contratos em -ο- e demonstrativos, com a batalha de Salamina."
-    },
-    {
-     "licao": "7G"
-    },
-    {
-     "licao": "7H"
-    },
-    {
-     "licao": "ath16",
-     "porque": "Fim do Athenaze Book I: aoristo e futuro passivos, além da JACT 1–7."
-    }
-   ]
-  }
- ]
+  ]
 }
