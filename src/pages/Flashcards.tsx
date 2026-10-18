@@ -47,7 +47,8 @@ export function Flashcards() {
 
   useEffect(() => {
     const k = (ev: KeyboardEvent) => {
-      if ((ev.target as HTMLElement).tagName === 'INPUT') return
+      const alvo = ev.target as HTMLElement
+      if (['INPUT', 'SELECT', 'TEXTAREA'].includes(alvo.tagName) || alvo.closest('.editor-painel')) return
       if (ev.key === ' ') { ev.preventDefault(); setVirado(true) }
       const b = BOTOES.find(([, , t]) => t === ev.key)
       if (b && virado) nota(b[0])
@@ -80,17 +81,17 @@ export function Flashcards() {
 
       {e && (
         <>
-          <Psephoi feitos={feitos} restantes={fila?.length ?? 0} />
+          <Progresso feitos={feitos} restantes={fila?.length ?? 0} />
           {/* A chave muda a cada cartão: a tabuleta nova entra já de frente (sem mostrar o verso ao desvirar). */}
           <Tabuleta key={`${atual}:${feitos}`} e={e} direcao={direcao} virado={virado} onVirar={() => setVirado(true)} />
-          <div className="plaquetas">
+          <div className="notas">
             {virado ? BOTOES.map(([n, rot, tecla]) => (
-              <button key={n} className={`plaqueta nota-${n}`} onClick={() => nota(n)}>
-                <span className="plaqueta-rotulo">{rot}</span><small>{prev?.[n]}</small><kbd>{tecla}</kbd>
+              <button key={n} className={`nota nota-${n}`} onClick={() => nota(n)}>
+                <span className="nota-rotulo">{rot}</span><small>{prev?.[n]}</small><kbd>{tecla}</kbd>
               </button>
             )) : (
-              <button className="plaqueta virar" onClick={() => setVirado(true)}>
-                <span className="plaqueta-rotulo">Virar</span><kbd>espaço</kbd>
+              <button className="nota virar" onClick={() => setVirado(true)}>
+                <span className="nota-rotulo">Mostrar resposta</span><kbd>espaço</kbd>
               </button>
             )}
           </div>
@@ -100,16 +101,13 @@ export function Flashcards() {
   )
 }
 
-/** Progresso da sessão como pedrinhas de contagem (ψῆφοι): as escuras já foram respondidas. */
-function Psephoi({ feitos, restantes }: { feitos: number; restantes: number }) {
-  const MAX = 36
+/** Progresso da sessão: uma linha fina e a contagem. */
+function Progresso({ feitos, restantes }: { feitos: number; restantes: number }) {
   const total = feitos + restantes
-  const mostrar = Math.min(total, MAX)
-  const cheias = Math.round(mostrar * feitos / Math.max(total, 1))
   return (
-    <div className="psephoi" role="img" aria-label={`${feitos} respondidas, ${restantes} na fila`}>
-      {Array.from({ length: mostrar }, (_, i) => <span key={i} className={i < cheias ? 'feita' : ''} />)}
-      {total > MAX && <small>+{total - MAX}</small>}
+    <div className="progresso-sessao" role="progressbar" aria-valuenow={feitos} aria-valuemax={total}>
+      <div className="progresso-trilho"><div style={{ width: `${100 * feitos / Math.max(total, 1)}%` }} /></div>
+      <span>{feitos} / {total}</span>
     </div>
   )
 }

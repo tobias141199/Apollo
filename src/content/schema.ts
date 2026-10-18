@@ -191,10 +191,11 @@ export const Concordancia = z.array(z.object({
 export type Concordancia = z.infer<typeof Concordancia>
 
 /**
- * Imagens dos flashcards (content/public/imagens.json). Só obras de domínio público ou com
- * licença livre; o crédito e a licença fazem o papel da `fonte`. Arquivos em public/imagens/.
+ * Imagens dos flashcards (content/public/imagens.json). O crédito e a licença fazem o papel da
+ * `fonte`. Arquivos em public/imagens/. As imagens podem ser trocadas no próprio app (editor do
+ * `npm run dev`, ver vite.config.ts); as enviadas à mão podem ter licença "não informada".
  */
-export const Licenca = z.enum(['CC0', 'Domínio público', 'CC BY 2.0', 'CC BY 2.5', 'CC BY 3.0', 'CC BY 4.0',
+export const Licenca = z.enum(['não informada', 'CC0', 'Domínio público', 'CC BY 2.0', 'CC BY 2.5', 'CC BY 3.0', 'CC BY 4.0',
   'CC BY-SA 2.0', 'CC BY-SA 2.5', 'CC BY-SA 3.0', 'CC BY-SA 4.0'])
 export const Imagem = z.object({
   /** Nome do arquivo em public/imagens/ (WebP). */
@@ -209,10 +210,10 @@ export const Imagem = z.object({
   /** Museu e número de inventário, ou o lugar fotografado. */
   acervo: z.string().optional(),
   licenca: Licenca,
-  /** Página de origem (Wikimedia Commons, Met, Art Institute of Chicago). */
-  url: z.string().url(),
-  /** Endereço da imagem baixada (usado por scripts/imagens/baixar.mjs). */
-  origem: z.string().url(),
+  /** Página de origem (Wikimedia Commons, Met, Art Institute of Chicago…). */
+  url: z.string().url().optional(),
+  /** Endereço da imagem baixada (usado por scripts/imagens/baixar.mjs). Imagens enviadas pelo editor não têm. */
+  origem: z.string().url().optional(),
   /** Recorte para o cartão: posição de `object-position` ("50% 30%"). */
   foco: z.string().optional(),
 })

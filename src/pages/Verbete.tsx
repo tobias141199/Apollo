@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router-dom'
-import { entradaPorChave, imagemDe, licoes, paradigmaPorId, todasCitacoes } from '../content'
+import { entradaPorChave, licoes, paradigmaPorId, todasCitacoes } from '../content'
 import { FonteTag } from '../components/FonteTag'
-import { Quadro } from '../components/Tabuleta'
+import { Credito, Friso, Quadro } from '../components/Tabuleta'
+import { EditorImagem, useImagem } from '../components/EditorImagem'
 import { TabelaParadigma } from '../components/TabelaParadigma'
 import { chave as chaveDe } from '../lib/greek'
 
@@ -9,6 +10,7 @@ import { chave as chaveDe } from '../lib/greek'
 export function Verbete() {
   const k = decodeURIComponent(useParams().chave ?? '')
   const e = entradaPorChave.get(k)
+  const img = useImagem(k)
   if (!e) return <div className="pagina"><p>Palavra não encontrada. <Link to="/vocabulario">Ver vocabulário</Link></p></div>
 
   const ocorrencias = licoes.flatMap(l => l.vocab.filter(v => chaveDe(v.grego) === k).map(v => ({ l, v })))
@@ -16,7 +18,6 @@ export function Verbete() {
   const exemplos = todasCitacoes
     .filter(c => chaveDe(c.grego).split(' ').some(w => w.startsWith(raiz))).slice(0, 8)
   const parad = e.paradigma ? paradigmaPorId.get(e.paradigma) : undefined
-  const img = imagemDe(k)
 
   return (
     <article className="pagina verbete">
@@ -26,7 +27,12 @@ export function Verbete() {
         <div className="classe">{e.classe}{e.aprender && <span className="selo">a aprender</span>}</div>
       </header>
       <p className="glosa-grande">{e.glosa}</p>
-      {img && <div className="verbete-imagem afresco"><Quadro img={img} credito /></div>}
+      {(img || import.meta.env.DEV) && (
+        <figure className="verbete-imagem">
+          {img && <><Quadro img={img} /><Friso /></>}
+          <figcaption><Credito img={img} /><EditorImagem chave={k} lema={e.grego} img={img} /></figcaption>
+        </figure>
+      )}
       {e.partes && <p><span className="rotulo">Partes principais</span> <span className="gr">{e.partes.join(', ')}</span></p>}
       {e.nota && <p className="nota">{e.nota}</p>}
 

@@ -16,7 +16,7 @@ mkdirSync(destino, { recursive: true })
 let novos = 0, falhas = 0
 for (const [id, img] of Object.entries(imagens)) {
   const arq = join(destino, img.arquivo)
-  if (existsSync(arq) && !refazer) continue
+  if ((existsSync(arq) && !refazer) || !img.origem) continue // sem origem: enviada pelo editor
   try {
     // O Commons limita pedidos em sequência (429): espera e tenta de novo.
     let r

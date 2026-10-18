@@ -110,16 +110,12 @@ Cada tabela pode ser destacada (⧉) numa janela flutuante, que continua aberta 
 
 ## Imagens dos flashcards
 
-Cada palavra tem uma imagem da Grécia antiga (vaso, escultura, moeda, afresco, foto de sítio) que lembra o sentido. A imagem aparece no verso da tabuleta (e na frente, na direção português → grego) e no verbete.
+As palavras têm imagens (vaso, escultura, moeda, foto de sítio) no verso do cartão e no verbete. As imagens atuais vieram de uma curadoria inicial (Wikimedia Commons, Met, Art Institute of Chicago). **Daqui em diante, quem escolhe as imagens é o dono do projeto, pelo próprio programa.** Não acrescente nem troque imagens por conta própria.
 
-- **Só licenças livres**: CC0, domínio público, CC BY, CC BY-SA (o schema `Licenca` lista as aceitas). Fontes: Wikimedia Commons, Metropolitan Museum (Open Access), Art Institute of Chicago. CC BY/BY-SA exigem `autor` (o teste confere).
-- **Tudo tem fonte** vale aqui também: `titulo` (em português), `data` da obra, `acervo`, `licenca` e `url` da página de origem aparecem na legenda do cartão. `descricao` é uma frase nossa dizendo como a imagem lembra a palavra (obrigatória para palavras abstratas).
-- `palavras` liga a `chave()` do lema ao id da imagem; uma imagem pode servir a várias palavras próximas.
-
-Para dar imagem a uma palavra nova:
-1. `node scripts/imagens/buscar.mjs "<consulta em inglês>" .candidatos --n 4` → abra `.candidatos/folha-….jpg` (Read mostra a imagem) e escolha. **Nunca escolha sem olhar.**
-2. `node scripts/imagens/escolher.mjs .candidatos/cand-….json <nº> <id> --titulo "…" --data "…" --descricao "…" --palavras "λ1,λ2"`
-3. `node scripts/imagens/baixar.mjs` (baixa e converte só o que falta) e `npm test`.
+- **Editor (só no `npm run dev`)**: no verso do cartão e no verbete aparecem "pôr/trocar imagem" e "remover". A imagem pode ser arrastada, colada (Ctrl+V), escolhida num arquivo ou dada por endereço. O plugin `editor-de-imagens` (vite.config.ts) converte para WebP, grava em `public/imagens/` e atualiza `content/public/imagens.json`; imagens que ficam sem palavra são apagadas. No site publicado o editor não existe.
+- `palavras` liga a `chave()` do lema ao id da imagem; `imagens` traz o crédito (título, data, autor, acervo, licença, página de origem), mostrado como legenda.
+- Licenças: CC BY/BY-SA exigem `autor` (o teste confere); imagens enviadas sem crédito ficam com licença "não informada". Lembre ao dono que tudo em `public/` vai para o site público.
+- `scripts/imagens/` (buscar, escolher, baixar) ficou da curadoria inicial; `baixar.mjs` rebaixa as imagens que têm `origem`.
 
 ## Padrão da simbiose JACT × Athenaze
 
@@ -161,5 +157,4 @@ Para cada subseção da JACT:
 - [ ] Todo item novo tem `fonte` com página impressa.
 - [ ] Nada copiado dos livros em `content/public/`, exceto citações curtas.
 - [ ] Grego conferido (acentos, espíritos, iota subscrito) e em NFC.
-- [ ] Palavra nova tem imagem (`npm test` lista as que faltam).
 - [ ] Conferi por amostragem no navegador (`npm run dev`).

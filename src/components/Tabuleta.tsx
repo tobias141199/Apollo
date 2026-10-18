@@ -1,10 +1,11 @@
-// O flashcard como uma tabuleta de mármore: a frente traz o grego "entalhado" (ou, na direção
-// português → grego, a imagem e a glosa); o verso é um afresco com a imagem, a glosa e o grego.
-// A virada é 3D (CSS); com `prefers-reduced-motion`, vira um simples esmaecer.
+// O flashcard, no espírito da cerâmica ática: no claro, "figuras negras" (grego em verniz preto
+// sobre argila); no escuro, "figuras vermelhas" (grego em terracota sobre preto). A frente traz o
+// lema (ou, na direção português → grego, a imagem e a glosa); o verso é uma etiqueta de museu.
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { imagemDe, licaoPorId, type Entrada, type ImagemPalavra } from '../content'
 import type { Direcao } from '../lib/db'
+import { EditorImagem, useImagem } from './EditorImagem'
 
 interface Props {
   e: Entrada
@@ -14,42 +15,46 @@ interface Props {
 }
 
 export function Tabuleta({ e, direcao, virado, onVirar }: Props) {
-  const img = imagemDe(e.chave)
+  const img = useImagem(e.chave)
   const licao = licaoPorId.get(e.licaoId)!
-  const parar = (ev: React.MouseEvent) => ev.stopPropagation()
+  const parar = (ev: React.SyntheticEvent) => ev.stopPropagation()
+  const rotulo = <div className="cartao-rotulo"><span>{e.classe}</span><span>{licao.rotulo}</span></div>
 
   return (
-    <div className="tabuleta-cena">
-      <div className={`tabuleta ${virado ? 'virada' : ''}`} onClick={() => !virado && onVirar()}
+    <div className="cartao-cena">
+      <div className={`cartao ${virado ? 'virado' : ''}`} onClick={() => !virado && onVirar()}
         role="button" aria-label={virado ? undefined : 'virar o cartão'} tabIndex={virado ? -1 : 0}>
-        <div className={`face frente ${direcao === 'gp' ? 'marmore' : 'afresco'}`} inert={virado} aria-hidden={virado}>
+        <div className="face frente" inert={virado} aria-hidden={virado}>
           {direcao === 'gp' ? (
-            <div className="frente-gp">
-              <span className="classe-entalhe">{e.classe}</span>
-              <div className="gr entalhe">{e.grego}</div>
-              <span className="dica-virar">toque ou aperte espaço</span>
-            </div>
+            <>
+              {rotulo}
+              <div className="frente-lema"><span className="gr lema-cartao">{e.grego}</span></div>
+              <Friso />
+              <div className="cartao-dica"><Dica /></div>
+            </>
           ) : (
             <>
               <Quadro img={img} />
-              <div className="legenda-face">
-                <div className="glosa-pintada">{e.glosa}</div>
-                <span className="classe-entalhe">{e.classe}</span>
+              <Friso />
+              <div className="frente-glosa">
+                <div className="glosa-cartao">{e.glosa}</div>
+                <div className="cartao-dica">{e.classe} · <Dica /></div>
               </div>
             </>
           )}
         </div>
 
-        <div className="face verso afresco" inert={!virado} aria-hidden={!virado}>
-          <Quadro img={img} credito />
-          <div className="legenda-face">
-            <div className="glosa-pintada">{e.glosa}</div>
-            <div className="gr entalhe pequeno">{e.grego}</div>
-            {e.lexical && e.lexical !== e.grego && <div className="gr lexical-face">{e.lexical}</div>}
-            <div className="ligacoes">
-              {e.classe} · <Link to={licao.rota} onClick={parar}>{licao.rotulo}</Link>
-              {' · '}<Link to={`/palavra/${encodeURIComponent(e.chave)}`} onClick={parar}>verbete</Link>
+        <div className="face verso" inert={!virado} aria-hidden={!virado}>
+          <Quadro img={img} />
+          <Friso />
+          <div className="etiqueta">
+            <div className="gr lema-verso">{e.lexical && e.lexical !== e.grego ? e.lexical : e.grego}</div>
+            <div className="glosa-cartao">{e.glosa}</div>
+            <div className="etiqueta-meta" onClick={parar}>
+              {e.classe} · <Link to={licao.rota}>{licao.rotulo}</Link> · <Link to={`/palavra/${encodeURIComponent(e.chave)}`}>verbete</Link>
             </div>
+            <Credito img={img} />
+            <div onClick={parar}><EditorImagem chave={e.chave} lema={e.grego} img={img} /></div>
           </div>
         </div>
       </div>
@@ -57,26 +62,38 @@ export function Tabuleta({ e, direcao, virado, onVirar }: Props) {
   )
 }
 
-/** A imagem emoldurada como afresco, com o crédito (a "fonte" da imagem). Sem imagem: um meandro. */
-export function Quadro({ img, credito = false }: { img?: ImagemPalavra; credito?: boolean }) {
+const Dica = () => <><span className="so-teclado">espaço para virar</span><span className="so-toque">toque para virar</span></>
+
+/** Faixa de meandro, como as que dividem as cenas num vaso. */
+export function Friso() {
+  return <div className="friso" aria-hidden />
+}
+
+/** A imagem da palavra. Sem imagem (ou se ela falhar), um campo liso com um meandro discreto. */
+export function Quadro({ img }: { img?: ImagemPalavra }) {
   const [falhou, setFalhou] = useState<string | null>(null)
   const ok = img && falhou !== img.src
   return (
-    <figure className="quadro">
-      <div className="quadro-moldura" style={ok ? { '--fundo': `url("${img.src}")` } as React.CSSProperties : undefined}>
-        {ok
-          ? <img src={img.src} alt={img.titulo} loading="eager" decoding="async"
-              style={img.foco ? { objectPosition: img.foco } : undefined} onError={() => setFalhou(img.src)} />
-          : <div className="quadro-vazio" aria-hidden />}
-      </div>
-      {credito && img && (
-        <figcaption className="credito">
-          <a href={img.url} target="_blank" rel="noreferrer" onClick={ev => ev.stopPropagation()}>{img.titulo}</a>
-          {[img.data, img.autor, img.acervo, img.licenca].filter(Boolean).map(x => ` · ${x}`).join('')}
-          {img.descricao && <span className="credito-nota">{img.descricao}</span>}
-        </figcaption>
-      )}
-    </figure>
+    <div className="quadro">
+      {ok
+        ? <img src={img.src} alt={img.titulo} decoding="async"
+            style={img.foco ? { objectPosition: img.foco } : undefined} onError={() => setFalhou(img.src)} />
+        : <div className="quadro-vazio" aria-hidden />}
+    </div>
+  )
+}
+
+/** Legenda de museu: obra, data, autor, acervo e licença (a "fonte" da imagem). */
+export function Credito({ img }: { img?: ImagemPalavra }) {
+  if (!img) return null
+  const meta = [img.data, img.autor, img.acervo, img.licenca].filter(Boolean).join(' · ')
+  return (
+    <p className="credito">
+      {img.url
+        ? <a href={img.url} target="_blank" rel="noreferrer" onClick={ev => ev.stopPropagation()}>{img.titulo}</a>
+        : <span>{img.titulo}</span>}
+      {meta && <> — {meta}</>}
+    </p>
   )
 }
 
