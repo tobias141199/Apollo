@@ -2,6 +2,7 @@
 // Fica no localStorage do navegador.
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { licoes, vocabulario, type Entrada } from '../content'
+import { marcar, PREFS_SINC } from './nuvem'
 
 const CHAVE = 'ag:selecao'
 /** Marca que a seleção salva já conhece os capítulos do Athenaze (as antigas só tinham seções da JACT). */
@@ -22,7 +23,14 @@ const SelecaoCtx = createContext<Ctx | null>(null)
 export function ler<T>(k: string, padrao: T): T {
   try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : padrao } catch { return padrao }
 }
-export function gravar(k: string, v: unknown) { try { localStorage.setItem(k, JSON.stringify(v)) } catch { /* ignora */ } }
+export function gravar(k: string, v: unknown) {
+  try {
+    const novo = JSON.stringify(v)
+    if (localStorage.getItem(k) === novo) return
+    localStorage.setItem(k, novo)
+    if (PREFS_SINC.includes(k)) marcar('prefs', k) // acompanha a conta (ver nuvem.ts)
+  } catch { /* ignora */ }
+}
 
 function lerSelecao(): string[] {
   const salva = ler<string[] | null>(CHAVE, null)

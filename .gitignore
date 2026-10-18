@@ -8,3 +8,6 @@ smoke/
 tsconfig.tsbuildinfo
 .candidatos/
 .continue/
+
+# variáveis locais (endereço do banco etc.)
+.env

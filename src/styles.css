@@ -443,3 +443,18 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
 @media (max-width: 400px) {
   .notas { grid-template-columns: 1fr 1fr; }
 }
+
+/* ---------- conta ---------- */
+.conta { font-weight: 600; }
+.entrar { max-width: 420px; }
+.form-entrar { display: grid; gap: .8rem; margin-top: 1rem; font-family: var(--sans); font-size: .9rem; color: var(--tinta-2); }
+.form-entrar label { display: grid; gap: .25rem; }
+.form-entrar input { font: inherit; font-size: 1rem; padding: .5rem .6rem; border: 1px solid var(--linha); border-radius: var(--raio); background: var(--papel); color: var(--tinta); }
+.form-entrar input:focus { outline: 2px solid var(--terracota); outline-offset: -1px; border-color: transparent; }
+.form-entrar small { color: var(--tinta-3); margin-top: -.5rem; }
+.form-entrar .botao { padding: .6rem 1rem; }
+.botao-google { display: flex; align-items: center; justify-content: center; gap: .6rem; margin-top: 1.2rem; padding: .6rem 1rem; border: 1px solid var(--linha); border-radius: var(--raio); background: var(--papel); color: var(--tinta); font-family: var(--sans); font-weight: 600; font-size: .95rem; }
+.botao-google:hover { border-color: var(--tinta-3); text-decoration: none; }
+.ou { display: flex; align-items: center; gap: .8rem; margin: 1.2rem 0 0; color: var(--tinta-3); font-family: var(--sans); font-size: .8rem; }
+.ou::before, .ou::after { content: ''; flex: 1; border-top: 1px solid var(--linha); }
+.trocar-modo { font-family: var(--sans); font-size: .9rem; color: var(--tinta-2); margin-top: 1.2rem; }

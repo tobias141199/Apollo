@@ -2,6 +2,7 @@ import { HashRouter, NavLink, Route, Routes, useLocation } from 'react-router-do
 import { temPrivado } from './content'
 import { CamadaJanelas } from './components/JanelaFlutuante'
 import { Ajustes } from './pages/Ajustes'
+import { Entrar } from './pages/Entrar'
 import { Flashcards } from './pages/Flashcards'
 import { Inicio } from './pages/Inicio'
 import { JanelaTabelas } from './pages/JanelaTabelas'
@@ -14,6 +15,7 @@ import { Verbete } from './pages/Verbete'
 import { Vocabulario } from './pages/Vocabulario'
 import { JanelasProvider, useJanelas } from './lib/janelas'
 import { SelecaoProvider } from './lib/selecao'
+import { useConta } from './lib/nuvem'
 
 const LINKS = [
   ['/trilha', 'Trilha'], ['/secoes', 'Índice'], ['/vocabulario', 'Vocabulário'], ['/flashcards', 'Flashcards'],
@@ -32,6 +34,15 @@ export function App() {
   )
 }
 
+/** "Entrar" ou o nome de quem está logado (leva aos Ajustes, onde fica o "Sair"). */
+function LinkConta() {
+  const { usuario, servidor } = useConta()
+  if (!servidor) return null
+  return usuario
+    ? <NavLink to="/ajustes" className="conta" title={usuario.email}>{(usuario.nome ?? usuario.email).split(/[ @]/)[0]}</NavLink>
+    : <NavLink to="/entrar" className="conta">Entrar</NavLink>
+}
+
 function Casca() {
   // A janela própria do navegador (/janela) mostra só as tabelas, sem menu nem rodapé.
   if (useLocation().pathname === '/janela') return <JanelaTabelas />
@@ -44,6 +55,7 @@ function Casca() {
             {LINKS.map(([to, rot]) => <NavLink key={to} to={to}>{rot}</NavLink>)}
             <IndicadorJanelas />
             <NavLink to="/ajustes" title="Ajustes e backup" aria-label="Ajustes">⚙</NavLink>
+            <LinkConta />
           </nav>
         </div>
       </header>
@@ -60,6 +72,7 @@ function Casca() {
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/tabelas" element={<Tabelas />} />
           <Route path="/ajustes" element={<Ajustes />} />
+          <Route path="/entrar" element={<Entrar />} />
         </Routes>
       </main>
       <footer className="rodape">

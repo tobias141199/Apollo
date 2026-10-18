@@ -1,6 +1,7 @@
 // Repetição espaçada com FSRS (o algoritmo do Anki moderno).
 import { createEmptyCard, fsrs, Rating, type Card, type Grade } from 'ts-fsrs'
 import { db, type Cartao, type Direcao } from './db'
+import { marcar } from './nuvem'
 
 const agendador = fsrs({ enable_fuzz: true })
 
@@ -32,6 +33,7 @@ export async function responder(palavra: string, direcao: Direcao, nota: Nota, a
   const atual: Card = (await db.cartoes.get(id))?.card ?? createEmptyCard<Card>(agora)
   const { card } = agendador.next(atual, agora, nota)
   await db.cartoes.put({ id, palavra, direcao, card })
+  marcar('cartoes', id)
   return card
 }
 

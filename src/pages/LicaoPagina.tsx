@@ -6,6 +6,7 @@ import { FonteTag } from '../components/FonteTag'
 import { GregoInput } from '../components/GregoInput'
 import { TabelaParadigma } from '../components/TabelaParadigma'
 import { db } from '../lib/db'
+import { marcar } from '../lib/nuvem'
 import { chave, ehGrego, respostaCorreta } from '../lib/greek'
 
 type Aba = 'vocab' | 'gramatica' | 'texto' | 'exercicios' | 'cultura' | 'ponte'
@@ -272,7 +273,7 @@ function ItemExercicio({ id, pergunta, resposta, grego }: { id: string; pergunta
   useEffect(() => {
     db.respostas.where('exercicio').equals(id).last().then(r => r && setTxt(r.texto))
   }, [id])
-  const salvar = (v: string) => { setTxt(v); db.respostas.add({ exercicio: id, texto: v, em: new Date() }) }
+  const salvar = (v: string) => { setTxt(v); db.respostas.add({ exercicio: id, texto: v, em: new Date() }).then(() => marcar('respostas', id)) }
   const certo = resposta && txt && ehGrego(resposta) ? respostaCorreta(txt, resposta) : null
   return (
     <li className="item-exercicio">

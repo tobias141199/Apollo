@@ -1,8 +1,9 @@
-// Editor de imagens dos flashcards. Só existe no `npm run dev`: envia a imagem para o servidor
-// local (plugin `editor-de-imagens` em vite.config.ts), que a converte para WebP, grava em
-// public/imagens/ e atualiza content/public/imagens.json. No site publicado, não aparece.
+// Editor de imagens dos flashcards. Só aparece para o administrador (ADMIN_EMAIL no servidor):
+// envia a imagem para /api/imagens, que a converte para WebP e a guarda no banco de dados.
+// Os outros usuários só veem as imagens.
 import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
 import { imagemDe, type ImagemPalavra } from '../content'
+import { useConta } from '../lib/nuvem'
 
 // Trocas feitas nesta sessão (o JSON só é relido ao recarregar a página). null = removida.
 const trocas = new Map<string, ImagemPalavra | null>()
@@ -27,7 +28,7 @@ const lerArquivo = (f: Blob) => new Promise<string>((ok, erro) => {
 
 export function EditorImagem({ chave, lema, img }: { chave: string; lema: string; img?: ImagemPalavra }) {
   const [aberto, setAberto] = useState(false)
-  if (!import.meta.env.DEV) return null
+  if (!useConta().usuario?.admin) return null
   return aberto
     ? <Painel chave={chave} lema={lema} img={img} fechar={() => setAberto(false)} />
     : (
@@ -40,7 +41,7 @@ export function EditorImagem({ chave, lema, img }: { chave: string; lema: string
 
 async function remover(chave: string) {
   if (!confirm('Remover a imagem desta palavra?')) return
-  const r = await fetch(`/__imagens?chave=${encodeURIComponent(chave)}`, { method: 'DELETE' })
+  const r = await fetch(`/api/imagens?chave=${encodeURIComponent(chave)}`, { method: 'DELETE' })
   if (!r.ok) return alert(await r.text())
   trocas.set(chave, null); avisar()
 }
@@ -73,9 +74,10 @@ function Painel({ chave, lema, img, fechar }: { chave: string; lema: string; img
     if (!arquivo && !link) return setEstado('Escolha, arraste ou cole uma imagem (ou cole o endereço dela).')
     setEstado('enviando')
     const corpo = { chave, lema, ...campos, titulo: campos.titulo || lema, link: link || undefined, dados: arquivo ? await lerArquivo(arquivo) : undefined }
-    const r = await fetch('/__imagens', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(corpo) })
+    const r = await fetch('/api/imagens', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(corpo) })
     if (!r.ok) return setEstado(await r.text())
-    trocas.set(chave, await r.json()); avisar(); fechar()
+    const nova = await r.json() as Omit<ImagemPalavra, 'src'>
+    trocas.set(chave, { ...nova, src: `/api/imagens/${nova.id}.webp` }); avisar(); fechar()
   }
   const campo = (k: keyof typeof campos, rotulo: string, dica = '') => (
     <label>{rotulo}<input value={campos[k]} placeholder={dica} onChange={ev => setCampos(c => ({ ...c, [k]: ev.target.value }))} /></label>

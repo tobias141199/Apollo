@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import { temPrivado } from '../content'
 import { db, exportar, importar } from '../lib/db'
+import { apagarProgressoNaConta, marcarTudo, sair, useConta } from '../lib/nuvem'
+import { Link } from 'react-router-dom'
 
 export function Ajustes() {
   const [msg, setMsg] = useState('')
+  const { usuario, servidor } = useConta()
   const baixar = async () => {
     const blob = new Blob([await exportar()], { type: 'application/json' })
     const a = document.createElement('a')
@@ -14,19 +17,33 @@ export function Ajustes() {
   }
   const carregar = async (f?: File) => {
     if (!f) return
-    try { await importar(await f.text()); setMsg('Backup restaurado.') } catch (e) { setMsg(`Erro: ${(e as Error).message}`) }
+    try { await importar(await f.text()); await marcarTudo(); setMsg('Backup restaurado.') } catch (e) { setMsg(`Erro: ${(e as Error).message}`) }
   }
   const zerar = async () => {
     if (!confirm('Apagar todo o progresso dos flashcards e respostas de exercícios? Isso não pode ser desfeito.')) return
+    try { await apagarProgressoNaConta() } catch (e) { return setMsg(`Erro: ${(e as Error).message}`) }
     await Promise.all([db.cartoes.clear(), db.respostas.clear()])
     setMsg('Progresso apagado.')
   }
   return (
     <div className="pagina">
       <h1>Ajustes</h1>
+      {servidor && (
+        <section>
+          <h2>Conta</h2>
+          {usuario
+            ? <>
+                <p>Você entrou como <b>{usuario.email}</b>{usuario.admin && ' (administrador: pode trocar as imagens dos flashcards)'}. O seu progresso fica salvo na conta e aparece em qualquer aparelho.</p>
+                <button className="botao secundario" onClick={() => sair()}>Sair</button>
+              </>
+            : <p>Você não entrou numa conta: o progresso fica só neste navegador. <Link to="/entrar">Entrar ou criar conta</Link></p>}
+        </section>
+      )}
       <section>
         <h2>Seu progresso</h2>
-        <p>O progresso fica salvo <b>só neste navegador</b>. Para levar para outro aparelho ou não perder nada, faça um backup.</p>
+        <p>{usuario
+          ? 'O progresso é salvo na sua conta e também neste navegador. O backup continua disponível, se quiser uma cópia.'
+          : <>O progresso fica salvo <b>só neste navegador</b>. Para levar para outro aparelho ou não perder nada, faça um backup.</>}</p>
         <div className="barra">
           <button className="botao" onClick={baixar}>Baixar backup</button>
           <label className="botao secundario">Restaurar backup<input type="file" accept="application/json" hidden onChange={e => carregar(e.target.files?.[0])} /></label>

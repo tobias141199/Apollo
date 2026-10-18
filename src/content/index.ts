@@ -268,13 +268,18 @@ export const entradaPorChave = new Map(vocabulario.map(e => [e.chave, e]))
 // ---------------------------------------------------------------------------------------------
 // Imagens dos flashcards (content/public/imagens.json → public/imagens/).
 
-const catalogo = CatalogoImagens.parse(Object.values(pubImagens)[0] ?? { imagens: {}, palavras: {} })
-export interface ImagemPalavra extends Imagem { id: string; src: string }
+// O catálogo que vem no pacote é só o ponto de partida: com o servidor no ar, src/lib/nuvem.ts troca
+// pelo catálogo do banco (GET /api/imagens), onde as imagens são editadas.
+type CatalogoAtual = { imagens: Record<string, Omit<Imagem, 'arquivo' | 'licenca'> & { arquivo?: string; licenca?: string }>; palavras: Record<string, string> }
+let catalogo: CatalogoAtual = CatalogoImagens.parse(Object.values(pubImagens)[0] ?? { imagens: {}, palavras: {} })
+let baseImagens = `${import.meta.env.BASE_URL}imagens/`
+export function definirCatalogo(c: CatalogoAtual, base: string) { catalogo = c; baseImagens = base }
+export interface ImagemPalavra extends Omit<Imagem, 'arquivo' | 'licenca'> { id: string; src: string; licenca?: string }
 /** A imagem associada a uma palavra (pela chave do lema), com o endereço pronto para <img>. */
 export function imagemDe(chavePalavra: string): ImagemPalavra | undefined {
   const id = catalogo.palavras[chavePalavra]
   const img = id ? catalogo.imagens[id] : undefined
-  return img && { ...img, id, src: `${import.meta.env.BASE_URL}imagens/${img.arquivo}` }
+  return img && { ...img, id, src: `${baseImagens}${img.arquivo ?? `${id}.webp`}` }
 }
 
 /** Citações e exemplos de todas as lições (para o verbete). */

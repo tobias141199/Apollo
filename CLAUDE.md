@@ -33,7 +33,9 @@ src/content/index.ts            # carrega e mescla público + privado; monta as 
 src/content/schema.test.ts      # validação de todo o conteúdo
 src/lib/                        # greek.ts (normalização, beta code), db.ts (Dexie), srs.ts (FSRS), selecao.tsx (lições escolhidas),
                                 #   janelas.tsx (janelas flutuantes de tabelas), estudadas.ts (lições marcadas na trilha)
+src/lib/nuvem.ts                # conta do usuário e sincronização do progresso com o servidor
 src/pages/, src/components/     # interface (React + TS)
+server/                         # servidor (Node + Hono + PostgreSQL): site + API de login, progresso e imagens
 public/imagens/*.webp           # as imagens dos flashcards (≤720 px, WebP), geradas por scripts/imagens/baixar.mjs
 scripts/imagens/                # buscar.mjs (candidatos + folha de contato), escolher.mjs (→ catálogo), baixar.mjs (→ WebP)
 scripts/ocr.sh                  # OCR (tesseract por/grc/eng) → ocr/<livro>/page-NNN.txt
@@ -108,14 +110,18 @@ Capítulo sem arquivo aparece na trilha como "em preparação". A ponte vale nos
 
 Cada tabela pode ser destacada (⧉) numa janela flutuante, que continua aberta ao trocar de página, ou acrescentada (＋) à janela da frente (até 5 lado a lado). Arrastar uma tabela pela barra de título para outra janela junta as duas; soltar fora a destaca. O ⧉ da janela abre `/#/janela?t=a,b,c` numa janela própria do navegador. O estado fica no localStorage (`ag:janelas`).
 
+## Servidor, contas e banco de dados (Railway)
+
+O site roda no **Railway** (projeto "Apollo"): um serviço Node (`server/index.ts`) que entrega o site construído (`npm run build:public`, sem o pacote privado) e a API em `/api`, mais um PostgreSQL. O Railway publica sozinho a cada push na `main`. O GitHub Pages foi desligado.
+
+- **Contas** (`server/auth.ts`): e-mail e senha (scrypt) ou Google (OAuth; só com `GOOGLE_CLIENT_ID`/`GOOGLE_CLIENT_SECRET`). Sessão num cookie httpOnly de 180 dias; o banco guarda só o hash do token.
+- **Progresso** (`server/progresso.ts` + `src/lib/nuvem.ts`): continua no navegador (Dexie + localStorage) e funciona sem conta e sem internet. Com conta, o que muda fica "pendente" (`marcar()`) e é enviado; o que mudou em outro aparelho é baixado (`?desde=`). Ao criar conta, o progresso feito sem conta passa para ela; ao sair, o navegador é limpo. Toda gravação nova de progresso precisa chamar `marcar()`.
+- **Variáveis no Railway**: `DATABASE_URL` (referência ao Postgres), `ADMIN_EMAIL` (quem pode trocar imagens; vários separados por vírgula), `NODE_ENV=production`, `PUBLIC_URL` e, para o Google, `GOOGLE_CLIENT_ID` e `GOOGLE_CLIENT_SECRET`.
+- **Desenvolvimento**: `npm run dev` sobe o servidor (porta 3000, lendo `.env`) e o Vite (5173, que repassa `/api`). Com `DATABASE_URL` no `.env` (o endereço público do Postgres do Railway), login, progresso e imagens funcionam localmente com os dados reais. Sem `.env`, o site funciona só com o navegador.
+
 ## Imagens dos flashcards
 
-As palavras têm imagens (vaso, escultura, moeda, foto de sítio) no verso do cartão e no verbete. As imagens atuais vieram de uma curadoria inicial (Wikimedia Commons, Met, Art Institute of Chicago). **Daqui em diante, quem escolhe as imagens é o dono do projeto, pelo próprio programa.** Não acrescente nem troque imagens por conta própria.
-
-- **Editor (só no `npm run dev`)**: no verso do cartão e no verbete aparecem "pôr/trocar imagem" e "remover". A imagem pode ser arrastada, colada (Ctrl+V), escolhida num arquivo ou dada por endereço. O plugin `editor-de-imagens` (vite.config.ts) converte para WebP, grava em `public/imagens/` e atualiza `content/public/imagens.json`; imagens que ficam sem palavra são apagadas. No site publicado o editor não existe.
-- `palavras` liga a `chave()` do lema ao id da imagem; `imagens` traz o crédito (título, data, autor, acervo, licença, página de origem), mostrado como legenda.
-- Licenças: CC BY/BY-SA exigem `autor` (o teste confere); imagens enviadas sem crédito ficam com licença "não informada". Lembre ao dono que tudo em `public/` vai para o site público.
-- `scripts/imagens/` (buscar, escolher, baixar) ficou da curadoria inicial; `baixar.mjs` rebaixa as imagens que têm `origem`.
+As imagens ficam **no banco de dados** (tabelas `imagens`, com o WebP, e `palavras_imagens`). Na primeira vez que o servidor sobe, ele copia as que estavam no projeto (`content/public/imagens.json` + `public/imagens/`); esses arquivos ficaram só como semente e como reserva se o servidor não responder. **Quem escolhe as imagens é o dono do projeto, pelo próprio site** (conta de administrador: "trocar imagem"/"remover" no verso do cartão e no verbete). Não acrescente nem troque imagens por conta própria.
 
 ## Padrão da simbiose JACT × Athenaze
 
@@ -145,9 +151,10 @@ Para cada subseção da JACT:
 
 ## Comandos
 
-- `npm run dev`: servidor local com o pacote privado (http://localhost:5173).
+- `npm run dev`: site local com o pacote privado (http://localhost:5173) + servidor da API (veja "Servidor").
+- `npm start`: o servidor de produção (o que o Railway roda).
 - `npm test`: testes (grego, FSRS, validação de conteúdo).
-- `npm run build:public`: build sem conteúdo privado, mais a checagem de vazamento. É o que o GitHub Actions publica.
+- `npm run build:public`: build sem conteúdo privado, mais a checagem de vazamento. É o que o Railway publica.
 - `npm run build`: build local completo (não publique).
 - `npm run smoke`: com o `npm run dev` rodando, abre as páginas principais num Chromium headless (desktop e celular), acusa erros de JavaScript e rolagem horizontal e salva screenshots em `smoke/` (fora do git).
 
