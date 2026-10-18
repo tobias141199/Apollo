@@ -1,0 +1,213 @@
+{
+ "id": "6B",
+ "secao": 6,
+ "parte": 2,
+ "titulo": "As maravilhas da ciência",
+ "resumo": "Lá dentro, Estrepsíades vê alunos estudando a terra e o céu, instrumentos de astronomia e geometria e um mapa do mundo, que ele entende do seu jeito; por fim avista Sócrates suspenso num cesto.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 66,
+  "local": "6B"
+ },
+ "vocab": [
+  {
+   "grego": "ἀδύνατος",
+   "lexical": "ἀδύνατος ον",
+   "classe": "adjetivo",
+   "glosa": "impossível",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 67,
+    "local": "6B"
+   }
+  },
+  {
+   "grego": "Ἀθῆναι",
+   "lexical": "Ἀθῆναι, αἱ (1a)",
+   "classe": "nome próprio",
+   "glosa": "Atenas",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "nota": "Nome plural: \"as Atenas\".",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 67,
+    "local": "6B"
+   },
+   "athenaze": "cap. 6"
+  },
+  {
+   "grego": "δῆμος",
+   "lexical": "δῆμος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "demo (distrito da Ática); povo",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 67,
+    "local": "6B"
+   },
+   "athenaze": "cap. 9"
+  },
+  {
+   "grego": "θαυμάζω",
+   "lexical": "θαυμάζω",
+   "classe": "verbo",
+   "glosa": "admirar-se (com); maravilhar-se (com)",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 67,
+    "local": "6B"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "ὅπου",
+   "lexical": "ὅπου",
+   "classe": "advérbio",
+   "glosa": "onde?; onde",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 67,
+    "local": "6B"
+   }
+  },
+  {
+   "grego": "οὐρανός",
+   "lexical": "οὐρανός, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "céu",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 67,
+    "local": "6B"
+   },
+   "athenaze": "cap. 9"
+  },
+  {
+   "grego": "πείθομαι",
+   "lexical": "πείθομαι (πιθ-) (+ dat.)",
+   "classe": "verbo",
+   "glosa": "acreditar (em); confiar (em)",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "partes": [
+    "πείθομαι",
+    "πιθ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 67,
+    "local": "6B"
+   },
+   "athenaze": "cap. 6"
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "6B-o1",
+   "tipo": "transformar",
+   "titulo": "Do presente ao aoristo",
+   "enunciado": "Passe cada verbo para a mesma pessoa do aoristo indicativo e traduza. Pense no tipo de radical (labial, velar, dental, contrato, líquida).",
+   "itens": [
+    {
+     "pergunta": "θαυμάζεις",
+     "resposta": "ἐθαύμασας — tu te admiraste (dental/ζ cai)"
+    },
+    {
+     "pergunta": "πείθει",
+     "resposta": "ἔπεισε(ν) — ele persuadiu (θ cai)"
+    },
+    {
+     "pergunta": "διώκομεν",
+     "resposta": "ἐδιώξαμεν — nós perseguimos (κ + σ = ξ)"
+    },
+    {
+     "pergunta": "βλέπουσι(ν)",
+     "resposta": "ἔβλεψαν — eles viram (π + σ = ψ)"
+    },
+    {
+     "pergunta": "ἀκούετε",
+     "resposta": "ἠκούσατε — vós ouvistes (aumento ἀ → ἠ)"
+    },
+    {
+     "pergunta": "μένω",
+     "resposta": "ἔμεινα — eu fiquei (líquida: sem σ, ε → ει)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "6B"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 12 (Πρὸς τὸν Πειραιᾶ)",
+   "cap. 11 (Ὁ ἰατρός)"
+  ],
+  "comparacao": "6B não traz gramática nova (o grupo 6A–B está em 6A), mas é o melhor lugar para *fixar* os radicais do aoristo: ἐθαύμασας, ἐβόησας. Aqui o Athenaze ajuda muito, porque o cap. 12, Gram. 1 (pp. 197–198) organiza os verbos por tipo de radical — labial, velar, dental, contrato — exatamente como a JACT nos §132–135, mas com o futuro e o aoristo lado a lado (βλέπω, βλέψομαι, ἔβλεψα). Vale a pena copiar essa tabela.\n\nNo vocabulário, os dois livros se tocam bastante: θαυμάζω aparece no Athenaze desde o cap. 5, com a distinção útil entre uso intransitivo (\"admirar-se\") e transitivo (\"admirar algo\"); δῆμος e οὐρανός, no cap. 9. Atenção ao sentido: no Athenaze δῆμος é sobretudo \"o povo\"; em 6B ele é o *demo*, o distrito da Ática onde Estrepsíades está registrado.\n\nOrdem sugerida: depois de ler 6B, faça o Exercício 12γ do Athenaze (p. 199: futuro e aoristo de 15 verbos) e confira com os §132–135 da JACT.",
+  "complementos": [
+   "Athenaze cap. 12, Gram. 1 (p. 198): verbos com futuro depoente e aoristo ativo — ἀκούω (ἀκούσομαι, ἤκουσα), βοάω (βοήσομαι, ἐβόησα), θαυμάζω (θαυμάσομαι, ἐθαύμασα), διώκω (διώξομαι, ἐδίωξα).",
+   "Athenaze cap. 12, Gram. 3 (p. 207): aoristos assigmáticos de radicais em λ, μ, ν, ρ, com o alongamento explicado pelo futuro: μενῶ → ἔμεινα, ἀποκτενῶ → ἀπέκτεινα, φανοῦμαι → ἐφηνάμην.",
+   "Athenaze cap. 11, Gram. 8 (pp. 190–191): lista de aumentos de verbos começados por vogal e ditongo (αἰτέω → ᾔτησα, οἰκέω → ᾤκησα, αὐξάνω → ηὔξησα).",
+   "Athenaze cap. 12β, Word Building (p. 206): o α- privativo — δυνατός / ἀδύνατος, αἴτιος / ἀναίτιος; serve para entender ἀδύνατος e ἀμαθής desta seção.",
+   "Vocabulário em comum: θαυμάζω (cap. 5), πείθομαι e Ἀθῆναι (cap. 6), δῆμος e οὐρανός (cap. 9)."
+  ],
+  "citacoes": [
+   {
+    "grego": "οὗτος, διὰ τί ἐθαύμασας; διὰ τί αὖθις ἐβόησας;",
+    "traducao": "Ei, tu! Por que ficaste espantado? Por que gritaste de novo?",
+    "comentario": "JACT: dois aoristos sigmáticos — dental ζ some antes do σ (θαυμάζω → ἐθαύμασα); contrato alonga (βοάω → ἐβόησα).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 66,
+     "local": "6B",
+     "linhas": "l. 2"
+    }
+   },
+   {
+    "grego": "ὁ οὖν βασιλεὺς ἰδὼν αὐτὸν ἐθαύμασε καὶ ἤρετο εἰ δύναται τὸν πόδα ἰατρεύειν.",
+    "traducao": "O rei, ao vê-lo, ficou espantado e perguntou se ele era capaz de tratar o pé.",
+    "comentario": "Athenaze: o mesmo ἐθαύμασε; repare também em πόδα (de πούς, vocabulário de 6A).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 192,
+     "local": "cap. 11, Ὁ Δημοκήδης",
+     "linhas": "l. 7"
+    }
+   },
+   {
+    "grego": "τί σὺ λέγεις; οὐ πείθομαι.",
+    "traducao": "Que estás dizendo? Não acredito.",
+    "comentario": "JACT: πείθομαι, \"acreditar, confiar\" (voz média de πείθω).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 66,
+     "local": "6B",
+     "linhas": "l. 23"
+    }
+   },
+   {
+    "grego": "ἄγροικοι γὰρ ὄντες φαίνεσθε ἀπορεῖν.",
+    "traducao": "Pois, sendo gente do campo, pareceis estar perdidos.",
+    "comentario": "Athenaze: ἄγροικος, a palavra com que a JACT rotula Estrepsíades (6A, l. 18 e 41).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 205,
+     "local": "cap. 12β"
+    }
+   }
+  ]
+ }
+}

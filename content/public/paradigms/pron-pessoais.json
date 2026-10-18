@@ -1,0 +1,50 @@
+{
+  "id": "pron-pessoais",
+  "titulo": "Pronomes pessoais — ἐγώ, ἡμεῖς, σύ, ὑμεῖς",
+  "grupo": "pronome",
+  "colunas": [
+    "ἐγώ (sg.)",
+    "ἡμεῖς (pl.)",
+    "σύ (sg.)",
+    "ὑμεῖς (pl.)"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "ἐγώ",
+        "ἡμεῖς",
+        "σύ",
+        "ὑμεῖς"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "ἐμέ, με",
+        "ἡμᾶς",
+        "σέ, σε",
+        "ὑμᾶς"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "ἐμοῦ, μου",
+        "ἡμῶν",
+        "σοῦ, σου",
+        "ὑμῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "ἐμοί, μοι",
+        "ἡμῖν",
+        "σοί, σοι",
+        "ὑμῖν"
+      ]
+    }
+  ],
+  "nota": "As formas curtas (με, μου, μοι, σε, σου, σοι) são enclíticas e não enfáticas. O nominativo só aparece quando há ênfase, pois o verbo já indica a pessoa."
+}

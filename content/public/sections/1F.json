@@ -1,0 +1,120 @@
+{
+ "id": "1F",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "Abandonados no mar",
+ "resumo": "Os dois cúmplices se lançam ao mar atrás do bote, mas o capitão o solta e o bote se afasta. Os vigaristas ficam se afogando, e o capitão não se comove.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 14,
+  "local": "1F"
+ },
+ "vocab": [
+  {
+   "grego": "οἴμοι",
+   "lexical": "οἴμοι",
+   "classe": "interjeição",
+   "glosa": "ai de mim!",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 15,
+    "local": "1F"
+   }
+  },
+  {
+   "grego": "ποῦ",
+   "lexical": "ποῦ;",
+   "classe": "advérbio",
+   "glosa": "onde?",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 15,
+    "local": "1F"
+   },
+   "athenaze": "cap. 5"
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "1F-o1",
+   "tipo": "completar",
+   "titulo": "Onde? Para onde? Como?",
+   "enunciado": "Complete com ποῦ, ποῖ ou um advérbio em -ως (σαφῶς, κακῶς, καλῶς, ἀκριβῶς) e traduza.",
+   "itens": [
+    {
+     "pergunta": "___ ἐστιν ὁ λέμβος; (onde)",
+     "resposta": "ποῦ ἐστιν ὁ λέμβος; — Onde está o bote?"
+    },
+    {
+     "pergunta": "___ φεύγεις, ὦ Ζηνόθεμι; (para onde)",
+     "resposta": "ποῖ φεύγεις, ὦ Ζηνόθεμι; — Para onde foges, Zenótemis?"
+    },
+    {
+     "pergunta": "οἱ ναῦται τὸν λέμβον ___ ὁρῶσιν. (claramente)",
+     "resposta": "σαφῶς — Os marinheiros veem o bote claramente."
+    },
+    {
+     "pergunta": "ὁ κυβερνήτης ___ βλέπει. (com precisão)",
+     "resposta": "ἀκριβῶς — O piloto olha com precisão."
+    },
+    {
+     "pergunta": "κακοὶ οἱ ἄνθρωποι καὶ ___ ἀποθνῄσκουσιν. (de modo vil)",
+     "resposta": "κακῶς — Os homens são maus e morrem de modo vil."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1F"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 4 (Πρὸς τῇ κρήνῃ)",
+   "cap. 5 (Ὁ λύκος)"
+  ],
+  "comparacao": "1F fecha o episódio do naufrágio frustrado com contratos (ζητοῦσιν, ὁρῶσιν, ἀποχωρεῖ, βοηθεῖτε), advérbios (σαφῶς, κακῶς) e a pergunta ποῦ; (as notas de gramática de 1E–F estão em 1E). No Athenaze, o cap. 5α tem a cena paralela: Filipe procura o cachorro que sumiu no morro, com ποῦ ἐστιν…;, ζητέω e muitos contratos em -α-.\n\nRepare na diferença entre ποῦ; \"onde?\" (lugar onde se está) e ποῖ; \"para onde?\" (movimento, 1C e 1E). O Athenaze ainda não usa ποῖ nos caps. 1–5, então aqui a JACT é a referência.",
+  "complementos": [
+   "Athenaze cap. 5α, vocabulário (p. 54): ποῦ; \"onde?\" e ζητέω \"procuro\" — os dois aparecem em 1F (ποῦ ὁ λέμβος;, τὸν λέμβον ζητοῦσιν).",
+   "Athenaze cap. 5α (p. 55): πόθεν ἥκεις; \"de onde vens?\" — completa o trio ποῦ / ποῖ / πόθεν (a JACT usa πόθεν em 1C: πόθεν ὁ ψόφος;).",
+   "Athenaze cap. 4β (p. 47): οἴμοι aparece nas glosas, na boca de Melita, com o mesmo tom de lamento de 1F."
+  ],
+  "citacoes": [
+   {
+    "grego": "οἴμοι, ποῦ ὁ λέμβος; ποῦ ἐστιν, ὦ Ἡγέστρατε;",
+    "traducao": "Ai de mim, onde está o bote? Onde ele está, Hegéstrato?",
+    "comentario": "JACT: ποῦ; com e sem ἐστί (elipse) e o lamento οἴμοι.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 14,
+     "local": "1F"
+    }
+   },
+   {
+    "grego": "πόθεν ἥκεις καὶ ποῦ ἐστιν ὁ Ἄργος;",
+    "traducao": "De onde vens e onde está Argos?",
+    "comentario": "Athenaze: a mesma pergunta ποῦ ἐστιν…; ao lado de πόθεν.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 55,
+     "local": "cap. 5α"
+    }
+   },
+   {
+    "grego": "στενάζει οὖν καί, “οἴμοι,” φησίν, “οὐκ αἰτία εἰμὶ ἐγώ.”",
+    "traducao": "Ela geme e diz: \"Ai de mim, não é culpa minha!\"",
+    "comentario": "Athenaze: οἴμοι no mesmo uso de 1F, depois que Melita quebra o cântaro.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 47,
+     "local": "cap. 4β"
+    }
+   }
+  ]
+ }
+}

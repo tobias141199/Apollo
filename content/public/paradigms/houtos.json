@@ -1,0 +1,77 @@
+{
+  "id": "houtos",
+  "titulo": "Demonstrativo οὗτος αὕτη τοῦτο — 'este, esse'",
+  "grupo": "pronome",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "οὗτος",
+        "αὕτη",
+        "τοῦτο"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "τοῦτον",
+        "ταύτην",
+        "τοῦτο"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "τούτου",
+        "ταύτης",
+        "τούτου"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "τούτῳ",
+        "ταύτῃ",
+        "τούτῳ"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "οὗτοι",
+        "αὗται",
+        "ταῦτα"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "τούτους",
+        "ταύτας",
+        "ταῦτα"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "τούτων",
+        "τούτων",
+        "τούτων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "τούτοις",
+        "ταύταις",
+        "τούτοις"
+      ]
+    }
+  ],
+  "nota": "Regra prática: começa com τ- onde o artigo tem τ (τοῦτον, ταύτης) e sem τ onde o artigo não tem (οὗτος, αὕτη, αὗται); a sílaba é του- se a terminação tem ο/ω e ταυ- se tem η/α. Com substantivo, fica fora do bloco artigo + nome: οὗτος ὁ ἀνήρ 'este homem'."
+}

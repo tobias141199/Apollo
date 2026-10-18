@@ -1,0 +1,217 @@
+{
+ "id": "ath2",
+ "capitulo": 2,
+ "tituloGrego": "Ὁ Ξανθίας",
+ "titulo": "Xântias, o escravo preguiçoso",
+ "resumo": "Diceópolis acorda o escravo Xântias, forte mas preguiçoso, e o leva ao campo com os bois e o arado. Enquanto o patrão atrela os bois e reza a Deméter, Xântias volta a dormir debaixo da árvore.",
+ "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2" },
+ "vocab": [
+  { "grego": "ἐκβαίνω", "lexical": "ἐκβαίνει (ἐκβαίνω)", "classe": "verbo", "glosa": "sair; descer (de um lugar)", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "ἐλαύνω", "lexical": "ἐλαύνει (ἐλαύνω)", "classe": "verbo", "glosa": "conduzir, tocar (animais)", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "ἐλθέ", "lexical": "ἐλθέ", "classe": "verbo", "glosa": "vem! venha!", "aprender": true, "nota": "Imperativo (de outro radical do verbo \"ir/vir\"); o Athenaze o dá isolado, como a JACT em 1B.", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "καθεύδω", "lexical": "καθεύδει (καθεύδω)", "classe": "verbo", "glosa": "dormir", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "καλέω", "lexical": "καλεῖ (καλέω)", "classe": "verbo", "glosa": "chamar", "aprender": true, "paradigma": "poieo-presente", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "πάρειμι", "lexical": "πάρεστι(ν) (πάρειμι)", "classe": "verbo", "glosa": "estar presente; estar aqui / ali", "aprender": true, "paradigma": "eimi", "nota": "παρά + εἰμί; conjuga-se como εἰμί (πάρειμι, πάρει, πάρεστι).", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "σπεύδω", "lexical": "σπεύδει (σπεύδω)", "classe": "verbo", "glosa": "apressar-se", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "ἄροτρον", "lexical": "ἄροτρον, τό", "classe": "substantivo", "glosa": "arado", "aprender": true, "paradigma": "decl2-neut", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "δοῦλος", "lexical": "δοῦλος, ὁ", "classe": "substantivo", "glosa": "escravo", "aprender": true, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "ἐγώ", "lexical": "ἐγώ", "classe": "pronome", "glosa": "eu", "aprender": true, "paradigma": "pron-pessoais", "nota": "Só se usa quando há ênfase: a terminação do verbo já diz \"eu\".", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "ἀργός", "lexical": "ἀργός", "classe": "adjetivo", "glosa": "preguiçoso; à toa", "aprender": true, "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "οὕτως", "lexical": "οὕτως (antes de consoante, οὕτω)", "classe": "advérbio", "glosa": "assim; tão", "aprender": true, "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "μή", "lexical": "μή", "classe": "advérbio", "glosa": "não; + imperativo: não …!", "aprender": true, "nota": "οὐ nega afirmações; μή nega ordens (μὴ κάθευδε, \"não durma!\").", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "τί;", "lexical": "τί;", "classe": "advérbio", "glosa": "por quê?", "aprender": true, "nota": "Também \"o quê?\" (pronome), como na JACT.", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "μέν … δέ", "lexical": "μέν … δέ …", "classe": "partícula", "glosa": "por um lado … por outro; … e / mas …", "aprender": true, "nota": "Pospositivas. Muitas vezes basta traduzir μέν por nada e δέ por \"e\" ou \"mas\".", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+  { "grego": "Ξανθίας", "lexical": "Ξανθίας, ὁ", "classe": "nome próprio", "glosa": "Xântias", "aprender": true, "paradigma": "decl1-d", "nota": "Nome típico de escravo: \"o loiro\". Vocativo ὦ Ξανθία; acusativo Ξανθίαν.", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α" } },
+
+  { "grego": "ἐκ", "lexical": "ἐκ + gen.", "classe": "preposição", "glosa": "para fora de; de", "aprender": false, "nota": "ἐκ τοῦ οἴκου = para fora de casa.", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 1" } },
+  { "grego": "εἰ μή", "lexical": "εἰ μή", "classe": "expressão", "glosa": "a não ser que; se não", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 3" } },
+  { "grego": "νῦν", "lexical": "νῦν", "classe": "advérbio", "glosa": "agora", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 3" } },
+  { "grego": "δεῦρο", "lexical": "δεῦρο", "classe": "advérbio", "glosa": "para cá; aqui", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 4" } },
+  { "grego": "ἴσθι", "lexical": "ἴσθι (εἰμί)", "classe": "verbo", "glosa": "sê! seja!", "aprender": false, "paradigma": "verbo-imperativo", "nota": "μὴ … ἴσθι = não seja …!", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 5" } },
+  { "grego": "αὐτό", "lexical": "αὐτό", "classe": "pronome", "glosa": "o; isso (neutro, como objeto)", "aprender": false, "paradigma": "autos", "fonte": { "livro": "Athenaze", "pagina": 13, "local": "cap. 2α", "linhas": "l. 9" } },
+
+  { "grego": "ἄγω", "lexical": "ἄγω", "classe": "verbo", "glosa": "conduzir; levar", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "εἰσάγω", "lexical": "εἰσάγω", "classe": "verbo", "glosa": "conduzir para dentro; fazer entrar", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "βαίνω", "lexical": "βαίνω", "classe": "verbo", "glosa": "dar um passo; andar; ir", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "βλέπω", "lexical": "βλέπω", "classe": "verbo", "glosa": "olhar; ver", "aprender": true, "paradigma": "verbo-presente-ativo", "nota": "Em geral intransitivo: βλέπει πρὸς τὸν δοῦλον = olha para o escravo.", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "λαμβάνω", "lexical": "λαμβάνω", "classe": "verbo", "glosa": "pegar; tomar", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "συλλαμβάνω", "lexical": "συλλαμβάνω [συν- + λαμβάνω]", "classe": "verbo", "glosa": "ajudar", "aprender": true, "paradigma": "verbo-presente-ativo", "nota": "Literalmente \"pegar junto\".", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "βοῦς", "lexical": "βοῦς, ὁ", "classe": "substantivo", "glosa": "boi", "aprender": true, "nota": "Acusativo plural τοὺς βοῦς; vocativo plural ὦ βόες. 3ª declinação irregular (parecida com ναῦς).", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "δένδρον", "lexical": "δένδρον, τό", "classe": "substantivo", "glosa": "árvore", "aprender": true, "paradigma": "decl2-neut", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "δεσπότης", "lexical": "δεσπότης, ὁ", "classe": "substantivo", "glosa": "senhor; dono; patrão", "aprender": true, "paradigma": "decl1-d", "nota": "Vocativo com acento recuado: ὦ δέσποτα.", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "εἰς", "lexical": "εἰς + acus.", "classe": "preposição", "glosa": "para dentro de; para; a", "aprender": true, "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "βραδέως", "lexical": "βραδέως", "classe": "advérbio", "glosa": "devagar", "aprender": true, "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "ἔπειτα", "lexical": "ἔπειτα", "classe": "advérbio", "glosa": "então; depois; em seguida", "aprender": true, "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+  { "grego": "ἤδη", "lexical": "ἤδη", "classe": "advérbio", "glosa": "já; agora mesmo", "aprender": true, "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β" } },
+
+  { "grego": "ὄπισθεν", "lexical": "ὄπισθεν", "classe": "advérbio", "glosa": "atrás", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β", "linhas": "l. 1" } },
+  { "grego": "μοι", "lexical": "μοι", "classe": "pronome", "glosa": "a mim; me (dativo de ἐγώ)", "aprender": false, "paradigma": "pron-pessoais", "nota": "Enclítico.", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β", "linhas": "l. 5" } },
+  { "grego": "ζυγόν", "lexical": "ζυγόν, τό", "classe": "substantivo", "glosa": "jugo", "aprender": false, "paradigma": "decl2-neut", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β", "linhas": "l. 8" } },
+  { "grego": "προσάπτω", "lexical": "προσάπτει (προσάπτω)", "classe": "verbo", "glosa": "prender; atrelar", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β", "linhas": "l. 8" } },
+  { "grego": "κατάρατος", "lexical": "ὦ κατάρατε (κατάρατος)", "classe": "adjetivo", "glosa": "maldito (ὦ κατάρατε = seu desgraçado!)", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 11" } },
+  { "grego": "σπέρμα", "lexical": "σπέρμα, τό", "classe": "substantivo", "glosa": "semente", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 11" } },
+  { "grego": "ἀκολουθέω", "lexical": "ἀκολουθεῖ (ἀκολουθέω)", "classe": "verbo", "glosa": "seguir; acompanhar", "aprender": false, "paradigma": "poieo-presente", "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 13" } },
+  { "grego": "Δημήτηρ", "lexical": "Δημήτηρ (acus. Δήμητρα, voc. Δήμητερ)", "classe": "nome próprio", "glosa": "Deméter (deusa do grão)", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 13–14" } },
+  { "grego": "ἵλεως", "lexical": "ἵλεως", "classe": "adjetivo", "glosa": "propício; benévolo", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 13" } },
+  { "grego": "πληθύνω", "lexical": "πλήθυνε (πληθύνω)", "classe": "verbo", "glosa": "multiplicar", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 14" } },
+  { "grego": "κέντρον", "lexical": "κέντρον, τό", "classe": "substantivo", "glosa": "aguilhão; ferrão", "aprender": false, "paradigma": "decl2-neut", "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 14" } },
+  { "grego": "κεντέω", "lexical": "κεντεῖ (κεντέω)", "classe": "verbo", "glosa": "aguilhoar; espetar", "aprender": false, "paradigma": "poieo-presente", "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 15" } },
+  { "grego": "ἕλκω", "lexical": "ἕλκετε (ἕλκω)", "classe": "verbo", "glosa": "puxar; arrastar", "aprender": false, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 15" } },
+  { "grego": "ἀρόω", "lexical": "ἀροῦτε (ἀρόω)", "classe": "verbo", "glosa": "arar; lavrar", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 16" } },
+  { "grego": "σοι", "lexical": "σοι", "classe": "pronome", "glosa": "a ti; a você (dativo de σύ)", "aprender": false, "paradigma": "pron-pessoais", "fonte": { "livro": "Athenaze", "pagina": 22, "local": "cap. 2, Ὁ δοῦλος" } },
+  { "grego": "μέτρον", "lexical": "μέτρον, τό", "classe": "substantivo", "glosa": "medida", "aprender": false, "paradigma": "decl2-neut", "fonte": { "livro": "Athenaze", "pagina": 17, "local": "cap. 2, Greek Wisdom" } },
+  { "grego": "βιβλίον", "lexical": "βιβλίον, τό", "classe": "substantivo", "glosa": "livro", "aprender": false, "paradigma": "decl2-neut", "fonte": { "livro": "Athenaze", "pagina": 23, "local": "cap. 2, Classical Greek (Calímaco)" } },
+  { "grego": "κακός", "lexical": "κακόν (κακός)", "classe": "adjetivo", "glosa": "mau; (neutro) um mal, um problema", "aprender": false, "paradigma": "adj-kalos", "fonte": { "livro": "Athenaze", "pagina": 23, "local": "cap. 2, Classical Greek (Calímaco)" } },
+  { "grego": "υἱός", "lexical": "υἱός, ὁ", "classe": "substantivo", "glosa": "filho", "aprender": false, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 23, "local": "cap. 2, New Testament Greek (Lc 3,22)" } }
+ ],
+ "gramatica": [
+  {
+   "topico": "Presente do indicativo: 1ª, 2ª e 3ª pessoas do singular",
+   "nota": "O *indicativo* é o modo das afirmações e perguntas sobre fatos. As terminações do singular são: -ω (eu), -εις (você/tu), -ει (ele/ela): λύω, λύεις, λύει. Nos contratos em -έω a vogal se funde: φιλῶ, φιλεῖς, φιλεῖ. E o irregular εἰμί: εἰμί, εἶ, ἐστί(ν) (εἰμί e ἐστί são enclíticos; εἶ não).\n\nComo a terminação já diz quem age, o pronome sujeito (ἐγώ, σύ) só aparece quando há *ênfase* ou contraste: ἐγὼ μὲν πονῶ, σὺ δὲ καθεύδεις, \"*eu* trabalho, mas *você* dorme\".\n\nA JACT apresenta o presente inteiro (singular e plural) de uma vez em 1C–D; o Athenaze deixa o plural para os caps. 3–4.",
+   "jact": { "livro": "JACT-Gramatica", "pagina": "14–16", "local": "1C–D, §12–16b" },
+   "athenaze": { "livro": "Athenaze", "pagina": "13–14", "local": "cap. 2, Gram. 1" },
+   "paradigmas": ["verbo-presente-ativo", "poieo-presente", "eimi", "pron-pessoais"],
+   "exemplos": [
+    { "grego": "τί καθεύδεις;", "traducao": "Por que você está dormindo?", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 4–5" } },
+    { "grego": "οὐ γὰρ ἀργός εἰμι ἀλλὰ ἤδη σπεύδω.", "traducao": "Pois não sou preguiçoso; já estou me apressando.", "fonte": { "livro": "Athenaze", "pagina": 13, "local": "cap. 2α", "linhas": "l. 7" } },
+    { "grego": "ἐγὼ γὰρ ἐλαύνω τοὺς βοῦς.", "traducao": "Pois *eu* conduzo os bois.", "comentario": "ἐγώ enfático.", "fonte": { "livro": "Athenaze", "pagina": 13, "local": "cap. 2α", "linhas": "l. 9" } }
+   ]
+  },
+  {
+   "topico": "Proclíticas: οὐ antes de εἰμί e ἐστί",
+   "nota": "Proclíticas são palavras sem acento próprio que se apoiam na palavra *seguinte*, como οὐ / οὐκ / οὐχ (τί οὐ σπεύδεις;). Elas mexem no acento das enclíticas que vêm depois:\n\n- οὐκ + εἰμί > οὐκ εἰμί (a enclítica fica com acento na 2ª sílaba; antes de outra palavra, οὐκ εἰμὶ ἀργός);\n- οὐκ + ἐστί > οὐκ ἔστιν (a enclítica recebe agudo na 1ª sílaba).\n\nNa leitura, ἔστι com acento na primeira sílaba depois de οὐκ é só isso: não muda o sentido.",
+   "jact": { "livro": "JACT-Gramatica", "pagina": "29–30", "local": "1G, §39–42" },
+   "athenaze": { "livro": "Athenaze", "pagina": 14, "local": "cap. 2, Gram. 2" },
+   "exemplos": [
+    { "grego": "οὐκ εἰμὶ ἀργός.", "traducao": "Não sou preguiçoso.", "fonte": { "livro": "Athenaze", "pagina": 14, "local": "cap. 2, Exercício 2α" } },
+    { "grego": "ὁ δοῦλος οὐκ ἔστιν ἀργός.", "traducao": "O escravo não é preguiçoso.", "fonte": { "livro": "Athenaze", "pagina": 14, "local": "cap. 2, Exercício 2α" } }
+   ]
+  },
+  {
+   "topico": "Imperativo e proibição com μή",
+   "nota": "O *imperativo* dá ordens. No singular termina em -ε: σπεῦδε, \"apresse-se!\"; nos contratos, φίλε-ε > φίλει. O imperativo de εἰμί é ἴσθι, \"seja!\". No plural, -ετε: σπεύδετε, ἕλκετε (ordens aos bois no fim da leitura β).\n\nPara proibir, usa-se μή (não οὐ) + imperativo: μὴ κάθευδε, \"não durma!\"; μὴ ἀργὸς ἴσθι, \"não seja preguiçoso!\".\n\nAtenção à diferença entre καλεῖ (\"ele chama\") e κάλει (\"chame!\"): só o acento muda. A JACT dá exatamente o mesmo aviso com ποιεῖ × ποίει (§26–27).",
+   "jact": { "livro": "JACT-Gramatica", "pagina": 17, "local": "1C–D, §18–21" },
+   "athenaze": { "livro": "Athenaze", "pagina": 15, "local": "cap. 2, Gram. 3" },
+   "paradigmas": ["verbo-imperativo"],
+   "exemplos": [
+    { "grego": "μὴ οὕτως ἀργὸς ἴσθι ἀλλὰ σπεῦδε.", "traducao": "Não seja tão preguiçoso; ande logo!", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 5" } },
+    { "grego": "μὴ κάθευδε ἀλλὰ συλλάμβανε.", "traducao": "Não durma, mas ajude!", "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 11" } },
+    { "grego": "σπεύδετε, ὦ βόες· ἕλκετε τὸ ἄροτρον καὶ ἀροῦτε τὸν ἀγρόν.", "traducao": "Depressa, bois! Puxem o arado e arem o campo!", "comentario": "Imperativos no plural.", "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 15–16" } }
+   ]
+  },
+  {
+   "topico": "Artigo, adjetivo e substantivo: o singular completo (2ª declinação)",
+   "nota": "Agora entram os cinco casos no singular. Masculino: ὁ καλὸς ἀγρός, τοῦ καλοῦ ἀγροῦ, τῷ καλῷ ἀγρῷ, τὸν καλὸν ἀγρόν, ὦ καλὲ ἀγρέ. Neutro: τὸ καλὸν δένδρον, τοῦ καλοῦ δένδρου, τῷ καλῷ δένδρῳ, τὸ καλὸν δένδρον, ὦ καλὸν δένδρον.\n\nNo neutro, nominativo, acusativo e vocativo são *iguais*: o contexto decide se τὸ ἄροτρον é sujeito ou objeto. ὦ não é artigo, é uma interjeição que acompanha o vocativo.\n\nA JACT dá o mesmo em 1G (ἄνθρωπος 2a, ἔργον 2b), já com o plural.",
+   "jact": { "livro": "JACT-Gramatica", "pagina": "24–25", "local": "1G, §30–33" },
+   "athenaze": { "livro": "Athenaze", "pagina": 20, "local": "cap. 2, Gram. 4" },
+   "paradigmas": ["artigo", "decl2-masc", "decl2-neut", "adj-kalos"],
+   "exemplos": [
+    { "grego": "καθεύδει γὰρ ὑπὸ τῷ δένδρῳ.", "traducao": "Pois está dormindo debaixo da árvore.", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β", "linhas": "l. 9" } }
+   ]
+  },
+  {
+   "topico": "Usos dos casos",
+   "nota": "Resumo prático do que cada caso faz *por enquanto*:\n\n- *Nominativo*: sujeito e complemento de \"ser\" (ὁ ἀγρὸς καλός ἐστιν).\n- *Genitivo*: depois de certas preposições, sobretudo as de afastamento (ἐκ τοῦ οἴκου, \"para fora de casa\").\n- *Dativo*: depois de certas preposições de lugar onde se está (ἐν τῷ οἴκῳ, \"em casa\").\n- *Acusativo*: objeto direto (καλεῖ τὸν δοῦλον) e depois de preposições de movimento para algum lugar (πρὸς τὸν οἶκον, εἰς τὸν ἀγρόν).\n- *Vocativo*: para chamar alguém, geralmente com ὦ, que não se traduz (ὦ δοῦλε).\n\nRegra de leitura: ἐκ → \"de onde\", ἐν → \"onde\", εἰς/πρός → \"para onde\". A JACT organiza isso em §38 (preposições e o caso que pedem).",
+   "jact": { "livro": "JACT-Gramatica", "pagina": "28–29", "local": "1G, §38" },
+   "athenaze": { "livro": "Athenaze", "pagina": 20, "local": "cap. 2, Gram. 5" },
+   "paradigmas": ["decl2-masc"],
+   "exemplos": [
+    { "grego": "ὁ Δικαιόπολις ἐκβαίνει ἐκ τοῦ οἴκου καὶ καλεῖ τὸν Ξανθίαν.", "traducao": "Diceópolis sai de casa e chama Xântias.", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 1" } },
+    { "grego": "δι’ ὀλίγου δὲ ὁ Δικαιόπολις εἰσάγει τοὺς βοῦς εἰς τὸν ἀγρόν.", "traducao": "Logo Diceópolis faz os bois entrarem no campo.", "fonte": { "livro": "Athenaze", "pagina": 18, "local": "cap. 2β", "linhas": "l. 2–3" } },
+    { "grego": "ἐλθὲ δεῦρο, ὦ Ξανθία.", "traducao": "Venha cá, Xântias!", "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 4" } }
+   ]
+  },
+  {
+   "topico": "Acento persistente dos nomes",
+   "nota": "Nos substantivos e adjetivos o acento *persiste*: tende a ficar onde está no nominativo. Uma regra já visível: se o nominativo tem agudo na última sílaba (ἀγρός, καλός), o genitivo e o dativo têm *circunflexo* na última (ἀγροῦ, ἀγρῷ, καλοῦ, καλῷ). O artigo faz o mesmo: τοῦ, τῷ.\n\nIsso ajuda a reconhecer o caso só de olhar: um circunflexo no fim de uma palavra da 2ª declinação costuma indicar genitivo ou dativo.",
+   "athenaze": { "livro": "Athenaze", "pagina": "20–21", "local": "cap. 2, Gram. 6" },
+   "paradigmas": ["decl2-masc", "artigo"],
+   "exemplos": [
+    { "grego": "τοὺς γὰρ λίθους ἐκ τοῦ ἀγροῦ φέρει.", "traducao": "Pois carrega as pedras para fora do campo.", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 2" } }
+   ]
+  },
+  {
+   "topico": "Acento recessivo dos verbos",
+   "nota": "Nos verbos o acento *recua* o máximo possível. Se a última sílaba é longa (ἐλαύνω, ἐλαύνει), ele fica na penúltima; se é breve, como no imperativo, ele sobe para a antepenúltima: ἔλαυνε, κάθευδε, βάδιζε.\n\nNo segundo parágrafo da leitura β há seis verbos acentuados assim: κάθευδε, συλλάμβανε, βάδιζε, πλήθυνε, σπεύδετε, ἕλκετε. Repare que quase todos são imperativos — o acento recuado é uma boa pista de ordem.",
+   "athenaze": { "livro": "Athenaze", "pagina": 21, "local": "cap. 2, Gram. 7" },
+   "exemplos": [
+    { "grego": "φέρε γὰρ τὸ σπέρμα καὶ ὄπισθεν βάδιζε.", "traducao": "Traga a semente e venha andando atrás.", "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 11–12" } }
+   ]
+  }
+ ],
+ "cultura": {
+  "titulo": "A escravidão",
+  "resumo": "Na Atenas de 431 a.C. calcula-se que, entre os homens adultos, havia uns 50 mil cidadãos, 25 mil estrangeiros residentes (metecos) e 100 mil escravos. Os escravos não tinham direitos e vinham da guerra, da pirataria ou do nascimento; eram quase todos não gregos. Toda a economia dependia deles — nas minas de prata, nas oficinas e nas casas —, mas o ensaio lembra que nem sempre eram maltratados: muitas vezes trabalhavam lado a lado com cidadãos pelo mesmo salário e podiam comprar a liberdade. No campo, viviam e comiam com o patrão; nas comédias de Aristófanes aparecem como figuras espertas e atrevidas, e Xântias (\"o loiro\") é um nome típico de escravo.",
+  "fonte": { "livro": "Athenaze", "pagina": "15–16", "local": "cap. 2, Slavery" }
+ },
+ "exercicios": [
+  {
+   "id": "ath2-o1",
+   "tipo": "completar",
+   "titulo": "Eu, você, ele — e as ordens",
+   "enunciado": "Complete com a forma pedida entre parênteses e traduza.",
+   "itens": [
+    { "pergunta": "τὸν δοῦλον ____ (καλέω, eu).", "resposta": "καλῶ — Eu chamo o escravo." },
+    { "pergunta": "τί οὐ ____ (σπεύδω, você);", "resposta": "σπεύδεις — Por que você não se apressa?" },
+    { "pergunta": "ὁ Ξανθίας ὑπὸ τῷ δένδρῳ ____ (καθεύδω, ele).", "resposta": "καθεύδει — Xântias dorme debaixo da árvore." },
+    { "pergunta": "____ (λαμβάνω, imperativo) τὸ ἄροτρον, ὦ δοῦλε.", "resposta": "λάμβανε — Pegue o arado, escravo!" },
+    { "pergunta": "μὴ ____ (καθεύδω, imperativo), ἀλλὰ συλλάμβανε.", "resposta": "κάθευδε — Não durma, mas ajude!" },
+    { "pergunta": "ἐγὼ μὲν τοὺς βοῦς ____ (ἐλαύνω, eu), σὺ δὲ τὸ ἄροτρον φέρε.", "resposta": "ἐλαύνω — Eu conduzo os bois, e você, traga o arado." },
+    { "pergunta": "ὁ δεσπότης βλέπει πρὸς ____ (ὁ δοῦλος, acus.).", "resposta": "τὸν δοῦλον — O patrão olha para o escravo." },
+    { "pergunta": "ὁ Δικαιόπολις ἐκβαίνει ἐκ ____ (ὁ οἶκος, gen.).", "resposta": "τοῦ οἴκου — Diceópolis sai de casa." }
+   ],
+   "gabarito": "projeto",
+   "fonte": { "livro": "original", "local": "cap. 2" }
+  }
+ ],
+ "jact": {
+  "correspondentes": ["1B", "1C", "1D", "1G"],
+  "comparacao": "Aqui os dois livros se encontram de verdade. O tema do cap. 2 — eu/você/ele no presente, imperativo, μή + imperativo, vocativo com ὦ — é o mesmo de 1B–1D na JACT, onde Zenótemis manda os outros \"virem cá e olharem\" (δεῦρο ἐλθέ … καὶ βλέπε). Até a mesma palavra ἐλθέ é ensinada solta nos dois livros. A diferença é de ritmo: a JACT dá o presente com todas as pessoas em §12–16; o Athenaze só o singular, reservando o plural para os caps. 3–4.\n\nO Athenaze é mais claro em dois pontos: a tabela do singular completo da 2ª declinação com o resumo do uso de cada caso (Gram. 4–5), que a JACT só traz em 1G, e as regras de acento (proclíticas, acento persistente e recessivo), que ajudam a distinguir καλεῖ de κάλει. A JACT, em compensação, apresenta antes o plural e o contraste de pessoas em diálogo vivo.\n\nOrdem sugerida: depois de 1B, leia o cap. 2α; estude a Gramática 1C–D da JACT; então leia o cap. 2β e faça os exercícios dele como revisão. Volte às Gram. 4–5 do cap. 2 quando chegar a 1G.",
+  "complementos": [
+   "Tabela do singular completo da 2ª declinação (masc. e neutro) com artigo e adjetivo, e um resumo claro do uso de cada caso (cap. 2, Gram. 4–5, p. 20) — a JACT só chega a isso em 1G.",
+   "Acento persistente dos nomes (ἀγρός > ἀγροῦ, ἀγρῷ) e recessivo dos verbos (ἐλαύνει × ἔλαυνε), que ajudam a reconhecer caso e imperativo.",
+   "Proclíticas: οὐκ εἰμί / οὐκ ἔστιν (cap. 2, Gram. 2, p. 14).",
+   "Verbos compostos com ἐκ-, εἰς-, πρός- (Word Building, p. 19), equivalentes ao §17 da JACT.",
+   "Vocabulário do campo: βοῦς, ἄροτρον, δένδρον, ζυγόν, σπέρμα; e a oração a Deméter (ἵλεως ἴσθι).",
+   "Na JACT vêm antes: o plural do presente (βλέπετε, ὁρᾶτε) e o imperativo plural em diálogo (1C)."
+  ],
+  "citacoes": [
+   {
+    "grego": "δεῦρο ἐλθέ, ὦ Δικαιόπολι, καὶ βλέπε.",
+    "traducao": "Venha cá, Diceópolis, e olhe!",
+    "comentario": "JACT: ἐλθέ + vocativo + imperativo.",
+    "fonte": { "livro": "JACT-Textos", "pagina": 6, "local": "1B", "linhas": "l. 2" }
+   },
+   {
+    "grego": "ἐλθὲ δεῦρο, ὦ Ξανθία. τί καθεύδεις;",
+    "traducao": "Venha cá, Xântias. Por que está dormindo?",
+    "comentario": "Athenaze: a mesma fórmula, seguida de uma 2ª pessoa do singular.",
+    "fonte": { "livro": "Athenaze", "pagina": 12, "local": "cap. 2α", "linhas": "l. 4–5" }
+   },
+   {
+    "grego": "ἄκουε, ὦ Ζηνόθεμι, καὶ μὴ λέγε ‘ὡς καλά ἐστι τὰ ἐμπόρια.’",
+    "traducao": "Escute, Zenótemis, e não diga \"como são belos os mercados\".",
+    "comentario": "JACT: μή + imperativo para proibir.",
+    "fonte": { "livro": "JACT-Textos", "pagina": 8, "local": "1C", "linhas": "l. 9" }
+   },
+   {
+    "grego": "μὴ κάθευδε ἀλλὰ συλλάμβανε.",
+    "traducao": "Não durma, mas ajude!",
+    "comentario": "Athenaze: a mesma construção, com o acento recuado típico do imperativo.",
+    "fonte": { "livro": "Athenaze", "pagina": 19, "local": "cap. 2β", "linhas": "l. 11" }
+   },
+   {
+    "grego": "ἐγὼ γὰρ τὴν ἀκρόπολιν οὐχ ὁρῶ.",
+    "traducao": "Pois eu não vejo a Acrópole.",
+    "comentario": "JACT: 1ª pessoa com ἐγώ enfático.",
+    "fonte": { "livro": "JACT-Textos", "pagina": 6, "local": "1B", "linhas": "l. 5" }
+   },
+   {
+    "grego": "ἐγὼ μὲν πονῶ, σὺ δὲ καθεύδεις.",
+    "traducao": "Eu trabalho, mas você dorme.",
+    "comentario": "Athenaze: pronomes expressos só por contraste (com μέν … δέ).",
+    "fonte": { "livro": "Athenaze", "pagina": 14, "local": "cap. 2, Gram. 1" }
+   }
+  ]
+ }
+}

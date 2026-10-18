@@ -1,0 +1,615 @@
+{
+  "id": "3C",
+  "secao": 3,
+  "parte": 1,
+  "titulo": "O medo do rapsodo",
+  "resumo": "O rapsodo treme de medo dos espartanos; um marinheiro o acalma lembrando o discurso de Péricles sobre a superioridade naval de Atenas.",
+  "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 34,
+    "local": "3C"
+  },
+  "vocab": [
+    {
+      "grego": "ἀλλήλους",
+      "lexical": "ἀλλήλους (2a)",
+      "classe": "pronome",
+      "glosa": "uns aos outros; uns com os outros",
+      "aprender": true,
+      "nota": "Recíproco: não tem nominativo.",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "ἄλλος",
+      "lexical": "ἄλλος η ο",
+      "classe": "adjetivo",
+      "glosa": "outro; o resto de",
+      "aprender": true,
+      "paradigma": "ekeinos",
+      "nota": "Declina-se como ἐκεῖνος (neutro ἄλλο).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      },
+      "athenaze": "cap. 4"
+    },
+    {
+      "grego": "ἐγγύς",
+      "lexical": "ἐγγύς (+ gen.)",
+      "classe": "advérbio",
+      "glosa": "perto (de)",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "εἰπέ",
+      "lexical": "εἰπέ",
+      "classe": "verbo",
+      "glosa": "diz!; conta!",
+      "aprender": true,
+      "nota": "Imperativo (aoristo) de \"dizer\".",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "ἐπειδή",
+      "lexical": "ἐπειδή",
+      "classe": "conjunção",
+      "glosa": "quando; já que",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "κατά",
+      "lexical": "κατά (+ ac.)",
+      "classe": "preposição",
+      "glosa": "em; sobre; por; de acordo com",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      },
+      "athenaze": "cap. 5"
+    },
+    {
+      "grego": "Λακεδαιμόνιος",
+      "lexical": "Λακεδαιμόνιος, ὁ (2a)",
+      "classe": "substantivo",
+      "glosa": "espartano",
+      "aprender": true,
+      "paradigma": "decl2-masc",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "λαμβάνω",
+      "lexical": "λαμβάνω (λαβ-)",
+      "classe": "verbo",
+      "glosa": "pegar; capturar; tomar",
+      "aprender": true,
+      "paradigma": "verbo-presente-ativo",
+      "partes": [
+        "λαμβάνω",
+        "λαβ-"
+      ],
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      },
+      "athenaze": "cap. 2"
+    },
+    {
+      "grego": "λόγος",
+      "lexical": "λόγος, ὁ (2a)",
+      "classe": "substantivo",
+      "glosa": "palavra; discurso; relato",
+      "aprender": true,
+      "paradigma": "decl2-masc",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "μανθάνω",
+      "lexical": "μανθάνω (μαθ-)",
+      "classe": "verbo",
+      "glosa": "aprender; compreender",
+      "aprender": true,
+      "paradigma": "verbo-presente-ativo",
+      "partes": [
+        "μανθάνω",
+        "μαθ-"
+      ],
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "ναυτικός",
+      "lexical": "ναυτικός ή όν",
+      "classe": "adjetivo",
+      "glosa": "naval",
+      "aprender": true,
+      "paradigma": "adj-kalos",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "οὐδέ",
+      "lexical": "οὐδέ",
+      "classe": "conjunção",
+      "glosa": "e não; nem",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      },
+      "athenaze": "cap. 5"
+    },
+    {
+      "grego": "τέχνη",
+      "lexical": "τέχνη, ἡ (1a)",
+      "classe": "substantivo",
+      "glosa": "habilidade; arte",
+      "aprender": true,
+      "paradigma": "decl1-a",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "ἐκεῖνος",
+      "lexical": "ἐκεῖνος η ο",
+      "classe": "pronome",
+      "glosa": "aquele; ele",
+      "aprender": true,
+      "paradigma": "ekeinos",
+      "nota": "Aprendida com a gramática de 3C–E (marcada [3C-E] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "οὗτος",
+      "lexical": "οὗτος αὕτη τοῦτο",
+      "classe": "pronome",
+      "glosa": "este; isto; ele",
+      "aprender": true,
+      "paradigma": "houtos",
+      "nota": "Aprendida com a gramática de 3C–E (marcada [3C-E] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "οὑτοσί",
+      "lexical": "οὑτοσί",
+      "classe": "pronome",
+      "glosa": "este aqui (apontando)",
+      "aprender": true,
+      "paradigma": "houtos",
+      "nota": "Forma enfática de οὗτος (marcada [3A-E] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      }
+    },
+    {
+      "grego": "μέγας",
+      "lexical": "μέγας μεγάλη μέγα (μεγαλ-)",
+      "classe": "adjetivo",
+      "glosa": "grande",
+      "aprender": true,
+      "paradigma": "adj-megas",
+      "nota": "Aprendida com a gramática de 3C–E (marcada [3C-E] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      },
+      "athenaze": "cap. 3"
+    },
+    {
+      "grego": "πολύς",
+      "lexical": "πολύς πολλή πολύ (πολλ-)",
+      "classe": "adjetivo",
+      "glosa": "muito; (pl.) muitos",
+      "aprender": true,
+      "paradigma": "adj-polys",
+      "nota": "Aprendida com a gramática de 3C–E (marcada [3C-E] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      },
+      "athenaze": "cap. 1"
+    },
+    {
+      "grego": "Ζεύς",
+      "lexical": "Ζεύς (Δι-), ὁ (3a)",
+      "classe": "nome próprio",
+      "glosa": "Zeus",
+      "aprender": true,
+      "nota": "Aprendida com a gramática de 3C–E (marcada [3C-E] no Vocabulário completo). Vocativo Ζεῦ; acusativo Δία.",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 35,
+        "local": "3C"
+      },
+      "athenaze": "cap. 3"
+    }
+  ],
+  "gramatica": [
+    {
+      "topico": "οὗτος e ἐκεῖνος: \"este/esse\" e \"aquele\"",
+      "nota": "Como adjetivos, ficam *fora* do bloco artigo + substantivo, e o artigo é obrigatório: οὗτος ὁ ναύτης ou ὁ ναύτης οὗτος \"este marinheiro\" (nunca ὁ οὗτος ναύτης). Sozinhos, sem artigo, funcionam como pronomes: οὗτος \"este homem, ele\", ἐκεῖνοι \"aqueles, eles\", τοῦτο/ταῦτα \"isto, estas coisas\".\n\nDicas de forma: οὗτος começa com τ- como o artigo, exceto onde o artigo começa com espírito áspero (οὗτος, αὕτη, οὗτοι, αὗται); onde a terminação tem α/η, o radical tem -αυ- (ταύτην, ταῦτα), onde tem ο/ω, -ου- (τούτου, τούτων). Neutro: τοῦτο, ταῦτα; ἐκεῖνο. Com o -ί dêitico (οὑτοσί, ἐκεινοσί) o sentido fica \"este aqui\", com gesto.",
+      "jact": {
+        "livro": "JACT-Gramatica",
+        "pagina": "60–62",
+        "local": "3C–E, §69–72"
+      },
+      "athenaze": {
+        "livro": "Athenaze",
+        "pagina": 245,
+        "local": "cap. 14, Gram. 5 (bem mais adiante)"
+      },
+      "paradigmas": [
+        "houtos",
+        "ekeinos"
+      ],
+      "exemplos": [
+        {
+          "grego": "εἰπέ μοι, τίς ἡ βοὴ αὕτη; τίς ὁ θόρυβος οὗτος, ὦ γεῖτον;",
+          "traducao": "Diz-me: que grito é esse? Que tumulto é esse, vizinho?",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 32,
+            "local": "3B",
+            "linhas": "l. 7"
+          }
+        },
+        {
+          "grego": "οὐ γὰρ ὁρῶ ἐκεῖνον τὸν ἄνδρα.",
+          "traducao": "Pois não estou vendo aquele homem.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 34,
+            "local": "3C",
+            "linhas": "l. 5–6"
+          }
+        },
+        {
+          "grego": "καὶ ἐπειδὴ ἐκεῖνος κελεύει, ἡ ναῦς ἀποπλεῖ.",
+          "traducao": "E quando ele dá a ordem, o navio zarpa.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 39,
+            "local": "3E",
+            "linhas": "l. 2–3"
+          }
+        }
+      ]
+    },
+    {
+      "topico": "πολύς e μέγας",
+      "nota": "Declinam-se como καλός, com dois radicais: πολυ-/πολλ- e μεγα-/μεγαλ-. Só quatro formas usam o radical curto: nom. e ac. masc. sg. e nom./ac. neutro sg. — πολύς, πολύν, πολύ; μέγας, μέγαν, μέγα. Todo o resto é regular sobre πολλ- e μεγαλ- (πολλοί, πολλῆς, μεγάλη, μεγάλων).\n\nNo plural πολλοί = \"muitos\"; no singular πολύς = \"muito, grande (em quantidade)\": πολὺς θόρυβος \"grande tumulto\". Como outros adjetivos, podem ficar sem substantivo: πολλά \"muitas coisas\".",
+      "jact": {
+        "livro": "JACT-Gramatica",
+        "pagina": "62–63",
+        "local": "3C–E, §73"
+      },
+      "athenaze": {
+        "livro": "Athenaze",
+        "pagina": 49,
+        "local": "cap. 4β, adjetivos de 1ª/2ª decl."
+      },
+      "paradigmas": [
+        "adj-polys",
+        "adj-megas"
+      ],
+      "exemplos": [
+        {
+          "grego": "μέγας μὲν γὰρ ὁ θόρυβος, μεγάλη δὲ ἡ βοὴ ἡ ἐν τῷ λιμένι.",
+          "traducao": "Pois grande é o tumulto, e grande o grito no porto.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 32,
+            "local": "3B",
+            "linhas": "l. 8–9"
+          }
+        },
+        {
+          "grego": "ἀλλὰ χαλεπῶς καὶ μετὰ πολλῆς μελετῆς, μανθάνετε ταύτην τὴν τέχνην.",
+          "traducao": "Mas é com dificuldade e muita prática que vocês aprendem essa arte.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 35,
+            "local": "3C",
+            "linhas": "l. 33–34"
+          }
+        },
+        {
+          "grego": "λίθος γὰρ μέγας τὸ ἄροτρον ἐμποδίζει.",
+          "traducao": "Pois uma pedra grande está travando o arado.",
+          "fonte": {
+            "livro": "Athenaze",
+            "pagina": 25,
+            "local": "cap. 3α"
+          }
+        }
+      ]
+    },
+    {
+      "topico": "Substantivos irregulares: ναῦς e Ζεύς",
+      "nota": "ναῦς \"navio\" (fem.) muda de radical: ναυ- antes de consoante (ναῦς, ναῦν, ναυσί, ac. pl. ναῦς), νη-/νε- antes de vogal (νηί, νῆες, νεώς, νεῶν). Repare que ναῦς é ao mesmo tempo nom. sg. e ac. pl. — o artigo (ἡ / τὰς) decide.\n\nΖεύς tem terminações normais de 3a, mas o radical vira Δι-: Δία, Διός, Διί; vocativo ὦ Ζεῦ. Daí a expressão νὴ τὸν Δία \"por Zeus!\".",
+      "jact": {
+        "livro": "JACT-Gramatica",
+        "pagina": 64,
+        "local": "3C–E, §74"
+      },
+      "athenaze": {
+        "livro": "Athenaze",
+        "pagina": 146,
+        "local": "cap. 9, Gram. 4"
+      },
+      "paradigmas": [
+        "naus"
+      ],
+      "exemplos": [
+        {
+          "grego": "ἐγγὺς δὲ τῆς νεώς ἐστι κελευστής τις, βοᾷ δὲ οὗτος.",
+          "traducao": "Perto do navio há um contramestre, e ele está gritando.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 36,
+            "local": "3D",
+            "linhas": "l. 3"
+          }
+        },
+        {
+          "grego": "νὴ τὸν Δία· ἐν κινδύνῳ ἡμεῖς ἐσμέν.",
+          "traducao": "Por Zeus, estamos em perigo!",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 30,
+            "local": "3A",
+            "linhas": "l. 20"
+          }
+        },
+        {
+          "grego": "μέγα γὰρ ἡμῖν τὸ πλῆθος τὸ τῶν τε νεῶν καὶ τῶν τριηράρχων.",
+          "traducao": "Pois é grande o nosso número de navios e de trierarcas.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 35,
+            "local": "3C",
+            "linhas": "l. 40–41"
+          }
+        }
+      ]
+    },
+    {
+      "topico": "Negações acumuladas",
+      "nota": "Em grego, negativas em sequência *reforçam* a negação quando a simples (οὐ, μή) vem primeiro: οὐκ ἀφικνεῖται οὐδείς \"ninguém vem\", μὴ λέγε μηδέν \"não digas nada\". É como no português \"não vem ninguém\". Mas se a composta vem primeiro e a simples depois, elas se anulam: οὐδεὶς οὐκ… = \"todos…\".\n\nοὐδέ isolado significa \"e não, nem, nem sequer\" e encadeia negações: οὐδὲ λαμβάνει οὐδένα.",
+      "jact": {
+        "livro": "JACT-Gramatica",
+        "pagina": 64,
+        "local": "3C–E, §75"
+      },
+      "paradigmas": [
+        "eis-oudeis"
+      ],
+      "exemplos": [
+        {
+          "grego": "ἀλλὰ οὐδεμία ναῦς ἔρχεται, ὦ τᾶν.",
+          "traducao": "Mas nenhum navio está vindo, meu caro.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 34,
+            "local": "3C",
+            "linhas": "l. 17"
+          }
+        },
+        {
+          "grego": "οὐκ ἀφικνεῖται Λακεδαιμόνιος οὐδείς, οὐδὲ λαμβάνει οὐδένα.",
+          "traducao": "Não chega espartano nenhum, nem captura ninguém.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 34,
+            "local": "3C",
+            "linhas": "l. 18"
+          }
+        },
+        {
+          "grego": "οὐδεὶς ἄνθρωπός ἐστιν ἔνδον.",
+          "traducao": "Não há ninguém lá dentro.",
+          "fonte": {
+            "livro": "Athenaze",
+            "pagina": 96,
+            "local": "cap. 7α"
+          }
+        }
+      ]
+    },
+    {
+      "topico": "Elipse e adjetivos em função de advérbio ou substantivo",
+      "nota": "O grego omite o que o contexto já dá: não só ἐστί, mas também o verbo ou o objeto de uma resposta (οὔκ, ἀλλὰ ἡμεῖς κωλύομεν \"não, mas nós os impedimos\"). Um adjetivo grego que concorda com o sujeito muitas vezes se traduz melhor por advérbio: καθεύδει ἥσυχος \"dorme tranquilamente\".\n\nE quase todo adjetivo com artigo vira substantivo: τὰ ναυτικά \"as coisas do mar\", ὁ κακός \"o homem mau\", τὸ καλόν \"a beleza\". No plural neutro sem artigo: πολλά \"muitas coisas\". Atenção: οὗτος e ἐκεῖνος como pronomes *não* levam artigo.",
+      "jact": {
+        "livro": "JACT-Gramatica",
+        "pagina": 65,
+        "local": "3C–E, §76"
+      },
+      "athenaze": {
+        "livro": "Athenaze",
+        "pagina": 96,
+        "local": "cap. 7, Gram. 1"
+      },
+      "exemplos": [
+        {
+          "grego": "ἀλλὰ ἀδύνατον· καθεύδει γὰρ ὁ δεσπότης ἥσυχος.",
+          "traducao": "Impossível: o patrão está dormindo tranquilamente.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 37,
+            "local": "3D",
+            "linhas": "l. 23"
+          }
+        },
+        {
+          "grego": "ἐγὼ δὲ ἀποκρίνομαι “οὔκ, ἀλλὰ ἡμεῖς, ἐπειδὴ κρατοῦμεν κατὰ θάλατταν, κωλύομεν.”",
+          "traducao": "E eu respondo: \"Não, mas nós, já que dominamos o mar, (os) impedimos.\"",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 35,
+            "local": "3C",
+            "linhas": "l. 35–36"
+          }
+        },
+        {
+          "grego": "ἐν δὲ τῇ ὁδῷ πολλὰ καὶ δεινὰ πάσχουσιν.",
+          "traducao": "Na viagem sofrem muitas coisas terríveis.",
+          "fonte": {
+            "livro": "Athenaze",
+            "pagina": 96,
+            "local": "cap. 7, Gram. 1"
+          }
+        }
+      ]
+    }
+  ],
+  "exercicios": [
+    {
+      "id": "3C-o1",
+      "tipo": "transformar",
+      "titulo": "Demonstrativos e adjetivos irregulares no acusativo",
+      "enunciado": "Passe para o acusativo (mesmo número) e traduza.",
+      "itens": [
+        {
+          "pergunta": "ὁ μέγας λιμήν",
+          "resposta": "τὸν μέγαν λιμένα — o grande porto"
+        },
+        {
+          "pergunta": "ἐκείνη ἡ νύξ",
+          "resposta": "ἐκείνην τὴν νύκτα — aquela noite"
+        },
+        {
+          "pergunta": "πολὺς θόρυβος",
+          "resposta": "πολὺν θόρυβον — muito tumulto"
+        },
+        {
+          "pergunta": "αὗται αἱ λαμπάδες",
+          "resposta": "ταύτας τὰς λαμπάδας — estas tochas"
+        },
+        {
+          "pergunta": "ὁ ἀνὴρ οὗτος",
+          "resposta": "τὸν ἄνδρα τοῦτον — este homem"
+        },
+        {
+          "pergunta": "ἐκεῖνο τὸ μέγα πλοῖον",
+          "resposta": "ἐκεῖνο τὸ μέγα πλοῖον (neutro: igual ao nominativo) — aquele grande barco"
+        }
+      ],
+      "gabarito": "projeto",
+      "fonte": {
+        "livro": "original",
+        "local": "3C"
+      }
+    }
+  ],
+  "textos": [],
+  "athenaze": {
+    "capitulos": [
+      "cap. 3 (Ὁ ἄροτος)",
+      "cap. 4 (Πρὸς τῇ κρήνῃ)",
+      "cap. 7 (Ὁ Κύκλωψ)"
+    ],
+    "comparacao": "Aqui os dois livros seguem caminhos diferentes. A JACT ensina οὗτος e ἐκεῖνος já em 3C, porque o discurso de Péricles e as falas dos marinheiros os usam o tempo todo, inclusive como pronomes (\"ele\", \"aqueles\"). O Athenaze adia os demonstrativos até o cap. 14 (Gram. 5, p. 245) e, até lá, só os explica em notas de rodapé (τοῦτο, \"isto\", no cap. 7, p. 96). Nesse ponto, a JACT está bem à frente.\n\nCom πολύς e μέγας acontece o contrário: o Athenaze os usa desde o cap. 1 (πολύς) e o cap. 3 (μέγας) e dá o quadro já no cap. 4 (p. 49), com a vantagem de mostrar os dois radicais lado a lado (μεγα-/μεγαλ-, πολυ-/πολλ-). O adjetivo usado como substantivo (πολλὰ καὶ δεινά) é explicado de forma mais concreta no Athenaze, cap. 7, Gram. 1. Ordem sugerida: estude os quadros da JACT §69–74; para fixar πολύς/μέγας, refaça o Ex. 4θ do Athenaze (localizar μέγας e πολύς nas histórias dos caps. 1–4).",
+    "complementos": [
+      "Athenaze cap. 4β (p. 49): quadro de μέγας e πολύς com os dois radicais e a observação de que πολύς não tem vocativo.",
+      "Athenaze cap. 7, Gram. 1 (p. 96): adjetivos substantivados — ἐν τῇ ὁδῷ πολλοὺς ὁρῶμεν \"vemos muitos (homens)\"; e o καί entre πολλά e outro adjetivo (πολλὰ καὶ δεινά), que o português não usa.",
+      "Athenaze cap. 14, Gram. 5 (p. 245): οὗτος/ἐκεῖνος na mesma posição predicativa da JACT §70 (οὗτος ὁ ἀνήρ ou ὁ ἀνὴρ οὗτος), e ταύτῃ como advérbio \"por aqui\".",
+      "Athenaze cap. 9β, Word Building (pp. 144–145): ἡ ναῦς → ὁ ναύτης → ναυτικός, -ή, -όν, a mesma família de τὰ ναυτικά de 3C.",
+      "Vocabulário em comum: πολύς (cap. 1), λαμβάνω (cap. 2), μέγας e ὦ Ζεῦ (cap. 3), ἄλλος (cap. 4), κατά e οὐδέ (cap. 5)."
+    ],
+    "citacoes": [
+      {
+        "grego": "ἐκεῖνοι μὲν γὰρ κρατοῦσι κατὰ γῆν, ἡμεῖς δὲ κατὰ θάλατταν.",
+        "traducao": "Pois eles dominam em terra, e nós no mar.",
+        "comentario": "JACT: ἐκεῖνοι como pronome (\"eles\", os espartanos), em contraste com ἡμεῖς; κατά + acusativo.",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 34,
+          "local": "3C",
+          "linhas": "l. 24–25"
+        }
+      },
+      {
+        "grego": "ὁ δ’ Ὀδυσσεὺς οὐκ ἐθέλει τοῦτο ποιεῖν.",
+        "traducao": "Mas Odisseu não quer fazer isso.",
+        "comentario": "Athenaze: o neutro τοῦτο \"isto\" aparece no cap. 7 apenas como glosa, muito antes do quadro do cap. 14.",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 96,
+          "local": "cap. 7α"
+        }
+      },
+      {
+        "grego": "τὸ δὲ ναυτικὸν τέχνη ἐστί· καὶ ταύτην μανθάνουσιν οἱ ἄνθρωποι διὰ τὴν μελετήν.",
+        "traducao": "A arte naval é uma técnica, e os homens a aprendem pela prática.",
+        "comentario": "JACT: adjetivo substantivado (τὸ ναυτικόν) e ταύτην como pronome (\"esta\" = a técnica).",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 35,
+          "local": "3C",
+          "linhas": "l. 30–31"
+        }
+      },
+      {
+        "grego": "μέγας ἐστὶν ὁ λίθος, ὦ δέσποτα.",
+        "traducao": "A pedra é grande, patrão.",
+        "comentario": "Athenaze: μέγας como predicativo, com ἐστί; a JACT costuma omitir o verbo (μέγας μὲν γὰρ ὁ θόρυβος, 3B).",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 25,
+          "local": "cap. 3α"
+        }
+      }
+    ]
+  }
+}

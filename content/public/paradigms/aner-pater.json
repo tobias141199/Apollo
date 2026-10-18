@@ -1,0 +1,63 @@
+{
+  "id": "aner-pater",
+  "titulo": "3ª declinação, temas em -ερ — ἀνήρ, πατήρ (3a)",
+  "grupo": "substantivo",
+  "colunas": [
+    "ἀνήρ sg.",
+    "ἀνήρ pl.",
+    "πατήρ sg.",
+    "πατήρ pl."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "ἀνήρ",
+        "ἄνδρ|ες",
+        "πατήρ",
+        "πατέρ|ες"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "ἄνδρ|α",
+        "ἄνδρ|ας",
+        "πατέρ|α",
+        "πατέρ|ας"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "ἀνδρ|ός",
+        "ἀνδρ|ῶν",
+        "πατρ|ός",
+        "πατέρ|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "ἀνδρ|ί",
+        "ἀνδρ|άσι(ν)",
+        "πατρ|ί",
+        "πατρ|άσι(ν)"
+      ]
+    },
+    {
+      "rotulo": "Voc.",
+      "celulas": [
+        "ἄνερ",
+        "ἄνδρ|ες",
+        "πάτερ",
+        "πατέρ|ες"
+      ]
+    }
+  ],
+  "nota": "ἀνήρ usa o tema ἀνδρ- em todas as formas, exceto nom. e voc. sg.; πατήρ alterna πατερ- / πατρ- (πατρός, πατρί, πατράσι). Seguem πατήρ: μήτηρ e θυγάτηρ.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "3A–B"
+  }
+}

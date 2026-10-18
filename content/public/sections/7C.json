@@ -1,0 +1,255 @@
+{
+ "id": "7C",
+ "secao": 7,
+ "parte": 2,
+ "titulo": "Origem das calúnias",
+ "resumo": "Sócrates termina com os artesãos, que sabem seu ofício mas se julgam sábios em tudo. Jovens ricos imitam seu método e expõem os falsos sábios, que, irritados, acusam Sócrates de corromper a juventude.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 78,
+  "local": "7C"
+ },
+ "vocab": [
+  {
+   "grego": "διαβολή",
+   "lexical": "διαβολή, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "calúnia; acusação",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   }
+  },
+  {
+   "grego": "διαφθείρω",
+   "lexical": "διαφθείρω (διαφθειρα-)",
+   "classe": "verbo",
+   "glosa": "corromper; destruir; matar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "διαφθείρω",
+    "διαφθειρα-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   },
+   "athenaze": "cap. 15"
+  },
+  {
+   "grego": "δοκέω",
+   "lexical": "δοκέω",
+   "classe": "verbo",
+   "glosa": "parecer; considerar-se",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "nota": "Com infinitivo: δοκεῖ σοφὸς εἶναι.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   },
+   "athenaze": "cap. 11"
+  },
+  {
+   "grego": "εἰδώς",
+   "lexical": "εἰδώς εἰδυῖα εἰδός (εἰδοτ-)",
+   "classe": "verbo",
+   "glosa": "sabendo (particípio de οἶδα)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   }
+  },
+  {
+   "grego": "εἶμι",
+   "lexical": "εἶμι",
+   "classe": "verbo",
+   "glosa": "irei; vou",
+   "aprender": true,
+   "nota": "Inf. ἰέναι \"ir\"; passado ᾖα \"eu ia, fui\". Funciona como futuro de ἔρχομαι.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   },
+   "athenaze": "cap. 10"
+  },
+  {
+   "grego": "ἐξετάζω",
+   "lexical": "ἐξετάζω",
+   "classe": "verbo",
+   "glosa": "examinar a fundo; questionar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   }
+  },
+  {
+   "grego": "εὑρίσκω",
+   "lexical": "εὑρίσκω (εὑρ-)",
+   "classe": "verbo",
+   "glosa": "encontrar; descobrir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "εὑρίσκω",
+    "εὑρ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   },
+   "athenaze": "cap. 10"
+  },
+  {
+   "grego": "μή",
+   "lexical": "μή",
+   "classe": "partícula",
+   "glosa": "não",
+   "aprender": true,
+   "nota": "Com imperativo: não! Também com infinitivo (θεοὺς μὴ νομίζειν).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "οἶμαι",
+   "lexical": "οἶμαι",
+   "classe": "verbo",
+   "glosa": "pensar; achar",
+   "aprender": true,
+   "nota": "Passado ᾤμην \"eu pensava\". Forma breve de οἴομαι.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   }
+  },
+  {
+   "grego": "πειράομαι",
+   "lexical": "πειράομαι (πειρασα-)",
+   "classe": "verbo",
+   "glosa": "tentar; experimentar",
+   "aprender": true,
+   "partes": [
+    "πειράομαι",
+    "πειρασα-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   }
+  },
+  {
+   "grego": "πολλάκις",
+   "lexical": "πολλάκις",
+   "classe": "advérbio",
+   "glosa": "muitas vezes; com frequência",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 78,
+    "local": "7C"
+   },
+   "athenaze": "cap. 6"
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "7C-o1",
+   "tipo": "traduzir-pg",
+   "titulo": "Infinitivo e comparação",
+   "enunciado": "Traduza para o grego usando o vocabulário de 7A–C.",
+   "itens": [
+    {
+     "pergunta": "Os jovens tentam examinar os mais velhos.",
+     "resposta": "οἱ νέοι πειρῶνται ἐξετάζειν τοὺς πρεσβυτέρους."
+    },
+    {
+     "pergunta": "Penso que Sócrates é o mais sábio.",
+     "resposta": "οἶμαι Σωκράτη σοφώτατον εἶναι. (ou: οἶμαι ὅτι Σωκράτης σοφώτατός ἐστιν.)"
+    },
+    {
+     "pergunta": "Eles parecem saber algo, mas não sabem nada.",
+     "resposta": "δοκοῦσι μέν τι εἰδέναι, ἴσασι δ’ οὐδέν."
+    },
+    {
+     "pergunta": "Muitas vezes descobrimos a verdade.",
+     "resposta": "πολλάκις εὑρίσκομεν τὴν ἀλήθειαν."
+    },
+    {
+     "pergunta": "Não corrompas os jovens!",
+     "resposta": "μὴ διάφθειρε τοὺς νέους."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "7C"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 13 (Πρὸς τὴν Σαλαμῖνα)",
+   "cap. 14 (Ἡ ἐν ταῖς Θερμοπύλαις μάχη)",
+   "cap. 15 (Ἡ ἐν τῇ Σαλαμῖνι μάχη)"
+  ],
+  "comparacao": "7C fecha a explicação de Sócrates com comparativos irregulares famosos (τὸν ἥττονα λόγον κρείττονα ποιεῖν) e com o particípio εἰδώς, que o Athenaze não ensina no Livro I. Aqui a JACT vai além do Athenaze: οἶδα, εἰδώς e ᾔδη são próprios do diálogo filosófico.\n\nPara a comparação, o cap. 14 do Athenaze serve de treino extra, pois suas frases sobre as Termópilas repetem ἄμεινον, πλείων e ἄριστος em contexto narrativo simples. O verbo διαφθείρω, central na acusação contra Sócrates, só entra no vocabulário do Athenaze no cap. 15α.",
+  "complementos": [
+   "Genitivo partitivo com superlativo: πάντων τῶν στρατιωτῶν ἄριστος (Athenaze, cap. 14, Gram. 4, p. 237), como σοφώτατοι ... ἀνθρώπων em 7B.",
+   "Dativo de diferença: πολλῷ μείζονα στρατόν \"um exército muito maior\" (Athenaze, cap. 14, Gram. 4, p. 237).",
+   "διαφθείρω com as partes principais διαφθερῶ, διέφθειρα (Athenaze, vocabulário do cap. 15α)."
+  ],
+  "citacoes": [
+   {
+    "grego": "πολλὰ οὖν εἰδότες, σοφώτεροι ἦσαν οἱ χειροτέχναι ἢ ἐγώ.",
+    "traducao": "Sabendo, portanto, muitas coisas, os artesãos eram mais sábios do que eu.",
+    "comentario": "Particípio de οἶδα (εἰδότες) + comparativo com ἤ.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 78,
+     "local": "7C"
+    }
+   },
+   {
+    "grego": "οἱ ἀθάνατοι οὐδὲν ἄμεινον ἔπραττον τῶν ἄλλων.",
+    "traducao": "Os imortais não se saíam nada melhor do que os outros.",
+    "comentario": "Comparativo irregular com genitivo de comparação em vez de ἤ.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 237,
+     "local": "cap. 14, Gram. 4"
+    }
+   },
+   {
+    "grego": "Σωκράτης τίς ἐστι μιαρώτατος καὶ διαφθείρει τοὺς νέους.",
+    "traducao": "Sócrates é um sujeito abominável e corrompe os jovens.",
+    "comentario": "Superlativo sem comparação expressa (\"muito abominável\").",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 78,
+     "local": "7C"
+    }
+   }
+  ]
+ }
+}

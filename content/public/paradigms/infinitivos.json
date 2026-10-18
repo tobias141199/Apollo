@@ -1,0 +1,61 @@
+{
+  "id": "infinitivos",
+  "titulo": "Infinitivos — παύω, λαμβάνω, εἰμί, contratos",
+  "grupo": "verbo",
+  "colunas": [
+    "Ativo",
+    "Médio"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Presente",
+      "celulas": [
+        "παύ|ειν",
+        "παύ|εσθαι"
+      ]
+    },
+    {
+      "rotulo": "Futuro",
+      "celulas": [
+        "παύ|σειν",
+        "παύ|σεσθαι"
+      ]
+    },
+    {
+      "rotulo": "Aoristo fraco",
+      "celulas": [
+        "παῦ|σαι",
+        "παύ|σασθαι"
+      ]
+    },
+    {
+      "rotulo": "Aoristo forte",
+      "celulas": [
+        "λαβ|εῖν",
+        "λαβ|έσθαι"
+      ]
+    },
+    {
+      "rotulo": "εἰμί (pres.)",
+      "celulas": [
+        "εἶναι",
+        "—"
+      ]
+    },
+    {
+      "rotulo": "Contrato -έω",
+      "celulas": [
+        "ποι|εῖν",
+        "ποι|εῖσθαι"
+      ]
+    },
+    {
+      "rotulo": "Contrato -άω",
+      "celulas": [
+        "ὁρ|ᾶν",
+        "θε|ᾶσθαι"
+      ]
+    }
+  ],
+  "nota": "Ativo em -ειν / -σαι / -εῖν; médio sempre em -σθαι. Infinitivos não têm aumento."
+}

@@ -1,0 +1,294 @@
+{
+ "id": "2D",
+ "secao": 2,
+ "parte": 1,
+ "titulo": "Vitória em Salamina",
+ "resumo": "O capitão narra o ataque grego, a fuga de Xerxes e a derrota persa; Diceópolis lamenta que os gregos, antes unidos, agora se odeiem por causa da guerra.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 28,
+  "local": "2D"
+ },
+ "vocab": [
+  {
+   "grego": "ἀναχωρέω",
+   "lexical": "ἀναχωρέω",
+   "classe": "verbo",
+   "glosa": "recuar; retirar-se",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  },
+  {
+   "grego": "διά",
+   "lexical": "διά (+ ac.)",
+   "classe": "preposição",
+   "glosa": "por causa de (+ ac.)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  },
+  {
+   "grego": "ἐλεύθερος",
+   "lexical": "ἐλεύθερος α ον",
+   "classe": "adjetivo",
+   "glosa": "livre",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  },
+  {
+   "grego": "ἐπειδή",
+   "lexical": "ἐπειδή",
+   "classe": "conjunção",
+   "glosa": "quando",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  },
+  {
+   "grego": "ἐπί",
+   "lexical": "ἐπί (+ ac.)",
+   "classe": "preposição",
+   "glosa": "para; contra; sobre (+ ac.)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "οὐκέτι",
+   "lexical": "οὐκέτι",
+   "classe": "advérbio",
+   "glosa": "não mais",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "οὕτως",
+   "lexical": "οὕτω(ς)",
+   "classe": "advérbio",
+   "glosa": "assim; desta maneira",
+   "aprender": true,
+   "nota": "οὕτω antes de consoante",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "πολέμιοι",
+   "lexical": "πολέμιοι, οἱ (2a)",
+   "classe": "substantivo",
+   "glosa": "os inimigos",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  },
+  {
+   "grego": "πολέμιος",
+   "lexical": "πολέμιος α ον",
+   "classe": "adjetivo",
+   "glosa": "hostil; inimigo",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  },
+  {
+   "grego": "πόλεμος",
+   "lexical": "πόλεμος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "guerra",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  },
+  {
+   "grego": "ταχέως",
+   "lexical": "ταχέως",
+   "classe": "advérbio",
+   "glosa": "rapidamente",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "τις",
+   "lexical": "τις τι",
+   "classe": "pronome",
+   "glosa": "um; um certo; algo",
+   "aprender": true,
+   "paradigma": "tis-tis",
+   "nota": "enclítico",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  },
+  {
+   "grego": "τολμάω",
+   "lexical": "τολμάω",
+   "classe": "verbo",
+   "glosa": "ousar; ser audacioso; empreender",
+   "aprender": true,
+   "paradigma": "orao-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  },
+  {
+   "grego": "ὥσπερ",
+   "lexical": "ὥσπερ",
+   "classe": "conjunção",
+   "glosa": "como",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 29,
+    "local": "2D"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "2D-o1",
+   "tipo": "traduzir-pg",
+   "titulo": "Salamina em grego",
+   "enunciado": "Traduza para o grego usando o vocabulário de 2A–D.",
+   "itens": [
+    {
+     "pergunta": "Não temais os bárbaros, amigos!",
+     "resposta": "μὴ φοβεῖσθε τοὺς βαρβάρους, ὦ φίλοι."
+    },
+    {
+     "pergunta": "Os atenienses avançam contra os inimigos.",
+     "resposta": "οἱ Ἀθηναῖοι ἐπὶ τοὺς πολεμίους προσέρχονται."
+    },
+    {
+     "pergunta": "Por causa da guerra, os gregos não são mais amigos.",
+     "resposta": "διὰ τὸν πόλεμον οἱ Ἕλληνες οὐκέτι φίλοι εἰσίν."
+    },
+    {
+     "pergunta": "Uns fogem, outros ficam.",
+     "resposta": "οἱ μὲν φεύγουσιν, οἱ δὲ μένουσιν."
+    },
+    {
+     "pergunta": "Xerxes observa a batalha naval.",
+     "resposta": "Ξέρξης θεᾶται τὴν ναυμαχίαν."
+    },
+    {
+     "pergunta": "Ousai, marinheiros, e tornai-vos livres!",
+     "resposta": "τολμᾶτε, ὦ ναῦται, καὶ ἐλεύθεροι γίγνεσθε."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "2D"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 6 (Ὁ μῦθος)",
+   "cap. 5 (Ὁ λύκος)"
+  ],
+  "comparacao": "A vitória em Salamina (JACT 2D) e a luta de Teseu com o Minotauro (Athenaze cap. 6β) são cenas paralelas de medo vencido pela coragem. Ambas usam os mesmos médios (φοβοῦμαι, μάχομαι), o imperativo negativo μὴ φοβεῖσθε e a oposição οἱ μὲν… οἱ δέ / ὁ δέ.\n\nA JACT ensina as preposições com acusativo (ἐπί, διά, παρά) em lista curta. O Athenaze, no cap. 6, Gram. 7, organiza todas as preposições vistas até ali pelo caso que pedem e acrescenta os usos do dativo sem preposição. Também explica bem o artigo + δέ no início da oração ('e ele…'; cap. 5, Gram. 3). Sugestão: leia 2D, revise os §64–65 e use o quadro do Athenaze p. 89 como resumo. Depois leia o Athenaze cap. 6β como leitura extra.",
+  "complementos": [
+   "Athenaze cap. 5, Gram. 3 (p. 58): artigo + δέ no início da oração indica troca de sujeito e se traduz como pronome — ὁ δὲ φεύγει 'e ele foge'. É a base de τῶν Περσῶν οἱ μὲν φεύγουσι, οἱ δὲ μένουσι.",
+   "Athenaze cap. 6, Gram. 7 (p. 89): quadro das preposições por caso (gen. 'de onde', dat. 'onde', ac. 'para onde'), incluindo ἀνά, κατά, ὑπό e μετά, que a JACT ainda não deu.",
+   "Athenaze cap. 6, Gram. 5 (pp. 86–87): pares ativo × médio — φοβέω 'ponho em fuga' / φοβέομαι 'tenho medo (de)', ὁρμάω / ὁρμάομαι 'lanço-me', πείθω 'persuado' / πείθομαι + dat. 'obedeço'.",
+   "Athenaze cap. 6, Gram. 6 (p. 88): usos do dativo sem preposição (instrumento, posse, tempo, respeito). Ajudam a ler κόσμῳ μαχόμεθα, 'combatemos em ordem' (2D).",
+   "Vocabulário: ἐπειδή (JACT) tem o mesmo uso de ἐπεί (Athenaze cap. 3β, p. 30). ἐπί + ac. 'contra' aparece no Athenaze cap. 5β (p. 62); οὐκέτι no cap. 3α (p. 24); οὕτω(ς) no cap. 2α (p. 12); ταχέως no cap. 4α (p. 36)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ὦ φίλοι, διὰ τί ἔτι ἀναχωρεῖτε; μὴ φοβεῖσθε τοὺς Μήδους ἀλλὰ βοηθεῖτε καὶ τολμᾶτε.",
+    "traducao": "Amigos, por que ainda recuais? Não temais os medos, mas vinde em socorro e tende coragem!",
+    "comentario": "Imperativo médio negativo (μὴ φοβεῖσθε) ao lado de imperativos ativos de contratos em -ε e -α.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 28,
+     "local": "2D"
+    }
+   },
+   {
+    "grego": "οἱ μὲν οὖν ἑταῖροι μάλα φοβοῦνται, ὁ δὲ Θησεύς, ‘μὴ φοβεῖσθε, ὦ φίλοι,’ φησίν.",
+    "traducao": "Os companheiros estão com muito medo, mas Teseu diz: 'Não tenhais medo, amigos!'",
+    "comentario": "A mesma exortação, palavra por palavra, que o fantasma faz em 2D.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 84,
+     "local": "cap. 6β",
+     "linhas": "l. 6–7"
+    }
+   },
+   {
+    "grego": "τέλος δὲ τῶν Περσῶν οἱ μὲν φεύγουσι, οἱ δὲ μένουσι καὶ πίπτουσι.",
+    "traducao": "Por fim, dos persas, uns fogem, outros ficam e tombam.",
+    "comentario": "οἱ μὲν… οἱ δέ 'uns… outros' com genitivo partitivo (τῶν Περσῶν).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 28,
+     "local": "2D"
+    }
+   },
+   {
+    "grego": "ὁ δὲ Θησεὺς οὐ φοβεῖται, ἀλλὰ μάλα ἀνδρείως μάχεται.",
+    "traducao": "Mas Teseu não tem medo: combate com muita coragem.",
+    "comentario": "Dois médios na mesma frase, como em 2D (οὐκέτι φοβοῦμαι… μαχόμεθα).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 85,
+     "local": "cap. 6β",
+     "linhas": "l. 18"
+    }
+   }
+  ]
+ }
+}

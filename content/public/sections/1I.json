@@ -1,0 +1,180 @@
+{
+ "id": "1I",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "O rapsodo sabe tudo?",
+ "resumo": "O rapsodo afirma conhecer muitas artes, inclusive a do general, porque Homero as conhece; Diceópolis duvida.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 20,
+  "local": "1I"
+ },
+ "vocab": [
+  {
+   "grego": "γιγνώσκω",
+   "lexical": "γιγνώσκω (γνο-)",
+   "classe": "verbo",
+   "glosa": "saber; conhecer; reconhecer; decidir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "γιγνώσκω",
+    "γνο-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 20,
+    "local": "1I"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "ἔμπειρος",
+   "lexical": "ἔμπειρος ον",
+   "classe": "adjetivo",
+   "glosa": "hábil; experiente",
+   "aprender": true,
+   "nota": "Adjetivo de duas terminações: masc. e fem. iguais.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 20,
+    "local": "1I"
+   }
+  },
+  {
+   "grego": "μῶρος",
+   "lexical": "μῶρος α ον",
+   "classe": "adjetivo",
+   "glosa": "estúpido; tolo",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 20,
+    "local": "1I"
+   }
+  },
+  {
+   "grego": "περί",
+   "lexical": "περί (+ ac.)",
+   "classe": "preposição",
+   "glosa": "com respeito a; sobre",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 20,
+    "local": "1I"
+   }
+  },
+  {
+   "grego": "πολλά",
+   "lexical": "πολλά",
+   "classe": "adjetivo",
+   "glosa": "muitas coisas (ac.)",
+   "aprender": true,
+   "paradigma": "adj-polys",
+   "nota": "Neutro plural de πολύς 'muito'.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 20,
+    "local": "1I"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ναί",
+   "lexical": "ναί",
+   "classe": "advérbio",
+   "glosa": "sim",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 20,
+    "local": "1I"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "1I-o1",
+   "tipo": "traduzir-gp",
+   "titulo": "O que o rapsodo sabe",
+   "enunciado": "Traduza para o português; identifique os adjetivos usados como substantivos.",
+   "itens": [
+    {
+     "pergunta": "ὁ ῥαψῳδὸς πολλὰ γιγνώσκει.",
+     "resposta": "O rapsodo conhece muitas coisas. (πολλά = \"muitas coisas\")"
+    },
+    {
+     "pergunta": "ἆρα γιγνώσκεις τὰ ναυτικά, ὦ ναῦτα;",
+     "resposta": "Será que conheces os assuntos navais, marinheiro? (τὰ ναυτικά)"
+    },
+    {
+     "pergunta": "ἔμπειρός εἰμι περὶ τὰ στρατηγικά.",
+     "resposta": "Sou experiente em assuntos de comando. (τὰ στρατηγικά)"
+    },
+    {
+     "pergunta": "μῶρος μὲν οὐκ εἶ, ἔμπειρος δὲ οὔ.",
+     "resposta": "Tolo não és, mas experiente também não."
+    },
+    {
+     "pergunta": "ναί· πολλὰ γὰρ γιγνώσκομεν.",
+     "resposta": "Sim, pois conhecemos muitas coisas."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1I"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 4 (Πρὸς τῇ κρήνῃ)",
+   "cap. 5 (Ὁ λύκος)"
+  ],
+  "comparacao": "1I é o interrogatório \"socrático\" do rapsodo: adjetivos substantivados (τὰ ναυτικά, τὰ στρατηγικά), πολλά \"muitas coisas\", περί + acusativo e o predicativo com εἰμί (as notas de 1H–J estão em 1H). O Athenaze não tem diálogo filosófico nos caps. 1–5, mas tem as mesmas peças: πολύς no cap. 1 e no quadro do cap. 4 (Gram. 6, p. 49), γιγνώσκω no vocabulário do cap. 5β e o neutro substantivado τὸ ἀγαθόν em Lc 6,45 (p. 53).\n\nO quadro de πολύς, πολλή, πολύ do Athenaze (dois radicais, πολυ- e πολλ-) explica de onde vem o πολλά da JACT — vale estudá-lo já.",
+  "complementos": [
+   "Athenaze cap. 4, Gram. 6 (p. 49): declinação completa de πολύς e μέγας (radicais πολυ-/πολλ- e μεγα-/μεγαλ-).",
+   "Athenaze cap. 5β, vocabulário (p. 62): γιγνώσκω \"venho a conhecer\" (cf. latim *cognosco*, inglês *know*).",
+   "Athenaze cap. 4, Greek Wisdom (p. 45): καιρὸν γνῶθι, \"conhece o momento certo\" (Pítaco) — o mesmo radical γνω- de γιγνώσκω.",
+   "Athenaze cap. 4α (p. 37): ναί, \"sim\", numa resposta a pergunta com ἆρα, como em 1I."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἀλλὰ ἐγὼ μῶρος μὲν οὐκ εἰμί, πολλὰ δὲ γιγνώσκω.",
+    "traducao": "Mas eu não sou tolo: conheço muitas coisas.",
+    "comentario": "JACT: πολλά substantivado e o contraste μέν… δέ.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 20,
+     "local": "1I"
+    }
+   },
+   {
+    "grego": "ὁ μὲν οὖν Δικαιόπολις ἐλαύνει τοὺς βοῦς, ὁ δὲ Ξανθίας ὄπισθεν βαδίζει.",
+    "traducao": "Diceópolis conduz os bois, e Xântias caminha atrás.",
+    "comentario": "Athenaze: o mesmo μὲν οὖν… δέ que estrutura as falas de 1I.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 18,
+     "local": "cap. 2β",
+     "linhas": "l. 1–2"
+    }
+   },
+   {
+    "grego": "καιρὸν γνῶθι.",
+    "traducao": "Conhece o momento certo.",
+    "comentario": "Athenaze (Pítaco): radical γνω- de γιγνώσκω.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 45,
+     "local": "cap. 4, Greek Wisdom"
+    }
+   }
+  ]
+ }
+}

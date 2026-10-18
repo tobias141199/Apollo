@@ -1,0 +1,442 @@
+{
+ "id": "4D",
+ "secao": 4,
+ "parte": 2,
+ "titulo": "Sacrilégio no altar",
+ "resumo": "O estrangeiro, um embaixador espartano a caminho do Grande Rei, é arrancado do altar enquanto invoca os deuses. Diceópolis conclui que a guerra é uma mestra violenta que destrói o bom governo da cidade.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 50,
+  "local": "4D"
+ },
+ "vocab": [
+  {
+   "grego": "ἀποκτείνω",
+   "lexical": "ἀποκτείνω (ἀποκτεινα-)",
+   "classe": "verbo",
+   "glosa": "matar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἀποκτείνω",
+    "ἀποκτεινα-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   },
+   "athenaze": "cap. 6"
+  },
+  {
+   "grego": "ἀσέβεια",
+   "lexical": "ἀσέβεια, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "impiedade; desrespeito aos deuses",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "αὐτόν",
+   "lexical": "αὐτόν ήν ό",
+   "classe": "pronome",
+   "glosa": "o, a (ele, ela — acusativo)",
+   "aprender": true,
+   "paradigma": "autos",
+   "nota": "Fora do nominativo, αὐτ- funciona como pronome de 3ª pessoa.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ἀφέλκω",
+   "lexical": "ἀφέλκω (ἀφελκυσα-)",
+   "classe": "verbo",
+   "glosa": "arrastar (para longe)",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἀφέλκω",
+    "ἀφελκυσα-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "βασιλεύς",
+   "lexical": "βασιλεύς, ὁ (3g)",
+   "classe": "substantivo",
+   "glosa": "rei",
+   "aprender": true,
+   "paradigma": "decl3-g",
+   "nota": "βασιλεὺς ὁ μέγας: o Grande Rei da Pérsia.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   },
+   "athenaze": "cap. 6"
+  },
+  {
+   "grego": "βωμός",
+   "lexical": "βωμός, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "altar",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   },
+   "athenaze": "cap. 8"
+  },
+  {
+   "grego": "ἐπικαλέομαι",
+   "lexical": "ἐπικαλέομαι",
+   "classe": "verbo",
+   "glosa": "invocar; chamar (como testemunha)",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "κῆρυξ",
+   "lexical": "κῆρυξ (κηρυκ-), ὁ (3a)",
+   "classe": "substantivo",
+   "glosa": "arauto",
+   "aprender": true,
+   "paradigma": "decl3-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   },
+   "athenaze": "cap. 9"
+  },
+  {
+   "grego": "λανθάνω",
+   "lexical": "λανθάνω (λαθ-)",
+   "classe": "verbo",
+   "glosa": "passar despercebido a (+ ac. + part.)",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "λανθάνω",
+    "λαθ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "μισέω",
+   "lexical": "μισέω",
+   "classe": "verbo",
+   "glosa": "odiar",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "ὀλοφύρομαι",
+   "lexical": "ὀλοφύρομαι",
+   "classe": "verbo",
+   "glosa": "lamentar; chorar (por)",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "πάσχω",
+   "lexical": "πάσχω (παθ-)",
+   "classe": "verbo",
+   "glosa": "sofrer; passar por; experimentar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "πάσχω",
+    "παθ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "παύομαι",
+   "lexical": "παύομαι",
+   "classe": "verbo",
+   "glosa": "parar; cessar (+ part.)",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   },
+   "athenaze": "cap. 7 (παύω)"
+  },
+  {
+   "grego": "πρεσβευτής",
+   "lexical": "πρεσβευτής, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "embaixador",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "πρέσβεις",
+   "lexical": "πρέσβεις, οἱ (3e)",
+   "classe": "substantivo",
+   "glosa": "embaixadores",
+   "aprender": true,
+   "paradigma": "polis-asty",
+   "nota": "Só no plural; para o singular usa-se πρεσβευτής.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "τρέπομαι",
+   "lexical": "τρέπομαι (τραπ-)",
+   "classe": "verbo",
+   "glosa": "voltar-se; virar-se; fugir",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "partes": [
+    "τρέπομαι",
+    "τραπ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "τυγχάνω",
+   "lexical": "τυγχάνω (τυχ-)",
+   "classe": "verbo",
+   "glosa": "acontecer de; estar por acaso (+ part.)",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "τυγχάνω",
+    "τυχ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "ὕβρις",
+   "lexical": "ὕβρις, ἡ (3e)",
+   "classe": "substantivo",
+   "glosa": "violência; agressão; insolência",
+   "aprender": true,
+   "paradigma": "polis-asty",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "ὑπηρέτης",
+   "lexical": "ὑπηρέτης, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "criado; servo; escravo público",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "φαίνομαι",
+   "lexical": "φαίνομαι (φαν-)",
+   "classe": "verbo",
+   "glosa": "parecer (ser) (+ part.); aparecer",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "partes": [
+    "φαίνομαι",
+    "φαν-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "φθάνω",
+   "lexical": "φθάνω (φθασ-)",
+   "classe": "verbo",
+   "glosa": "antecipar-se a; chegar antes de (+ ac. + part.)",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "φθάνω",
+    "φθασ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  },
+  {
+   "grego": "ὤ",
+   "lexical": "ὤ (+ gen.)",
+   "classe": "interjeição",
+   "glosa": "que …! (exclamação, + gen.)",
+   "aprender": true,
+   "nota": "Ex.: ὢ τῆς ἀνομίας “que falta de lei!”. Não confundir com ὦ do vocativo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 52,
+    "local": "4D"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "4D-o1",
+   "tipo": "traduzir-gp",
+   "titulo": "Particípios médios e expressões com particípio",
+   "enunciado": "Traduza para o português. Atenção às expressões com particípio (παύομαι, λανθάνω, φαίνομαι, δῆλός εἰμι, καίπερ) e ao artigo + particípio.",
+   "itens": [
+    {
+     "pergunta": "ὁ ξένος οὐ παύεται τοὺς θεοὺς ἐπικαλούμενος.",
+     "resposta": "O estrangeiro não para de invocar os deuses."
+    },
+    {
+     "pergunta": "οἱ ὑπηρέται ἀφέλκουσι τὸν ἱκέτην, καίπερ βοῶντα.",
+     "resposta": "Os servos arrastam o suplicante, embora ele grite."
+    },
+    {
+     "pergunta": "ὁ κῆρυξ λανθάνει τὸν βασιλέα ἀποφεύγων.",
+     "resposta": "O arauto foge sem que o rei perceba."
+    },
+    {
+     "pergunta": "οἱ πρέσβεις φαίνονται τὴν ὕβριν φοβούμενοι.",
+     "resposta": "Os embaixadores evidentemente temem a violência."
+    },
+    {
+     "pergunta": "τοὺς τὸν ἱκέτην ἀποκτείνοντας μισοῦσιν οἱ θεοί.",
+     "resposta": "Os deuses odeiam os que matam o suplicante."
+    },
+    {
+     "pergunta": "δῆλός ἐστιν ὁ δοῦλος τὸ πρᾶγμα ὀλοφυρόμενος.",
+     "resposta": "É claro que o escravo está lamentando o ocorrido."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "4D"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 8 (Πρὸς τὸ ἄστυ)",
+   "cap. 9 (Ἡ πανήγυρις)"
+  ],
+  "comparacao": "4D se passa num santuário, com altar (βωμός), arauto (κῆρυξ), servos públicos (ὑπηρέται) e um suplicante arrancado do altar. O Athenaze 8β–9β tem quase o mesmo cenário em clima de festa: Diceópolis faz uma libação no altar de casa, e na procissão das Dionísias vêm à frente os arautos (κήρυκες), atrás os ὑπηρέται com as vítimas, e o sacerdote (ἱερεύς, declinado como βασιλεύς) reza diante do altar. O vocabulário é o mesmo, então a leitura de um reforça o outro.\n\nNa gramática, 4D é cheio de particípios médios (ἐπικαλούμενος, ὀλοφυρόμενος, τρεπομένους, πορευόμενος), justamente o tema do cap. 8 do Athenaze. A JACT mostra como esses particípios se combinam com παύομαι, τυγχάνω e δῆλός εἰμι; o Athenaze dá exercícios mais simples e repetitivos de concordância (Exercícios 8β, 9β, 9γ), bons para automatizar.",
+  "complementos": [
+   "Athenaze cap. 8β (vocabulário, p. 122): εὔχομαι 'rezar' (+ dat.), ὁ βωμός, ὁ πολίτης. Compare com ἐπικαλέομαι τοὺς θεούς (4D).",
+   "Athenaze cap. 9β (vocabulário, p. 142): ὁ κῆρυξ, ὁ ἱερεύς, τὸ ἱερεῖον 'vítima do sacrifício', ὁ δῆμος, ἵλεως 'propício' (sinônimo de εὔφρων).",
+   "Athenaze cap. 9, Gram. 4 (p. 146): ὁ βασιλεύς junto com os irregulares ἡ ναῦς e ὁ βοῦς, num só quadro, com a explicação do digama (ναϝ-, βοϝ-).",
+   "Athenaze cap. 9, Gram. 5 (pp. 146–147): usos do genitivo, entre eles o verbo + genitivo (λαμβάνομαι τοῦ βωμοῦ 'agarrar-se ao altar', em 4D)."
+  ],
+  "citacoes": [
+   {
+    "grego": "καθίζεται γὰρ ἐπὶ τοῦ βωμοῦ ὁ δυστυχὴς ξένος, ἱκέτης ὤν.",
+    "traducao": "O pobre estrangeiro está sentado no altar, como suplicante.",
+    "comentario": "JACT: o altar como refúgio sagrado. ἱκέτης ὤν = 'sendo suplicante', 'na condição de suplicante'.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 50,
+     "local": "4D",
+     "linhas": "l. 1–2"
+    }
+   },
+   {
+    "grego": "σπονδὴν δὲ ποιούμενος τὸν Δία εὔχεται σῴζειν πάντας πρὸς τὸ ἄστυ πορευομένους.",
+    "traducao": "Fazendo uma libação, ele pede a Zeus que proteja todos os que vão para a cidade.",
+    "comentario": "Athenaze: dois particípios médios (ποιούμενος, πορευομένους) num gesto de piedade junto ao altar, o contrário do sacrilégio de 4D.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 123,
+     "local": "cap. 8β",
+     "linhas": "l. 8–9"
+    }
+   },
+   {
+    "grego": "πρεσβευτής τις, καὶ πορευόμενος τυγχάνει πρὸς βασιλέα τὸν μέγαν.",
+    "traducao": "Um embaixador, e acontece que está a caminho do Grande Rei.",
+    "comentario": "JACT: τυγχάνω + particípio médio e o acusativo βασιλέα (3g).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 50,
+     "local": "4D",
+     "linhas": "l. 36–37"
+    }
+   },
+   {
+    "grego": "ἔπειτα δὲ ὁ κῆρυξ τῷ δήμῳ κηρύττων, «εὐφημεῖτε, ὦ πολῖται», φησίν.",
+    "traducao": "Então o arauto, proclamando ao povo, diz: 'Silêncio sagrado, cidadãos!'",
+    "comentario": "Athenaze: o κῆρυξ na festa, com particípio ativo (κηρύττων). Em 4D o arauto manda arrastar o suplicante.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 143,
+     "local": "cap. 9β",
+     "linhas": "l. 15–16"
+    }
+   }
+  ]
+ }
+}

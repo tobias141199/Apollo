@@ -1,0 +1,65 @@
+{
+  "id": "verbo-aoristo-fraco",
+  "titulo": "Aoristo fraco (1º aoristo) — ἔπαυσα, ἐπαυσάμην",
+  "grupo": "verbo",
+  "colunas": [
+    "Ativo",
+    "Médio"
+  ],
+  "linhas": [
+    {
+      "rotulo": "1ª sg.",
+      "celulas": [
+        "ἔπαυ|σα",
+        "ἐπαυ|σάμην"
+      ]
+    },
+    {
+      "rotulo": "2ª sg.",
+      "celulas": [
+        "ἔπαυ|σας",
+        "ἐπαύ|σω"
+      ]
+    },
+    {
+      "rotulo": "3ª sg.",
+      "celulas": [
+        "ἔπαυ|σε(ν)",
+        "ἐπαύ|σατο"
+      ]
+    },
+    {
+      "rotulo": "1ª pl.",
+      "celulas": [
+        "ἐπαύ|σαμεν",
+        "ἐπαυ|σάμεθα"
+      ]
+    },
+    {
+      "rotulo": "2ª pl.",
+      "celulas": [
+        "ἐπαύ|σατε",
+        "ἐπαύ|σασθε"
+      ]
+    },
+    {
+      "rotulo": "3ª pl.",
+      "celulas": [
+        "ἔπαυ|σαν",
+        "ἐπαύ|σαντο"
+      ]
+    },
+    {
+      "rotulo": "Infinitivo",
+      "celulas": [
+        "παῦ|σαι",
+        "παύ|σασθαι"
+      ]
+    }
+  ],
+  "nota": "Marca: aumento + tema + σα. Fora do indicativo não há aumento (inf. παῦσαι). O aoristo indica ação pontual, 'parei, fiz parar'.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 12"
+  }
+}

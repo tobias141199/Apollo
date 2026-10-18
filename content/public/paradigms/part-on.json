@@ -1,0 +1,81 @@
+{
+  "id": "part-on",
+  "titulo": "Particípio de εἰμί — ὤν οὖσα ὄν",
+  "grupo": "verbo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "ὤν",
+        "οὖσα",
+        "ὄν"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "ὄντα",
+        "οὖσαν",
+        "ὄν"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "ὄντος",
+        "οὔσης",
+        "ὄντος"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "ὄντι",
+        "οὔσῃ",
+        "ὄντι"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "ὄντες",
+        "οὖσαι",
+        "ὄντα"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "ὄντας",
+        "οὔσας",
+        "ὄντα"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "ὄντων",
+        "οὐσῶν",
+        "ὄντων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "οὖσι(ν)",
+        "οὔσαις",
+        "οὖσι(ν)"
+      ]
+    }
+  ],
+  "nota": "São exatamente as terminações do particípio presente ativo (παύ-ων, παύ-ουσα, παῦ-ον) sem tema. Reconhecê-las ajuda a identificar todos os particípios em -ων.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 9"
+  }
+}

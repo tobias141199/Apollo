@@ -1,0 +1,190 @@
+{
+ "id": "1B",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "Um barulho a bordo",
+ "resumo": "Zenótemis tenta distrair Diceópolis e o capitão com a beleza da Acrópole e do Pireu, mas o ruído misterioso continua e eles o escutam com clareza.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 6,
+  "local": "1B"
+ },
+ "vocab": [
+  {
+   "grego": "ἆρα",
+   "lexical": "ἆρα",
+   "classe": "partícula",
+   "glosa": "(introduz pergunta direta)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 7,
+    "local": "1B"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "δεῦρο",
+   "lexical": "δεῦρο",
+   "classe": "advérbio",
+   "glosa": "aqui; para cá",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 7,
+    "local": "1B"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "ἐγώ",
+   "lexical": "ἐγώ",
+   "classe": "pronome",
+   "glosa": "eu",
+   "aprender": true,
+   "paradigma": "pron-pessoais",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 7,
+    "local": "1B"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "καί",
+   "lexical": "καί",
+   "classe": "advérbio",
+   "glosa": "também",
+   "aprender": true,
+   "nota": "Além de 'e' (1A), καί pode significar 'também'.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 7,
+    "local": "1B"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "σύ",
+   "lexical": "σύ",
+   "classe": "pronome",
+   "glosa": "tu",
+   "aprender": true,
+   "paradigma": "pron-pessoais",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 7,
+    "local": "1B"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "τίς",
+   "lexical": "τίς τί (τιν-)",
+   "classe": "pronome",
+   "glosa": "quem?; o quê?; qual?",
+   "aprender": true,
+   "paradigma": "tis-tis",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 7,
+    "local": "1B"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "ὦ",
+   "lexical": "ὦ",
+   "classe": "interjeição",
+   "glosa": "ó (ao dirigir-se a alguém)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 7,
+    "local": "1B"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "1B-o1",
+   "tipo": "traduzir-gp",
+   "titulo": "Perguntas e vocativos",
+   "enunciado": "Traduza para o português. Indique quem está sendo chamado (vocativo) e qual palavra recebe ênfase.",
+   "itens": [
+    {
+     "pergunta": "ἆρα σὺ τὸ πλοῖον ὁρᾷς, ὦ ναῦτα;",
+     "resposta": "Será que tu vês o navio, marinheiro? (vocativo: ὦ ναῦτα; ênfase em σύ)"
+    },
+    {
+     "pergunta": "δεῦρο ἐλθέ, ὦ ῥαψῳδέ.",
+     "resposta": "Vem cá, rapsodo! (vocativo: ὦ ῥαψῳδέ)"
+    },
+    {
+     "pergunta": "ἐγὼ δὲ τὴν γῆν ὁρῶ.",
+     "resposta": "Mas *eu* vejo a terra. (ênfase em ἐγώ)"
+    },
+    {
+     "pergunta": "τίς ἐστιν ὁ ναύτης;",
+     "resposta": "Quem é o marinheiro?"
+    },
+    {
+     "pergunta": "καλὴ δὲ ἡ γῆ.",
+     "resposta": "E a terra é bela. (ἐστί subentendido)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1B"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 2 (Ὁ Ξανθίας)",
+   "cap. 4 (Πρὸς τῇ κρήνῃ)"
+  ],
+  "comparacao": "1B é um diálogo: perguntas com ἆρα, pronomes enfáticos (ἐγώ, σύ) e vocativos com ὦ. A JACT deixa essas palavras para o vocabulário e só explica ἆρα depois (1G, §40). O Athenaze explica cedo e com clareza por que o grego dispensa o pronome sujeito e o usa só para dar ênfase (cap. 2, p. 14: ἐγὼ μὲν πονῶ, σὺ δὲ καθεύδεις).\n\nSugestão: ao ler 1B, sublinhe cada ἐγώ e σύ e pergunte \"que contraste está sendo feito?\". Depois leia o cap. 2α do Athenaze, que tem o mesmo tom de cena cômica com ordens e vocativos.",
+  "complementos": [
+   "Athenaze cap. 2, Gram. 1 (p. 14): o pronome sujeito só aparece quando é enfático — ἐλαύνω = \"eu conduzo\"; ἐγὼ μὲν πονῶ, σὺ δὲ καθεύδεις = \"*eu* trabalho, *tu* dormes\".",
+   "Athenaze cap. 2 (p. 14): proclíticas — οὐ não tem acento e se apoia na palavra seguinte; e οὐκ ἔστιν recebe acento na primeira sílaba.",
+   "Athenaze cap. 4α, vocabulário (p. 36): ἆρα introduz pergunta sim/não, como na JACT.",
+   "Vocabulário do Athenaze já visto aqui: ἐγώ (cap. 2), σύ (cap. 3), ἆρα (cap. 4), τί (cap. 2 e 4)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἐγὼ γὰρ τὴν ἀκρόπολιν ὁρῶ. ἆρα καὶ σὺ τὴν ἀκρόπολιν ὁρᾷς;",
+    "traducao": "Pois eu vejo a Acrópole. Será que tu também vês a Acrópole?",
+    "comentario": "JACT: ἐγώ e σύ enfáticos em contraste; ἆρα marca a pergunta.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 6,
+     "local": "1B"
+    }
+   },
+   {
+    "grego": "ἐγὼ μὲν πονῶ, σὺ δὲ καθεύδεις.",
+    "traducao": "Eu trabalho, e tu dormes.",
+    "comentario": "Athenaze: o mesmo contraste de pronomes enfáticos, agora reforçado por μέν… δέ.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 14,
+     "local": "cap. 2, Gram. 1"
+    }
+   },
+   {
+    "grego": "ἆρα ἤδη πληροῦτε τὰς ὑδρίας;",
+    "traducao": "Vocês já estão enchendo os cântaros?",
+    "comentario": "Athenaze: ἆρα em pergunta sim/não, com a resposta ναί logo em seguida no texto.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 37,
+     "local": "cap. 4α"
+    }
+   }
+  ]
+ }
+}

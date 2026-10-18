@@ -1,0 +1,440 @@
+{
+ "id": "2A",
+ "secao": 2,
+ "parte": 1,
+ "titulo": "Rumo a Salamina",
+ "resumo": "Ao passar por Salamina, o capitão pede ao rapsodo que narre a grande batalha naval contra os persas, e os marinheiros se preparam para ouvir.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 22,
+  "local": "2A"
+ },
+ "vocab": [
+  {
+   "grego": "ἡδέως",
+   "lexical": "ἡδέως",
+   "classe": "advérbio",
+   "glosa": "com prazer; agradavelmente",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 23,
+    "local": "2A"
+   }
+  },
+  {
+   "grego": "ἤδη",
+   "lexical": "ἤδη",
+   "classe": "advérbio",
+   "glosa": "agora; já",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 23,
+    "local": "2A"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "παρά",
+   "lexical": "παρά (+ ac.)",
+   "classe": "preposição",
+   "glosa": "ao longo de; ao lado de (+ ac.)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 23,
+    "local": "2A"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "Voz média: presente e imperativo (ἔρχομαι)",
+   "nota": "Alguns verbos trocam as terminações -ω, -εις, -ει… por outro conjunto: -ομαι, -ῃ (ou -ει), -εται, -όμεθα, -εσθε, -ονται. É a *voz média*. Na leitura, quase sempre você traduz como um verbo comum: ἔρχεται = 'vai', μάχονται = 'combatem', γίγνεται = 'torna-se, acontece'.\n\nVale decorar a sequência *-μαι, -σαι, -ται, -μεθα, -σθε, -νται*, que volta em outros tempos. A 2ª sg. ἔρχῃ vem de ἔρχε-σαι: o σ entre vogais cai e as vogais se fundem. Imperativo: ἔρχου (tu), ἔρχεσθε (vós); como no ativo, a 2ª pl. do imperativo é igual à do indicativo.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "43–44",
+    "local": "2A–D, §52"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "75–77",
+    "local": "cap. 6, Gram. 2–3"
+   },
+   "paradigmas": [
+    "verbo-presente-medio"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἡ μὲν ναῦς πρὸς τὸν Πειραιᾶ βραδέως ἔρχεται.",
+     "traducao": "O navio vai devagar rumo ao Pireu.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 22,
+      "local": "2A"
+     }
+    },
+    {
+     "grego": "εἰσβαίνουσι δὲ ταχέως εἰς τὰς ναῦς καὶ ὑπὲρ τῆς ἐλευθερίας μάχονται.",
+     "traducao": "E embarcam depressa nos navios e combatem pela liberdade.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 24,
+      "local": "2B"
+     }
+    },
+    {
+     "grego": "ἐπεὶ οὖν νὺξ γίγνεται, σπεύδει πρὸς τὸ δεσμωτήριον.",
+     "traducao": "Então, quando cai a noite, ela corre até a prisão.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 73,
+      "local": "cap. 6α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Verbos só médios (depoentes) e médios com ativo",
+   "nota": "ἔρχομαι, γίγνομαι, μάχομαι e θεάομαι não têm, no presente, forma ativa: o vocabulário já os dá em -ομαι e você os aprende assim. O Athenaze chama esses verbos de *depoentes*; a JACT, nesta seção, apenas os chama de 'médios'.\n\nJá φοβέομαι tem um ativo, φοβέω 'espantar, pôr em fuga'; no médio significa 'ter medo (de)' e pode levar acusativo: τὸ φάσμα φοβοῦμαι 'tenho medo da aparição'. Na prática: se o verbo aparece em -ομαι no vocabulário, traduza-o como ativo e não procure sentido reflexivo.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 43,
+    "local": "2A–D, §52"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "78, 86–87",
+    "local": "cap. 6, Gram. 3 (Deponent Verbs) e Gram. 5"
+   },
+   "paradigmas": [
+    "verbo-presente-medio"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἐγὼ δὲ τὸ φάσμα φοβοῦμαι.",
+     "traducao": "E eu tenho medo da aparição.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 28,
+      "local": "2D"
+     }
+    },
+    {
+     "grego": "ὁ δ᾽ Αἰγεὺς μάλα φοβεῖται ἀλλ᾽ ὅμως πείθεται αὐτῷ.",
+     "traducao": "Egeu tem muito medo, mas mesmo assim lhe obedece.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 73,
+      "local": "cap. 6α",
+      "linhas": "l. 11–12"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Contratos médios: θεάομαι, φοβέομαι, δουλόομαι",
+   "nota": "Os verbos contratos também têm voz média, e as vogais se fundem pelas mesmas regras do ativo: com α, o resultado é ω ou ᾱ (θεῶμαι, θεᾶται, θεώμεθα); com ε, é ου ou ει (φοβοῦμαι, φοβεῖται, φοβούμεθα); com ο, é ου ou οι (δουλοῦμαι, δουλοῦται, δουλοῖ).\n\nImperativo singular: θεῶ, φοβοῦ, δουλοῦ; plural: θεᾶσθε, φοβεῖσθε, δουλοῦσθε. Pista de leitura: acento circunflexo antes de uma terminação média indica contrato médio. Os contratos em -ο- são raros; o Athenaze só os apresenta no cap. 15.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "45–46",
+    "local": "2A–D, §53–54"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "77–78",
+    "local": "cap. 6, Gram. 3 (φιλέομαι, τιμάομαι)"
+   },
+   "paradigmas": [
+    "orao-presente",
+    "poieo-presente"
+   ],
+   "exemplos": [
+    {
+     "grego": "θεᾶται δὲ ἡδέως τὴν ναυμαχίαν Ξέρξης ὁ βασιλεύς.",
+     "traducao": "E o rei Xerxes assiste com prazer à batalha naval.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 28,
+      "local": "2D"
+     }
+    },
+    {
+     "grego": "μὴ φοβεῖσθε τοὺς Μήδους ἀλλὰ βοηθεῖτε καὶ τολμᾶτε.",
+     "traducao": "Não temais os medos, mas vinde em socorro e tende coragem!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 28,
+      "local": "2D"
+     }
+    },
+    {
+     "grego": "καὶ οὐ δουλοῦνται τοὺς Ἀθηναίους.",
+     "traducao": "E não escravizam os atenienses.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 24,
+      "local": "2B"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "1ª declinação: tipos 1a–1d (βοή, ἀπορία, θάλαττα, ναύτης/νεανίας)",
+   "nota": "O plural é o mesmo para todos os tipos: -αι, -ας, -ῶν, -αις (o gen. pl. sempre com circunflexo). As diferenças estão no singular. *1a* (βοή): η em todo o singular. *1b* (ἀπορία, στρατιά, ἐλευθερία): depois de ε, ι ou ρ fica ᾱ longo em todo o singular. *1c* (θάλαττα, τόλμα): α breve no nom./ac., mas η no gen./dat. (θαλάττης, θαλάττῃ). *1d* (ναύτης, νεανίας): masculinos, iguais aos femininos exceto no gen. sg. em -ου e no vocativo (ὦ ναῦτα).\n\nAtenção à numeração: o Athenaze chama κρήνη, ὑδρία, μέλιττα e μάχαιρα de Tipos 1–4, e não usa as letras da JACT.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "46–48",
+    "local": "2A–D, §55–58"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "40–42, 47–48",
+    "local": "cap. 4, Gram. 3 (femininos) e 4 (masculinos)"
+   },
+   "paradigmas": [
+    "decl1-a",
+    "decl1-b",
+    "decl1-c",
+    "decl1-d",
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "καὶ ἐν τῇ ναυμαχίᾳ ὅσαι εἰσὶν αἱ βοαί, ὅσαι αἱ ἀπορίαι.",
+     "traducao": "E, na batalha naval, quantos gritos, quantas aflições!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 24,
+      "local": "2B"
+     }
+    },
+    {
+     "grego": "πολλὴ γὰρ ἡ τόλμα ἡ τῶν τε Ἑλλήνων καὶ τῶν στρατηγῶν.",
+     "traducao": "Pois grande é a ousadia tanto dos gregos quanto dos generais.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 24,
+      "local": "2B"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "O genitivo: 'de'",
+   "nota": "Na maioria das vezes, o genitivo corresponde ao nosso 'de': τῶν Περσῶν 'dos persas', τῆς ἐλευθερίας 'da liberdade'. Para reconhecê-lo, olhe as terminações: no singular, -ου (2ª declinação e 1d) e -ης/-ας (1ª feminina); no plural, sempre -ων. O artigo (τοῦ, τῆς, τῶν) é a pista mais segura.\n\nO Athenaze (cap. 2) usa o genitivo de início só depois de preposições (ἐκ τοῦ οἴκου). A JACT usa o genitivo de posse desde já, e é ele que você mais vai encontrar no texto da seção 2.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 48,
+    "local": "2A–D, §59–60"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "20, 31",
+    "local": "cap. 2, Gram. 4; cap. 3, Gram. 2"
+   },
+   "paradigmas": [
+    "artigo",
+    "decl2-masc"
+   ],
+   "exemplos": [
+    {
+     "grego": "πολλὴ μὲν γὰρ ἡ τῶν Περσῶν στρατιά, ὀλίγοι δὲ οἱ Ἀθηναῖοι.",
+     "traducao": "Pois o exército dos persas é grande, e os atenienses são poucos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 24,
+      "local": "2B"
+     }
+    },
+    {
+     "grego": "ὁ Μίνως οἰκεῖ ἐν τῇ Κρήτῃ· βασιλεὺς δέ ἐστι τῆς νήσου.",
+     "traducao": "Minos mora em Creta e é rei da ilha.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 73,
+      "local": "cap. 6α",
+      "linhas": "l. 1"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Construção em sanduíche, repetição do artigo e artigo + preposição",
+   "nota": "O que fica entre o artigo e o substantivo pertence a ele: τὸ τῶν ἀνθρώπων πλοῖον 'o navio dos homens' (construção em *sanduíche*). A mesma ideia pode vir com o artigo repetido: τὸ πλοῖον τὸ τῶν ἀνθρώπων. O segundo artigo equivale a 'o (que é)' e destaca de qual navio se fala.\n\nAs duas construções valem também para adjetivos e para expressões com preposição: τὰ περὶ Σαλαμῖνα πράγματα = τὰ πράγματα τὰ περὶ Σαλαμῖνα. O artigo sozinho com uma preposição vira substantivo: τὰ περὶ Σαλαμῖνα 'os fatos de Salamina', οἱ ἐν Σαλαμῖνι 'os (homens) de Salamina'. O Athenaze chama isso de *posição atributiva* e a contrapõe à *posição predicativa* (καλὴ ἡ οἰκία, 'a casa é bela'), uma distinção que vale aprender junto.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 49,
+    "local": "2A–D, §61–63"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 66,
+    "local": "cap. 5, Gram. 7"
+   },
+   "paradigmas": [
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "διὰ τί ὁ ῥαψῳδὸς οὐ διέρχεται τὴν περὶ Σαλαμῖνα ναυμαχίαν;",
+     "traducao": "Por que o rapsodo não narra a batalha naval de Salamina?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 22,
+      "local": "2A"
+     }
+    },
+    {
+     "grego": "ἀκούετε αὖθις, ὦ ναῦται, τὰ καλὰ ἔργα τὰ τῶν Ἑλλήνων.",
+     "traducao": "Ouvi outra vez, marinheiros, os belos feitos dos gregos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 26,
+      "local": "2C"
+     }
+    },
+    {
+     "grego": "τὸν τῶν ποδῶν ψόφον ἀκούουσι καὶ τὸ τοῦ θηρίου πνεῦμα ὀσφραίνονται.",
+     "traducao": "Ouvem o barulho dos pés e sentem o bafo da fera.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 85,
+      "local": "cap. 6β",
+      "linhas": "l. 14–15"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Preposições com acusativo e com dativo",
+   "nota": "Algumas preposições mudam de sentido conforme o caso que as segue. Com acusativo: παρά 'ao longo de, ao lado de', ἐπί 'para, contra', διά 'por causa de'. Com dativo: ἐν 'em'. Com genitivo (§38): ἐκ 'para fora de', ἀπό 'de, a partir de'.\n\nO Athenaze resume bem: genitivo indica *de onde*, dativo indica *onde* e acusativo indica *para onde*. A regra ajuda a adivinhar, mas διὰ + acusativo ('por causa de') não se encaixa nela. Com verbo de movimento hostil, ἐπί + acusativo é 'contra': ἐπὶ τοὺς Μήδους ἐπέρχονται.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 50,
+    "local": "2A–D, §64–65"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "88–89",
+    "local": "cap. 6, Gram. 6–7"
+   },
+   "exemplos": [
+    {
+     "grego": "ἔρχεται δὲ ἡ ναῦς ἤδη παρὰ τὴν Σαλαμῖνα.",
+     "traducao": "E o navio já passa ao longo de Salamina.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 22,
+      "local": "2A"
+     }
+    },
+    {
+     "grego": "ἐλεύθεροι οὖν γίγνονται οἱ Ἕλληνες διὰ τὴν ἀρετήν.",
+     "traducao": "Assim os gregos se tornam livres por causa da sua coragem.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 28,
+      "local": "2D"
+     }
+    },
+    {
+     "grego": "ὁ Ἄργος ὁρμᾷ ἐπὶ τὸν λύκον.",
+     "traducao": "Argos se lança contra o lobo.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 62,
+      "local": "cap. 5β (legenda)"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "2A-o1",
+   "tipo": "morfologia",
+   "titulo": "Voz média: singular ↔ plural",
+   "enunciado": "Traduza cada forma e passe-a para o plural (ou para o singular), mantendo a pessoa.",
+   "itens": [
+    {
+     "pergunta": "ἔρχεται",
+     "resposta": "ele vai/vem → ἔρχονται (eles vão/vêm)"
+    },
+    {
+     "pergunta": "μάχομαι",
+     "resposta": "eu combato → μαχόμεθα (nós combatemos)"
+    },
+    {
+     "pergunta": "γίγνῃ",
+     "resposta": "tu te tornas → γίγνεσθε (vós vos tornais)"
+    },
+    {
+     "pergunta": "ἔρχου",
+     "resposta": "vai! (tu) → ἔρχεσθε (ide!)"
+    },
+    {
+     "pergunta": "διαλέγονται",
+     "resposta": "eles conversam → διαλέγεται (ele conversa)"
+    },
+    {
+     "pergunta": "φοβοῦμαι",
+     "resposta": "eu temo → φοβούμεθα (nós tememos)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "2A"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 6 (Ὁ μῦθος)",
+   "cap. 4 (Πρὸς τῇ κρήνῃ)"
+  ],
+  "comparacao": "A JACT apresenta a voz média logo no começo da seção 2, como algo a reconhecer na leitura (ἔρχεται, διαλέγονται), antes de ensinar todo o ativo. O Athenaze espera até o cap. 6: primeiro firma todas as pessoas do ativo (cap. 4) e os contratos em -α (cap. 5).\n\nEm compensação, o Athenaze explica melhor *para que serve* a voz média. Ele mostra pares ativo/médio (λούω 'lavo' / λούομαι 'lavo-me') e separa o sentido reflexivo, o de interesse próprio e o causativo. A JACT dá as tabelas mais limpas e a regra do σ intervocálico.\n\nOrdem sugerida: leia o texto de 2A, estude o §52 com a tabela de ἔρχομαι e depois leia o Athenaze cap. 6, Gram. 2 (pp. 75–76) para entender o sentido. Os advérbios em -ως (ἡδέως, βραδέως) ficam claros com o Athenaze cap. 4, Gram. 7.",
+  "complementos": [
+   "Athenaze cap. 6, Gram. 2c (pp. 75–76): pares ativo × médio — λούω 'lavo' / λούομαι 'lavo-me', ἐγείρω 'acordo (alguém)' / ἐγείρομαι 'acordo', φέρω 'carrego' / φέρομαι 'ganho (para mim)', λύω 'solto' / λύομαι 'resgato'.",
+   "Athenaze cap. 6, Gram. 3 (pp. 77–78): traz também o infinitivo médio (λύεσθαι, φιλεῖσθαι, τιμᾶσθαι), que a JACT ainda não mostrou.",
+   "Athenaze cap. 4, Gram. 7 (p. 50): muitos advérbios em -ως saem do gen. pl. do adjetivo, trocando -ν por -ς (καλῶν → καλῶς). ἡδέως e ταχέως seguem a mesma regra a partir dos adjetivos ἡδύς e ταχύς (gen. pl. ἡδέων, ταχέων).",
+   "Vocabulário: βραδέως e ἤδη já estão no Athenaze cap. 2β (p. 18); ταχέως no cap. 4α (p. 36)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ὁ δὲ Δικαιόπολις καὶ οἱ ναῦται καὶ ὁ κυβερνήτης καὶ ὁ ῥαψῳδὸς πρὸς ἀλλήλους ἡδέως διαλέγονται.",
+    "traducao": "Diceópolis, os marinheiros, o capitão e o rapsodo conversam com prazer uns com os outros.",
+    "comentario": "διαλέγονται é médio, com sujeito plural composto; ἡδέως é advérbio em -ως.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 22,
+     "local": "2A"
+    }
+   },
+   {
+    "grego": "ἥ τε οὖν μήτηρ καὶ ἡ θυγάτηρ βραδέως βαδίζουσιν· ὑδρίας γὰρ φέρουσιν.",
+    "traducao": "A mãe e a filha caminham devagar, pois carregam cântaros.",
+    "comentario": "O mesmo βραδέως da JACT (ἡ ναῦς βραδέως ἔρχεται), aqui com verbo ativo: compare βαδίζουσιν × ἔρχεται.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 37,
+     "local": "cap. 4α"
+    }
+   },
+   {
+    "grego": "ὁ δ᾽ Αἰγεὺς μάλα φοβεῖται ἀλλ᾽ ὅμως πείθεται αὐτῷ.",
+    "traducao": "Egeu tem muito medo, mas mesmo assim lhe obedece.",
+    "comentario": "Dois médios: φοβεῖται (contrato em -ε) e πείθεται + dativo 'obedecer', ao lado do ativo πείθω 'persuadir'.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 73,
+     "local": "cap. 6α",
+     "linhas": "l. 11–12"
+    }
+   }
+  ]
+ }
+}

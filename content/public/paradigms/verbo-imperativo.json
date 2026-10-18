@@ -1,0 +1,39 @@
+{
+  "id": "verbo-imperativo",
+  "titulo": "Imperativo — παύω, λαμβάνω, εἰμί",
+  "grupo": "verbo",
+  "colunas": [
+    "Presente ativo",
+    "Presente médio",
+    "Aoristo fraco ativo",
+    "Aoristo forte ativo",
+    "εἰμί"
+  ],
+  "linhas": [
+    {
+      "rotulo": "2ª sg.",
+      "celulas": [
+        "παῦ|ε",
+        "παύ|ου",
+        "παῦ|σον",
+        "λαβ|έ",
+        "ἴσθι"
+      ]
+    },
+    {
+      "rotulo": "2ª pl.",
+      "celulas": [
+        "παύ|ετε",
+        "παύ|εσθε",
+        "παύ|σατε",
+        "λάβ|ετε",
+        "ἔστε"
+      ]
+    }
+  ],
+  "nota": "O imperativo do aoristo não tem aumento (παῦσον, não *ἔπαυσον). Presente = ordem contínua ou geral; aoristo = ordem pontual ('faça isto agora'). Proibição: μή + imperativo presente.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 3"
+  }
+}

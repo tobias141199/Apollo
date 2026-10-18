@@ -1,0 +1,940 @@
+{
+ "id": "ath3",
+ "capitulo": 3,
+ "tituloGrego": "Ὁ ἄροτος",
+ "titulo": "A aradura",
+ "resumo": "Uma pedra trava o arado de Diceópolis; com Xântias, ele a tira do campo, e o pé do patrão paga o preço. Depois chega o filho, Filipe, com o almoço, e todos trabalham até o pôr do sol.",
+ "fonte": {
+  "livro": "Athenaze",
+  "pagina": 24,
+  "local": "cap. 3"
+ },
+ "vocab": [
+  {
+   "grego": "μένω",
+   "lexical": "μένω",
+   "classe": "verbo",
+   "glosa": "ficar, permanecer; esperar (por)",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "JACT: 1C–D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "πίπτω",
+   "lexical": "πίπτω",
+   "classe": "verbo",
+   "glosa": "cair",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "JACT: 2B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "προσχωρέω",
+   "lexical": "προσχωρέω + dat.",
+   "classe": "verbo",
+   "glosa": "ir em direção a, aproximar-se de",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "nota": "Verbo contrato em -έω: προσχωρεῖ, προσχωροῦσι(ν). Pede dativo: τῷ ἀγρῷ προσχωροῦσιν.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "φημί",
+   "lexical": "φησί(ν)",
+   "classe": "verbo",
+   "glosa": "diz (ele/ela)",
+   "aprender": true,
+   "nota": "Pospositiva e enclítica; vem no meio da fala citada: “μὴ μένετε,” φησίν.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "λίθος",
+   "lexical": "λίθος, ὁ",
+   "classe": "substantivo",
+   "glosa": "pedra",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "JACT: 11C.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "αὐτό",
+   "lexical": "αὐτό",
+   "classe": "pronome",
+   "glosa": "o, a (objeto neutro); isso",
+   "aprender": true,
+   "paradigma": "autos",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "αὐτόν",
+   "lexical": "αὐτόν",
+   "classe": "pronome",
+   "glosa": "o, a ele (objeto masc.); isso",
+   "aprender": true,
+   "paradigma": "autos",
+   "nota": "JACT: 4D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "αἴτιος",
+   "lexical": "αἴτιος, αἰτία, αἴτιον",
+   "classe": "adjetivo",
+   "glosa": "responsável (por), culpado",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "δυνατός",
+   "lexical": "δυνατός, -ή, -όν",
+   "classe": "adjetivo",
+   "glosa": "possível",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "nota": "δυνατόν ἐστι + infinitivo = “é possível …”. JACT: 18B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "μέγας",
+   "lexical": "μέγας, μεγάλη, μέγα",
+   "classe": "adjetivo",
+   "glosa": "grande",
+   "aprender": true,
+   "paradigma": "adj-megas",
+   "nota": "JACT: 3C–E.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "ἐκ",
+   "lexical": "ἐκ, ἐξ + gen.",
+   "classe": "preposição",
+   "glosa": "de dentro de, para fora de",
+   "aprender": true,
+   "nota": "ἐξ antes de vogal. Também prefixo: ἐκφέρω “levar para fora”.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "αὖθις",
+   "lexical": "αὖθις",
+   "classe": "advérbio",
+   "glosa": "de novo, outra vez",
+   "aprender": true,
+   "nota": "JACT: 2C.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "δεῦρο",
+   "lexical": "δεῦρο",
+   "classe": "advérbio",
+   "glosa": "para cá, aqui",
+   "aprender": true,
+   "nota": "Indica direção (“vem para cá”). JACT: 1B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "ἔτι",
+   "lexical": "ἔτι",
+   "classe": "advérbio",
+   "glosa": "ainda",
+   "aprender": true,
+   "nota": "JACT: 3D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "οὐκέτι",
+   "lexical": "οὐκέτι",
+   "classe": "advérbio",
+   "glosa": "não mais, já não",
+   "aprender": true,
+   "nota": "JACT: 2D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "τε … καί",
+   "lexical": "τε … καί / τε καί",
+   "classe": "conjunção",
+   "glosa": "tanto … quanto; … e …",
+   "aprender": true,
+   "nota": "τε é pospositivo e enclítico: ὅ τε δεσπότης καὶ ὁ δοῦλος. JACT: 1A.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "ὦ Ζεῦ",
+   "lexical": "ὦ Ζεῦ",
+   "classe": "expressão",
+   "glosa": "ó Zeus!",
+   "aprender": true,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "λείπω",
+   "lexical": "λείπω",
+   "classe": "verbo",
+   "glosa": "deixar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "JACT: 13C.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "λύω",
+   "lexical": "λύω",
+   "classe": "verbo",
+   "glosa": "soltar, desatar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Verbo-modelo do Athenaze para as tabelas.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "δεῖπνον",
+   "lexical": "δεῖπνον, τό",
+   "classe": "substantivo",
+   "glosa": "refeição, jantar",
+   "aprender": true,
+   "paradigma": "decl2-neut",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "παῖς",
+   "lexical": "παῖς, ὁ ou ἡ (ὦ παῖ)",
+   "classe": "substantivo",
+   "glosa": "menino; menina; filho; filha; criança",
+   "aprender": true,
+   "paradigma": "decl3-a-dental",
+   "nota": "3ª declinação (tema παιδ-). JACT: 3A–B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "πατήρ",
+   "lexical": "πατήρ, ὁ (τὸν πατέρα, ὦ πάτερ)",
+   "classe": "substantivo",
+   "glosa": "pai",
+   "aprender": true,
+   "paradigma": "aner-pater",
+   "nota": "JACT: 5A.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "σύ",
+   "lexical": "σύ",
+   "classe": "pronome",
+   "glosa": "tu, você (sing.)",
+   "aprender": true,
+   "paradigma": "pron-pessoais",
+   "nota": "JACT: 1B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "ἀνδρεῖος",
+   "lexical": "ἀνδρεῖος, ἀνδρεία, ἀνδρεῖον",
+   "classe": "adjetivo",
+   "glosa": "corajoso, valente",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "nota": "JACT: 7D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "πολλοί",
+   "lexical": "πολλοί",
+   "classe": "adjetivo",
+   "glosa": "muitos",
+   "aprender": true,
+   "paradigma": "adj-polys",
+   "nota": "Plural de πολύς (quadro completo no cap. 4, Gram. 6). JACT: 3C–E.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "τοσοῦτος",
+   "lexical": "τοσοῦτος",
+   "classe": "adjetivo",
+   "glosa": "tão grande; no plural, tantos",
+   "aprender": true,
+   "nota": "JACT: 12D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "ἐν",
+   "lexical": "ἐν + dat.",
+   "classe": "preposição",
+   "glosa": "em; sobre",
+   "aprender": true,
+   "nota": "JACT: 1G.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "μηκέτι",
+   "lexical": "μηκέτι + imperativo",
+   "classe": "advérbio",
+   "glosa": "não … mais!",
+   "aprender": true,
+   "nota": "É o οὐκέτι das ordens: μηκέτι πόνει “não trabalhes mais”. JACT: 9E.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "ἐπεί",
+   "lexical": "ἐπεί",
+   "classe": "conjunção",
+   "glosa": "quando",
+   "aprender": true,
+   "nota": "JACT: 9C.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "Φίλιππος",
+   "lexical": "Φίλιππος, ὁ",
+   "classe": "nome próprio",
+   "glosa": "Filipe (filho de Diceópolis)",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "ἕλκω",
+   "lexical": "ἕλκω",
+   "classe": "verbo",
+   "glosa": "puxar, arrastar",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "σπείρω",
+   "lexical": "σπείρω",
+   "classe": "verbo",
+   "glosa": "semear",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "σπέρμα",
+   "lexical": "σπέρμα, τό",
+   "classe": "substantivo",
+   "glosa": "semente",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "ἰδού",
+   "lexical": "ἰδού",
+   "classe": "interjeição",
+   "glosa": "olha!",
+   "aprender": false,
+   "nota": "Vira vocabulário a aprender no cap. 4α.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "ἐμποδίζω",
+   "lexical": "ἐμποδίζω",
+   "classe": "verbo",
+   "glosa": "atrapalhar, bloquear",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "ἅμα",
+   "lexical": "ἅμα",
+   "classe": "advérbio",
+   "glosa": "juntos, ao mesmo tempo",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "ἐν ᾧ",
+   "lexical": "ἐν ᾧ",
+   "classe": "expressão",
+   "glosa": "enquanto",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "πταίω",
+   "lexical": "πταίω",
+   "classe": "verbo",
+   "glosa": "tropeçar",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "καταβάλλω",
+   "lexical": "καταβάλλω",
+   "classe": "verbo",
+   "glosa": "deixar cair",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "φεῦ",
+   "lexical": "φεῦ τοῦ ποδός",
+   "classe": "interjeição",
+   "glosa": "ai, meu pobre pé!",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "ἀνόητος",
+   "lexical": "ὦ ἀνόητε",
+   "classe": "adjetivo",
+   "glosa": "seu tolo!",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "σκαιός",
+   "lexical": "σκαιός",
+   "classe": "adjetivo",
+   "glosa": "desajeitado",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "φλυαρέω",
+   "lexical": "φλυάρει",
+   "classe": "verbo",
+   "glosa": "dizer bobagens (φλυάρει: não diga bobagem!)",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "μαστιγίας",
+   "lexical": "ὦ μαστιγία",
+   "classe": "substantivo",
+   "glosa": "seu patife! (alguém que merece chicote)",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 25,
+    "local": "cap. 3α"
+   }
+  },
+  {
+   "grego": "ἐν τούτῳ",
+   "lexical": "ἐν … τούτῳ",
+   "classe": "expressão",
+   "glosa": "enquanto isso",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "υἱός",
+   "lexical": "υἱός, ὁ",
+   "classe": "substantivo",
+   "glosa": "filho",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "δειπνέω",
+   "lexical": "δείπνει",
+   "classe": "verbo",
+   "glosa": "comer, jantar (δείπνει: come!)",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 30,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "μετά",
+   "lexical": "μετά + ac.",
+   "classe": "preposição",
+   "glosa": "depois de",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 31,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "σκάπτω",
+   "lexical": "σκάπτε",
+   "classe": "verbo",
+   "glosa": "cavar (σκάπτε: cava!)",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 31,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "ἀρόω",
+   "lexical": "ἀροῦν",
+   "classe": "verbo",
+   "glosa": "arar (ἀροῦν: arar, infinitivo)",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 31,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "τέλος",
+   "lexical": "τέλος (adv.)",
+   "classe": "advérbio",
+   "glosa": "por fim, finalmente",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 31,
+    "local": "cap. 3β"
+   }
+  },
+  {
+   "grego": "καταδύνω",
+   "lexical": "καταδύνει",
+   "classe": "verbo",
+   "glosa": "pôr-se (o sol)",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 31,
+    "local": "cap. 3β"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "3ª pessoa do plural, imperativo plural e infinitivo",
+   "nota": "Três formas novas do mesmo verbo. A *3ª pessoa do plural* termina em -ουσι(ν): λύουσι “eles soltam”; nos contratos em -έω, ε + ου dá ου: φιλέουσι → φιλοῦσι. De εἰμί, εἰσί(ν) “eles são” (enclítico).\n\nO *imperativo plural* termina em -ετε: σπεύδετε “apressem-se!”, φιλεῖτε “amem!”, ἔστε “sejam!”, ἔλθετε “venham!”. Atenção: -ετε é também a 2ª pl. do indicativo (μένετε = “vocês ficam” ou “fiquem!”); o contexto e o vocativo (ὦ βόες) decidem.\n\nO *infinitivo* termina em -ειν: λύειν “soltar”, φιλεῖν “amar”, e εἶναι “ser”. Na leitura ele aparece sempre depois de δυνατόν ἐστι “é possível”. A JACT só ensina o infinitivo em 7A–C (§150–152), então aqui você ganha uma forma que aparece muito cedo nos textos.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "14–17",
+    "local": "1C–D, §12–21"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "26–27",
+    "local": "cap. 3, Gram. 1"
+   },
+   "paradigmas": [
+    "verbo-presente-ativo",
+    "verbo-imperativo",
+    "infinitivos",
+    "eimi"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἀλλὰ ἰδού, μένουσιν οἱ βόες καὶ οὐκέτι ἕλκουσι τὸ ἄροτρον.",
+     "traducao": "Mas olha: os bois param e já não puxam o arado.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 24,
+      "local": "cap. 3α",
+      "linhas": "l. 2–3"
+     }
+    },
+    {
+     "grego": "“σπεύδετε, ὦ βόες,” φησίν· “μὴ μένετε.”",
+     "traducao": "“Andem, bois”, diz ele, “não fiquem parados!”",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 24,
+      "local": "cap. 3α",
+      "linhas": "l. 4"
+     }
+    },
+    {
+     "grego": "ἰδού, οὐ δυνατόν ἐστιν αἴρειν αὐτόν.",
+     "traducao": "Olha, não é possível levantá-la.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 25,
+      "local": "cap. 3α",
+      "linhas": "l. 13"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Artigo, adjetivo e substantivo da 2ª declinação: singular e plural, todos os casos",
+   "nota": "O quadro completo de ὁ καλὸς ἀγρός e τὸ καλὸν δένδρον. No plural masculino: οἱ -οι, τῶν -ων, τοῖς -οις, τοὺς -ους. O neutro só difere no nominativo, acusativo e vocativo: -ον no singular e *-α* no plural (τὰ καλὰ δένδρα, τὰ ἄροτρα). Os outros casos do neutro são iguais aos do masculino.\n\nO genitivo e o dativo do artigo levam circunflexo (τοῦ, τῷ, τῶν, τοῖς), e palavras oxítonas como καλός e ἀγρός também passam a circunflexo nesses casos (καλοῦ ἀγροῦ). É o mesmo material de JACT 1G (§30–35), lá apresentado como tipos 2a e 2b.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "24–26",
+    "local": "1G, §30–35"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "31–32",
+    "local": "cap. 3, Gram. 2"
+   },
+   "paradigmas": [
+    "artigo",
+    "adj-kalos",
+    "decl2-masc",
+    "decl2-neut"
+   ],
+   "exemplos": [
+    {
+     "grego": "πολλοὶ γάρ εἰσιν οἱ λίθοι καὶ μόλις δυνατόν ἐστιν ἀροῦν.",
+     "traducao": "Pois as pedras são muitas, e mal é possível arar.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 31,
+      "local": "cap. 3β",
+      "linhas": "l. 10"
+     }
+    },
+    {
+     "grego": "ἀλλὰ λύουσι μὲν τοὺς βοῦς, τὸ δὲ ἄροτρον λείπουσιν ἐν τῷ ἀγρῷ",
+     "traducao": "mas soltam os bois e deixam o arado no campo",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 31,
+      "local": "cap. 3β",
+      "linhas": "l. 14–15"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "O acento que muda de lugar: ἄνθρωπος → ἀνθρώπου, οἶκος → οἴκου",
+   "nota": "O acento dos nomes é *persistente*: fica na sílaba do nominativo, a não ser que uma regra o obrigue a mudar. Duas regras explicam quase tudo:\n\n1. O agudo só pode cair na antepenúltima sílaba se a última for breve. Quando a última fica longa (ἀνθρώπου, ἀνθρώπῳ, ἀνθρώπων, ἀνθρώποις, ἀνθρώπους), o acento anda uma sílaba para a frente.\n\n2. Penúltima longa acentuada + última breve = circunflexo (οἶκος, οἶκον); se a última fica longa, volta o agudo (οἴκου, οἴκῳ).\n\nPegadinha: o -οι (e o -αι) do nominativo plural conta como *breve* para o acento, por isso ἄνθρωποι e οἶκοι. A mesma regra vale para verbos: σπεύδει, mas σπεῦδε. A JACT quase não trata de acentos; esta é uma das melhores contribuições do Athenaze.",
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 32,
+    "local": "cap. 3, Gram. 3"
+   },
+   "paradigmas": [
+    "decl2-masc"
+   ],
+   "exemplos": [
+    {
+     "grego": "οἱ δὲ ἄνθρωποι οὐκέτι πονοῦσιν",
+     "traducao": "e os homens já não trabalham",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 31,
+      "local": "cap. 3β",
+      "linhas": "l. 13–14"
+     }
+    },
+    {
+     "grego": "καὶ πρὸς τὸν οἶκον βραδέως βαδίζουσιν.",
+     "traducao": "e caminham devagar para casa.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 31,
+      "local": "cap. 3β",
+      "linhas": "l. 15–16"
+     }
+    }
+   ]
+  }
+ ],
+ "cultura": {
+  "titulo": "O demo e a pólis",
+  "resumo": "A Ática se dividia em cerca de 170 demos, aldeias com assembleia própria, um demarco e o registro dos cidadãos; por isso o nome oficial de um homem trazia o do pai e o do demo. As casas eram simples, sem água corrente, e a maioria dos camponeses morava na aldeia e saía todo dia para trabalhar no campo. A vida local tinha muitas festas e sacrifícios públicos, e até peças de teatro nas Dionísias Rurais. Mas o camponês era também cidadão de Atenas: ia à Assembleia, servia por sorteio no Conselho dos 500 e lutava como hoplita. O ensaio termina com a Oração Fúnebre de Péricles (Tucídides 2.40), para quem o cidadão que não participa da política é “inútil”.",
+  "fonte": {
+   "livro": "Athenaze",
+   "pagina": "28–29",
+   "local": "cap. 3"
+  }
+ },
+ "exercicios": [
+  {
+   "id": "ath3-o1",
+   "tipo": "morfologia",
+   "titulo": "Indicativo, imperativo ou infinitivo?",
+   "enunciado": "Traduza cada forma e classifique-a (indicativo, imperativo ou infinitivo; pessoa e número). Se houver duas possibilidades, dê as duas.",
+   "itens": [
+    {
+     "pergunta": "λείπουσιν",
+     "resposta": "eles deixam — indicativo, 3ª pl."
+    },
+    {
+     "pergunta": "μένετε",
+     "resposta": "vocês ficam (indicativo) ou fiquem! (imperativo) — 2ª pl."
+    },
+    {
+     "pergunta": "λύειν",
+     "resposta": "soltar — infinitivo presente"
+    },
+    {
+     "pergunta": "ἔκφερε",
+     "resposta": "leva para fora! — imperativo, 2ª sg."
+    },
+    {
+     "pergunta": "πονοῦσιν",
+     "resposta": "eles trabalham — indicativo, 3ª pl. (πονέ-ουσι → πονοῦσι)"
+    },
+    {
+     "pergunta": "εἶναι",
+     "resposta": "ser — infinitivo de εἰμί"
+    },
+    {
+     "pergunta": "ἔστε",
+     "resposta": "sejam! — imperativo, 2ª pl. de εἰμί (compare ἐστέ “vocês são”)"
+    },
+    {
+     "pergunta": "μηκέτι πίπτετε",
+     "resposta": "não caiam mais! — imperativo negativo, 2ª pl."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "cap. 3"
+   }
+  }
+ ],
+ "jact": {
+  "correspondentes": [
+   "1C",
+   "1D",
+   "1G"
+  ],
+  "comparacao": "O cap. 3 do Athenaze traz três novidades verbais de uma vez: a 3ª pessoa do plural (λύουσι, φιλοῦσι, εἰσί), o imperativo plural (σπεύδετε, ἔλθετε, ἔστε) e o infinitivo (λύειν, φιλεῖν, εἶναι). A JACT já deu as seis pessoas do presente e o imperativo em 1C–D, mas guarda o infinitivo para 7A–C (§150–152). Quem segue a JACT encontra aqui o infinitivo muito antes, junto com a construção δυνατόν ἐστι + infinitivo, que aparece em quase toda página das leituras.\n\nNos nomes, o capítulo completa a 2ª declinação (masculino e neutro, singular e plural), que a JACT ensina em 1G (§30–35) junto com a regra do neutro plural com verbo no singular. Em acentuação o Athenaze explica melhor (Gram. 3: ἄνθρωπος → ἀνθρώπου, οἶκος → οἴκου). A JACT quase não fala do assunto.\n\nOrdem sugerida: depois de 1C–D, leia 3α e 3β. São cenas curtas e repetitivas, ótimas para fixar o plural e o imperativo. Em seguida, estude 1G com o quadro da Gram. 2 do Athenaze ao lado.",
+  "complementos": [
+   "Athenaze cap. 3, Gram. 1c (p. 27): o infinitivo presente λύειν, φιλεῖν, εἶναι, que na JACT só vem em 7A–C (§150–152).",
+   "Athenaze cap. 3, Gram. 3 (p. 32): as regras do acento (antepenúltima só com última breve; -οι final conta como breve), quase ausentes na JACT.",
+   "A expressão δυνατόν ἐστι + infinitivo (“é possível …”), o fio das leituras 3α–β.",
+   "Vocabulário que a JACT só dá bem depois: λίθος (11C), λείπω (13C), ἀνδρεῖος (7D), δυνατός (18B), τοσοῦτος (12D), μηκέτι (9E), πατήρ (5A).",
+   "Ensaio “O demo e a pólis” (pp. 28–29): complementa o capítulo de *O mundo de Atenas* sobre a vida no campo e a cidadania."
+  ],
+  "citacoes": [
+   {
+    "grego": "ὁ Ἡγέστρατος καὶ Ζηνόθεμις οὐ μένουσιν ἀλλὰ φεύγουσιν.",
+    "traducao": "Hegéstrato e Zenótemis não ficam, mas fogem.",
+    "comentario": "JACT: 3ª pl. em -ουσιν com sujeito composto, e o mesmo verbo μένω.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 14,
+     "local": "1F",
+     "linhas": "l. 1"
+    }
+   },
+   {
+    "grego": "οἱ δὲ βόες οὐκέτι μένουσιν ἀλλὰ ἕλκουσι τὸ ἄροτρον.",
+    "traducao": "E os bois já não ficam parados, mas puxam o arado.",
+    "comentario": "Athenaze: a mesma estrutura οὐ/οὐκέτι … ἀλλά com dois verbos na 3ª pl.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 25,
+     "local": "cap. 3α",
+     "linhas": "l. 26"
+    }
+   },
+   {
+    "grego": "ἆρα ἀκούετε, ὦ ναῦται; δεῦρο ἔλθετε καὶ ἀκούετε.",
+    "traducao": "Estão ouvindo, marinheiros? Venham cá e escutem!",
+    "comentario": "JACT: ἀκούετε é primeiro indicativo e depois imperativo; ἔλθετε é o imperativo plural irregular.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 18,
+     "local": "1H",
+     "linhas": "l. 22"
+    }
+   },
+   {
+    "grego": "“ἐλθὲ δεῦρο, ὦ Ξανθία,” φησίν, “καὶ συλλάμβανε.”",
+    "traducao": "“Vem cá, Xântias”, diz ele, “e ajuda!”",
+    "comentario": "Athenaze: o singular ἐλθέ, para comparar com ἔλθετε (Gram. 1b chama atenção para o acento dos dois).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 25,
+     "local": "cap. 3α",
+     "linhas": "l. 8–9"
+    }
+   },
+   {
+    "grego": "εἰς τὴν γὰρ θάλατταν ῥίπτουσιν ἑαυτοὺς οἱ ἄνθρωποι",
+    "traducao": "pois os homens se atiram ao mar",
+    "comentario": "JACT: nominativo plural οἱ ἄνθρωποι, com o acento ainda na antepenúltima (-οι conta como breve).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 14,
+     "local": "1F",
+     "linhas": "l. 1–2"
+    }
+   }
+  ]
+ }
+}

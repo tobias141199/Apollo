@@ -1,0 +1,67 @@
+{
+  "id": "decl3-a-dental",
+  "titulo": "3ª declinação, temas em dental — λαμπάς, ἐλπίς (3a)",
+  "grupo": "substantivo",
+  "colunas": [
+    "λαμπάς sg.",
+    "λαμπάς pl.",
+    "ἐλπίς sg.",
+    "ἐλπίς pl."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "λαμπάς",
+        "λαμπάδ|ες",
+        "ἐλπίς",
+        "ἐλπίδ|ες"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "λαμπάδ|α",
+        "λαμπάδ|ας",
+        "ἐλπίδ|α",
+        "ἐλπίδ|ας"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "λαμπάδ|ος",
+        "λαμπάδ|ων",
+        "ἐλπίδ|ος",
+        "ἐλπίδ|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "λαμπάδ|ι",
+        "λαμπά|σι(ν)",
+        "ἐλπίδ|ι",
+        "ἐλπί|σι(ν)"
+      ]
+    },
+    {
+      "rotulo": "Voc.",
+      "celulas": [
+        "λαμπάς",
+        "λαμπάδ|ες",
+        "ἐλπί",
+        "ἐλπίδ|ες"
+      ]
+    }
+  ],
+  "nota": "O δ do tema (λαμπαδ-, ἐλπιδ-) cai diante do -σ do nominativo e do dativo plural (λαμπάς, λαμπάσι). Mesmo modelo: πατρίς (πατριδ-), παῖς (παιδ-).",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "3A–B"
+  },
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 7"
+  }
+}

@@ -1,0 +1,255 @@
+{
+ "id": "7B",
+ "secao": 7,
+ "parte": 2,
+ "titulo": "Sócrates testa o oráculo",
+ "resumo": "Intrigado com o oráculo, Sócrates interroga um político que se julga sábio e conclui que ao menos sabe que nada sabe. Depois examina os poetas e vê que compõem por inspiração, não por saber.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 76,
+  "local": "7B"
+ },
+ "vocab": [
+  {
+   "grego": "ἀνάγκη",
+   "lexical": "ἀνάγκη, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "necessidade",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   }
+  },
+  {
+   "grego": "ἀνάγκη ἐστί",
+   "lexical": "ἀνάγκη ἐστί",
+   "classe": "expressão",
+   "glosa": "é necessário (que)",
+   "aprender": true,
+   "nota": "Com acusativo (ou dativo) + infinitivo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   }
+  },
+  {
+   "grego": "ἀποφαίνω",
+   "lexical": "ἀποφαίνω",
+   "classe": "verbo",
+   "glosa": "revelar; mostrar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   }
+  },
+  {
+   "grego": "γὰρ δή",
+   "lexical": "γὰρ δή",
+   "classe": "expressão",
+   "glosa": "de fato; com certeza",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   }
+  },
+  {
+   "grego": "δεῖ",
+   "lexical": "δεῖ",
+   "classe": "verbo",
+   "glosa": "é preciso",
+   "aprender": true,
+   "nota": "Impessoal: δεῖ με λέγειν, \"é preciso que eu diga\" (ac. + inf.).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   },
+   "athenaze": "cap. 10"
+  },
+  {
+   "grego": "ἐντεῦθεν",
+   "lexical": "ἐντεῦθεν",
+   "classe": "advérbio",
+   "glosa": "daí; a partir daí; desde então",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   }
+  },
+  {
+   "grego": "λογίζομαι",
+   "lexical": "λογίζομαι",
+   "classe": "verbo",
+   "glosa": "calcular; considerar; ponderar",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   }
+  },
+  {
+   "grego": "νοέω",
+   "lexical": "νοέω",
+   "classe": "verbo",
+   "glosa": "pensar; querer dizer; ter intenção",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   }
+  },
+  {
+   "grego": "πάρειμι",
+   "lexical": "πάρειμι",
+   "classe": "verbo",
+   "glosa": "estar presente; estar à mão",
+   "aprender": true,
+   "paradigma": "eimi",
+   "nota": "Composto de εἰμί; pede dativo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "ποιητής",
+   "lexical": "ποιητής, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "poeta",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   },
+   "athenaze": "cap. 8"
+  },
+  {
+   "grego": "ποτε",
+   "lexical": "ποτε",
+   "classe": "partícula",
+   "glosa": "alguma vez; afinal (em perguntas)",
+   "aprender": true,
+   "nota": "Enclítico: τί ποτε; \"o que afinal?\"",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   },
+   "athenaze": "cap. 10"
+  },
+  {
+   "grego": "ὡς",
+   "lexical": "ὡς",
+   "classe": "conjunção",
+   "glosa": "que",
+   "aprender": true,
+   "nota": "Introduz discurso indireto, como ὅτι.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 77,
+    "local": "7B"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "7B-o1",
+   "tipo": "traduzir-gp",
+   "titulo": "δεῖ, ἀνάγκη e ᾖα",
+   "enunciado": "Traduza para o português.",
+   "itens": [
+    {
+     "pergunta": "δεῖ σε τὴν ἀλήθειαν λέγειν.",
+     "resposta": "Precisas dizer a verdade."
+    },
+    {
+     "pergunta": "ἀνάγκη ἐστὶ τοὺς ποιητὰς παρεῖναι.",
+     "resposta": "É necessário que os poetas estejam presentes."
+    },
+    {
+     "pergunta": "ἐντεῦθεν ᾖμεν πρὸς τοὺς σοφούς.",
+     "resposta": "Dali íamos até os sábios."
+    },
+    {
+     "pergunta": "τί ποτε νοεῖ ὁ θεός;",
+     "resposta": "O que afinal o deus quer dizer?"
+    },
+    {
+     "pergunta": "ἐλογιζόμην ὅτι σοφώτερός εἰμι ἢ οὗτος.",
+     "resposta": "Eu considerava que sou mais sábio do que este."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "7B"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 10 (Ἡ συμφορά)",
+   "cap. 13 (Πρὸς τὴν Σαλαμῖνα)",
+   "cap. 14 (Ἡ ἐν ταῖς Θερμοπύλαις μάχη)"
+  ],
+  "comparacao": "Em 7B Sócrates usa sem parar δεῖ, ἀνάγκη ἐστί e o imperfeito ᾖα (\"eu ia\" de sábio em sábio). O Athenaze apresenta δεῖ + acusativo + infinitivo no cap. 10 (Gram. 8), com frases curtas de família, e o imperfeito de εἶμι no cap. 13 (Gram. 1), lado a lado com o de εἰμί.\n\nO quadro do Athenaze que alinha ἔρχομαι (presente), ᾖα (imperfeito), εἶμι (futuro) e ἦλθον (aoristo) é a forma mais clara de fixar esse verbo \"de quatro raízes\". Recomendação: antes de ler 7B, reveja esse quadro; depois, sublinhe no texto cada ᾖα/ἀπῇα e cada δεῖ με / ἀνάγκη ... τὸν θεόν.",
+  "complementos": [
+   "Quadro do verbo \"ir\": ἔρχομαι (pres.), ᾖα ou ᾔειν (impf.), εἶμι (fut.), ἦλθον (aor.) (Athenaze, cap. 13, Gram. 1, p. 215).",
+   "ἔξεστι(ν) + dativo + infinitivo, \"é permitido\": ἔξεστιν ἡμῖν μένειν (Athenaze, vocabulário do cap. 10β, p. 164), o par natural de δεῖ.",
+   "Imperfeito de εἰμί (ἦ/ἦν, ἦσθα, ἦν, ἦμεν, ἦτε, ἦσαν) ao lado do de εἶμι, para não confundir (Athenaze, cap. 13, Gram. 1, p. 215)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἐντεῦθεν ἐπ’ ἄλλον τινὰ σοφὸν ᾖα.",
+    "traducao": "Dali fui a outro sábio.",
+    "comentario": "Imperfeito de εἶμι: a busca de Sócrates vista como processo repetido.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 76,
+     "local": "7B"
+    }
+   },
+   {
+    "grego": "αἰσχύνομαι δὲ λέγειν τὴν ἀλήθειαν, ὦνδρες, ὅμως δὲ λέγειν με δεῖ.",
+    "traducao": "Tenho vergonha de dizer a verdade, senhores, mas mesmo assim preciso dizê-la.",
+    "comentario": "δεῖ + acusativo (με) + infinitivo.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 76,
+     "local": "7B"
+    }
+   },
+   {
+    "grego": "νῦν δέ—ὀψὲ γάρ ἐστιν—δεῖ ἡμᾶς καθεύδειν.",
+    "traducao": "Mas agora (pois é tarde) precisamos dormir.",
+    "comentario": "A mesma construção no Athenaze, com ἡμᾶς no acusativo.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 176,
+     "local": "cap. 11α"
+    }
+   }
+  ]
+ }
+}

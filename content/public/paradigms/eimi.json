@@ -1,0 +1,61 @@
+{
+  "id": "eimi",
+  "titulo": "εἰμί 'ser, estar' — presente, imperfeito, futuro",
+  "grupo": "verbo",
+  "colunas": [
+    "Presente",
+    "Imperfeito",
+    "Futuro"
+  ],
+  "linhas": [
+    {
+      "rotulo": "1ª sg.",
+      "celulas": [
+        "εἰμί",
+        "ἦ / ἦν",
+        "ἔσομαι"
+      ]
+    },
+    {
+      "rotulo": "2ª sg.",
+      "celulas": [
+        "εἶ",
+        "ἦσθα",
+        "ἔσῃ / ἔσει"
+      ]
+    },
+    {
+      "rotulo": "3ª sg.",
+      "celulas": [
+        "ἐστί(ν)",
+        "ἦν",
+        "ἔσται"
+      ]
+    },
+    {
+      "rotulo": "1ª pl.",
+      "celulas": [
+        "ἐσμέν",
+        "ἦμεν",
+        "ἐσόμεθα"
+      ]
+    },
+    {
+      "rotulo": "2ª pl.",
+      "celulas": [
+        "ἐστέ",
+        "ἦτε",
+        "ἔσεσθε"
+      ]
+    },
+    {
+      "rotulo": "3ª pl.",
+      "celulas": [
+        "εἰσί(ν)",
+        "ἦσαν",
+        "ἔσονται"
+      ]
+    }
+  ],
+  "nota": "No presente, todas as formas exceto εἶ são enclíticas. O futuro tem forma média. Infinitivo εἶναι; imperativo ἴσθι, ἔστε; particípio ὤν οὖσα ὄν. Atenção: ἐστί no início da frase (ἔστι) = 'existe, é possível'."
+}

@@ -1,0 +1,149 @@
+{
+ "id": "7E",
+ "secao": 7,
+ "parte": 2,
+ "titulo": "Quem aprende, o ignorante?",
+ "resumo": "Eutidemo leva Clínias a admitir que, quando era aluno, nada sabia. Conclui então que quem aprende são os ignorantes, e não os sábios, ao contrário do que o rapaz dissera.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 81,
+  "local": "7E"
+ },
+ "vocab": [
+  {
+   "grego": "διδάσκαλος",
+   "lexical": "διδάσκαλος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "professor; mestre",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 81,
+    "local": "7E"
+   }
+  },
+  {
+   "grego": "ὁμολογέω",
+   "lexical": "ὁμολογέω",
+   "classe": "verbo",
+   "glosa": "concordar",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 81,
+    "local": "7E"
+   }
+  },
+  {
+   "grego": "οὐκοῦν",
+   "lexical": "οὐκοῦν",
+   "classe": "partícula",
+   "glosa": "portanto; então",
+   "aprender": true,
+   "nota": "Inicia pergunta que espera \"sim\".",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 81,
+    "local": "7E"
+   }
+  },
+  {
+   "grego": "οὔκουν",
+   "lexical": "οὔκουν",
+   "classe": "partícula",
+   "glosa": "portanto … não",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 81,
+    "local": "7E"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "7E-o1",
+   "tipo": "morfologia",
+   "titulo": "οἶδα e ᾔδη",
+   "enunciado": "Passe do presente para o passado (de οἶδα para ᾔδη) e traduza.",
+   "itens": [
+    {
+     "pergunta": "οἶδα",
+     "resposta": "ᾔδη: eu sabia"
+    },
+    {
+     "pergunta": "ἴσμεν",
+     "resposta": "ᾖσμεν: nós sabíamos"
+    },
+    {
+     "pergunta": "οἶσθα",
+     "resposta": "ᾔδησθα: tu sabias"
+    },
+    {
+     "pergunta": "ἴστε",
+     "resposta": "ᾖστε: vós sabíeis"
+    },
+    {
+     "pergunta": "ἴσασι(ν)",
+     "resposta": "ᾖσαν (ᾔδεσαν): eles sabiam"
+    },
+    {
+     "pergunta": "οἶδε(ν)",
+     "resposta": "ᾔδει(ν): ele sabia"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "7E"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 11 (Ὁ ἰατρός)",
+   "cap. 12 (Πρὸς τὸν Πειραιᾶ)"
+  ],
+  "comparacao": "7E é um diálogo curto de perguntas e respostas (ὡμολόγει, οὐκοῦν, οὔκουν) e usa o passado de οἶδα (ᾖστε, ᾖσμεν). O Athenaze não ensina ᾔδη nem as partículas lógicas οὐκοῦν/οὔκουν no Livro I: aqui a JACT é a única fonte, e convém fixar bem a diferença entre οὐκοῦν \"portanto\" e οὔκουν \"portanto... não\".\n\nO tema do diálogo, *quem aprende?*, tem um eco divertido no Athenaze: o provérbio παθὼν νήπιος ἔμαθεν, que o cap. 11 usa para ilustrar o aoristo gnômico.",
+  "complementos": [
+   "Provérbio sobre aprender: παθὼν νήπιος ἔμαθεν \"o tolo aprende sofrendo\" (Athenaze, cap. 11, Gram. 3a, p. 179).",
+   "O Athenaze só usa ἤδη como advérbio (\"já\", vocabulário do cap. 2): não confundir com ᾔδη \"eu sabia\"."
+  ],
+  "citacoes": [
+   {
+    "grego": "ὑμεῖς ἄρα, μαθηταὶ ὄντες, οὐκ ᾖστε οὐδέν, ἀλλ’ ἀμαθεῖς ὄντες ἐμανθάνετε;",
+    "traducao": "Então vós, sendo alunos, não sabíeis nada, mas aprendíeis sendo ignorantes?",
+    "comentario": "Passado de οἶδα (ᾖστε) e particípios presentes de εἰμί.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 81,
+     "local": "7E"
+    }
+   },
+   {
+    "grego": "παθὼν νήπιος ἔμαθεν.",
+    "traducao": "O tolo aprende sofrendo.",
+    "comentario": "Aoristo gnômico e particípio aoristo 2º: \"quem aprende\" visto pelo Athenaze.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 179,
+     "local": "cap. 11, Gram. 3a"
+    }
+   },
+   {
+    "grego": "οὐκοῦν εἰ μὴ σοφοί, ἀμαθεῖς;",
+    "traducao": "Portanto, se não sábios, ignorantes?",
+    "comentario": "οὐκοῦν abre uma conclusão que espera um \"sim\".",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 81,
+     "local": "7E"
+    }
+   }
+  ]
+ }
+}

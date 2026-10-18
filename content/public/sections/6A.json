@@ -1,0 +1,535 @@
+{
+ "id": "6A",
+ "secao": 6,
+ "parte": 2,
+ "titulo": "À porta do pensatório",
+ "resumo": "Estrepsíades bate à porta do pensatório e é recebido com grosseria por um aluno, que acaba lhe contando como Sócrates e Querefonte mediram o salto de uma pulga com sapatinhos de cera.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 63,
+  "local": "6A"
+ },
+ "vocab": [
+  {
+   "grego": "ἄγροικος",
+   "lexical": "ἄγροικος ον",
+   "classe": "adjetivo",
+   "glosa": "do campo; rústico",
+   "aprender": true,
+   "nota": "Adjetivo de duas terminações: a forma em -ος serve também para o feminino.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   }
+  },
+  {
+   "grego": "βάλλ’ εἰς κόρακας",
+   "lexical": "βάλλ’ εἰς κόρακας",
+   "classe": "expressão",
+   "glosa": "vai para o inferno!",
+   "aprender": true,
+   "nota": "Literalmente \"atira-te aos corvos\".",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   }
+  },
+  {
+   "grego": "δάκνω",
+   "lexical": "δάκνω (δακ-)",
+   "classe": "verbo",
+   "glosa": "morder; importunar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "δάκνω",
+    "δακ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   }
+  },
+  {
+   "grego": "ἐκβάλλω",
+   "lexical": "ἐκβάλλω (ἐκβαλ-)",
+   "classe": "verbo",
+   "glosa": "lançar para fora; expulsar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἐκβάλλω",
+    "ἐκβαλ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   }
+  },
+  {
+   "grego": "ἐν νῷ ἔχω",
+   "lexical": "ἐν νῷ ἔχω",
+   "classe": "expressão",
+   "glosa": "ter em mente; pretender",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "καίπερ",
+   "lexical": "καίπερ",
+   "classe": "conjunção",
+   "glosa": "embora (+ part.)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   },
+   "athenaze": "cap. 12"
+  },
+  {
+   "grego": "κεφαλή",
+   "lexical": "κεφαλή, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "cabeça",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   },
+   "athenaze": "cap. 10"
+  },
+  {
+   "grego": "λύω",
+   "lexical": "λύω",
+   "classe": "verbo",
+   "glosa": "soltar; desfazer",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "ὅτε",
+   "lexical": "ὅτε",
+   "classe": "conjunção",
+   "glosa": "quando",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   }
+  },
+  {
+   "grego": "ὀφρύς",
+   "lexical": "ὀφρύς (ὀφρυ-), ἡ (3h)",
+   "classe": "substantivo",
+   "glosa": "sobrancelha",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   }
+  },
+  {
+   "grego": "πούς",
+   "lexical": "πούς (ποδ-), ὁ (3a)",
+   "classe": "substantivo",
+   "glosa": "pé; pata",
+   "aprender": true,
+   "paradigma": "decl3-a-dental",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   }
+  },
+  {
+   "grego": "ῥᾴδιος",
+   "lexical": "ῥᾴδιος α ον",
+   "classe": "adjetivo",
+   "glosa": "fácil",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "ῥᾳδίως",
+   "lexical": "ῥᾳδίως",
+   "classe": "advérbio",
+   "glosa": "facilmente",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   }
+  },
+  {
+   "grego": "φροντίς",
+   "lexical": "φροντίς (φροντιδ-), ἡ (3a)",
+   "classe": "substantivo",
+   "glosa": "pensamento; preocupação; cuidado",
+   "aprender": true,
+   "paradigma": "decl3-a-dental",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   }
+  },
+  {
+   "grego": "ὡς",
+   "lexical": "ὡς",
+   "classe": "conjunção",
+   "glosa": "como",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 65,
+    "local": "6A"
+   },
+   "athenaze": "cap. 6"
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "Aoristo primeiro (sigmático): indicativo ativo e médio",
+   "nota": "O aoristo apresenta a ação como um *fato único e acabado* no passado: ἔπαυσα = \"eu parei\" (pretérito perfeito), em contraste com o imperfeito ἔπαυον = \"eu parava\". A receita do aoristo primeiro é: aumento ἐ- + radical do presente + -σα- + desinência.\n\nAtivo: ἔπαυσα, ἔπαυσας, ἔπαυσε(ν), ἐπαύσαμεν, ἐπαύσατε, ἔπαυσαν. Médio: ἐπαυσάμην, ἐπαύσω, ἐπαύσατο, ἐπαυσάμεθα, ἐπαύσασθε, ἐπαύσαντο. O sinal mais seguro é o *α* depois do σ (só a 3ª sg. ativa troca por ε: ἔπαυσε). A 2ª sg. média ἐπαύσω vem de *ἐπαύσασο: o σ entre vogais caiu e α + ο contraiu em ω.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "115–117",
+    "local": "6A–B, §128–131"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "196–197",
+    "local": "cap. 12, Gram. 1"
+   },
+   "paradigmas": [
+    "verbo-aoristo-fraco"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἔγωγε ἔκοψα τὴν θύραν καὶ ἐβόησα.",
+     "traducao": "Fui eu que bati na porta e gritei.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 63,
+      "local": "6A",
+      "linhas": "l. 4"
+     }
+    },
+    {
+     "grego": "ἀλλ’ ἄρτι ἐπαυσάμην, ὦ ’γαθέ. ἐκέλευσας γὰρ σύ.",
+     "traducao": "Mas eu acabei de parar, meu caro. Pois tu mandaste.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 64,
+      "local": "6A",
+      "linhas": "l. 17"
+     }
+    },
+    {
+     "grego": "ὁ Δικαιόπολις πάντας ἐκέλευσε παρασκευάζεσθαι. οἱ μὲν οὖν ἄλλοι εὐθὺς παρεσκευάσαντο.",
+     "traducao": "Diceópolis mandou todos se aprontarem. Os outros, então, aprontaram-se na mesma hora.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 194,
+      "local": "cap. 12α",
+      "linhas": "l. 1–3"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Formando o radical do aoristo: consoantes, contratos e líquidas",
+   "nota": "As mudanças são *as mesmas do futuro*: quem sabe o futuro já sabe quase todo aoristo primeiro. Labial (β, π, φ, πτ) + σ = ψ (πέμπω → ἔπεμψα); velar (γ, κ, χ, às vezes ττ) + σ = ξ (δέχομαι → ἐδεξάμην); dental (δ, θ, τ) e ζ caem antes do σ (πείθω → ἔπεισα, θαυμάζω → ἐθαύμασα).\n\nContratos alongam a vogal: τιμάω → ἐτίμησα, ποιέω → ἐποίησα, δηλόω → ἐδήλωσα; depois de ε, ι, ρ o α vira ᾱ longo (δράω → ἔδρᾱσα). Verbos em λ, μ, ν, ρ não usam σ: alongam a vogal do radical (μένω → ἔμεινα, διαφθείρω → διέφθειρα, ἀμύνω → ἤμῡνα).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "117–118",
+    "local": "6A–B, §132–135"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "197–198, 207",
+    "local": "cap. 12, Gram. 1 e 3"
+   },
+   "paradigmas": [
+    "verbo-aoristo-fraco",
+    "verbo-futuro"
+   ],
+   "exemplos": [
+    {
+     "grego": "τέλος δὲ τὰς ἐμβάδας ἔλυσαν καὶ ἐμέτρησαν τὸ χωρίον.",
+     "traducao": "Por fim soltaram os sapatos e mediram a distância.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 64,
+      "local": "6A",
+      "linhas": "l. 43–44"
+     }
+    },
+    {
+     "grego": "ὁ δὲ Φίλιππος τῇ μαχαίρᾳ αὐτὸν ἀπέκτεινεν.",
+     "traducao": "E Filipe o matou com a faca.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 209,
+      "local": "cap. 12, Exercício 12κ, frase 7"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "O aumento no aoristo (vogal inicial e verbos compostos)",
+   "nota": "O aumento do aoristo segue as mesmas regras do imperfeito: ἐ- antes de consoante (κελεύω → ἐκέλευσα); vogal inicial alongada (ἀκούω → ἤκουσα, ἐρωτάω → ἠρώτησα, εὔχομαι → ηὐξάμην). Nos compostos o aumento fica *entre o prefixo e o verbo*: ἀποκόπτω → ἀπέκοψα, ἀναχωρέω → ἀνεχώρησα.\n\nLembre: o aumento só aparece no *indicativo*. Por isso, ao procurar um aoristo no dicionário, a primeira coisa é tirar o aumento (e devolver ao prefixo a forma original).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "118",
+    "local": "6A–B, §136–138"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "190–191, 209",
+    "local": "cap. 11, Gram. 8; cap. 12, Gram. 5"
+   },
+   "paradigmas": [
+    "verbo-aoristo-fraco",
+    "verbo-imperfeito"
+   ],
+   "exemplos": [
+    {
+     "grego": "τὴν γὰρ ἐμὴν φροντίδα ἀπέκοψας, ποιῶν τοῦτο.",
+     "traducao": "Pois cortaste o meu pensamento fazendo isso.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 64,
+      "local": "6A",
+      "linhas": "l. 15–16"
+     }
+    },
+    {
+     "grego": "καὶ σπονδὴν ποιησάμενος τὸν Δία ηὔξατο σῴζειν πάντας.",
+     "traducao": "E, depois de fazer uma libação, pediu a Zeus que protegesse a todos.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 195,
+      "local": "cap. 12α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Do aoristo ao dicionário",
+   "nota": "Para achar o verbo de um aoristo: (1) tire o aumento; (2) tire -σα/-σε e a desinência; (3) teste o que o σ pode estar escondendo. Um ψ pode vir de β, π, πτ ou φ; um ξ, de γ, κ, χ ou ττ; um σ simples pode esconder δ, θ, τ ou ζ. Se a vogal antes do σ é η ou ω, pense num contrato (ἐποίησα → ποιέω).\n\nO aumento também engana: ἠ- inicial pode vir de α-, ε- ou η-. Ex.: ἠτίμασαν não é de τιμάω (daria ἐτίμησαν), mas de ἀτιμάζω. Com a prática, você reconhece os radicais de cara.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "119–120",
+    "local": "6A–B, §139–141"
+   },
+   "paradigmas": [
+    "verbo-aoristo-fraco"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἀλλὰ λέγε, ὁπόσους τοὺς ἑαυτῆς πόδας ἐπήδησεν ἡ ψύλλα.",
+     "traducao": "Mas diz: quantos pés dela mesma a pulga pulou? (ἐπήδησεν → πηδάω)",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 64,
+      "local": "6A",
+      "linhas": "l. 25–26"
+     }
+    },
+    {
+     "grego": "τίς ὢν σὺ τοῦτο ἐποίησας;",
+     "traducao": "Quem és tu, que fizeste isso? (ἐποίησας → ποιέω)",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 63,
+      "local": "6A",
+      "linhas": "l. 5"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Aspecto: aoristo × imperfeito",
+   "nota": "Os dois tempos falam do passado, mas *olham* a ação de jeitos diferentes. O imperfeito mostra a ação como processo (em andamento, repetida, tentada): ἔλεγον = \"eu dizia\". O aoristo mostra a ação como um ponto, um fato fechado: εἶπον = \"eu disse\". Esse modo de olhar chama-se *aspecto*.\n\nNo indicativo a diferença ainda é de passado; nos outros modos (imperativo, infinitivo, particípio), que você verá adiante, o aoristo não indica tempo, só aspecto. Por isso convém já pensar em \"processo × fato\" e não apenas em \"passado\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "120–121",
+    "local": "6A–B, §142"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "178–179",
+    "local": "cap. 11, Gram. 3"
+   },
+   "exemplos": [
+    {
+     "grego": "ἀλλ’ ὡς ἔλεγον, πρῶτον μὲν θερμὸν ἐποίησαν τὸν κηρόν.",
+     "traducao": "Mas, como eu ia dizendo, primeiro esquentaram a cera.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 64,
+      "local": "6A",
+      "linhas": "l. 42"
+     }
+    },
+    {
+     "grego": "παθὼν νήπιος ἔμαθεν.",
+     "traducao": "O tolo aprende sofrendo (aoristo gnômico: verdade geral).",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 179,
+      "local": "cap. 11, Gram. 3a"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Substantivos do tipo 3h: ὀφρύς, ἡ",
+   "nota": "Último tipo da 3ª declinação na JACT: temas em -υ que *mantêm* o υ em todas as formas, com desinências regulares: ὀφρύς, ὀφρῦν, ὀφρύος, ὀφρύι; plural ὀφρύες, ὀφρῦς, ὀφρύων, ὀφρύσι(ν). Note que o acusativo singular termina em -ν (como em πόλιν) e o acusativo plural contrai em -ῦς.\n\nNão confunda com o tipo 3e de πρέσβυς. Alguns nomes desse tipo fazem o acusativo plural em -υας (ἰχθύς → ἰχθύας, \"peixes\").",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "121",
+    "local": "6A–B, §143"
+   },
+   "exemplos": [
+    {
+     "grego": "ψύλλα γάρ τις δάκνει τὴν Χαιρεφῶντος ὀφρῦν.",
+     "traducao": "Uma pulga está mordendo a sobrancelha de Querefonte.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 64,
+      "local": "6A",
+      "linhas": "l. 22"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "6A-o1",
+   "tipo": "morfologia",
+   "titulo": "Do aoristo primeiro ao dicionário",
+   "enunciado": "Traduza cada forma de aoristo e dê a forma do dicionário (1ª sg. do presente).",
+   "itens": [
+    {
+     "pergunta": "ἔλυσαν",
+     "resposta": "eles soltaram — λύω"
+    },
+    {
+     "pergunta": "ἐκόψατε",
+     "resposta": "vós batestes — κόπτω"
+    },
+    {
+     "pergunta": "ἐβοήσαμεν",
+     "resposta": "nós gritamos — βοάω"
+    },
+    {
+     "pergunta": "ἐπαύσαντο",
+     "resposta": "eles pararam (cessaram) — παύομαι"
+    },
+    {
+     "pergunta": "ἐκέλευσε",
+     "resposta": "ele mandou, ordenou — κελεύω"
+    },
+    {
+     "pergunta": "ἐδέξω",
+     "resposta": "tu recebeste — δέχομαι (ἐδέξω < *ἐδέξασο)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "6A"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 12 (Πρὸς τὸν Πειραιᾶ)",
+   "cap. 11 (Ὁ ἰατρός)"
+  ],
+  "comparacao": "A JACT ensina o aoristo *primeiro* (sigmático) em 6A–B e deixa o segundo para 6C–D; o Athenaze faz o contrário: o cap. 11 começa pelo aoristo temático (ἔλιπον) e só o cap. 12 traz ἔλυσα. Os dois caminhos funcionam, mas o da JACT é mais suave para o leitor, porque o aoristo sigmático reaproveita tudo o que você aprendeu sobre o futuro (§132 remete ao §114).\n\nA grande diferença está no alcance: a JACT, neste ponto, só ensina o *indicativo*; o Athenaze já apresenta o aoristo inteiro (imperativo, infinitivo, particípio) e explica o aspecto com exemplos de cada modo (cap. 11, Gram. 3, pp. 178–179). Para entender aspecto, o Athenaze é mais claro; para *reconhecer* formas e voltar ao dicionário, o passo a passo da JACT (§139–141) não tem equivalente.\n\nOrdem sugerida: §128–131 da JACT; depois leia o cap. 12α do Athenaze (pp. 194–195), que é praticamente uma vitrine de aoristos sigmáticos (ἐκέλευσε, παρεσκευάσαντο, ἠθέλησε, προσεχώρησε, ηὔξατο, ὥρμησαν).",
+  "complementos": [
+   "Athenaze cap. 12, Gram. 1 (pp. 196–197): quadro completo do aoristo sigmático de λύω — indicativo, imperativo (λῦσον), infinitivo (λῦσαι) e particípio (λύσας) —, útil para quando a JACT chegar a esses modos.",
+   "Athenaze cap. 12, Gram. 1 (p. 198): exceções que a JACT ainda não listou — καλέω → ἐκάλεσα (o ε não alonga) e θεάομαι → ἐθεασάμην (ᾱ por causa do ε).",
+   "Athenaze cap. 12, Gram. 4 (p. 208): aoristos sigmáticos irregulares — ἔδοξε, ἠθέλησα, ἤλασα, ἐμαχεσάμην, ἔπλευσα.",
+   "Athenaze cap. 11β (p. 187): a mesma praga de 6A, βάλλ’ ἐς κόρακας, dita por um escravo que atende à porta.",
+   "Vocabulário em comum: λύω (cap. 3), ἐν νῷ ἔχω e ῥᾴδιος (cap. 4), κεφαλή (cap. 10), καίπερ + particípio (cap. 12)."
+  ],
+  "citacoes": [
+   {
+    "grego": "βάλλ’ εἰς κόρακας. τίς ἔκοψε τὴν θύραν; τίς ἐβόησεν;",
+    "traducao": "Vai para o inferno! Quem bateu na porta? Quem gritou?",
+    "comentario": "JACT: dois aoristos sigmáticos (κόπτω → ἔκοψε, βοάω → ἐβόησεν) para ações únicas e acabadas.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 63,
+     "local": "6A",
+     "linhas": "l. 4"
+    }
+   },
+   {
+    "grego": "ἐπεὶ δ’ αὖθις ἔκοψεν, δοῦλός τις ἐξελθών, «βάλλ’ ἐς κόρακας», ἔφη· «τίς ὢν σὺ κόπτεις τὴν θύραν;»",
+    "traducao": "Quando bateu de novo, um escravo saiu e disse: \"Vai para o inferno! Quem és tu, que bates na porta?\"",
+    "comentario": "Athenaze: a mesma cena de porta da JACT, com ἔκοψεν no aoristo e κόπτεις no presente — compare com τίς ὢν σὺ τοῦτο ἐποίησας; (JACT 6A, l. 5).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 187,
+     "local": "cap. 11β",
+     "linhas": "l. 10–11"
+    }
+   },
+   {
+    "grego": "μὴ οὖν ἔκβαλλέ με, καίπερ ἄγροικον ὄντα καὶ ἀμαθῆ.",
+    "traducao": "Então não me expulses, embora eu seja um matuto e ignorante.",
+    "comentario": "JACT: καίπερ + particípio, \"embora\".",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 64,
+     "local": "6A",
+     "linhas": "l. 17–18"
+    }
+   },
+   {
+    "grego": "καίπερ γὰρ πεσὼν ἐγὼ καλῶς ἔχω.",
+    "traducao": "Pois, embora eu tenha caído, estou bem.",
+    "comentario": "Athenaze: o mesmo καίπερ + particípio, aqui com particípio aoristo (πεσών, de πίπτω).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 195,
+     "local": "cap. 12α"
+    }
+   }
+  ]
+ }
+}

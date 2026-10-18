@@ -1,0 +1,93 @@
+{
+  "id": "adj-kalos",
+  "titulo": "Adjetivo de 1ª/2ª declinação — καλός καλή καλόν",
+  "grupo": "adjetivo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "καλ|ός",
+        "καλ|ή",
+        "καλ|όν"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "καλ|όν",
+        "καλ|ήν",
+        "καλ|όν"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "καλ|οῦ",
+        "καλ|ῆς",
+        "καλ|οῦ"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "καλ|ῷ",
+        "καλ|ῇ",
+        "καλ|ῷ"
+      ]
+    },
+    {
+      "rotulo": "Voc. sg.",
+      "celulas": [
+        "καλ|έ",
+        "καλ|ή",
+        "καλ|όν"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "καλ|οί",
+        "καλ|αί",
+        "καλ|ά"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "καλ|ούς",
+        "καλ|άς",
+        "καλ|ά"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "καλ|ῶν",
+        "καλ|ῶν",
+        "καλ|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "καλ|οῖς",
+        "καλ|αῖς",
+        "καλ|οῖς"
+      ]
+    }
+  ],
+  "nota": "Masculino e neutro seguem a 2ª declinação (ἄνθρωπος, ἔργον); o feminino segue τιμή. O adjetivo concorda com o substantivo em caso, gênero e número.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "1A–B"
+  },
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 4"
+  }
+}

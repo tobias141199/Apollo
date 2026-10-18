@@ -1,0 +1,68 @@
+{
+  "id": "adj-alethes",
+  "titulo": "Adjetivo de 3ª declinação — ἀληθής ἀληθές",
+  "grupo": "adjetivo",
+  "colunas": [
+    "Masc./Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "ἀληθ|ής",
+        "ἀληθ|ές"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "ἀληθ|ῆ",
+        "ἀληθ|ές"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "ἀληθ|οῦς",
+        "ἀληθ|οῦς"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "ἀληθ|εῖ",
+        "ἀληθ|εῖ"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "ἀληθ|εῖς",
+        "ἀληθ|ῆ"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "ἀληθ|εῖς",
+        "ἀληθ|ῆ"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "ἀληθ|ῶν",
+        "ἀληθ|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "ἀληθ|έσι(ν)",
+        "ἀληθ|έσι(ν)"
+      ]
+    }
+  ],
+  "nota": "Mesma declinação de τριήρης (tema em σ), com uma só forma para masc. e fem. Cuidado: ἀληθῆ pode ser ac. sg. m./f. ou nom./ac. pl. neutro (τὰ ἀληθῆ, 'a verdade')."
+}

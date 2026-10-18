@@ -1,0 +1,44 @@
+{
+  "id": "decl3-b",
+  "titulo": "3ª declinação neutra em -μα — πρᾶγμα (3b)",
+  "grupo": "substantivo",
+  "colunas": [
+    "Singular",
+    "Plural"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "πρᾶγμα",
+        "πράγματ|α"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "πρᾶγμα",
+        "πράγματ|α"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "πράγματ|ος",
+        "πραγμάτ|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "πράγματ|ι",
+        "πράγμα|σι(ν)"
+      ]
+    }
+  ],
+  "nota": "Tema em -ματ- (πραγματ-): o τ cai no nom./ac. sg. e diante de -σι. Como todo neutro, nom. = ac. e plural em -α. Mesmo modelo: κτῆμα, σῶμα, ὄνομα.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "4A–B"
+  }
+}

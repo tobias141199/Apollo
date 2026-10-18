@@ -1,0 +1,47 @@
+{
+  "id": "decl3-d",
+  "titulo": "3ª declinação em -ης (tema em σ) — τριήρης (3d)",
+  "grupo": "substantivo",
+  "colunas": [
+    "Singular",
+    "Plural"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "τριήρ|ης",
+        "τριήρ|εις"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "τριήρ|η",
+        "τριήρ|εις"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "τριήρ|ους",
+        "τριήρ|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "τριήρ|ει",
+        "τριήρ|εσι(ν)"
+      ]
+    },
+    {
+      "rotulo": "Voc.",
+      "celulas": [
+        "τριῆρ|ες",
+        "τριήρ|εις"
+      ]
+    }
+  ],
+  "nota": "Nom. em -ης mas gen. em -ους: não é 1ª declinação! Os nomes próprios seguem o mesmo modelo no singular (Σωκράτης, Σωκράτη, Σωκράτους, Σωκράτει, voc. Σώκρατες). Note o gen. pl. τριήρων, acentuado como no nominativo."
+}

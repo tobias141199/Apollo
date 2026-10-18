@@ -1,0 +1,258 @@
+{
+  "id": "3D",
+  "secao": 3,
+  "parte": 1,
+  "titulo": "O trierarca dorme",
+  "resumo": "Em terra, um contramestre manda Polo acordar o trierarca; Polo enfrenta o escravo sonolento da casa até que o próprio trierarca aparece e vê os sinais de fogo.",
+  "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 36,
+    "local": "3D"
+  },
+  "vocab": [
+    {
+      "grego": "βοάω",
+      "lexical": "βοάω",
+      "classe": "verbo",
+      "glosa": "gritar (por); chamar gritando",
+      "aprender": true,
+      "paradigma": "orao-presente",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      },
+      "athenaze": "cap. 5"
+    },
+    {
+      "grego": "ἔτι",
+      "lexical": "ἔτι",
+      "classe": "advérbio",
+      "glosa": "ainda",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      },
+      "athenaze": "cap. 3"
+    },
+    {
+      "grego": "ζητέω",
+      "lexical": "ζητέω",
+      "classe": "verbo",
+      "glosa": "procurar; buscar",
+      "aprender": true,
+      "paradigma": "poieo-presente",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      },
+      "athenaze": "cap. 5"
+    },
+    {
+      "grego": "θύρα",
+      "lexical": "θύρα, ἡ (1b)",
+      "classe": "substantivo",
+      "glosa": "porta",
+      "aprender": true,
+      "paradigma": "decl1-b",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      },
+      "athenaze": "cap. 8"
+    },
+    {
+      "grego": "καθεύδω",
+      "lexical": "καθεύδω",
+      "classe": "verbo",
+      "glosa": "dormir",
+      "aprender": true,
+      "paradigma": "verbo-presente-ativo",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      },
+      "athenaze": "cap. 2"
+    },
+    {
+      "grego": "καλέω",
+      "lexical": "καλέω (καλεσα-)",
+      "classe": "verbo",
+      "glosa": "chamar; convocar",
+      "aprender": true,
+      "paradigma": "poieo-presente",
+      "partes": [
+        "καλέω",
+        "καλεσα-"
+      ],
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      },
+      "athenaze": "cap. 2"
+    },
+    {
+      "grego": "κελευστής",
+      "lexical": "κελευστής, ὁ (1d)",
+      "classe": "substantivo",
+      "glosa": "contramestre (chefe dos remadores)",
+      "aprender": true,
+      "paradigma": "decl1-d",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      }
+    },
+    {
+      "grego": "οἴκοι",
+      "lexical": "οἴκοι",
+      "classe": "advérbio",
+      "glosa": "em casa",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      },
+      "athenaze": "cap. 8"
+    },
+    {
+      "grego": "τρέχω",
+      "lexical": "τρέχω (δραμ-)",
+      "classe": "verbo",
+      "glosa": "correr",
+      "aprender": true,
+      "paradigma": "verbo-presente-ativo",
+      "partes": [
+        "τρέχω",
+        "δραμ-"
+      ],
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      },
+      "athenaze": "cap. 5"
+    },
+    {
+      "grego": "τριήραρχος",
+      "lexical": "τριήραρχος, ὁ (2a)",
+      "classe": "substantivo",
+      "glosa": "trierarca (comandante de trirreme)",
+      "aprender": true,
+      "paradigma": "decl2-masc",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 38,
+        "local": "3D"
+      }
+    }
+  ],
+  "gramatica": [],
+  "exercicios": [
+    {
+      "id": "3D-o1",
+      "tipo": "traduzir-gp",
+      "titulo": "Acordando o trierarca",
+      "enunciado": "Traduza as frases, todas com o vocabulário de 3D.",
+      "itens": [
+        {
+          "pergunta": "ὁ κελευστὴς τὸν τριήραρχον ζητεῖ.",
+          "resposta": "O contramestre procura o trierarca."
+        },
+        {
+          "pergunta": "ὁ τριήραρχος οἴκοι καθεύδει.",
+          "resposta": "O trierarca está dormindo em casa."
+        },
+        {
+          "pergunta": "τίς βοᾷ πρὸς τῇ θύρᾳ;",
+          "resposta": "Quem está gritando junto à porta?"
+        },
+        {
+          "pergunta": "τρέχε οἴκαδε καὶ κάλει τὸν δεσπότην.",
+          "resposta": "Corre para casa e chama o patrão."
+        },
+        {
+          "pergunta": "ἔτι καθεύδεις, ὦ παῖ;",
+          "resposta": "Ainda estás dormindo, menino?"
+        },
+        {
+          "pergunta": "μὴ καθεύδετε, ὦ ναῦται· μέγας γὰρ ὁ κίνδυνος.",
+          "resposta": "Não durmam, marinheiros: o perigo é grande."
+        }
+      ],
+      "gabarito": "projeto",
+      "fonte": {
+        "livro": "original",
+        "local": "3D"
+      }
+    }
+  ],
+  "textos": [],
+  "athenaze": {
+    "capitulos": [
+      "cap. 2 (Ὁ Ξανθίας)",
+      "cap. 5 (Ὁ λύκος) — vocabulário",
+      "cap. 8 (Πρὸς τὸ ἄστυ)"
+    ],
+    "comparacao": "3D é uma subseção de *vocabulário em cena*: alguém dorme (καθεύδω), outro grita e chama (βοάω, καλέω), procura (ζητέω), corre (τρέχω) e bate à porta (θύρα). O Athenaze tem duas cenas quase iguais: no cap. 2 Diceópolis chama o escravo Xântias, que dorme em vez de trabalhar, e no começo do cap. 8β Mirrina acorda o marido para irem à cidade. Lidas lado a lado, as três cenas fixam o mesmo grupo de verbos com imperativos e vocativos.\n\nNa gramática, 3D pratica οὗτος/ἐκεῖνος como pronomes (βοᾷ δὲ οὗτος; ζητῶ γὰρ ἐκεῖνον) e o adjetivo com valor de advérbio (καθεύδει… ἥσυχος, §76b). O Athenaze não tem uma regra equivalente a §76b nesse ponto; nisso a JACT é mais explícita. Ordem sugerida: leia 3D, depois o início de Athenaze 8β (p. 122) como leitura extra.",
+    "complementos": [
+      "Athenaze cap. 8β (p. 122): ἐγείρω \"acordo (alguém)\" / ἐγείρομαι \"acordo\" e ἔπαιρε σεαυτόν \"levanta-te!\" — vocabulário útil para cenas de despertar como a de 3D.",
+      "Athenaze cap. 8α, vocabulário: ἡ θύρα, τῆς θύρας \"porta\" e οἴκοι \"em casa\" (com a nota do livro sobre o acento, para não confundir com οἶκοι \"casas\").",
+      "Athenaze cap. 5α, vocabulário: βοάω, ζητέω, τρέχω, já como verbos contratos em -άω/-έω.",
+      "Vocabulário em comum: καθεύδω e καλέω (cap. 2), ἔτι (cap. 3), βοάω, ζητέω, τρέχω (cap. 5), θύρα e οἴκοι (cap. 8)."
+    ],
+    "citacoes": [
+      {
+        "grego": "δεινὸς μὲν ὁ τῶν Ἀθηναίων κίνδυνος, ἀλλὰ ἐκεῖνος οἴκοι καθεύδει.",
+        "traducao": "Terrível é o perigo para os atenienses, e ele lá dormindo em casa!",
+        "comentario": "JACT: ἐκεῖνος como pronome (\"ele\", o trierarca), οἴκοι e καθεύδω.",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 37,
+          "local": "3D",
+          "linhas": "l. 7–8"
+        }
+      },
+      {
+        "grego": "“ἔπαιρε σεαυτόν, ὦ ἄνερ,” φησίν· “οὐ γὰρ δυνατόν ἐστιν ἔτι καθεύδειν.”",
+        "traducao": "\"Levanta-te, marido\", diz ela; \"não dá mais para ficar dormindo.\"",
+        "comentario": "Athenaze: a mesma situação (acordar quem dorme na hora errada), com ἔτι e καθεύδω.",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 122,
+          "local": "cap. 8β",
+          "linhas": "l. 2–3"
+        }
+      },
+      {
+        "grego": "διὰ τί οὐ κόπτω ταύτην τὴν θύραν; τριήραρχε, τριήραρχε· σὲ γὰρ βοῶ.",
+        "traducao": "Por que não bato nesta porta? Trierarca, trierarca! É a ti que estou chamando.",
+        "comentario": "JACT: ταύτην τὴν θύραν (demonstrativo + artigo) e σέ enfático.",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 37,
+          "local": "3D",
+          "linhas": "l. 27–28"
+        }
+      },
+      {
+        "grego": "ἐλθὲ δεῦρο, ὦ Ξανθία. τί καθεύδεις;",
+        "traducao": "Vem cá, Xântias. Por que estás dormindo?",
+        "comentario": "Athenaze: a primeira cena de \"dorminhoco\" do livro, com o mesmo καθεύδω.",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 12,
+          "local": "cap. 2α"
+        }
+      }
+    ]
+  }
+}

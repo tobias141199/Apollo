@@ -1,0 +1,86 @@
+{
+  "id": "tis-tis",
+  "titulo": "Interrogativo τίς τί e indefinido τις τι",
+  "grupo": "pronome",
+  "colunas": [
+    "τίς m./f.",
+    "τί n.",
+    "τις m./f.",
+    "τι n."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "τίς",
+        "τί",
+        "τις",
+        "τι"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "τίν|α",
+        "τί",
+        "τιν|ά",
+        "τι"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "τίν|ος",
+        "τίν|ος",
+        "τιν|ός",
+        "τιν|ός"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "τίν|ι",
+        "τίν|ι",
+        "τιν|ί",
+        "τιν|ί"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "τίν|ες",
+        "τίν|α",
+        "τιν|ές",
+        "τιν|ά"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "τίν|ας",
+        "τίν|α",
+        "τιν|άς",
+        "τιν|ά"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "τίν|ων",
+        "τίν|ων",
+        "τιν|ῶν",
+        "τιν|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "τί|σι(ν)",
+        "τί|σι(ν)",
+        "τι|σί(ν)",
+        "τι|σί(ν)"
+      ]
+    }
+  ],
+  "nota": "τίς 'quem? o quê?' tem sempre acento agudo na 1ª sílaba (nunca grave); τις 'alguém, algum' é enclítico e normalmente aparece sem acento, depois da palavra a que se refere. τί também significa 'por quê?'."
+}

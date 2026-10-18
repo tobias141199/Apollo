@@ -1,0 +1,81 @@
+{
+  "id": "adj-hemeteros",
+  "titulo": "Adjetivo de 1ª/2ª declinação com -ᾱ — ἡμέτερος ἡμετέρα ἡμέτερον",
+  "grupo": "adjetivo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "ἡμέτερ|ος",
+        "ἡμετέρ|α",
+        "ἡμέτερ|ον"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "ἡμέτερ|ον",
+        "ἡμετέρ|αν",
+        "ἡμέτερ|ον"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "ἡμετέρ|ου",
+        "ἡμετέρ|ας",
+        "ἡμετέρ|ου"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "ἡμετέρ|ῳ",
+        "ἡμετέρ|ᾳ",
+        "ἡμετέρ|ῳ"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "ἡμέτερ|οι",
+        "ἡμέτερ|αι",
+        "ἡμέτερ|α"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "ἡμετέρ|ους",
+        "ἡμετέρ|ας",
+        "ἡμέτερ|α"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "ἡμετέρ|ων",
+        "ἡμετέρ|ων",
+        "ἡμετέρ|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "ἡμετέρ|οις",
+        "ἡμετέρ|αις",
+        "ἡμετέρ|οις"
+      ]
+    }
+  ],
+  "nota": "Depois de ε, ι ou ρ o feminino tem -ᾱ em todo o singular (como οἰκία). Mesmo modelo: ὑμέτερος, ἄξιος, δίκαιος. No feminino, o gen. pl. segue o acento do masculino (ἡμετέρων, ἀξίων).",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "1G"
+  }
+}

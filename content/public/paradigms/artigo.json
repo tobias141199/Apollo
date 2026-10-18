@@ -1,0 +1,85 @@
+{
+  "id": "artigo",
+  "titulo": "Artigo definido — ὁ, ἡ, τό",
+  "grupo": "artigo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "ὁ",
+        "ἡ",
+        "τό"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "τόν",
+        "τήν",
+        "τό"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "τοῦ",
+        "τῆς",
+        "τοῦ"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "τῷ",
+        "τῇ",
+        "τῷ"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "οἱ",
+        "αἱ",
+        "τά"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "τούς",
+        "τάς",
+        "τά"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "τῶν",
+        "τῶν",
+        "τῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "τοῖς",
+        "ταῖς",
+        "τοῖς"
+      ]
+    }
+  ],
+  "nota": "O artigo é a sua âncora na frase: mesmo sem conhecer o substantivo, ele indica caso, gênero e número. Na frase, a forma oxítona leva grave (τὸν, τὴν); ὁ, ἡ, οἱ, αἱ não têm acento.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "1A–B"
+  },
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 2–4"
+  }
+}

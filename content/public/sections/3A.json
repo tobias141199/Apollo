@@ -1,0 +1,522 @@
+{
+  "id": "3A",
+  "secao": 3,
+  "parte": 1,
+  "titulo": "Fogos em Salamina",
+  "resumo": "Chegando ao Pireu, Diceópolis vê uma luz em Salamina; o capitão percebe que são sinais de fogo, aviso de navios inimigos, e acelera rumo ao porto.",
+  "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 30,
+    "local": "3A"
+  },
+  "vocab": [
+    {
+      "grego": "ἄγε",
+      "lexical": "ἄγε",
+      "classe": "interjeição",
+      "glosa": "vamos!; eia!",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 9"
+    },
+    {
+      "grego": "ἀφικνέομαι",
+      "lexical": "ἀφικνέομαι (ἀφικ-)",
+      "classe": "verbo",
+      "glosa": "chegar; vir",
+      "aprender": true,
+      "paradigma": "poieo-presente",
+      "partes": [
+        "ἀφικνέομαι",
+        "ἀφικ-"
+      ],
+      "nota": "Verbo médio contrato em -έω (veja a coluna do médio).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 6"
+    },
+    {
+      "grego": "ἐρωτάω",
+      "lexical": "ἐρωτάω (ἐρ-)",
+      "classe": "verbo",
+      "glosa": "perguntar",
+      "aprender": true,
+      "paradigma": "orao-presente",
+      "partes": [
+        "ἐρωτάω",
+        "ἐρ-"
+      ],
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      }
+    },
+    {
+      "grego": "ἰδού",
+      "lexical": "ἰδού",
+      "classe": "interjeição",
+      "glosa": "olha!; eis!",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 4"
+    },
+    {
+      "grego": "κίνδυνος",
+      "lexical": "κίνδυνος, ὁ (2a)",
+      "classe": "substantivo",
+      "glosa": "perigo",
+      "aprender": true,
+      "paradigma": "decl2-masc",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 9"
+    },
+    {
+      "grego": "νῆσος",
+      "lexical": "νῆσος, ἡ (2a)",
+      "classe": "substantivo",
+      "glosa": "ilha",
+      "aprender": true,
+      "paradigma": "decl2-masc",
+      "nota": "Feminino, mas declina-se como ἄνθρωπος.",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 6"
+    },
+    {
+      "grego": "πόθεν",
+      "lexical": "πόθεν;",
+      "classe": "advérbio",
+      "glosa": "de onde?",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 7"
+    },
+    {
+      "grego": "πυρά",
+      "lexical": "πυρά, τά (2b)",
+      "classe": "substantivo",
+      "glosa": "sinais de fogo",
+      "aprender": true,
+      "paradigma": "decl2-neut",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      }
+    },
+    {
+      "grego": "σπεύδω",
+      "lexical": "σπεύδω",
+      "classe": "verbo",
+      "glosa": "apressar-se",
+      "aprender": true,
+      "paradigma": "verbo-presente-ativo",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 2"
+    },
+    {
+      "grego": "χωρέω",
+      "lexical": "χωρέω",
+      "classe": "verbo",
+      "glosa": "ir; vir",
+      "aprender": true,
+      "paradigma": "poieo-presente",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      }
+    },
+    {
+      "grego": "ἀνήρ",
+      "lexical": "ἀνήρ (ἀνδρ-), ὁ (3a)",
+      "classe": "substantivo",
+      "glosa": "homem; marido",
+      "aprender": true,
+      "paradigma": "aner-pater",
+      "nota": "Aprendida com a gramática de 3A–B (marcada [3A-B] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 4"
+    },
+    {
+      "grego": "γείτων",
+      "lexical": "γείτων (γειτον-), ὁ (3a)",
+      "classe": "substantivo",
+      "glosa": "vizinho",
+      "aprender": true,
+      "paradigma": "decl3-a",
+      "nota": "Aprendida com a gramática de 3A–B (marcada [3A-B] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      }
+    },
+    {
+      "grego": "λαμπάς",
+      "lexical": "λαμπάς (λαμπαδ-), ἡ (3a)",
+      "classe": "substantivo",
+      "glosa": "tocha",
+      "aprender": true,
+      "paradigma": "decl3-a-dental",
+      "nota": "Aprendida com a gramática de 3A–B (marcada [3A-B] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      }
+    },
+    {
+      "grego": "λιμήν",
+      "lexical": "λιμήν (λιμεν-), ὁ (3a)",
+      "classe": "substantivo",
+      "glosa": "porto",
+      "aprender": true,
+      "paradigma": "decl3-a",
+      "nota": "Aprendida com a gramática de 3A–B (marcada [3A-B] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      }
+    },
+    {
+      "grego": "νύξ",
+      "lexical": "νύξ (νυκτ-), ἡ (3a)",
+      "classe": "substantivo",
+      "glosa": "noite",
+      "aprender": true,
+      "paradigma": "decl3-a",
+      "nota": "Aprendida com a gramática de 3A–B (marcada [3A-B] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 6"
+    },
+    {
+      "grego": "παῖς",
+      "lexical": "παῖς (παιδ-), ὁ, ἡ (3a)",
+      "classe": "substantivo",
+      "glosa": "criança; menino; escravo",
+      "aprender": true,
+      "paradigma": "decl3-a-dental",
+      "nota": "Aprendida com a gramática de 3A–B (marcada [3A-B] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      },
+      "athenaze": "cap. 3"
+    },
+    {
+      "grego": "πατρίς",
+      "lexical": "πατρίς (πατριδ-), ἡ (3a)",
+      "classe": "substantivo",
+      "glosa": "pátria",
+      "aprender": true,
+      "paradigma": "decl3-a-dental",
+      "nota": "Aprendida com a gramática de 3A–B (marcada [3A-B] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      }
+    },
+    {
+      "grego": "σωτήρ",
+      "lexical": "σωτήρ (σωτηρ-), ὁ (3a)",
+      "classe": "substantivo",
+      "glosa": "salvador",
+      "aprender": true,
+      "paradigma": "decl3-a",
+      "nota": "Aprendida com a gramática de 3A–B (marcada [3A-B] no Vocabulário completo).",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 31,
+        "local": "3A"
+      }
+    }
+  ],
+  "gramatica": [
+    {
+      "topico": "3ª declinação (tipo 3a): λιμήν e νύξ",
+      "nota": "Um terceiro conjunto de terminações, que *não* se parece com o artigo: sg. –, -α, -ος, -ι; pl. -ες, -ας, -ων, -σι(ν). O nominativo singular costuma esconder o radical (νύξ = νυκτ- + ς; λιμήν, radical λιμεν-); a partir do acusativo, você soma o radical às terminações: νύκτ-α, νυκτ-ός, νυκτ-ί.\n\nO único ponto traiçoeiro é o *dativo plural* em -σι(ν): a consoante do radical se funde ou cai antes do σ (νυκτ-σί > νυξί, λιμεν-σι > λιμέσι, λαμπαδ-σι > λαμπάσι, παιδ-σί > παισί). Memorize as oito terminações agora: são as mais frequentes do grego depois das da 1ª e da 2ª declinação.",
+      "jact": {
+        "livro": "JACT-Gramatica",
+        "pagina": "54–56",
+        "local": "3A–B, §66–67"
+      },
+      "athenaze": {
+        "livro": "Athenaze",
+        "pagina": "97–99, 106–107",
+        "local": "cap. 7, Gram. 3 e 5"
+      },
+      "paradigmas": [
+        "decl3-a",
+        "decl3-a-dental"
+      ],
+      "exemplos": [
+        {
+          "grego": "οὕτως οὖν ἡ ναῦς πρὸς τὸν λιμένα βραδέως χωρεῖ.",
+          "traducao": "Assim, pois, o navio avança devagar rumo ao porto.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 30,
+            "local": "3A",
+            "linhas": "l. 1"
+          }
+        },
+        {
+          "grego": "ἰδού, ὦ κυβερνῆτα. λαμπάδα τινὰ ὁρῶ ἐγὼ ἐν τῇ νήσῳ.",
+          "traducao": "Olha, piloto! Eu vejo uma tocha na ilha.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 30,
+            "local": "3A",
+            "linhas": "l. 9"
+          }
+        },
+        {
+          "grego": "νὺξ γάρ ἐστι, καὶ πολλοὶ ἄνδρες φαίνονται ἐν ταῖς ὁδοῖς.",
+          "traducao": "Pois é noite, e muitos homens aparecem nas ruas.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 32,
+            "local": "3B",
+            "linhas": "l. 2–3"
+          }
+        }
+      ]
+    },
+    {
+      "topico": "Radical, gênero e genitivo: como reconhecer um substantivo 3a",
+      "nota": "Na 3ª declinação o gênero quase nunca se deduz da terminação: ὁ λιμήν, mas ἡ νύξ, ἡ λαμπάς. Por isso aprenda sempre *três coisas juntas*: nominativo, genitivo e artigo (λιμήν, λιμένος, ὁ). O genitivo em -ος denuncia a 3ª declinação e, tirando o -ος, você obtém o radical (λιμέν-ος → λιμεν-).\n\nAtenção a ἀνήρ: radical ἀνδρ- (ἀνδρός, ἄνδρα), mas dat. pl. ἀνδράσι(ν) e vocativo ἄνερ. E παῖς pode ser ὁ ou ἡ (\"menino\", \"menina\", \"escravo\"); vocativo ὦ παῖ, que aparece muito ao chamar um escravo.",
+      "jact": {
+        "livro": "JACT-Gramatica",
+        "pagina": "55–56",
+        "local": "3A–B, §67"
+      },
+      "athenaze": {
+        "livro": "Athenaze",
+        "pagina": "97, 124–125",
+        "local": "cap. 7, Gram. 2; cap. 8, Gram. 2"
+      },
+      "paradigmas": [
+        "decl3-a",
+        "aner-pater"
+      ],
+      "exemplos": [
+        {
+          "grego": "ἐπειδὴ δὲ ὁρᾷ, εὐθὺς σπεύδει πρὸς τὸν λιμένα.",
+          "traducao": "Quando vê, logo se apressa rumo ao porto.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 30,
+            "local": "3A",
+            "linhas": "l. 3"
+          }
+        },
+        {
+          "grego": "ὁ δὲ τοῦ Πρωτάρχου παῖς τά τε ὅπλα καὶ τὴν λαμπάδα ἐκφέρει.",
+          "traducao": "E o escravo de Protarco leva para fora as armas e a tocha.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 33,
+            "local": "3B",
+            "linhas": "l. 24–25"
+          }
+        },
+        {
+          "grego": "ἐν κινδύνῳ ἡμεῖς ἐσμέν, ὦ Δικαιόπολι.",
+          "traducao": "Estamos em perigo, Diceópolis.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 30,
+            "local": "3A",
+            "linhas": "l. 20"
+          }
+        }
+      ]
+    },
+    {
+      "topico": "Pronomes pessoais: ἐγώ, σύ, ἡμεῖς, ὑμεῖς",
+      "nota": "O verbo já traz a pessoa (σῴζω = eu salvo); por isso o nominativo ἐγώ/σύ/ἡμεῖς/ὑμεῖς só aparece quando há *ênfase ou contraste*: ἐγὼ μὲν…, σὺ δὲ… Os outros casos são indispensáveis: με/ἐμέ \"me\", μοι/ἐμοί \"a mim\", σε \"te\", ἡμᾶς \"nos\", ὑμῖν \"a vós\".\n\nNo singular há formas fracas sem acento (με, μου, μοι; σε, σου, σοι — enclíticas) e formas fortes acentuadas (ἐμέ, ἐμοῦ, ἐμοί; σέ, σοῦ, σοί), usadas para destacar e depois de preposição: μετὰ ἐμοῦ, μετὰ σοῦ. Cuidado com ἡμεῖς/ὑμεῖς: só a primeira letra muda (e o espírito, ἡ- × ὑ-).",
+      "jact": {
+        "livro": "JACT-Gramatica",
+        "pagina": 57,
+        "local": "3A–B, §68"
+      },
+      "athenaze": {
+        "livro": "Athenaze",
+        "pagina": "64–65",
+        "local": "cap. 5, Gram. 6"
+      },
+      "paradigmas": [
+        "pron-pessoais"
+      ],
+      "exemplos": [
+        {
+          "grego": "ἀλλὰ σῴζω ὑμᾶς ἔγωγε. μὴ φοβεῖσθε.",
+          "traducao": "Mas eu estou salvando vocês! Não tenham medo.",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 30,
+            "local": "3A",
+            "linhas": "l. 17"
+          }
+        },
+        {
+          "grego": "ἀλλὰ διὰ τί σὺ οὐ μετὰ ἐμοῦ πορεύῃ;",
+          "traducao": "Mas por que tu não vens comigo?",
+          "fonte": {
+            "livro": "JACT-Textos",
+            "pagina": 32,
+            "local": "3B",
+            "linhas": "l. 17"
+          }
+        },
+        {
+          "grego": "ἀκούετε οὖν· ἐγὼ γὰρ μέλλω καλὸν μῦθον ὑμῖν λέγειν.",
+          "traducao": "Escutem, então: vou contar a vocês uma bela história.",
+          "fonte": {
+            "livro": "Athenaze",
+            "pagina": 64,
+            "local": "cap. 5β"
+          }
+        }
+      ]
+    }
+  ],
+  "exercicios": [
+    {
+      "id": "3A-o1",
+      "tipo": "morfologia",
+      "titulo": "Achando o radical",
+      "enunciado": "Para cada substantivo, dê o genitivo singular, o radical e o dativo plural. Diga também o gênero.",
+      "itens": [
+        {
+          "pergunta": "λιμήν",
+          "resposta": "λιμένος — radical λιμεν- — λιμέσι(ν); masculino"
+        },
+        {
+          "pergunta": "νύξ",
+          "resposta": "νυκτός — radical νυκτ- — νυξί(ν); feminino"
+        },
+        {
+          "pergunta": "λαμπάς",
+          "resposta": "λαμπάδος — radical λαμπαδ- — λαμπάσι(ν); feminino"
+        },
+        {
+          "pergunta": "παῖς",
+          "resposta": "παιδός — radical παιδ- — παισί(ν); masculino ou feminino"
+        },
+        {
+          "pergunta": "γείτων",
+          "resposta": "γείτονος — radical γειτον- — γείτοσι(ν); masculino"
+        },
+        {
+          "pergunta": "ἀνήρ",
+          "resposta": "ἀνδρός — radical ἀνδρ- — ἀνδράσι(ν); masculino"
+        }
+      ],
+      "gabarito": "projeto",
+      "fonte": {
+        "livro": "original",
+        "local": "3A"
+      }
+    }
+  ],
+  "textos": [],
+  "athenaze": {
+    "capitulos": [
+      "cap. 7 (Ὁ Κύκλωψ)",
+      "cap. 8 (Πρὸς τὸ ἄστυ)",
+      "cap. 6 (Ὁ μῦθος) — vocabulário"
+    ],
+    "comparacao": "A JACT apresenta a 3ª declinação de uma vez, com dois modelos (λιμήν e νύξ) e as oito terminações para decorar, porque o texto de 3A–B já está cheio delas (λιμένα, λαμπάδα, νῆες, ἄνδρες). O Athenaze adia o assunto: usa palavras como παῖς, ἀνήρ, ναῦς e νύξ desde os caps. 3–6 só como vocabulário, e só no cap. 7 explica a declinação, agrupando os radicais pelo som final (velares φύλαξ/αἴξ, dentais παῖς/ὄνομα, nasais χειμών) e mostrando *por que* o dativo plural muda (φύλακ-σι > φύλαξι). Para quem tem dificuldade de decorar, essa explicação fonética é mais clara.\n\nOrdem sugerida: decore as terminações pela tabela da JACT (§66) e, em seguida, leia o cap. 7 do Athenaze, Gram. 2–3 e 5 (pp. 97–99, 106–107), para entender as fusões de consoantes. Os nomes em -ηρ com quatro radicais (πατήρ, ἀνήρ) ficam mais claros no quadro do Athenaze, cap. 8, Gram. 2 (pp. 124–125).",
+    "complementos": [
+      "Athenaze cap. 7, Gram. 3 (pp. 97–99): regra fonética — velar + σ = ξ (φύλαξ, φύλαξι), dental cai antes de σ (παῖς, παισί), e o vocativo ὦ παῖ é o radical sem consoante final.",
+      "Athenaze cap. 7, Gram. 5 (pp. 106–107): temas nasais como χειμών (dat. pl. χειμῶσι) — o mesmo padrão de λιμήν/λιμέσι e γείτων/γείτοσι.",
+      "Athenaze cap. 7, Gram. 2 (p. 97): a partir daí as listas de vocabulário dão sempre nominativo + genitivo (ἡ νύξ, τῆς νυκτός) — mesmo conselho da JACT §67c.",
+      "Athenaze cap. 8, Gram. 2 (pp. 124–125): quadro de ἀνήρ ao lado de πατήρ, μήτηρ, θυγάτηρ (ἀνδρός, ἀνδράσι, ὦ ἄνερ).",
+      "Vocabulário em comum: παῖς (cap. 3), ἀνήρ e ἰδού (cap. 4), ἀφικνέομαι, νῆσος, νύξ (cap. 6), πόθεν (cap. 7), ἄγε e κίνδυνος (cap. 9)."
+    ],
+    "citacoes": [
+      {
+        "grego": "ΚΥΒ. τί φής; πόθεν ἡ λαμπάς;",
+        "traducao": "Piloto: Que dizes? De onde vem a tocha?",
+        "comentario": "JACT: πόθεν; e um substantivo 3a (λαμπάς, ac. λαμπάδα nas linhas vizinhas).",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 30,
+          "local": "3A",
+          "linhas": "l. 10"
+        }
+      },
+      {
+        "grego": "“ὦ ξένοι,” βοᾷ, “τίνες ἐστὲ καὶ πόθεν πλεῖτε;”",
+        "traducao": "\"Estrangeiros\", grita ele, \"quem sois e de onde navegais?\"",
+        "comentario": "Athenaze: o Ciclope faz a mesma pergunta com πόθεν, num capítulo dedicado à 3ª declinação.",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 105,
+          "local": "cap. 7β"
+        }
+      },
+      {
+        "grego": "σαφῶς δηλοῖ ὅτι αἱ πολέμιαι νῆες ἐπὶ ἡμᾶς ἐπέρχονται.",
+        "traducao": "Mostra claramente que os navios inimigos estão vindo contra nós.",
+        "comentario": "JACT: νῆες (nom. pl. de ναῦς) e o pronome ἡμᾶς.",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 30,
+          "local": "3A",
+          "linhas": "l. 23"
+        }
+      },
+      {
+        "grego": "“ἡμεῖς Ἀχαιοί ἐσμεν,” φησίν, “καὶ ἀπὸ τῆς Τροίας οἴκαδε πλέομεν. χειμὼν δὲ ἡμᾶς ἐνθάδε ἐλαύνει.”",
+        "traducao": "\"Nós somos aqueus\", diz ele, \"e navegamos de Troia para casa; mas uma tempestade nos empurra para cá.\"",
+        "comentario": "Athenaze: um tema nasal da 3ª decl. (χειμών) e os pronomes ἡμεῖς/ἡμᾶς, como em 3A.",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 105,
+          "local": "cap. 7β"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "verbo-imperfeito",
+  "titulo": "Imperfeito — ἔπαυον, ἐπαυόμην",
+  "grupo": "verbo",
+  "colunas": [
+    "Ativo",
+    "Médio"
+  ],
+  "linhas": [
+    {
+      "rotulo": "1ª sg.",
+      "celulas": [
+        "ἔπαυ|ον",
+        "ἐπαυ|όμην"
+      ]
+    },
+    {
+      "rotulo": "2ª sg.",
+      "celulas": [
+        "ἔπαυ|ες",
+        "ἐπαύ|ου"
+      ]
+    },
+    {
+      "rotulo": "3ª sg.",
+      "celulas": [
+        "ἔπαυ|ε(ν)",
+        "ἐπαύ|ετο"
+      ]
+    },
+    {
+      "rotulo": "1ª pl.",
+      "celulas": [
+        "ἐπαύ|ομεν",
+        "ἐπαυ|όμεθα"
+      ]
+    },
+    {
+      "rotulo": "2ª pl.",
+      "celulas": [
+        "ἐπαύ|ετε",
+        "ἐπαύ|εσθε"
+      ]
+    },
+    {
+      "rotulo": "3ª pl.",
+      "celulas": [
+        "ἔπαυ|ον",
+        "ἐπαύ|οντο"
+      ]
+    }
+  ],
+  "nota": "Aumento ἐ- + tema do presente + terminações secundárias. Em verbos com prefixo, o aumento fica entre o prefixo e o verbo (εἰσ-έ-βαινον). Atenção: 1ª sg. e 3ª pl. ativas são iguais (ἔπαυον).",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 13"
+  }
+}

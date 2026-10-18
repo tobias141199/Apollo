@@ -1,0 +1,65 @@
+{
+  "id": "verbo-futuro",
+  "titulo": "Futuro — παύσω, παύσομαι",
+  "grupo": "verbo",
+  "colunas": [
+    "Ativo",
+    "Médio"
+  ],
+  "linhas": [
+    {
+      "rotulo": "1ª sg.",
+      "celulas": [
+        "παύ|σω",
+        "παύ|σομαι"
+      ]
+    },
+    {
+      "rotulo": "2ª sg.",
+      "celulas": [
+        "παύ|σεις",
+        "παύ|σῃ / παύ|σει"
+      ]
+    },
+    {
+      "rotulo": "3ª sg.",
+      "celulas": [
+        "παύ|σει",
+        "παύ|σεται"
+      ]
+    },
+    {
+      "rotulo": "1ª pl.",
+      "celulas": [
+        "παύ|σομεν",
+        "παυ|σόμεθα"
+      ]
+    },
+    {
+      "rotulo": "2ª pl.",
+      "celulas": [
+        "παύ|σετε",
+        "παύ|σεσθε"
+      ]
+    },
+    {
+      "rotulo": "3ª pl.",
+      "celulas": [
+        "παύ|σουσι(ν)",
+        "παύ|σονται"
+      ]
+    },
+    {
+      "rotulo": "Infinitivo",
+      "celulas": [
+        "παύ|σειν",
+        "παύ|σεσθαι"
+      ]
+    }
+  ],
+  "nota": "Futuro = tema + σ + terminações do presente. Gutural + σ → ξ (διώξω), labial + σ → ψ (πέμψω), dental cai (πείσω). Alguns verbos ativos têm futuro médio (ἀκούσομαι, ἔσομαι).",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 10"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "adj-megas",
+  "titulo": "μέγας μεγάλη μέγα — 'grande'",
+  "grupo": "adjetivo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "μέγ|ας",
+        "μεγάλ|η",
+        "μέγ|α"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "μέγ|αν",
+        "μεγάλ|ην",
+        "μέγ|α"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "μεγάλ|ου",
+        "μεγάλ|ης",
+        "μεγάλ|ου"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "μεγάλ|ῳ",
+        "μεγάλ|ῃ",
+        "μεγάλ|ῳ"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "μεγάλ|οι",
+        "μεγάλ|αι",
+        "μεγάλ|α"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "μεγάλ|ους",
+        "μεγάλ|ας",
+        "μεγάλ|α"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "μεγάλ|ων",
+        "μεγάλ|ων",
+        "μεγάλ|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "μεγάλ|οις",
+        "μεγάλ|αις",
+        "μεγάλ|οις"
+      ]
+    }
+  ],
+  "nota": "Como πολύς: só o nom. e ac. sg. masc./neut. são curtos (μέγας, μέγαν, μέγα); o resto usa o tema μεγαλ- com terminações de καλός.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "3C–E"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "decl1-a",
+  "titulo": "1ª declinação feminina em -η — τιμή (1a)",
+  "grupo": "substantivo",
+  "colunas": [
+    "Singular",
+    "Plural"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "τιμ|ή",
+        "τιμ|αί"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "τιμ|ήν",
+        "τιμ|άς"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "τιμ|ῆς",
+        "τιμ|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "τιμ|ῇ",
+        "τιμ|αῖς"
+      ]
+    }
+  ],
+  "nota": "Mantém -η em todo o singular. O genitivo plural da 1ª declinação é sempre -ῶν, qualquer que seja o acento do nominativo (cf. τέχνη → τεχνῶν).",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 4"
+  }
+}

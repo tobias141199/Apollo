@@ -1,0 +1,681 @@
+{
+ "id": "5A",
+ "secao": 5,
+ "parte": 2,
+ "titulo": "Noite insone de Estrepsíades",
+ "resumo": "Endividado por causa da paixão do filho por cavalos, o velho Estrepsíades passa a noite em claro. Ele culpa a esposa da cidade, que encheu o menino de gostos caros, e lamenta o casamento.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 54,
+  "local": "5A"
+ },
+ "vocab": [
+  {
+   "grego": "αἴτιος",
+   "lexical": "αἴτιος α ον",
+   "classe": "adjetivo",
+   "glosa": "responsável (por); culpado (de)",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "nota": "Com genitivo: responsável por algo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "βαθύς",
+   "lexical": "βαθύς εῖα ύ",
+   "classe": "adjetivo",
+   "glosa": "profundo, fundo",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "βαρύς",
+   "lexical": "βαρύς εῖα ύ",
+   "classe": "adjetivo",
+   "glosa": "pesado",
+   "aprender": true,
+   "nota": "βαρέως φέρω: suportar mal, irritar-se com.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "βίος",
+   "lexical": "βίος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "vida; meio de vida",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "γάμος",
+   "lexical": "γάμος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "casamento",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "διαλέγομαι",
+   "lexical": "διαλέγομαι",
+   "classe": "verbo",
+   "glosa": "conversar",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   },
+   "athenaze": "cap. 8"
+  },
+  {
+   "grego": "δίκη",
+   "lexical": "δίκη, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "processo, ação judicial; justiça; pena",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "δίκην λαμβάνω",
+   "lexical": "δίκην λαμβάνω (λαβ-)",
+   "classe": "expressão",
+   "glosa": "cobrar o devido; punir",
+   "aprender": true,
+   "partes": [
+    "λαμβάνω",
+    "λαβ-"
+   ],
+   "nota": "Quem é punido vai em παρά + genitivo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "διότι",
+   "lexical": "διότι",
+   "classe": "conjunção",
+   "glosa": "porque",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "δυστυχής",
+   "lexical": "δυστυχής ές",
+   "classe": "adjetivo",
+   "glosa": "infeliz, desafortunado",
+   "aprender": true,
+   "paradigma": "adj-alethes",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "εἰσφέρω",
+   "lexical": "εἰσφέρω (εἰσενεγκ-)",
+   "classe": "verbo",
+   "glosa": "trazer, levar para dentro; introduzir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "εἰσφέρω",
+    "εἰσενεγκ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "ἡδύς",
+   "lexical": "ἡδύς εῖα ύ",
+   "classe": "adjetivo",
+   "glosa": "doce, agradável",
+   "aprender": true,
+   "nota": "Superlativo: ἥδιστος.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "ἵππος",
+   "lexical": "ἵππος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "cavalo",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "ὅλος",
+   "lexical": "ὅλος η ον",
+   "classe": "adjetivo",
+   "glosa": "todo, inteiro",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "οὐδέπω",
+   "lexical": "οὐδέπω / οὔπω",
+   "classe": "advérbio",
+   "glosa": "ainda não",
+   "aprender": true,
+   "nota": "οὔπω tem o mesmo sentido.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "ὀφείλω",
+   "lexical": "ὀφείλω",
+   "classe": "verbo",
+   "glosa": "dever (ter dívida)",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "πατήρ",
+   "lexical": "πατήρ (πατ(ε)ρ-), ὁ (3a)",
+   "classe": "substantivo",
+   "glosa": "pai",
+   "aprender": true,
+   "paradigma": "aner-pater",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "σχεδόν",
+   "lexical": "σχεδόν",
+   "classe": "advérbio",
+   "glosa": "quase; perto",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "τότε",
+   "lexical": "τότε",
+   "classe": "advérbio",
+   "glosa": "então, naquele tempo",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   },
+   "athenaze": "cap. 12"
+  },
+  {
+   "grego": "υἱός",
+   "lexical": "υἱός, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "filho",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "Fora do ac. sg. pode ter também formas como as de γλυκύς (υἱέος, υἱεῖ…); voc. υἱέ.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  },
+  {
+   "grego": "χρῆμα",
+   "lexical": "χρῆμα (χρηματ-), τό (3b)",
+   "classe": "substantivo",
+   "glosa": "(pl. χρήματα) dinheiro, riqueza; coisa",
+   "aprender": true,
+   "paradigma": "decl3-b",
+   "nota": "No plural, χρήματα, τά = dinheiro. No singular aparece no texto como 'coisa, extensão, duração' (τὸ χρῆμα τῶν νυκτῶν).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 55,
+    "local": "5A"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "Pretérito imperfeito, ativo e médio",
+   "nota": "O imperfeito descreve uma ação *em andamento* ou *repetida* no passado: ἔπαυον = \"eu parava, estava parando, costumava parar\". Forma-se com o radical do *presente* + aumento ἐ- + vogal temática + desinências *secundárias*.\n\nAtivo: -ον, -ες, -ε(ν), -ομεν, -ετε, -ον (a 1ª sg. e a 3ª pl. são iguais: só o contexto separa \"eu parava\" de \"eles paravam\"). Médio: -όμην, -ου, -ετο, -όμεθα, -εσθε, -οντο. O -ου da 2ª sg. média vem de *ἐπαύεσο: o σ entre vogais caiu e ε + ο contraiu.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "92–93",
+    "local": "5A–B, §101–103"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "213–214",
+    "local": "cap. 13, Gram. 1a"
+   },
+   "paradigmas": [
+    "verbo-imperfeito"
+   ],
+   "exemplos": [
+    {
+     "grego": "ὀλίγον γάρ τινα χρόνον ἐκάθευδον ἐγώ.",
+     "traducao": "Pois eu dormi só um pouquinho (lit. dormia por pouco tempo).",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    },
+    {
+     "grego": "ἐκείνη γὰρ ἀεὶ τὸν υἱὸν ἐλάμβανε καὶ διελέγετο περὶ τῶν ἵππων.",
+     "traducao": "Pois ela sempre pegava o menino e conversava sobre cavalos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    },
+    {
+     "grego": "πάντες δὲ ἐτέρποντο πλέοντες.",
+     "traducao": "E todos se divertiam navegando.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 213,
+      "local": "cap. 13α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "O aumento: silábico (ἐ-) e temporal (vogal alongada)",
+   "nota": "O aumento é a marca do passado no indicativo. Se o verbo começa por consoante, recebe ἐ- (*aumento silábico*): κελεύω → ἐκέλευον. Se começa por vogal, a vogal se alonga (*aumento temporal*): α e ε → η, ο → ω, αι e ει → ῃ, οι → ῳ; ι e υ ficam longos (sem mudar a grafia); η e ω não mudam.\n\nGrave a exceção ἔχω → εἶχον. Na leitura, o raciocínio é inverso: um verbo começado por η- pode vir de α-, ε- ou η- no dicionário (ἤκουον → ἀκούω).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "93–95",
+    "local": "5A–B, §104–105"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "190–191",
+    "local": "cap. 11, Gram. 8"
+   },
+   "paradigmas": [
+    "verbo-imperfeito"
+   ],
+   "exemplos": [
+    {
+     "grego": "ὁ οὖν υἱὸς ἀεὶ περὶ ἵππων ἤκουε καὶ ἐμάνθανεν.",
+     "traducao": "Então o filho vivia ouvindo e aprendendo sobre cavalos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    },
+    {
+     "grego": "καὶ γὰρ ἔτι παῖς ὢν ὠνειροπόλει τοὺς ἵππους.",
+     "traducao": "Pois desde menino (lit. ainda sendo criança) sonhava com cavalos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Aumento nos verbos compostos",
+   "nota": "Nos compostos, o aumento entra *entre* o prefixo e o verbo: δια-βαίνω → δι-έ-βαινον, εἰσ-φέρω → εἰσ-έ-φερον. Prefixos de duas sílabas perdem a vogal final (ἀπο- → ἀπ-έβαινον, κατα- → κατ-έβαινον), exceto περι- e, às vezes, προ-. ἐκ- vira ἐξ- antes do aumento (ἐξέβαινον), e ἐμ-/ἐγ- voltam a ser ἐν- (ἐνέβαινον).\n\nPara procurar no dicionário: tire o prefixo, tire o aumento, recoloque o prefixo.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 95,
+    "local": "5A–B, §105"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 209,
+    "local": "cap. 12, Gram. 5"
+   },
+   "exemplos": [
+    {
+     "grego": "ἀστικὴ οὖσα, πολλὴν τὴν δαπάνην εἰσέφερεν.",
+     "traducao": "Sendo da cidade, ela trazia muita despesa.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    },
+    {
+     "grego": "αὕτη δ’ ἡ δαπάνη τότ’ ἤδη με διέφθειρεν.",
+     "traducao": "E essa despesa já então me arruinava.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Imperfeito dos verbos contratos",
+   "nota": "Os contratos contraem no imperfeito exatamente como no presente; só muda a desinência. Em -εω: ἐποίουν, ἐποίεις, ἐποίει, ἐποιοῦμεν, ἐποιεῖτε, ἐποίουν. Em -αω: ἐτίμων, ἐτίμας, ἐτίμα, ἐτιμῶμεν, ἐτιμᾶτε, ἐτίμων. Em -οω: ἐδήλουν, ἐδήλους, ἐδήλου…\n\nDica de leitura: -ουν/-ων no fim + aumento no começo = imperfeito de contrato (1ª sg. ou 3ª pl.). No médio: ἐφοβούμην, ἐφοβοῦ, ἐφοβεῖτο, ἐφοβοῦντο.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "95–97",
+    "local": "5A–B, §106–107"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 214,
+    "local": "cap. 13, Gram. 1a"
+   },
+   "paradigmas": [
+    "verbo-imperfeito",
+    "poieo-presente",
+    "orao-presente"
+   ],
+   "exemplos": [
+    {
+     "grego": "οὐδὲ τοὺς δεσπότας κακὰ ἐποίουν, ἦσαν δὲ χρηστοὶ καὶ ἀεὶ ἐπείθοντο.",
+     "traducao": "Nem maltratavam os senhores; eram bons e sempre obedeciam.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 56,
+      "local": "5B"
+     }
+    },
+    {
+     "grego": "ἐφοβοῦντο γὰρ τὴν κόλασιν.",
+     "traducao": "Pois tinham medo do castigo.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 56,
+      "local": "5B"
+     }
+    },
+    {
+     "grego": "ἀλλ’ οἱ μὲν ἄνδρες ἐσίγων, αἱ δὲ γυναῖκες μέγα ἔκλαζον.",
+     "traducao": "Mas os homens se calavam, e as mulheres começaram a gritar alto.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 223,
+      "local": "cap. 13β"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Como traduzir e como identificar o imperfeito",
+   "nota": "O imperfeito é um *processo*, não um fato pontual. Conforme o contexto, ἔβαινον pode ser \"eu ia\", \"estava indo\", \"costumava ir\", \"comecei a ir\", \"tentava ir\" ou \"insistia em ir\". O Athenaze dá nomes a dois desses usos: *incoativo* (começar a) e *conativo* (tentar).\n\nPara achar o verbo no dicionário: tire a desinência, tire o aumento (ou \"encurte\" a vogal inicial) e ponha -ω. O imperfeito usa sempre o radical do presente.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "97–98",
+    "local": "5A–B, §108–109"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "216–217",
+    "local": "cap. 13, Gram. 2 (Aspect)"
+   },
+   "exemplos": [
+    {
+     "grego": "ἐγὼ μὲν ὅλην τὴν νύκτα τὰς δίκας ταύτας ἀεὶ ἔφευγον.",
+     "traducao": "Eu passava a noite inteira me defendendo desses processos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    },
+    {
+     "grego": "τὸν πατέρα ἐπείθομεν οἴκαδε ἐπανελθεῖν· ὁ δὲ οὐκ ἠθέλησεν.",
+     "traducao": "Tentávamos convencer o pai a voltar para casa, mas ele não quis.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 216,
+      "local": "cap. 13, Gram. 2c"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Imperfeito de εἰμί: ἦ/ἦν, ἦσθα, ἦν…",
+   "nota": "Irregular, e é preciso decorar: ἦ ou ἦν, ἦσθα, ἦν, ἦμεν, ἦτε (ἦστε), ἦσαν = \"eu era/estava, tu eras…\". Não tem iota subscrito, o que o diferencia do imperfeito de εἶμι (ᾖα, \"eu ia\"), que o Athenaze ensina junto.\n\nCuidado: ἦν pode ser \"eu era\" ou \"ele era\"; o contexto decide.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 98,
+    "local": "5A–B, §110"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 215,
+    "local": "cap. 13, Gram. 1b"
+   },
+   "paradigmas": [
+    "eimi"
+   ],
+   "exemplos": [
+    {
+     "grego": "καὶ χθὲς ἄγρυπνος ἦ ἐγώ, σχεδὸν ὅλην τὴν νύκτα.",
+     "traducao": "Ontem também fiquei sem dormir, quase a noite inteira.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    },
+    {
+     "grego": "ἀλλ’ ὅτε νέοι ἦμεν ἡμεῖς, τότε οἱ γέροντες ἀεὶ ἐκόλαζον τοὺς οἰκέτας.",
+     "traducao": "Mas quando nós éramos jovens, os velhos sempre castigavam os escravos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 56,
+      "local": "5B"
+     }
+    },
+    {
+     "grego": "στρογγύλη ἦν ἡ ναῦς.",
+     "traducao": "O navio era redondo (um cargueiro).",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 213,
+      "local": "cap. 13α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Adjetivo em posição predicativa",
+   "nota": "A posição do adjetivo em relação ao artigo muda o sentido. *Atributiva* (dentro do grupo artigo + nome): ὁ σοφὸς ἀνήρ ou ὁ ἀνὴρ ὁ σοφός = \"o homem sábio\". *Predicativa* (fora do grupo, sem artigo próprio): σοφὸς ὁ ἀνήρ ou ὁ ἀνὴρ σοφός = \"o homem é sábio\", mesmo sem ἐστί.\n\nCom outros verbos, o adjetivo predicativo acrescenta uma afirmação: πολλὴν τὴν δαπάνην εἰσέφερεν = \"muita era a despesa que ela trazia\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 99,
+    "local": "5A–B, §111"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 66,
+    "local": "cap. 5, Gram. 7"
+   },
+   "paradigmas": [
+    "adj-kalos"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἀλλ’ ὡς ἡδὺς ἦν ὁ ἄγροικος βίος. ὁ δὲ γάμος ὡς πικρός.",
+     "traducao": "Ah, como era doce a vida no campo! E como é amargo o casamento!",
+     "comentario": "ἄγροικος é atributivo (entre artigo e nome); ἡδύς e πικρός são predicativos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    },
+    {
+     "grego": "καλὴ ἡ οἰκία.",
+     "traducao": "A casa é bonita.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 66,
+      "local": "cap. 5, Gram. 7"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "5A-o1",
+   "tipo": "morfologia",
+   "titulo": "Do imperfeito ao dicionário",
+   "enunciado": "Traduza cada imperfeito e dê a forma do dicionário (1ª sg. do presente). Atenção ao aumento e aos prefixos.",
+   "itens": [
+    {
+     "pergunta": "ὤφειλον",
+     "resposta": "eu devia / eles deviam — ὀφείλω"
+    },
+    {
+     "pergunta": "ἤκουες",
+     "resposta": "tu ouvias — ἀκούω"
+    },
+    {
+     "pergunta": "εἰσέφερεν",
+     "resposta": "ele trazia (para dentro) — εἰσφέρω"
+    },
+    {
+     "pergunta": "διελεγόμεθα",
+     "resposta": "nós conversávamos — διαλέγομαι"
+    },
+    {
+     "pergunta": "εἶχε",
+     "resposta": "ele tinha — ἔχω (aumento irregular εἰ-)"
+    },
+    {
+     "pergunta": "ἐκόλαζον",
+     "resposta": "eu castigava / eles castigavam — κολάζω"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "5A"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 13 (Πρὸς τὴν Σαλαμῖνα)",
+   "cap. 11 (Ὁ ἰατρός)",
+   "cap. 12 (Πρὸς τὸν Πειραιᾶ)",
+   "cap. 5 (Ὁ λύκος)"
+  ],
+  "comparacao": "A JACT apresenta o imperfeito *antes* do aoristo e ensina o aumento junto com ele. O Athenaze faz o contrário: o aumento aparece no aoristo (cap. 11, Gram. 8; compostos no cap. 12, Gram. 5), e o imperfeito só chega no cap. 13, como \"o mesmo radical do presente com aumento e desinências secundárias\". Por isso, quem estuda 5A–B pela JACT lê o cap. 13 do Athenaze sem problema: a gramática bate quase ponto por ponto (formas regulares, contratos, εἰμί).\n\nO quadro de aumentos da JACT (§105) é mais completo e mais prático para a *leitura* (como voltar ao presente). Já a seção \"Aspect\" do Athenaze (cap. 13, pp. 216–217) explica melhor *por que* se usa o imperfeito e dá nome aos usos incoativo e conativo, com pares imperfeito × aoristo.\n\nOrdem sugerida: §101–107 da JACT; depois a leitura 13α do Athenaze (pp. 212–213), que é praticamente um exercício de imperfeitos (ἤρεσσον, ἔπλει, ἡσύχαζον, ἐσκόπει, ἐνῆν, διελέγοντο).",
+  "complementos": [
+   "Athenaze cap. 13, Gram. 1c (p. 215): aumentos irregulares além de εἶχον — εἷλκον (ἕλκω), εἱπόμην (ἕπομαι), ἠργαζόμην/εἰργαζόμην (ἐργάζομαι) e o duplo aumento ἑώρων (ὁράω).",
+   "Athenaze cap. 13, Gram. 1b (p. 215): imperfeito de εἶμι, \"ir\" (ᾖα/ᾔειν, ᾔεισθα, ᾔει, ᾖμεν, ᾖτε, ᾖσαν), que se distingue do de εἰμί pelo iota subscrito.",
+   "Athenaze cap. 13, Gram. 1a (p. 214): imperfeito de πλέω (ἔπλεον, ἔπλεις, ἔπλει…), que só contrai ε + ε.",
+   "Athenaze cap. 13, Gram. 5 (pp. 227–228): declinação completa de ταχύς, ταχεῖα, ταχύ — modelo para βαθύς, βαρύς e ἡδύς, do vocabulário de 5A (βαθεῖα, βαρέα, βαθέως).",
+   "Vocabulário em comum: αἴτιος e πατήρ (cap. 3), διαλέγομαι (cap. 8), τότε (cap. 12)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἀλλ’ ὅτε ἐκάθευδον, τότε ἐν τοῖς ὀνείροις ἐδίωκόν με οἱ χρῆσται.",
+    "traducao": "Mas quando eu dormia, aí os credores me perseguiam nos sonhos.",
+    "comentario": "JACT: ação repetida no passado; ὅτε… τότε, \"quando… então\".",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 54,
+     "local": "5A"
+    }
+   },
+   {
+    "grego": "ἐπεὶ δὲ ἡ μὲν ναῦς βεβαίως ἔπλει, οἱ δὲ ναῦται τῶν ἔργων παυσάμενοι ἡσύχαζον, ὁ Δικαιόπολις πᾶσαν τὴν ναῦν ἐσκόπει.",
+    "traducao": "Como o navio seguia firme e os marinheiros, terminado o trabalho, descansavam, Diceópolis começou a examinar o navio inteiro.",
+    "comentario": "Athenaze: três imperfeitos de cenário; ἐσκόπει é incoativo (\"começou a examinar\").",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 212,
+     "local": "cap. 13α"
+    }
+   },
+   {
+    "grego": "τίς αἴτιος ἦν; αἰτία ἡ γυνή, εὖ οἶδ’ ὅτι.",
+    "traducao": "Quem era o culpado? Culpada é a mulher, tenho certeza.",
+    "comentario": "JACT: αἴτιος com o imperfeito ἦν; αἰτία é o feminino do adjetivo.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 54,
+     "local": "5A"
+    }
+   },
+   {
+    "grego": "οὐ γὰρ αἴτιός εἰμι ἐγώ.",
+    "traducao": "Pois não sou eu o culpado.",
+    "comentario": "Athenaze: o mesmo αἴτιος, já no cap. 3 (Xântias se defendendo).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 25,
+     "local": "cap. 3α"
+    }
+   }
+  ]
+ }
+}

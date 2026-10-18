@@ -1,0 +1,1274 @@
+{
+ "id": "ath4",
+ "capitulo": 4,
+ "tituloGrego": "Πρὸς τῇ κρήνῃ",
+ "titulo": "Na fonte",
+ "resumo": "Mirrine acorda o marido e vai com a filha Melissa buscar água na fonte, onde as vizinhas contam que Atenas vai celebrar as Dionísias. Na volta, Melissa tropeça e quebra o cântaro.",
+ "fonte": {
+  "livro": "Athenaze",
+  "pagina": 36,
+  "local": "cap. 4"
+ },
+ "vocab": [
+  {
+   "grego": "ἀκούω",
+   "lexical": "ἀκούω + gen. (pessoa), ac. (coisa)",
+   "classe": "verbo",
+   "glosa": "escutar, ouvir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "A pessoa que se escuta vai no genitivo; a coisa ouvida, no acusativo. JACT: 1C–D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἐθέλω",
+   "lexical": "ἐθέλω + inf.",
+   "classe": "verbo",
+   "glosa": "querer, estar disposto a",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "JACT: 9H.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἔχω",
+   "lexical": "ἔχω",
+   "classe": "verbo",
+   "glosa": "ter; segurar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "JACT: 1G.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "θεωρέω",
+   "lexical": "θεωρέω",
+   "classe": "verbo",
+   "glosa": "assistir a, contemplar; ver",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "nota": "Usado para espetáculos: τοὺς χοροὺς θεωρεῖν “assistir aos coros”.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ποιέω",
+   "lexical": "ποιέω",
+   "classe": "verbo",
+   "glosa": "fazer; produzir",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "nota": "JACT: 1E–F.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "χαίρω",
+   "lexical": "χαίρω; χαῖρε, pl. χαίρετε",
+   "classe": "verbo",
+   "glosa": "alegrar-se; (imperativo) olá! salve!",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "O imperativo χαῖρε / χαίρετε é a saudação comum. JACT: 20A.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἄγγελος",
+   "lexical": "ἄγγελος, ὁ",
+   "classe": "substantivo",
+   "glosa": "mensageiro",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "JACT: 17C.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἀνήρ",
+   "lexical": "ἀνήρ, ὁ (τὸν ἄνδρα, ὦ ἄνερ)",
+   "classe": "substantivo",
+   "glosa": "homem; marido",
+   "aprender": true,
+   "paradigma": "aner-pater",
+   "nota": "3ª declinação. JACT: 3A–B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "γυνή",
+   "lexical": "γυνή, ἡ (ὦ γύναι, αἱ γυναῖκες, τὰς γυναῖκας)",
+   "classe": "substantivo",
+   "glosa": "mulher; esposa",
+   "aprender": true,
+   "paradigma": "gyne",
+   "nota": "3ª declinação, irregular. JACT: 4A.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἑορτή",
+   "lexical": "ἑορτή, ἡ",
+   "classe": "substantivo",
+   "glosa": "festa, festival",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "θυγάτηρ",
+   "lexical": "θυγάτηρ, ἡ (ὦ θύγατερ)",
+   "classe": "substantivo",
+   "glosa": "filha",
+   "aprender": true,
+   "paradigma": "aner-pater",
+   "nota": "3ª declinação, como πατήρ. JACT: 12D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "καιρός",
+   "lexical": "καιρός, ὁ",
+   "classe": "substantivo",
+   "glosa": "tempo; momento certo, ocasião",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "καιρός ἐστι + inf. = “é hora de …”.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "κρήνη",
+   "lexical": "κρήνη, ἡ",
+   "classe": "substantivo",
+   "glosa": "fonte, chafariz",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "μήτηρ",
+   "lexical": "μήτηρ, ἡ",
+   "classe": "substantivo",
+   "glosa": "mãe",
+   "aprender": true,
+   "paradigma": "aner-pater",
+   "nota": "3ª declinação, como πατήρ. JACT: 10D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ὑδρία",
+   "lexical": "ὑδρία, ἡ",
+   "classe": "substantivo",
+   "glosa": "cântaro, jarro de água",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "χορός",
+   "lexical": "χορός, ὁ",
+   "classe": "substantivo",
+   "glosa": "dança; coro",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "JACT: 20E.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἀργός",
+   "lexical": "ἀργός, ἀργόν",
+   "classe": "adjetivo",
+   "glosa": "que não trabalha, ocioso, preguiçoso",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "nota": "De ἀ- “não” + ἐργ- “trabalho”. Adjetivo composto: só duas terminações, o masculino serve também para o feminino.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "φίλος",
+   "lexical": "φίλος, φίλη, φίλον",
+   "classe": "adjetivo",
+   "glosa": "querido; (como substantivo) amigo, amiga",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "nota": "JACT: 1G.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἀπό",
+   "lexical": "ἀπό + gen.; ἀπο- (prefixo)",
+   "classe": "preposição",
+   "glosa": "de, a partir de; (prefixo) para longe",
+   "aprender": true,
+   "nota": "JACT: 1G.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "πρός",
+   "lexical": "πρός + dat.; + ac.",
+   "classe": "preposição",
+   "glosa": "+ dat.: junto a, perto de; + ac.: para, em direção a",
+   "aprender": true,
+   "nota": "πρὸς τῇ κρήνῃ “junto à fonte” × πρὸς τὴν κρήνην “para a fonte”. JACT: 1G.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἰδού",
+   "lexical": "ἰδού",
+   "classe": "interjeição",
+   "glosa": "olha!",
+   "aprender": true,
+   "nota": "JACT: 3A.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "καί",
+   "lexical": "καί (advérbio)",
+   "classe": "advérbio",
+   "glosa": "até, mesmo; também",
+   "aprender": true,
+   "nota": "Além de “e”: χαῖρε καὶ σύ “olá para você também”. JACT: 1A–B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "μάλα",
+   "lexical": "μάλα",
+   "classe": "advérbio",
+   "glosa": "muito",
+   "aprender": true,
+   "nota": "JACT: 16H.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "μόλις",
+   "lexical": "μόλις",
+   "classe": "advérbio",
+   "glosa": "com dificuldade; mal; a contragosto",
+   "aprender": true,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "πρῶτον",
+   "lexical": "πρῶτον",
+   "classe": "advérbio",
+   "glosa": "primeiro",
+   "aprender": true,
+   "nota": "ἐπεὶ πρῶτον “assim que”. JACT: 6C.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ταχέως",
+   "lexical": "ταχέως",
+   "classe": "advérbio",
+   "glosa": "depressa, rapidamente",
+   "aprender": true,
+   "nota": "JACT: 2D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἆρα",
+   "lexical": "ἆρα",
+   "classe": "partícula",
+   "glosa": "introduz pergunta (sim ou não)",
+   "aprender": true,
+   "nota": "Não se traduz; marca a frase como pergunta. ἆρ’ οὐκ…; espera resposta “sim”. JACT: 1B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἐν νῷ ἔχω",
+   "lexical": "ἐν νῷ ἔχω + inf.",
+   "classe": "expressão",
+   "glosa": "ter em mente, pretender",
+   "aprender": true,
+   "nota": "Literalmente “tenho na mente”. JACT: 6A.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 36,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "Διονύσια",
+   "lexical": "τὰ Διονύσια; τὰ Διονύσια ποιῶ",
+   "classe": "nome próprio",
+   "glosa": "as Dionísias, festa de Dioniso; celebrar as Dionísias",
+   "aprender": true,
+   "paradigma": "decl2-neut",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "Μέλιττα",
+   "lexical": "Μέλιττα, ἡ",
+   "classe": "nome próprio",
+   "glosa": "Melissa (filha de Diceópolis e Mirrine); o nome quer dizer “abelha”",
+   "aprender": true,
+   "paradigma": "decl1-c",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "Μυρρίνη",
+   "lexical": "Μυρρίνη, ἡ",
+   "classe": "nome próprio",
+   "glosa": "Mirrine (esposa de Diceópolis); o nome quer dizer “murta”",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "πείθω",
+   "lexical": "πείθω",
+   "classe": "verbo",
+   "glosa": "persuadir, convencer",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "JACT: 5D.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "στενάζω",
+   "lexical": "στενάζω",
+   "classe": "verbo",
+   "glosa": "gemer",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "γῆ",
+   "lexical": "γῆ, ἡ",
+   "classe": "substantivo",
+   "glosa": "terra; solo, chão",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "nota": "JACT: 1A–B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "ὁδός",
+   "lexical": "ὁδός, ἡ",
+   "classe": "substantivo",
+   "glosa": "caminho, estrada; viagem",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "Feminino da 2ª declinação: declina como ἀγρός, mas o artigo é feminino (ἐν τῇ ὁδῷ). JACT: 11B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "ἄλλος",
+   "lexical": "ἄλλος, ἄλλη, ἄλλο",
+   "classe": "adjetivo",
+   "glosa": "outro",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "nota": "Neutro ἄλλο, sem -ν. JACT: 3C.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "ῥᾴδιος",
+   "lexical": "ῥᾴδιος, ῥᾳδία, ῥᾴδιον",
+   "classe": "adjetivo",
+   "glosa": "fácil",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "nota": "Feminino em -ᾱ por causa do ι (como ὑδρία). JACT: 6A.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "ἀεί",
+   "lexical": "ἀεί",
+   "classe": "advérbio",
+   "glosa": "sempre",
+   "aprender": true,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "μάλιστα",
+   "lexical": "μάλιστα",
+   "classe": "advérbio",
+   "glosa": "mais que tudo; muito; especialmente",
+   "aprender": true,
+   "nota": "Superlativo de μάλα; em resposta, “com certeza!”.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "οἴκαδε",
+   "lexical": "οἴκαδε",
+   "classe": "advérbio",
+   "glosa": "para casa",
+   "aprender": true,
+   "nota": "O sufixo -δε indica direção. JACT: 3B.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "ἑορτὴν ποιῶ",
+   "lexical": "ἑορτὴν ποιῶ",
+   "classe": "expressão",
+   "glosa": "celebrar uma festa",
+   "aprender": true,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "τί",
+   "lexical": "τί;",
+   "classe": "pronome",
+   "glosa": "(adv.) por quê?; (pron.) o quê?",
+   "aprender": true,
+   "nota": "Sempre com acento agudo, mesmo antes de outra palavra. JACT: 1D (o quê?), 6C (por quê?).",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "ὑστεραία",
+   "lexical": "τῇ … ὑστεραίᾳ",
+   "classe": "expressão",
+   "glosa": "no dia seguinte",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἀνατέλλω",
+   "lexical": "ἀνατέλλει",
+   "classe": "verbo",
+   "glosa": "nascer, levantar-se (o sol)",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἔπαιρε σεαυτόν",
+   "lexical": "ἔπαιρε σεαυτόν",
+   "classe": "expressão",
+   "glosa": "levanta-te!",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "κάμνω",
+   "lexical": "κάμνει",
+   "classe": "verbo",
+   "glosa": "estar cansado",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἑαυτόν",
+   "lexical": "ἑαυτόν",
+   "classe": "pronome",
+   "glosa": "a si mesmo",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "κόρη",
+   "lexical": "κόρη, ἡ",
+   "classe": "substantivo",
+   "glosa": "moça, menina",
+   "aprender": false,
+   "nota": "Exceção: declina como κρήνη apesar do ρ.",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ὥστε",
+   "lexical": "ὥστε",
+   "classe": "conjunção",
+   "glosa": "de modo que",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 37,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "πληρόω",
+   "lexical": "πληροῦσιν",
+   "classe": "verbo",
+   "glosa": "encher",
+   "aprender": false,
+   "nota": "Contrato em -ο- (quadro só no cap. 15).",
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 38,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ναί",
+   "lexical": "ναί",
+   "classe": "advérbio",
+   "glosa": "sim",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 38,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "πρῴ",
+   "lexical": "πρῴ",
+   "classe": "advérbio",
+   "glosa": "cedo",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 38,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἥκω",
+   "lexical": "ἥκει",
+   "classe": "verbo",
+   "glosa": "ter chegado, estar aqui",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 38,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἄστυ",
+   "lexical": "τὸ ἄστυ (τοῦ ἄστεως)",
+   "classe": "substantivo",
+   "glosa": "a cidade",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 38,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ὅτι",
+   "lexical": "ὅτι",
+   "classe": "conjunção",
+   "glosa": "que",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 38,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἀγών",
+   "lexical": "τοὺς ἀγῶνας",
+   "classe": "substantivo",
+   "glosa": "competição, concurso",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 38,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "δρᾶμα",
+   "lexical": "τὰ δράματα",
+   "classe": "substantivo",
+   "glosa": "peça de teatro",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 38,
+    "local": "cap. 4α"
+   }
+  },
+  {
+   "grego": "ἀληθῶς",
+   "lexical": "ἀληθῶς",
+   "classe": "advérbio",
+   "glosa": "de verdade, realmente",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "σπανίως",
+   "lexical": "σπανίως",
+   "classe": "advérbio",
+   "glosa": "raramente",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "ἰέναι",
+   "lexical": "ἰέναι",
+   "classe": "verbo",
+   "glosa": "ir (infinitivo)",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "ἐπανιέναι",
+   "lexical": "ἐπανιέναι",
+   "classe": "verbo",
+   "glosa": "voltar (infinitivo)",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 46,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "θραύω",
+   "lexical": "θραύει",
+   "classe": "verbo",
+   "glosa": "quebrar",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 47,
+    "local": "cap. 4β"
+   }
+  },
+  {
+   "grego": "οἴμοι",
+   "lexical": "οἴμοι",
+   "classe": "interjeição",
+   "glosa": "ai de mim!",
+   "aprender": false,
+   "fonte": {
+    "livro": "Athenaze",
+    "pagina": 47,
+    "local": "cap. 4β"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "O presente completo: todas as pessoas de λύω, φιλέω e εἰμί",
+   "nota": "Com a 1ª e a 2ª do plural (λύομεν “soltamos”, λύετε “soltais/vocês soltam”), o presente do indicativo fica completo: -ω, -εις, -ει, -ομεν, -ετε, -ουσι(ν). O imperativo tem só a 2ª pessoa (λῦε, λύετε) e o infinitivo é λύειν. De εἰμί: εἰμί, εἶ, ἐστί(ν), ἐσμέν, ἐστέ, εἰσί(ν); imperativo ἴσθι, ἔστε; infinitivo εἶναι.\n\nÉ o mesmo quadro de JACT 1C–D (§12–16b), que usa βαίνω. A diferença é de ritmo: a JACT dá as seis pessoas de uma vez, e o Athenaze as reparte entre os caps. 2, 3 e 4. Na leitura, a terminação já basta para achar o sujeito: ἔχομεν = “nós temos”, πληροῦτε = “vocês enchem”.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "14–16",
+    "local": "1C–D, §12–16b"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "38–39",
+    "local": "cap. 4, Gram. 1"
+   },
+   "paradigmas": [
+    "verbo-presente-ativo",
+    "verbo-imperativo",
+    "eimi"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἐγὼ δὲ καὶ ἡ θυγάτηρ ἐν νῷ ἔχομεν βαδίζειν πρὸς τὴν κρήνην.",
+     "traducao": "Eu e a filha pretendemos ir até a fonte.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 37,
+      "local": "cap. 4α",
+      "linhas": "l. 3–4"
+     }
+    },
+    {
+     "grego": "τοὺς γὰρ χοροὺς ἐθέλομεν θεωρεῖν καὶ τοὺς ἀγῶνας καὶ τὰ δράματα.",
+     "traducao": "Pois queremos assistir aos coros, aos concursos e às peças.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 38,
+      "local": "cap. 4α",
+      "linhas": "l. 21–22"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Verbos contratos em -έω e as regras de contração",
+   "nota": "Quando o radical termina em -ε- (φιλε-, ποιε-, καλε-, θεωρε-), esse ε se funde com a vogal da terminação. Cinco regras bastam: ε + ω → ω; ε + ει → ει; ε + ε → ει; ε + ο → ου; ε + ου → ου. Daí φιλῶ, φιλεῖς, φιλεῖ, φιλοῦμεν, φιλεῖτε, φιλοῦσι(ν); imperativo φίλει, φιλεῖτε; infinitivo φιλεῖν.\n\nRepare na diferença de acento entre φιλεῖ “ele ama” e φίλει “ama!”. A leitura também tem um contrato em -ο- (πληρόω “encher”: πληροῦσιν, πληροῦτε, πληροῦμεν), que só será estudado no cap. 15. A JACT apresenta os três tipos (-άω, -έω, -όω) juntos em 1E–F (§23–25); o Athenaze faz o -έω aqui e o -άω no cap. 5.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "19–21",
+    "local": "1E–F, §23–25"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "39–40",
+    "local": "cap. 4, Gram. 1 (N.B.)"
+   },
+   "paradigmas": [
+    "poieo-presente",
+    "infinitivos"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἐπεὶ δὲ τῇ κρήνῃ προσχωροῦσιν, ἰδού, ἄλλαι γυναῖκες ἤδη πάρεισι καὶ τὰς ὑδρίας πληροῦσιν.",
+     "traducao": "Quando se aproximam da fonte, olha: outras mulheres já estão lá e enchem os cântaros.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 37,
+      "local": "cap. 4α",
+      "linhas": "l. 15–16"
+     }
+    },
+    {
+     "grego": "“χαίρετε, ὦ φίλαι,” φησίν· “ἆρα ἤδη πληροῦτε τὰς ὑδρίας;”",
+     "traducao": "“Olá, amigas”, diz ela; “vocês já estão enchendo os cântaros?”",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 37,
+      "local": "cap. 4α",
+      "linhas": "l. 17"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "As três declinações e o artigo como guia do caso",
+   "nota": "Os nomes gregos se dividem em três grupos (declinações): a 1ª, com temas em -α (κρήνη, ὑδρία, μέλιττα); a 2ª, com temas em -ο (ἀγρός, δένδρον); e a 3ª (ἀνήρ, γυνή, θυγάτηρ, μήτηρ), que só será estudada no cap. 7.\n\nAté lá, o truque é olhar o *artigo*: ele mostra caso, número e gênero mesmo de palavras que você ainda não sabe declinar. Em τὸν ἄνδρα, o τόν diz “acusativo singular masculino”; em ταῖς γυναιξί, o ταῖς diz “dativo plural feminino”. Com este capítulo você já tem o quadro completo do artigo (ὁ ἡ τό). A JACT usa a mesma estratégia em 1A–B (§8–9), onde chama o artigo de âncora da concordância.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "8–11",
+    "local": "1A–B, §8–9"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "40, 50",
+    "local": "cap. 4, Gram. 2 e 8"
+   },
+   "paradigmas": [
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἡ γυνὴ τὸν ἄνδρα καλεῖ",
+     "traducao": "A mulher chama o marido",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 37,
+      "local": "cap. 4α",
+      "linhas": "l. 1–2"
+     }
+    },
+    {
+     "grego": "ἐπεὶ δὲ ἥκουσιν οἱ ἄνδρες ἐκ τῶν ἀγρῶν",
+     "traducao": "Quando os maridos chegam dos campos",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 51,
+      "local": "cap. 4, Αἱ γυναῖκες τοὺς ἄνδρας πείθουσιν",
+      "linhas": "l. 6"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "1ª declinação feminina: κρήνη, ὑδρία, μέλιττα, μάχαιρα",
+   "nota": "O plural é igual para todos: -αι, -ῶν, -αις, -ας (o genitivo plural sempre com circunflexo na última, -ῶν). As diferenças estão no singular:\n\n*Tipo 1* (κρήνη): η em todo o singular. *Tipo 2* (ὑδρία): depois de ε, ι ou ρ fica ᾱ longo em todo o singular. *Tipo 3* (μέλιττα): α breve no nom./ac./voc., mas η no gen./dat. (μελίττης, μελίττῃ). *Tipo 4* (μάχαιρα): α breve no nom./ac./voc., mas ᾱ no gen./dat., porque vem depois de ρ (μαχαίρας, μαχαίρᾳ).\n\nNa JACT (2A–D, §55–58) os mesmos grupos se chamam 1a (κρήνη/τιμή), 1b (ὑδρία/οἰκία) e 1c (μέλιττα/θάλαττα); o tipo μάχαιρα aparece à parte no Athenaze. Exceção a guardar: κόρη tem ρ, mas declina como κρήνη. O -αι do nominativo plural conta como breve para o acento, por isso κρῆναι.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "46–48",
+    "local": "2A–D, §55–58"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "40–42",
+    "local": "cap. 4, Gram. 3"
+   },
+   "paradigmas": [
+    "decl1-a",
+    "decl1-b",
+    "decl1-c",
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "ὑδρίας γὰρ φέρουσιν· μεγάλαι δ’ εἰσὶν αἱ ὑδρίαι, ὥστε οὐ δυνατόν ἐστι σπεύδειν.",
+     "traducao": "Pois carregam cântaros, e os cântaros são grandes, de modo que não é possível ir depressa.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 37,
+      "local": "cap. 4α",
+      "linhas": "l. 13–14"
+     }
+    },
+    {
+     "grego": "ἡ δὲ Μυρρίνη καὶ ἡ Μέλιττα πρὸς τὴν κρήνην βαδίζουσιν",
+     "traducao": "e Mirrine e Melissa caminham para a fonte",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 37,
+      "local": "cap. 4α",
+      "linhas": "l. 11"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "1ª declinação masculina: δεσπότης, Ξανθίας, νεανίας",
+   "nota": "Alguns nomes da 1ª declinação são masculinos. Terminam em -ης ou (depois de ε, ι, ρ) em -ᾱς no nominativo e fazem o genitivo singular em *-ου*, como os da 2ª: τοῦ δεσπότου, τοῦ Ξανθίου, τοῦ νεανίου. O vocativo termina em -α: ὦ δέσποτα (com acento irregular, que recua), ὦ Ξανθία, ὦ νεανία, mas ὦ πολῖτα. O resto do singular e todo o plural seguem κρήνη ou ὑδρία.\n\nÉ o tipo 1d da JACT (ναύτης, νεανίας; 2A–D, §55–58). Agora fica claro por que o Athenaze escreve ὦ Ξανθία desde o cap. 2.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "46–48",
+    "local": "2A–D, §55–58"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "47–48",
+    "local": "cap. 4, Gram. 4"
+   },
+   "paradigmas": [
+    "decl1-d"
+   ],
+   "exemplos": [
+    {
+     "grego": "“μέγας ἐστὶν ὁ λίθος, ὦ δέσποτα,” φησίν",
+     "traducao": "“A pedra é grande, patrão”, diz ele",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 25,
+      "local": "cap. 3α",
+      "linhas": "l. 12"
+     }
+    },
+    {
+     "grego": "ἅμα οὖν ὅ τε δεσπότης καὶ ὁ δοῦλος αἴρουσι τὸν λίθον",
+     "traducao": "Juntos, então, o senhor e o escravo levantam a pedra",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 25,
+      "local": "cap. 3α",
+      "linhas": "l. 15"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Femininos da 2ª declinação: ἡ ὁδός",
+   "nota": "Alguns substantivos declinam exatamente como ἀγρός, mas são femininos: ἡ ὁδός “caminho”, ἡ νῆσος “ilha”. A terminação engana; quem mostra o gênero é o artigo (τῇ ὁδῷ) e o adjetivo que concorda (ἡ μακρὰ ὁδός).",
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 48,
+    "local": "cap. 4, Gram. 5"
+   },
+   "paradigmas": [
+    "decl2-masc",
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἐν δὲ τῇ ὁδῷ πταίει ἡ Μέλιττα",
+     "traducao": "E no caminho Melissa tropeça",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 47,
+      "local": "cap. 4β",
+      "linhas": "l. 9"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Adjetivos de 1ª/2ª declinação; μέγας e πολύς",
+   "nota": "καλός, καλή, καλόν junta tudo o que você já viu: masculino e neutro como ἀγρός/δένδρον, feminino como κρήνη. Depois de ε, ι ou ρ o feminino tem ᾱ (ῥᾴδιος, ῥᾳδία, ῥᾴδιον; αἴτιος, αἰτία), como ὑδρία. Daqui em diante o livro abrevia: καλός, -ή, -όν; ῥᾴδιος, -ᾱ, -ον.\n\nDois cuidados de acento: (1) o acento do adjetivo fica onde está no masculino nominativo; (2) diferente dos substantivos da 1ª, o adjetivo *não* põe circunflexo no gen. pl. feminino (ῥᾳδίων, não ✗ῥᾳδιῶν), a não ser que já seja oxítono (καλῶν).\n\nμέγας e πολύς misturam dois radicais: μέγας, μέγαν, μέγα e πολύς, πολύν, πολύ usam o radical curto; todo o resto vem de μεγαλ- e πολλ- (μεγάλη, μεγάλου; πολλή, πολλοί). Na JACT: καλός em 1A–B (§10–11), ἡμέτερος em 1G (§36–37), πολύς e μέγας no vocabulário de 3C–E.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "11–13",
+    "local": "1A–B, §10–11"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "48–49",
+    "local": "cap. 4, Gram. 6"
+   },
+   "paradigmas": [
+    "adj-kalos",
+    "adj-hemeteros",
+    "adj-megas",
+    "adj-polys"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἀλλ’ οὐ μάλα χαλεπός ἐστιν ὁ πατήρ· ῥᾴδιον γάρ ἐστι πείθειν αὐτόν.",
+     "traducao": "Mas o pai não é tão difícil: é fácil convencê-lo.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 46,
+      "local": "cap. 4β",
+      "linhas": "l. 5–6"
+     }
+    },
+    {
+     "grego": "οὐκ αἰτία εἰμὶ ἐγώ· μεγάλη γάρ ἐστιν ἡ ὑδρία",
+     "traducao": "Não sou eu a culpada: o cântaro é grande",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 47,
+      "local": "cap. 4β",
+      "linhas": "l. 11"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Advérbios em -ως",
+   "nota": "Muitos advérbios se formam trocando o -ν final do genitivo plural do adjetivo por -ς: καλῶν → καλῶς “bem”; ἀληθῶν → ἀληθῶς “de verdade”. Por isso o acento do advérbio é o mesmo do gen. pl. Em βραδέως e ταχέως a mesma regra parte de adjetivos que você ainda não declinou (βραδύς, ταχύς: gen. pl. βραδέων, ταχέων). A JACT trata disso em 1E–F (§28–29).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "22–23",
+    "local": "1E–F, §28–29"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 50,
+    "local": "cap. 4, Gram. 7"
+   },
+   "exemplos": [
+    {
+     "grego": "ἆρα ἀληθῶς ἑορτὴν ποιοῦσιν οἱ Ἀθηναῖοι;",
+     "traducao": "Os atenienses estão mesmo celebrando uma festa?",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 46,
+      "local": "cap. 4β",
+      "linhas": "l. 1–2"
+     }
+    },
+    {
+     "grego": "ἥ τε οὖν μήτηρ καὶ ἡ θυγάτηρ τὰς ὑδρίας ταχέως πληροῦσι",
+     "traducao": "A mãe e a filha, então, enchem depressa os cântaros",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 47,
+      "local": "cap. 4β",
+      "linhas": "l. 8"
+     }
+    }
+   ]
+  }
+ ],
+ "cultura": {
+  "titulo": "As mulheres",
+  "resumo": "Pela lei, a ateniense era tratada como menor: ficava sob a tutela do pai e depois do marido, não tinha bens próprios nem participação política. Seu espaço era o οἶκος. Xenofonte (*Econômico*) descreve a esposa como administradora da casa, dos escravos, das provisões e dos doentes, e a mulher do camponês fazia esse trabalho com as próprias mãos. Os casamentos eram cedo e arranjados pelas famílias, mas vasos e inscrições funerárias mostram muitos casamentos felizes. As mulheres tinham papel central na religião (sacerdotisas, coros, procissões), e a tragédia criou grandes personagens femininas. O ensaio fecha com o elogio de Semônides à mulher “feita de mel”, a mulher-abelha, que lembra o nome de Melissa (Μέλιττα).",
+  "fonte": {
+   "livro": "Athenaze",
+   "pagina": "43–45",
+   "local": "cap. 4"
+  }
+ },
+ "exercicios": [
+  {
+   "id": "ath4-o1",
+   "tipo": "traduzir-gp",
+   "titulo": "Frases da fonte",
+   "enunciado": "Traduza para o português. Repare na terminação do verbo (quem é o sujeito?) e no artigo (que caso é?).",
+   "itens": [
+    {
+     "pergunta": "αἱ γυναῖκες τὰς ὑδρίας ἔχουσιν.",
+     "resposta": "As mulheres seguram os cântaros."
+    },
+    {
+     "pergunta": "ἆρα ἐθέλετε τοὺς χοροὺς θεωρεῖν, ὦ φίλαι;",
+     "resposta": "Vocês querem assistir aos coros, amigas?"
+    },
+    {
+     "pergunta": "ἡ μήτηρ ἀεὶ ταχέως πονεῖ.",
+     "resposta": "A mãe sempre trabalha depressa."
+    },
+    {
+     "pergunta": "οὐ ῥᾴδιόν ἐστι πείθειν τὸν ἄνδρα.",
+     "resposta": "Não é fácil convencer o marido."
+    },
+    {
+     "pergunta": "ἐν νῷ ἔχομεν τὴν ἑορτὴν ποιεῖν.",
+     "resposta": "Pretendemos celebrar a festa."
+    },
+    {
+     "pergunta": "ἡ θυγάτηρ ἀπὸ τῆς κρήνης οἴκαδε βαδίζει.",
+     "resposta": "A filha caminha da fonte para casa."
+    },
+    {
+     "pergunta": "ἀκούετε τοῦ ἀγγέλου, ὦ γυναῖκες· καιρὸς γάρ ἐστι σπεύδειν.",
+     "resposta": "Escutem o mensageiro, mulheres: é hora de se apressar. (genitivo de pessoa com ἀκούω)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "cap. 4"
+   }
+  }
+ ],
+ "jact": {
+  "correspondentes": [
+   "1A",
+   "1C",
+   "1E",
+   "2A"
+  ],
+  "comparacao": "O cap. 4 do Athenaze fecha um ciclo. Completa o presente ativo (todas as pessoas de λύω, φιλέω e εἰμί, com imperativo e infinitivo), dá as regras de contração do -ε- e apresenta a 1ª declinação, feminina e masculina, e o quadro inteiro dos adjetivos de 1ª/2ª. Na JACT esse material está espalhado: presente em 1C–D (§12–16), contratos em 1E–F (§23–25), καλός em 1A–B (§10–11), ἡμέτερος em 1G (§36–37) e a 1ª declinação só em 2A–D (§55–58).\n\nOs dois livros dividem a 1ª declinação do mesmo jeito, mas com nomes diferentes: Tipo 1 do Athenaze = 1a da JACT (κρήνη ~ τιμή), Tipo 2 = 1b (ὑδρία ~ οἰκία), Tipo 3 = 1c (μέλιττα ~ θάλαττα); os masculinos (δεσπότης, νεανίας) = 1d. O Athenaze separa ainda um Tipo 4 (μάχαιρα). Nos contratos, a JACT dá -άω, -έω e -όω juntos, com ὁράω na frente; o Athenaze faz só -έω aqui e deixa -άω para o cap. 5. A explicação dos acentos (κρῆναι, ῥᾳδίων × κρηνῶν) é bem mais cuidadosa no Athenaze.\n\nOrdem sugerida: leia o cap. 4 depois de 1J e antes de 2A. As leituras 4α–β são um ótimo treino de 1ª declinação antes dos textos sobre Salamina, e o quadro de καλός, ῥᾴδιος, μέγας e πολύς (Gram. 6) serve de revisão de 1A e 1G.",
+  "complementos": [
+   "Athenaze cap. 4, Gram. 8 (p. 50): usar o artigo como indicador de caso para ler ἀνήρ, γυνή, θυγάτηρ e μήτηρ antes de estudar a 3ª declinação (na JACT, em 3A–B e 4A).",
+   "Athenaze cap. 4, Gram. 5 (p. 48): femininos da 2ª declinação (ἡ ὁδός, ἡ νῆσος).",
+   "Athenaze cap. 4, Gram. 6 (p. 49): o adjetivo não põe circunflexo no gen. pl. feminino como o substantivo (ῥᾳδίων × κρηνῶν); μέγας e πολύς com dois radicais.",
+   "Athenaze cap. 4, Gram. 3, Tipo 4 (p. 42): μάχαιρα, com α breve no nom./ac. e ᾱ no gen./dat.",
+   "Vocabulário que a JACT só dá bem depois: γυνή (4A), θυγάτηρ (12D), μήτηρ (10D), πείθω (5D), ῥᾴδιος (6A), ὁδός (11B), ἄγγελος (17C), ἐθέλω (9H), μάλα (16H), χαίρω (20A), χορός (20E).",
+   "Ensaio “As mulheres” (pp. 43–45) e a máxima de Pítaco καιρὸν γνῶθι, “conhece o momento certo” (p. 45), que retoma a palavra καιρός do vocabulário."
+  ],
+  "citacoes": [
+   {
+    "grego": "ὦ Ζεῦ. ὡς καλός ἐστιν ὁ Παρθενών, καλὴ δὲ ἡ ἀκρόπολις.",
+    "traducao": "Ó Zeus! Como é belo o Partenon, e bela a acrópole!",
+    "comentario": "JACT: o mesmo adjetivo nos dois gêneros, καλός (masc.) e καλή (fem., tipo κρήνη).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 6,
+     "local": "1B",
+     "linhas": "l. 8"
+    }
+   },
+   {
+    "grego": "ἡ Μέλιττα θυγάτηρ ἐστίν, κόρη μάλα καλή",
+    "traducao": "Melissa é a filha, uma moça muito bonita",
+    "comentario": "Athenaze: καλή concordando com κόρη, que declina como κρήνη apesar do ρ.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 37,
+     "local": "cap. 4α",
+     "linhas": "l. 12"
+    }
+   },
+   {
+    "grego": "πολλὴ μὲν γὰρ ἡ τῶν Περσῶν στρατιά, ὀλίγοι δὲ οἱ Ἀθηναῖοι.",
+    "traducao": "Pois grande é o exército dos persas, e poucos são os atenienses.",
+    "comentario": "JACT: στρατιά é do tipo ὑδρία (ᾱ depois de ι), e πολλή mostra o radical πολλ-.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 24,
+     "local": "2B",
+     "linhas": "l. 3–4"
+    }
+   },
+   {
+    "grego": "μεγάλαι δ’ εἰσὶν αἱ ὑδρίαι, ὥστε οὐ δυνατόν ἐστι σπεύδειν.",
+    "traducao": "Os cântaros são grandes, de modo que não é possível ir depressa.",
+    "comentario": "Athenaze: nominativo plural da 1ª declinação (αἱ ὑδρίαι) com μεγάλαι, do radical μεγαλ-.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 37,
+     "local": "cap. 4α",
+     "linhas": "l. 13–14"
+    }
+   },
+   {
+    "grego": "ἆρα ἀκούετε, ὦ ναῦται;",
+    "traducao": "Estão ouvindo, marinheiros?",
+    "comentario": "JACT: 2ª pl. com ἆρα e vocativo de um masculino da 1ª declinação (ναύτης → ὦ ναῦται).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 18,
+     "local": "1H",
+     "linhas": "l. 22"
+    }
+   },
+   {
+    "grego": "“χαίρετε, ὦ φίλαι,” φησίν· “ἆρα ἤδη πληροῦτε τὰς ὑδρίας;”",
+    "traducao": "“Olá, amigas”, diz ela; “já estão enchendo os cântaros?”",
+    "comentario": "Athenaze: a mesma pergunta com ἆρα + 2ª pl., agora de um verbo contrato.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 37,
+     "local": "cap. 4α",
+     "linhas": "l. 17"
+    }
+   }
+  ]
+ }
+}

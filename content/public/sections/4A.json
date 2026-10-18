@@ -1,0 +1,611 @@
+{
+ "id": "4A",
+ "secao": 4,
+ "parte": 2,
+ "titulo": "A cidade cheia de refugiados",
+ "resumo": "Ao entrar em Atenas, o rapsodo se espanta com a multidão e as piras funerárias. Diceópolis culpa a guerra e Péricles, que trouxe os camponeses para dentro das muralhas, onde a peste lhe levou o filho e a esposa.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 42,
+  "local": "4A"
+ },
+ "vocab": [
+  {
+   "grego": "γεωργός",
+   "lexical": "γεωργός, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "agricultor; fazendeiro",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 44,
+    "local": "4A"
+   }
+  },
+  {
+   "grego": "γυνή",
+   "lexical": "γυνή (γυναικ-), ἡ (3a)",
+   "classe": "substantivo",
+   "glosa": "mulher; esposa",
+   "aprender": true,
+   "paradigma": "gyne",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 44,
+    "local": "4A"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "δαίμων",
+   "lexical": "δαίμων (δαιμον-), ὁ (3a)",
+   "classe": "substantivo",
+   "glosa": "divindade; deus; espírito",
+   "aprender": true,
+   "paradigma": "decl3-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 44,
+    "local": "4A"
+   }
+  },
+  {
+   "grego": "ἔτι καὶ νῦν",
+   "lexical": "ἔτι καὶ νῦν",
+   "classe": "expressão",
+   "glosa": "ainda agora; até hoje",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 44,
+    "local": "4A"
+   },
+   "athenaze": "cap. 3 (só ἔτι)"
+  },
+  {
+   "grego": "κρατέω",
+   "lexical": "κρατέω",
+   "classe": "verbo",
+   "glosa": "dominar; ter poder sobre (+ gen.)",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 44,
+    "local": "4A"
+   }
+  },
+  {
+   "grego": "νή",
+   "lexical": "νή (+ ac.)",
+   "classe": "partícula",
+   "glosa": "por …! (juramento, + ac.)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 44,
+    "local": "4A"
+   }
+  },
+  {
+   "grego": "ὀλίγος",
+   "lexical": "ὀλίγος η ον",
+   "classe": "adjetivo",
+   "glosa": "pouco; pequeno",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 44,
+    "local": "4A"
+   }
+  },
+  {
+   "grego": "ἄστυ",
+   "lexical": "ἄστυ, τό (3f)",
+   "classe": "substantivo",
+   "glosa": "cidade (a área urbana de Atenas)",
+   "aprender": true,
+   "paradigma": "polis-asty",
+   "nota": "Aprendida na Gramática 4A–B (Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 270,
+    "local": "4A–B"
+   },
+   "athenaze": "cap. 8"
+  },
+  {
+   "grego": "εὔφρων",
+   "lexical": "εὔφρων εὔφρον",
+   "classe": "adjetivo",
+   "glosa": "propício; benévolo",
+   "aprender": true,
+   "nota": "Aprendida na Gramática 4A–B (Vocabulário completo). Adjetivo de 3ª declinação, tema em -ον-.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 275,
+    "local": "4A–B"
+   }
+  },
+  {
+   "grego": "οἴκησις",
+   "lexical": "οἴκησις, ἡ (3e)",
+   "classe": "substantivo",
+   "glosa": "moradia",
+   "aprender": true,
+   "paradigma": "polis-asty",
+   "nota": "Aprendida na Gramática 4A–B (Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 280,
+    "local": "4A–B"
+   }
+  },
+  {
+   "grego": "οὐδείς",
+   "lexical": "οὐδείς οὐδεμία οὐδέν (οὐδεν-)",
+   "classe": "pronome",
+   "glosa": "ninguém; nada; nenhum",
+   "aprender": true,
+   "paradigma": "eis-oudeis",
+   "nota": "Aprendida na Gramática 4A–B (Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 281,
+    "local": "4A–B"
+   },
+   "athenaze": "cap. 7"
+  },
+  {
+   "grego": "πλῆθος",
+   "lexical": "πλῆθος, τό (3c)",
+   "classe": "substantivo",
+   "glosa": "número; multidão; o povo",
+   "aprender": true,
+   "paradigma": "decl3-c",
+   "nota": "Aprendida na Gramática 4A–B (Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 282,
+    "local": "4A–B"
+   }
+  },
+  {
+   "grego": "πόλις",
+   "lexical": "πόλις, ἡ (3e)",
+   "classe": "substantivo",
+   "glosa": "cidade; cidade-Estado",
+   "aprender": true,
+   "paradigma": "polis-asty",
+   "nota": "Aprendida na Gramática 4A–B (Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 283,
+    "local": "4A–B"
+   },
+   "athenaze": "cap. 7"
+  },
+  {
+   "grego": "πρᾶγμα",
+   "lexical": "πρᾶγμα (πραγματ-), τό (3b)",
+   "classe": "substantivo",
+   "glosa": "coisa; questão; assunto; (pl.) problemas",
+   "aprender": true,
+   "paradigma": "decl3-b",
+   "nota": "Aprendida na Gramática 4A–B (Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 283,
+    "local": "4A–B"
+   }
+  },
+  {
+   "grego": "σκεύη",
+   "lexical": "σκεύη, τά (3c)",
+   "classe": "substantivo",
+   "glosa": "equipamento; mobília",
+   "aprender": true,
+   "paradigma": "decl3-c",
+   "nota": "Usado no plural (sing. σκεῦος). Aprendida na Gramática 4A–B (Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 284,
+    "local": "4A–B"
+   }
+  },
+  {
+   "grego": "τάξις",
+   "lexical": "τάξις, ἡ (3e)",
+   "classe": "substantivo",
+   "glosa": "ordem; disposição; formação de tropas",
+   "aprender": true,
+   "paradigma": "polis-asty",
+   "nota": "Aprendida na Gramática 4A–B (Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 285,
+    "local": "4A–B"
+   }
+  },
+  {
+   "grego": "τις",
+   "lexical": "τις τι (τιν-)",
+   "classe": "pronome",
+   "glosa": "alguém; algo; um certo (enclítico)",
+   "aprender": true,
+   "paradigma": "tis-tis",
+   "nota": "Aprendida na Gramática 4A–B (Vocabulário completo). Sem acento; não confundir com o interrogativo τίς.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 285,
+    "local": "4A–B"
+   },
+   "athenaze": "cap. 7"
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "3ª declinação neutra: πρᾶγμα (3b) e πλῆθος (3c)",
+   "nota": "Os dois tipos são *neutros*, então nominativo e acusativo são sempre iguais, e o plural termina em -α (que no tipo 3c aparece contraído como -η). Em πρᾶγμα o radical é πραγματ- (descubra-o pelo genitivo πράγματος); o τ cai no nominativo e antes do -σι do dativo plural (πράγμασι). Em πλῆθος havia um -ε- no radical que se contrai com as terminações: πλήθε-ος > πλήθους, πλήθε-α > πλήθη.\n\n*Armadilhas de leitura:* τὸ πλῆθος parece um masculino da 2ª (ὁ ἄνθρωπος), mas o artigo τό denuncia o neutro; e τὰ τείχη, τὰ σκεύη parecem femininos singulares em -η, mas o artigo τά mostra que são plurais neutros.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "70–71",
+    "local": "4A–B, §77–78"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 99,
+    "local": "cap. 7, Gram. 3b (τὸ ὄνομα)"
+   },
+   "paradigmas": [
+    "decl3-b",
+    "decl3-c"
+   ],
+   "exemplos": [
+    {
+     "grego": "ὦ Ἡράκλεις. ὅσον ἀνθρώπων πλῆθος. πλέα γὰρ φαίνεται τὰ τείχη.",
+     "traducao": "Por Héracles! Que multidão de gente! As muralhas parecem cheias.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 42,
+      "local": "4A",
+      "linhas": "l. 1–2"
+     }
+    },
+    {
+     "grego": "ἐπειδὴ δὲ ἡμεῖς, πολλοὶ ὄντες, ἀφικνούμεθα εἰς τὸ ἄστυ, χαλεπὸν γίγνεται τὸ πρᾶγμα.",
+     "traducao": "Mas quando nós, que somos muitos, chegamos à cidade, a situação fica difícil.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 44,
+      "local": "4A",
+      "linhas": "l. 21–22"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "3ª declinação em vogal: πόλις, πρέσβυς (3e) e ἄστυ (3f)",
+   "nota": "Esses substantivos têm dois radicais: πολι-/ἀστυ- no nominativo, acusativo e vocativo singular, e πολε-/ἀστε- no resto. Por isso o genitivo singular termina em *-εως* (πόλεως, ἄστεως), e o nominativo/acusativo plural em -εις (πόλεις) ou -η (ἄστη, de ἄστε-α).\n\nDiferença de sentido: ἡ πόλις é a cidade como comunidade política (a cidade-Estado), τὸ ἄστυ é a área urbana de Atenas, em oposição ao campo. πρέσβυς no singular é 'velho', mas o plural οἱ πρέσβεις quer dizer 'embaixadores'.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "71–72",
+    "local": "4A–B, §79–80"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 145,
+    "local": "cap. 9, Gram. 3"
+   },
+   "paradigmas": [
+    "polis-asty"
+   ],
+   "exemplos": [
+    {
+     "grego": "πόλις γὰρ οὐκ οἰκήσεις ἢ γῆ, ἀλλὰ ἄνδρες.",
+     "traducao": "Pois a cidade não são casas nem terra, mas homens.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 43,
+      "local": "4A",
+      "linhas": "l. 15–16"
+     }
+    },
+    {
+     "grego": "τὴν δὲ πόλιν ὁρᾷς κακοδαίμονα δὴ οὖσαν. τοὺς δ’ ἐν τῇ πόλει ὁρᾷς κακοδαίμονας ὄντας.",
+     "traducao": "Vês que a cidade está realmente infeliz; vês que os que estão na cidade estão infelizes.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 44,
+      "local": "4A",
+      "linhas": "l. 30–31"
+     }
+    },
+    {
+     "grego": "ἐν δὲ τῷ ἄστει πολλοὺς ἀνθρώπους ὁρῶσιν ἐν ταῖς ὁδοῖς βαδίζοντας.",
+     "traducao": "Na cidade eles veem muita gente andando pelas ruas.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 123,
+      "local": "cap. 8β",
+      "linhas": "l. 25–26"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Adjetivos de 3ª declinação: εὔφρων εὖφρον",
+   "nota": "Adjetivos como εὔφρων ('propício') e κακοδαίμων ('infeliz') usam só terminações de 3ª declinação: uma forma serve para o masculino *e* o feminino, outra para o neutro. Aprenda o radical pelo genitivo (εὔφρον-ος) e o resto sai como nos substantivos do tipo λιμήν.\n\nNa leitura, não estranhe ver um adjetivo em -ων ao lado de um substantivo feminino: εὔφρων ἡ θεός está correto.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 73,
+    "local": "4A–B, §81–82"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 107,
+    "local": "cap. 7, Gram. 7 (σώφρων σῶφρον)"
+   },
+   "exemplos": [
+    {
+     "grego": "κακοδαίμων νὴ Δία ἡ πόλις ἐστίν, ὦ ῥαψῳδέ, κακόδαιμον δὲ τὸ πλῆθος.",
+     "traducao": "Infeliz, por Zeus, é a cidade, rapsodo, e infeliz é o povo.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 42,
+      "local": "4A",
+      "linhas": "l. 6–7"
+     }
+    },
+    {
+     "grego": "καλὴ γὰρ καὶ εὔφρων ἡ θεός.",
+     "traducao": "Pois a deusa é bela e propícia.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 46,
+      "local": "4B",
+      "linhas": "l. 38"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "τίς τί (interrogativo) e τις τι (indefinido)",
+   "nota": "As formas são as mesmas (radical τιν-, declinação de 3ª), o que muda é o *acento* e a posição. τίς τί tem sempre agudo na primeira sílaba e abre a pergunta: 'quem?', 'o quê?', 'qual?' (τί também pode ser 'por quê?'). τις τι é enclítico, nunca começa a frase e vem depois da palavra a que se liga: 'alguém', 'algo', ou, junto a um substantivo, 'um certo'.\n\nDica de leitura: se o τις vem logo depois de um substantivo (δαίμων τις), traduza 'um/certo'; se está sozinho, 'alguém/algo'.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "73–75",
+    "local": "4A–B, §83–85"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "108–109",
+    "local": "cap. 7, Gram. 8–9"
+   },
+   "paradigmas": [
+    "tis-tis"
+   ],
+   "exemplos": [
+    {
+     "grego": "πυράς τινας ὁρῶ. εἰπέ μοι, πρὸς τῶν θεῶν, τίς ἡ αἰτία;",
+     "traducao": "Estou vendo umas piras. Diz-me, pelos deuses, qual é a causa?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 42,
+      "local": "4A",
+      "linhas": "l. 3–4"
+     }
+    },
+    {
+     "grego": "ἦ που δῆλον ὅτι δαίμων τις κακὸς κολάζει τὴν πόλιν.",
+     "traducao": "Certamente está claro que alguma divindade má está castigando a cidade.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 42,
+      "local": "4A",
+      "linhas": "l. 4–5"
+     }
+    },
+    {
+     "grego": "ἄρ’ ὁρᾷς τινα ἐν τῷ ἄντρῳ;",
+     "traducao": "Vês alguém na caverna?",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 109,
+      "local": "cap. 7, Gram. 9"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "οὐδείς οὐδεμία οὐδέν e o modelo 3-1-3",
+   "nota": "οὐδείς é οὐδέ ('nem') + εἷς ('um'): 'nem um', isto é, 'ninguém/nada' como pronome e 'nenhum' como adjetivo. É o primeiro exemplo do modelo *3-1-3*: masculino e neutro de 3ª declinação (οὐδένα, οὐδενός), feminino de 1ª (οὐδεμία, οὐδεμιᾶς). O mesmo modelo vale para πᾶς e para os particípios ativos.\n\nNote que o grego aceita a dupla negação: οὐ ... οὐδέν continua negativo ('não ... nada').",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "75–76",
+    "local": "4A–B, §86"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 128,
+    "local": "cap. 8, Gram. 5"
+   },
+   "paradigmas": [
+    "eis-oudeis"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἀλλ’ οὐδὲν κωλύει σε, οὔτε θεῶν φόβος οὔτε ἀνθρώπων νόμος;",
+     "traducao": "Mas nada te impede, nem o medo dos deuses nem a lei dos homens?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 46,
+      "local": "4B",
+      "linhas": "l. 22–23"
+     }
+    },
+    {
+     "grego": "οὐδεὶς ἄνθρωπός ἐστιν ἔνδον.",
+     "traducao": "Não há ninguém lá dentro.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 96,
+      "local": "cap. 7α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "O particípio presente de εἰμί: ὤν οὖσα ὄν",
+   "nota": "ὤν οὖσα ὄν ('sendo, estando') é um adjetivo verbal do modelo 3-1-3 (radical ὀντ- no masculino e neutro, οὐσ- no feminino) e concorda em caso, gênero e número com o nome a que se refere.\n\nComo o português raramente usa 'sendo' com naturalidade, primeiro traduza ao pé da letra e depois escolha a ideia que o contexto pede: causa ('como/porque é'), concessão ('embora seja'), tempo ('enquanto é') ou oração relativa ('que é'). Ex.: θνητὸς ὤν = 'sendo mortal' → 'você, que é mortal' ou 'embora seja mortal'.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "76–78",
+    "local": "4A–B, §87–88"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "135–136",
+    "local": "cap. 9, Gram. 1"
+   },
+   "paradigmas": [
+    "part-on"
+   ],
+   "exemplos": [
+    {
+     "grego": "τὰς μὲν γὰρ οἰκήσεις, ὀλίγας οὔσας, ἔχουσιν οἱ ἀστοί.",
+     "traducao": "As moradias, que são poucas, ficam com os moradores da cidade.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 44,
+      "local": "4A",
+      "linhas": "l. 22–23"
+     }
+    },
+    {
+     "grego": "παῦε, παῦε. ἀτιμάζεις γὰρ τοὺς θεούς, θνητὸς ὤν.",
+     "traducao": "Pare, pare! Você desonra os deuses, sendo um mortal.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 46,
+      "local": "4B",
+      "linhas": "l. 36"
+     }
+    },
+    {
+     "grego": "σὺ γὰρ ἵλεως ὢν τάς τε ἀμπέλους σῴζεις καὶ αὐξάνεις τοὺς βότρυας.",
+     "traducao": "Pois tu, quando és propício, salvas as videiras e fazes crescer os cachos.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 143,
+      "local": "cap. 9β",
+      "linhas": "l. 19–20"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "4A-o1",
+   "tipo": "morfologia",
+   "titulo": "Genitivo singular e dativo plural da 3ª declinação",
+   "enunciado": "Dê o genitivo singular e o dativo plural, com artigo, de cada substantivo.",
+   "itens": [
+    {
+     "pergunta": "τὸ πρᾶγμα",
+     "resposta": "τοῦ πράγματος; τοῖς πράγμασι(ν)"
+    },
+    {
+     "pergunta": "τὸ πλῆθος",
+     "resposta": "τοῦ πλήθους; τοῖς πλήθεσι(ν)"
+    },
+    {
+     "pergunta": "ἡ πόλις",
+     "resposta": "τῆς πόλεως; ταῖς πόλεσι(ν)"
+    },
+    {
+     "pergunta": "τὸ ἄστυ",
+     "resposta": "τοῦ ἄστεως; τοῖς ἄστεσι(ν)"
+    },
+    {
+     "pergunta": "ἡ τάξις",
+     "resposta": "τῆς τάξεως; ταῖς τάξεσι(ν)"
+    },
+    {
+     "pergunta": "ἡ οἴκησις",
+     "resposta": "τῆς οἰκήσεως; ταῖς οἰκήσεσι(ν)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "4A"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 7 (Ὁ Κύκλωψ)",
+   "cap. 8 (Πρὸς τὸ ἄστυ)",
+   "cap. 9 (Ἡ πανήγυρις)"
+  ],
+  "comparacao": "A JACT despeja de uma vez, em 4A–B, quatro tipos novos de 3ª declinação (3b, 3c, 3e, 3f), o adjetivo εὔφρων, τίς/τις, οὐδείς e o particípio ὤν. O Athenaze espalha o mesmo material por três capítulos: τίς/τις, σώφρων (= εὔφρων) e o neutro ὄνομα (= πρᾶγμα) no cap. 7; εἷς/οὐδείς e πᾶς no cap. 8; πόλις/ἄστυ e o particípio ativo (incluindo ὤν) no cap. 9. Ou seja, o Athenaze só chega a ὤν depois de ensinar o particípio médio.\n\nNo assunto, os dois livros se encontram: 4A mostra Atenas cheia de refugiados, e o Athenaze 8β–9α mostra a família de Diceópolis chegando à cidade lotada para a festa de Dioniso. É a mesma cidade (ἄστυ) e a mesma multidão, em tom oposto (peste × festa).\n\n*Ordem sugerida:* leia 4A primeiro. Para fixar os quadros, use as tabelas do Athenaze, que separam radical e terminação (πόλι-ς / πόλε-ως) e explicam a mudança de radical com mais clareza (cap. 9, Gram. 3).",
+  "complementos": [
+   "Athenaze cap. 7, Gram. 2 (p. 97): para achar o radical de um substantivo de 3ª, tire o -ος do genitivo (παιδ-ός → παιδ-). A JACT pressupõe isso; o Athenaze explica.",
+   "Athenaze cap. 7, Gram. 7 (p. 107): σώφρων σῶφρον ('sensato'), declinado como εὔφρων. É um bom segundo modelo para decorar.",
+   "Athenaze cap. 8, Gram. 5 (p. 128): os numerais εἷς μία ἕν, δύο, τρεῖς, τέτταρες ao lado de οὐδείς. Mostra que οὐδείς é só 'εἷς' negado.",
+   "Athenaze cap. 9, Gram. 3 (p. 145): explica o acento de πόλεως/πόλεων (metátese quantitativa: πόληος > πόλεως), que a JACT não comenta.",
+   "Vocabulário do Athenaze útil aqui: ὁ πολίτης 'cidadão' (cap. 8β), ἡ ἀγορά (cap. 8β), ὁ ὅμιλος 'multidão' (glosa no cap. 9α, p. 133), sinônimo de τὸ πλῆθος."
+  ],
+  "citacoes": [
+   {
+    "grego": "ὦ Ἡράκλεις. ὅσον ἀνθρώπων πλῆθος.",
+    "traducao": "Por Héracles! Que multidão de gente!",
+    "comentario": "JACT: a multidão de refugiados dentro das muralhas, com τὸ πλῆθος (3c).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 42,
+     "local": "4A",
+     "linhas": "l. 1"
+    }
+   },
+   {
+    "grego": "ἐκεῖ δὲ τοσοῦτός ἐστιν ὁ ὅμιλος ὥστε μόλις προχωροῦσι πρὸς τὴν Ἀκρόπολιν.",
+    "traducao": "Lá a multidão é tão grande que eles mal conseguem avançar em direção à Acrópole.",
+    "comentario": "Athenaze: a mesma Atenas lotada, agora em festa. Compare ὁ ὅμιλος com τὸ πλῆθος.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 133,
+     "local": "cap. 9α",
+     "linhas": "l. 1–3"
+    }
+   },
+   {
+    "grego": "καὶ εἰσκομίζεσθε εἰς τὸ ἄστυ τὰ ὑμέτερα σκεύη.",
+    "traducao": "E trazei para a cidade os vossos pertences.",
+    "comentario": "JACT: τὸ ἄστυ é a área urbana, para onde Péricles manda os camponeses.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 43,
+     "local": "4A",
+     "linhas": "l. 14–15"
+    }
+   },
+   {
+    "grego": "ὁ δὲ Φίλιππος τὴν πόλιν θεώμενος, «ἰδού», φησίν, «ὡς καλή ἐστιν ἡ πόλις.»",
+    "traducao": "E Filipe, contemplando a cidade, diz: 'Olhem como a cidade é bonita!'",
+    "comentario": "Athenaze: ἡ πόλις vista de longe. Os dois livros usam ἄστυ e πόλις quase como sinônimos na narrativa.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 123,
+     "local": "cap. 8β",
+     "linhas": "l. 19–20"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,626 @@
+{
+ "id": "5C",
+ "secao": 5,
+ "parte": 2,
+ "titulo": "Um plano para Fidípides",
+ "resumo": "Estrepsíades acorda o filho e arranca dele a promessa de obedecer, sem ainda revelar qual é a sua ideia para escapar das dívidas.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 58,
+  "local": "5C"
+ },
+ "vocab": [
+  {
+   "grego": "αἰτία",
+   "lexical": "αἰτία, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "causa, razão; responsabilidade",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 59,
+    "local": "5C"
+   }
+  },
+  {
+   "grego": "διανοέομαι",
+   "lexical": "διανοέομαι",
+   "classe": "verbo",
+   "glosa": "pretender, planejar",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "nota": "Verbo médio contrato: διανοοῦμαι, διανοῇ.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 59,
+    "local": "5C"
+   }
+  },
+  {
+   "grego": "διάνοια",
+   "lexical": "διάνοια, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "intenção, plano",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 59,
+    "local": "5C"
+   }
+  },
+  {
+   "grego": "νοῦς",
+   "lexical": "νοῦς, ὁ (νόος contr.) (2a)",
+   "classe": "substantivo",
+   "glosa": "mente, inteligência",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "Contrato: νοῦ, νῷ, νοῦν. ἐν νῷ ἔχω: ter em mente.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 59,
+    "local": "5C"
+   }
+  },
+  {
+   "grego": "οὐδέποτε",
+   "lexical": "οὐδέποτε",
+   "classe": "advérbio",
+   "glosa": "nunca",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 59,
+    "local": "5C"
+   }
+  },
+  {
+   "grego": "Ποσειδῶν",
+   "lexical": "Ποσειδῶν (Ποσειδων-), ὁ (3a)",
+   "classe": "nome próprio",
+   "glosa": "Posídon (deus do mar)",
+   "aprender": true,
+   "nota": "Voc. Πόσειδον; ac. Ποσειδῶ.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 59,
+    "local": "5C"
+   },
+   "athenaze": "cap. 13"
+  },
+  {
+   "grego": "πως",
+   "lexical": "πως",
+   "classe": "advérbio",
+   "glosa": "de algum modo",
+   "aprender": true,
+   "nota": "Enclítico; não confunda com πῶς; 'como?'.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 59,
+    "local": "5C"
+   }
+  },
+  {
+   "grego": "φιλέω",
+   "lexical": "φιλέω",
+   "classe": "verbo",
+   "glosa": "amar; beijar",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 59,
+    "local": "5C"
+   },
+   "athenaze": "cap. 1"
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "Futuro do indicativo, ativo e médio",
+   "nota": "O futuro típico é o radical do presente + σ + as mesmas terminações do presente: παύ-σ-ω, παύ-σ-εις, παύ-σ-ει, παύ-σ-ομεν, παύ-σ-ετε, παύ-σ-ουσι(ν); médio παύ-σ-ομαι, παύ-σ-ῃ (ou -ει), παύ-σ-εται… Ou seja: se você sabe o presente, já sabe o futuro. A marca a procurar na leitura é o *σ antes da terminação*.\n\nNão há aumento (o aumento é só do passado). Cuidado com a 2ª sg. média παύσῃ/παύσει, que pode parecer a 3ª sg. ativa παύσει.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "102–103",
+    "local": "5C–D, §112–113"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 158,
+    "local": "cap. 10, Gram. 1"
+   },
+   "paradigmas": [
+    "verbo-futuro"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἆρ’ αὔριον φιλήσεις με;",
+     "traducao": "Amanhã você vai gostar de mim?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 58,
+      "local": "5C"
+     }
+    },
+    {
+     "grego": "αὔριόν σε φιλήσω, καὶ οὐ παύσομαι οὐδέποτε.",
+     "traducao": "Amanhã vou gostar de você e nunca vou parar.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 58,
+      "local": "5C"
+     }
+    },
+    {
+     "grego": "δι’ ὀλίγου γὰρ θεασόμεθα τοὺς χορούς.",
+     "traducao": "Pois logo vamos ver os coros.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 156,
+      "local": "cap. 10α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Futuro de radicais em consoante e de verbos contratos",
+   "nota": "O σ se combina com a consoante final do radical: labiais (β, π, φ, πτ) + σ = ψ (πέμπω → πέμψω); guturais (γ, κ, χ, e em geral ττ) + σ = ξ (δέχομαι → δέξομαι, λέγω → λέξω); dentais (δ, ζ, θ, τ) caem antes do σ (πείθω → πείσω).\n\nNos contratos, a vogal do radical se alonga antes do σ: -αω e -εω → -ήσω (τιμήσω, ποιήσω), -οω → -ώσω (δηλώσω). Depois de ε, ι, ρ o α vira ᾱ longo, não η: δράω → δράσω. Como o futuro termina em σ + vogal, *não há contração* nas terminações.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "103–104",
+    "local": "5C–D, §114–116"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "158–159",
+    "local": "cap. 10, Gram. 1a–c e 3"
+   },
+   "paradigmas": [
+    "verbo-futuro"
+   ],
+   "exemplos": [
+    {
+     "grego": "οὐχί, ἀλλά σοι λέξω.",
+     "traducao": "Não, mas vou te contar.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 58,
+      "local": "5C"
+     }
+    },
+    {
+     "grego": "σὺ δὲ ποιήσεις; — ποιήσω νὴ τὸν Διόνυσον.",
+     "traducao": "E você vai fazer? — Vou, por Dioniso!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 58,
+      "local": "5C"
+     }
+    },
+    {
+     "grego": "νικήσουσι τοὺς ἄλλους καὶ δέξονται τοὺς στεφάνους.",
+     "traducao": "Vão vencer os outros e receber as coroas.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 157,
+      "local": "cap. 10α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Futuros sem σ: radicais em λ, μ, ν, ρ e verbos em -ίζω",
+   "nota": "Verbos com radical em líquida ou nasal (λ, μ, ν, ρ) não põem σ: o futuro se conjuga como um contrato em -εω. μένω → μενῶ, μενεῖς, μενεῖ, μενοῦμεν, μενεῖτε, μενοῦσι(ν). Muitas vezes o radical também muda: διαφθείρω → διαφθερῶ, ἀποκτείνω → ἀποκτενῶ, βάλλω → βαλῶ.\n\nOs verbos em -ίζω fazem o mesmo: νομίζω → νομιῶ, νομιεῖς, νομιεῖ… Na leitura, o *circunflexo na terminação* (μενῶ × μένω) é muitas vezes a única pista do futuro.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "104–105",
+    "local": "5C–D, §117–118"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "159, 166–167",
+    "local": "cap. 10, Gram. 2 e 5"
+   },
+   "paradigmas": [
+    "verbo-futuro",
+    "poieo-presente"
+   ],
+   "exemplos": [
+    {
+     "grego": "ὁ μὲν γὰρ ἄδικος λόγος διαφθερεῖ τὰ χρέα, ὁ δὲ δίκαιος οὐχί.",
+     "traducao": "Pois o argumento injusto vai acabar com as dívidas; o justo, não.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": "60–62",
+      "local": "5D"
+     }
+    },
+    {
+     "grego": "ἀλλὰ διώξω σε ἐκ τῆς οἰκίας καὶ ἐκβαλῶ εἰς κόρακας.",
+     "traducao": "Pois vou te expulsar de casa e te jogar aos corvos!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": "60–62",
+      "local": "5D"
+     }
+    },
+    {
+     "grego": "τὴν οὖν νύκτα ἐν τῷ ἄστει μενοῦμεν.",
+     "traducao": "Então vamos passar a noite na cidade.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 165,
+      "local": "cap. 10β"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Futuros médios com sentido ativo e futuros irregulares",
+   "nota": "Vários verbos ativos no presente têm o futuro *médio*, sem mudar o sentido: ἀκούω → ἀκούσομαι, βοάω → βοήσομαι, φεύγω → φεύξομαι. Decore também os irregulares mais comuns: βαίνω → βήσομαι, γίγνομαι → γενήσομαι, γιγνώσκω → γνώσομαι, λαμβάνω → λήψομαι, μανθάνω → μαθήσομαι, ὁράω → ὄψομαι, πάσχω → πείσομαι.\n\nArmadilha: πείσομαι é futuro tanto de πάσχω (\"sofrerei\") quanto de πείθομαι (\"obedecerei\"). Já πείσω é de πείθω (\"persuadirei\").",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 105,
+    "local": "5C–D, §119–120"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "159–160",
+    "local": "cap. 10, Gram. 4"
+   },
+   "paradigmas": [
+    "verbo-futuro"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἰδού, ἀκούω, καὶ πείθομαι καὶ πείσομαι ἀεί.",
+     "traducao": "Olha, estou ouvindo, e obedeço e sempre vou obedecer.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 58,
+      "local": "5C"
+     }
+    },
+    {
+     "grego": "τί μαθήσονται οἱ νεανίαι, μαθηταὶ ὄντες;",
+     "traducao": "O que os jovens vão aprender, sendo alunos?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": "60–62",
+      "local": "5D"
+     }
+    },
+    {
+     "grego": "ἀκούσομαι. ἀλλὰ τί μοι λέξεις;",
+     "traducao": "Vou ouvir. Mas o que você vai me dizer?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": "60–62",
+      "local": "5D"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Futuro de εἰμί (ἔσομαι) e o verbo εἶμι, \"irei\"",
+   "nota": "O futuro de \"ser/estar\" é médio: ἔσομαι, ἔσῃ/ἔσει, ἔσται (sem vogal temática), ἐσόμεθα, ἔσεσθε, ἔσονται.\n\nεἶμι, εἶ, εἶσι, ἴμεν, ἴτε, ἴασι(ν) significa \"irei\" e funciona como futuro de ἔρχομαι (εἰσέρχομαι → εἴσειμι). Não confunda εἶμι \"irei\" com εἰμί \"sou\", εἶσι \"ele irá\" com εἰσί \"eles são\"; εἶ pode ser \"tu irás\" ou \"tu és\", e só o contexto decide. O particípio ἰών, ἰοῦσα, ἰόν (\"indo\") se parece com ὤν, οὖσα, ὄν (\"sendo\").",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 106,
+    "local": "5C–D, §122–123"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "160, 168–169",
+    "local": "cap. 10, Gram. 4 e 6"
+   },
+   "paradigmas": [
+    "eimi"
+   ],
+   "exemplos": [
+    {
+     "grego": "οὔτε τήμερον εἰσέρχομαι οὔτε αὔριον εἴσειμι.",
+     "traducao": "Nem entro hoje, nem vou entrar amanhã.",
+     "comentario": "Presente εἰσέρχομαι e futuro εἴσειμι lado a lado.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": "60–62",
+      "local": "5D"
+     }
+    },
+    {
+     "grego": "ἀλλ’ εἰ σὺ μὴ εἴσει, τίς εἴσεισι;",
+     "traducao": "Mas se você não for entrar, quem vai?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": "60–62",
+      "local": "5D"
+     }
+    },
+    {
+     "grego": "καὶ ἔσται ὁ μισθὸς ὑμῶν πολύς, καὶ ἔσεσθε υἱοὶ ὑψίστου.",
+     "traducao": "E a vossa recompensa será grande, e sereis filhos do Altíssimo.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 163,
+      "local": "cap. 10α (Lucas 6,35)"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "A voz média: o que ela significa",
+   "nota": "Na voz média o sujeito está *envolvido* na própria ação. Os casos mais comuns: (a) reflexivo ou intransitivo — παύω τινά \"faço alguém parar\" × παύομαι \"paro (de)\"; λούομαι \"tomo banho\"; (b) recíproco — λοιδοροῦμαι \"insultamo-nos\"; (c) em proveito próprio — φέρομαι \"levo para mim, ganho\"; (d) causativo, mais raro — διδάσκομαι \"mando ensinar\".\n\nÀs vezes o sentido muda bastante: πείθω \"persuado\" × πείθομαι \"obedeço, confio\" (+ dativo). E lembre que essas regras não valem para os futuros médios de §119 (ἀκούσομαι = \"ouvirei\", simplesmente).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "107–108",
+    "local": "5C–D, §124"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "75–76",
+    "local": "cap. 6, Gram. 2"
+   },
+   "paradigmas": [
+    "verbo-presente-medio",
+    "verbo-futuro"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἆρ’ ἤκουες; ἢ οὐκ ἤκουες; ἢ μάτην λέγω; παύσω σε καθεύδοντα.",
+     "traducao": "Você ouviu ou não? Estou falando à toa? Vou fazer você parar de dormir!",
+     "comentario": "παύω ativo, com objeto: fazer alguém parar.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 58,
+      "local": "5C"
+     }
+    },
+    {
+     "grego": "πῶς παυσόμεθα ἐκ τῶν χρεῶν;",
+     "traducao": "Como vamos nos livrar das dívidas?",
+     "comentario": "παύομαι médio, intransitivo: \"parar, ficar livre\".",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 58,
+      "local": "5C"
+     }
+    },
+    {
+     "grego": "ὁ παῖς λούεται.",
+     "traducao": "O menino toma banho (lava-se).",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 75,
+      "local": "cap. 6, Gram. 2"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Interrogativos, indefinidos e relativos: πῶς / πως / ὅπως / ὡς",
+   "nota": "O par τίς \"quem?\" × τις \"alguém\" se repete em toda uma família: a forma *acentuada* pergunta (πῶς; \"como?\", ποῦ; \"onde?\", πότε; \"quando?\", πόθεν; \"de onde?\", ποῖ; \"para onde?\"), a *enclítica* sem acento é indefinida (πως \"de algum modo\", που \"em algum lugar\", ποτε \"alguma vez\"). Com ὁ- na frente vem a forma de pergunta indireta (ὅπως, ὅπου, ὁπότε…), e as formas sem π- são relativas (ὡς, οὗ, ὅτε, ὅθεν).\n\nNo diálogo, quem responde costuma repetir a pergunta com ὁ-: \"τί ποιεῖς;\" — \"ὅ τι; οὐδέν.\" (\"O que você está fazendo?\" — \"O quê? Nada.\").",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "109–110",
+    "local": "5C–D, §125–126"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "108–109, 171",
+    "local": "cap. 7, Gram. 8–9; cap. 10, Gram. 9"
+   },
+   "paradigmas": [
+    "tis-tis"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἴσως γὰρ αὕτη ἡ διάνοια ἡμᾶς παύσει πως ἐκ τῶν χρεῶν.",
+     "traducao": "Pois talvez esse plano nos livre de algum modo das dívidas.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 58,
+      "local": "5C"
+     }
+    },
+    {
+     "grego": "πῶς ἡ διάνοια σώσει ἡμᾶς;",
+     "traducao": "Como o plano vai nos salvar?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 58,
+      "local": "5C"
+     }
+    },
+    {
+     "grego": "ὁ Αἴολος τὸν Ὀδυσσέα ἐρωτᾷ τίς ἐστι καὶ πόθεν ἥκει.",
+     "traducao": "Éolo pergunta a Odisseu quem ele é e de onde vem.",
+     "comentario": "Pergunta indireta com as formas diretas τίς e πόθεν, como a JACT avisa que os autores fazem.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 171,
+      "local": "cap. 10, Gram. 9, exerc. 10λ"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Substantivos 3d: τριήρης, Σωκράτης, Περικλῆς",
+   "nota": "O tipo 3d tem tema em -εσ-; o σ cai entre vogais e as vogais contraem. Por isso τριήρης faz ac. τριήρη, gen. τριήρους, dat. τριήρει; pl. τριήρεις, τριήρων, τριήρεσι(ν). Assim também os nomes próprios em -ης como Σωκράτης (ac. Σωκράτη, voc. ὦ Σώκρατες) e os adjetivos como δυστυχής, ἀληθής.\n\nNão confunda com nomes 1d como ναύτης ou Ξέρξης (gen. -ου). Os nomes em -κλῆς têm declinação própria: Περικλῆς, -κλέα, -κλέους, -κλεῖ, ὦ Περίκλεις.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 110,
+    "local": "5C–D, §127a"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "226–227",
+    "local": "cap. 13, Gram. 4"
+   },
+   "paradigmas": [
+    "decl3-d",
+    "adj-alethes"
+   ],
+   "exemplos": [
+    {
+     "grego": "τούς τε ὠχροὺς καὶ ἀνυποδήτους λέγεις, τὸν κακοδαίμονα Σωκράτη καὶ Χαιρεφῶντα.",
+     "traducao": "Você está falando daqueles pálidos e descalços, o desgraçado do Sócrates e o Querefonte.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": "60–62",
+      "local": "5D"
+     }
+    },
+    {
+     "grego": "ἐν μιᾷ γὰρ ἡμέρᾳ τὸν εὐτυχῆ τίθησι δυστυχῆ θεός.",
+     "traducao": "Pois num só dia um deus torna infeliz o homem feliz.",
+     "comentario": "Menandro: εὐτυχῆ e δυστυχῆ são acusativos do tipo -ης/-εσ- (contração -εα > -η).",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 173,
+      "local": "cap. 10, Classical Greek (Menandro, O escudo 417–418)"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "πατήρ, μήτηρ, θυγάτηρ: radical que alterna",
+   "nota": "Esses nomes de parentesco (3a) alternam três formas do radical: πατερ- (ac. πατέρα, voc. πάτερ, nom. pl. πατέρες), πατρ- (gen. πατρός, dat. πατρί) e πατρα- (dat. pl. πατράσι). O nom. sg. é πατήρ. μήτηρ e θυγάτηρ seguem o mesmo modelo; ἀνήρ é parecido (ἀνδρός, ἄνδρα).\n\nNa leitura, procure πατρ- e πατερ-: ambos são \"pai\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "110–111",
+    "local": "5C–D, §127b"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "124–125",
+    "local": "cap. 8, Gram. 2"
+   },
+   "paradigmas": [
+    "aner-pater"
+   ],
+   "exemplos": [
+    {
+     "grego": "νῦν δὲ τυγχάνει βαθέως καθεύδων ὁ υἱός, ὕπνος δ’ οὐκ ἔχει τὸν πατέρα.",
+     "traducao": "Agora o filho está dormindo profundamente, mas o pai não consegue dormir (lit. o sono não pega o pai).",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 54,
+      "local": "5A"
+     }
+    },
+    {
+     "grego": "δεῖ τὸν Φίλιππον τῷ πατρὶ πείθεσθαι.",
+     "traducao": "Filipe deve obedecer ao pai.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 171,
+      "local": "cap. 10, exerc. 10κ"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "5C-o1",
+   "tipo": "transformar",
+   "titulo": "Hoje e amanhã",
+   "enunciado": "Passe o verbo para o futuro (mesma pessoa e número) e traduza. Atenção aos futuros médios e aos futuros sem σ.",
+   "itens": [
+    {
+     "pergunta": "φιλεῖς με.",
+     "resposta": "φιλήσεις με. — Você vai gostar de mim."
+    },
+    {
+     "pergunta": "παύομαι.",
+     "resposta": "παύσομαι. — Vou parar."
+    },
+    {
+     "pergunta": "τὸν πατέρα πείθεις.",
+     "resposta": "τὸν πατέρα πείσεις. — Você vai persuadir o pai."
+    },
+    {
+     "pergunta": "ἀκούομεν.",
+     "resposta": "ἀκουσόμεθα. — Vamos ouvir (futuro médio)."
+    },
+    {
+     "pergunta": "ὁ νεανίας μένει.",
+     "resposta": "ὁ νεανίας μενεῖ. — O rapaz vai ficar (futuro sem σ)."
+    },
+    {
+     "pergunta": "οἱ σοφισταὶ τοὺς μαθητὰς διδάσκουσιν.",
+     "resposta": "οἱ σοφισταὶ τοὺς μαθητὰς διδάξουσιν. — Os sofistas vão ensinar os alunos."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "5C"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 10 (Ἡ συμφορά)",
+   "cap. 6 (Ὁ μῦθος)",
+   "cap. 8 (Πρὸς τὸ ἄστυ)",
+   "cap. 13 (Πρὸς τὴν Σαλαμῖνα)"
+  ],
+  "comparacao": "O futuro é o ponto em que os dois livros mais se aproximam: o cap. 10 do Athenaze cobre quase tudo de §112–123 da JACT, na mesma ordem (σ + terminações; labiais, guturais e dentais; contratos; futuros sem σ; futuros médios; ἔσομαι; εἶμι). As listas do Athenaze são mais longas e trazem o radical entre colchetes ([πενθ-] πείσομαι, [δραμε-] δραμοῦμαι), o que ajuda a entender os irregulares. A JACT é mais enxuta e mais clara no aviso εἶμι × εἰμί.\n\nA voz média (§124), que a JACT só explica agora, o Athenaze já ensinou no cap. 6 (Gram. 2), com os mesmos exemplos de λούω/λούομαι. Os tipos πατήρ (cap. 8) e τριήρης (cap. 13) ficam em capítulos separados no Athenaze.\n\nOrdem sugerida: §112–120 da JACT; depois a leitura 10α do Athenaze (pp. 156–157), cheia de futuros (θεασόμεθα, ἀφιξόμεθα, εὑρήσομεν, γενήσονται, νικήσουσι, δέξονται); por fim εἶμι, por qualquer um dos dois.",
+  "complementos": [
+   "Athenaze cap. 10, Gram. 7 (p. 170): particípio futuro com ὡς para indicar finalidade — μενῶ ὡς τὰς τραγῳδίας θεασόμενος, \"ficarei para ver as tragédias\".",
+   "Athenaze cap. 10, Gram. 1 e 3 (pp. 158–159): infinitivo e particípio futuro (λύσειν, λύσων) e as exceções ἔχω → ἕξω/σχήσω e καλέω → καλῶ (futuro igual ao presente).",
+   "Athenaze cap. 10, Gram. 6 (p. 169): imperativo ἴθι, infinitivo ἰέναι e particípio ἰών de εἶμι, que em ático substituem as formas de ἔρχομαι, e seis compostos (ἄπειμι, εἴσειμι, ἔξειμι, ἐπάνειμι, πρόσειμι…).",
+   "Athenaze cap. 8β, Word Building (p. 124): advérbios de lugar em -οῦ, -όσε, -όθεν (πανταχοῦ, πανταχόσε, πανταχόθεν; Ἀθήνησι, Ἀθήναζε, Ἀθήνηθεν), o mesmo sistema de ποῦ/ποῖ/πόθεν de §125.",
+   "Athenaze cap. 13, Gram. 4 (pp. 226–227): os neutros do mesmo tema -εσ- (τὸ τεῖχος, τὸ ὄρος) e o adjetivo ἀληθής, ao lado de τριήρης.",
+   "Vocabulário em comum: φιλέω (cap. 1), Ποσειδῶν (cap. 13)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἆρ’ αὔριον φιλήσεις με;",
+    "traducao": "Amanhã você vai gostar de mim?",
+    "comentario": "JACT: futuro de contrato (φιλέω → φιλήσω) com αὔριον.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 58,
+     "local": "5C"
+    }
+   },
+   {
+    "grego": "εἰ γὰρ μὴ σπεύσετε, ὀψὲ ἀφιξόμεθα.",
+    "traducao": "Se vocês não se apressarem, vamos chegar tarde.",
+    "comentario": "Athenaze: futuro de dental (σπεύδω → σπεύσω) e futuro de depoente (ἀφικνέομαι → ἀφίξομαι).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 156,
+     "local": "cap. 10α"
+    }
+   },
+   {
+    "grego": "νὴ τὸν Ποσειδῶ τουτονὶ τὸν ἵππιον, αὔριόν σε φιλήσω.",
+    "traducao": "Por este Posídon dos cavalos, amanhã vou gostar de você.",
+    "comentario": "JACT: juramento com νή + acusativo; Ποσειδῶ é o acusativo curto usado nas juras.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 58,
+     "local": "5C"
+    }
+   },
+   {
+    "grego": "αἱ δὲ γυναῖκες μέγα ἔκλαζον εὐχόμεναι τὸν Ποσειδῶνα σῴζειν ἑαυτὰς εἰς τὸν λιμένα.",
+    "traducao": "E as mulheres gritavam alto, pedindo a Posídon que as levasse a salvo ao porto.",
+    "comentario": "Athenaze: Posídon invocado no mar, agora com o acusativo regular Ποσειδῶνα.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 223,
+     "local": "cap. 13β"
+    }
+   }
+  ]
+ }
+}

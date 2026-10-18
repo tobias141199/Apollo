@@ -1,0 +1,47 @@
+{
+  "id": "gyne",
+  "titulo": "3ª declinação irregular — γυνή (3a)",
+  "grupo": "substantivo",
+  "colunas": [
+    "Singular",
+    "Plural"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "γυνή",
+        "γυναῖκ|ες"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "γυναῖκ|α",
+        "γυναῖκ|ας"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "γυναικ|ός",
+        "γυναικ|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "γυναικ|ί",
+        "γυναι|ξί(ν)"
+      ]
+    },
+    {
+      "rotulo": "Voc.",
+      "celulas": [
+        "γύναι",
+        "γυναῖκ|ες"
+      ]
+    }
+  ],
+  "nota": "Só o nominativo γυνή parece 1ª declinação; todo o resto vem do tema γυναικ- com terminações da 3ª. Gen. e dat. acentuam a terminação (γυναικός, γυναικῶν)."
+}

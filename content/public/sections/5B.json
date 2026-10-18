@@ -1,0 +1,279 @@
+{
+ "id": "5B",
+ "secao": 5,
+ "parte": 2,
+ "titulo": "Lâmpada sem azeite",
+ "resumo": "Estrepsíades quer conferir as dívidas, mas a lâmpada está sem azeite. Reclama dos escravos preguiçosos e do tempo em que os criados obedeciam, até que lhe ocorre um plano.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 56,
+  "local": "5B"
+ },
+ "vocab": [
+  {
+   "grego": "ἅπτω",
+   "lexical": "ἅπτω",
+   "classe": "verbo",
+   "glosa": "acender; prender, atar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   }
+  },
+  {
+   "grego": "ἔνειμι",
+   "lexical": "ἔνειμι",
+   "classe": "verbo",
+   "glosa": "estar em; haver em",
+   "aprender": true,
+   "paradigma": "eimi",
+   "nota": "Composto de εἰμί: ἔνεστι(ν) 'há (dentro)'.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   }
+  },
+  {
+   "grego": "κακὰ ποιέω",
+   "lexical": "κακὰ (κακῶς) ποιέω",
+   "classe": "expressão",
+   "glosa": "tratar mal; fazer mal a",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "nota": "A pessoa maltratada vai no acusativo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   }
+  },
+  {
+   "grego": "κολάζω",
+   "lexical": "κολάζω",
+   "classe": "verbo",
+   "glosa": "castigar, punir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   }
+  },
+  {
+   "grego": "νεανίας",
+   "lexical": "νεανίας, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "rapaz, jovem",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   },
+   "athenaze": "cap. 7"
+  },
+  {
+   "grego": "νέος",
+   "lexical": "νέος α ον",
+   "classe": "adjetivo",
+   "glosa": "jovem; novo",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   }
+  },
+  {
+   "grego": "οἰκέτης",
+   "lexical": "οἰκέτης, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "criado, escravo doméstico",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   }
+  },
+  {
+   "grego": "παύω",
+   "lexical": "παύω",
+   "classe": "verbo",
+   "glosa": "fazer parar; parar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "παύω alguém (ac.) + particípio ac.: fazer alguém parar de; + ἐκ + gen.: livrar alguém de algo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   },
+   "athenaze": "cap. 7"
+  },
+  {
+   "grego": "πείθομαι",
+   "lexical": "πείθομαι (πιθ-)",
+   "classe": "verbo",
+   "glosa": "obedecer; confiar em",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "partes": [
+    "πείθομαι",
+    "πιθ-"
+   ],
+   "nota": "Com dativo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   },
+   "athenaze": "cap. 6"
+  },
+  {
+   "grego": "φημί",
+   "lexical": "φής",
+   "classe": "verbo",
+   "glosa": "dizer (φής: dizes)",
+   "aprender": true,
+   "nota": "Por enquanto a JACT só apresenta a forma φής 'dizes'; o verbo completo (φημί) vem na seção 7.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   }
+  },
+  {
+   "grego": "χρέος",
+   "lexical": "χρέα, τά (3c não-contr.)",
+   "classe": "substantivo",
+   "glosa": "dívidas (pl.)",
+   "aprender": true,
+   "paradigma": "decl3-c",
+   "nota": "Usado no plural: χρέα, gen. χρεῶν (sem contração).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   }
+  },
+  {
+   "grego": "χρηστός",
+   "lexical": "χρηστός ή όν",
+   "classe": "adjetivo",
+   "glosa": "bom, útil, proveitoso",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 56,
+    "local": "5B"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "5B-o1",
+   "tipo": "transformar",
+   "titulo": "Antigamente era assim",
+   "enunciado": "Passe o verbo do presente para o imperfeito, mantendo pessoa e número, e traduza a frase nova (\"antigamente…\").",
+   "itens": [
+    {
+     "pergunta": "οἱ οἰκέται οὐ πείθονται.",
+     "resposta": "οἱ οἰκέται οὐκ ἐπείθοντο. — Os escravos não obedeciam."
+    },
+    {
+     "pergunta": "ὁ δεσπότης τοὺς οἰκέτας κολάζει.",
+     "resposta": "ὁ δεσπότης τοὺς οἰκέτας ἐκόλαζεν. — O senhor castigava os escravos."
+    },
+    {
+     "pergunta": "νέοι ἐσμέν.",
+     "resposta": "νέοι ἦμεν. — Éramos jovens."
+    },
+    {
+     "pergunta": "ἔλαιον ἔνεστιν ἐν τῷ λύχνῳ.",
+     "resposta": "ἔλαιον ἐνῆν ἐν τῷ λύχνῳ. — Havia azeite na lamparina."
+    },
+    {
+     "pergunta": "ὁ νεανίας τὸν πατέρα κακὰ ποιεῖ.",
+     "resposta": "ὁ νεανίας τὸν πατέρα κακὰ ἐποίει. — O rapaz maltratava o pai."
+    },
+    {
+     "pergunta": "τὸν λύχνον ἅπτεις.",
+     "resposta": "τὸν λύχνον ἧπτες. — Tu acendias a lamparina."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "5B"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 13 (Πρὸς τὴν Σαλαμῖνα)",
+   "cap. 6 (Ὁ μῦθος)",
+   "cap. 7 (Ὁ Κύκλωψ)"
+  ],
+  "comparacao": "5B continua a gramática de 5A–B (veja as notas em 5A): é aqui que aparecem em massa os imperfeitos de contratos (ἐποίουν, ἐφοβοῦντο) e de εἰμί (ἦμεν, ἦσαν), e o contraste \"antigamente × agora\" (ὅτε νέοι ἦμεν… νῦν δέ) mostra bem o valor *habitual* do imperfeito.\n\nO Athenaze não tem uma cena doméstica parecida, mas o cap. 13 usa exatamente os mesmos recursos: ἐνῆν/ἐνῆσαν (imperfeito de ἔνειμι, palavra nova de 5B) na descrição do cargueiro, e a leitura sobre Xerxes (13β, p. 229) traz κολάζω com o mesmo sentido de \"castigar\". O par ativo/médio παύω × παύομαι e πείθω × πείθομαι, que a JACT só explica em 5C–D (§124), já está no Athenaze desde os caps. 6 e 7: vale ler essas notas de vocabulário agora.",
+  "complementos": [
+   "Athenaze cap. 6, vocabulário e Gram. 2 (pp. 72–75): πείθομαι + dativo \"obedeço\", apresentado como a voz média de πείθω \"persuado\" — antecipa §124 da JACT.",
+   "Athenaze cap. 7β, vocabulário (p. 104): παύω (ativo, transitivo, \"faço parar\") × παύομαι (médio, \"paro de fazer algo\"; + genitivo, \"cesso de\").",
+   "Athenaze cap. 13α (p. 213): ἐνῆν e ἐνῆσαν, imperfeitos de ἔνειμι, em contexto (\"havia dentro dele trigo, vinho…\").",
+   "Vocabulário em comum: πείθομαι (cap. 6), νεανίας e παύω (cap. 7)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἔλαιον οὐκ ἔνεστιν ἐν τῷ λύχνῳ.",
+    "traducao": "Não há azeite na lamparina.",
+    "comentario": "JACT: ἔνειμι no presente, \"estar em, haver dentro\".",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 56,
+     "local": "5B"
+    }
+   },
+   {
+    "grego": "σῖτός τε γὰρ ἐνῆν καὶ οἶνος καὶ ὕλη καὶ πρόβατα.",
+    "traducao": "Pois havia nele trigo, vinho, madeira e ovelhas.",
+    "comentario": "Athenaze: o mesmo verbo no imperfeito (ἐνῆν), com sujeitos no singular coordenados.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 213,
+     "local": "cap. 13α"
+    }
+   },
+   {
+    "grego": "τοὺς γὰρ οἰκέτας οὐ κολάζω οὐκέτι, καίπερ ἀργοὺς ὄντας.",
+    "traducao": "Pois já não castigo os escravos, embora sejam preguiçosos.",
+    "comentario": "JACT: κολάζω com objeto direto.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 56,
+     "local": "5B"
+    }
+   },
+   {
+    "grego": "ὦ πικρὸν ὕδωρ, ὁ δεσπότης σε οὕτω κολάζει.",
+    "traducao": "Ó água amarga, assim teu senhor te castiga!",
+    "comentario": "Athenaze: Xerxes manda chicotear o Helesponto; mesmo verbo e mesmo par senhor/castigo.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 229,
+     "local": "cap. 13β (Xerxes e o Helesponto)"
+    }
+   }
+  ]
+ }
+}

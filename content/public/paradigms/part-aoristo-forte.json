@@ -1,0 +1,81 @@
+{
+  "id": "part-aoristo-forte",
+  "titulo": "Particípio aoristo forte ativo — λαβών λαβοῦσα λαβόν",
+  "grupo": "verbo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "λαβ|ών",
+        "λαβ|οῦσα",
+        "λαβ|όν"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "λαβ|όντα",
+        "λαβ|οῦσαν",
+        "λαβ|όν"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "λαβ|όντος",
+        "λαβ|ούσης",
+        "λαβ|όντος"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "λαβ|όντι",
+        "λαβ|ούσῃ",
+        "λαβ|όντι"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "λαβ|όντες",
+        "λαβ|οῦσαι",
+        "λαβ|όντα"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "λαβ|όντας",
+        "λαβ|ούσας",
+        "λαβ|όντα"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "λαβ|όντων",
+        "λαβ|ουσῶν",
+        "λαβ|όντων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "λαβ|οῦσι(ν)",
+        "λαβ|ούσαις",
+        "λαβ|οῦσι(ν)"
+      ]
+    }
+  ],
+  "nota": "Terminações do particípio presente (-ων -ουσα -ον) sobre o tema do aoristo, sem aumento e com acento na terminação: λαβών, ἰδών, ἐλθών. Médio: λαβόμενος -η -ον.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 11"
+  }
+}

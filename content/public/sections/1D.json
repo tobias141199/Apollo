@@ -1,0 +1,176 @@
+{
+ "id": "1D",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "Flagrante no porão",
+ "resumo": "No porão, o capitão e Diceópolis surpreendem Hegéstrato com um machado: ele está furando o casco. Descoberto, Hegéstrato foge e o capitão manda a tripulação persegui-lo.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 10,
+  "local": "1D"
+ },
+ "vocab": [
+  {
+   "grego": "ἀληθῆ",
+   "lexical": "ἀληθῆ, τά",
+   "classe": "substantivo",
+   "glosa": "a verdade",
+   "aprender": true,
+   "nota": "Literalmente 'as coisas verdadeiras' (neutro plural).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 11,
+    "local": "1D"
+   }
+  },
+  {
+   "grego": "ἔγωγε",
+   "lexical": "ἔγωγε",
+   "classe": "pronome",
+   "glosa": "eu pelo menos; quanto a mim",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 11,
+    "local": "1D"
+   }
+  },
+  {
+   "grego": "οὐδέν",
+   "lexical": "οὐδέν",
+   "classe": "pronome",
+   "glosa": "nada",
+   "aprender": true,
+   "paradigma": "eis-oudeis",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 11,
+    "local": "1D"
+   }
+  },
+  {
+   "grego": "οὖν",
+   "lexical": "οὖν",
+   "classe": "partícula",
+   "glosa": "pois; então; portanto",
+   "aprender": true,
+   "nota": "Pospositiva.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 11,
+    "local": "1D"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "τί",
+   "lexical": "τί;",
+   "classe": "pronome",
+   "glosa": "o quê?",
+   "aprender": true,
+   "paradigma": "tis-tis",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 11,
+    "local": "1D"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "ὑμεῖς",
+   "lexical": "ὑμεῖς",
+   "classe": "pronome",
+   "glosa": "vós",
+   "aprender": true,
+   "paradigma": "pron-pessoais",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 11,
+    "local": "1D"
+   },
+   "athenaze": "cap. 5"
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "1D-o1",
+   "tipo": "traduzir-pg",
+   "titulo": "Ordens e perguntas no navio",
+   "enunciado": "Traduza para o grego (use só palavras já vistas em 1A–1D).",
+   "itens": [
+    {
+     "pergunta": "O que vocês estão vendo, marinheiros?",
+     "resposta": "τί ὁρᾶτε, ὦ ναῦται;"
+    },
+    {
+     "pergunta": "Não fujas! Fica!",
+     "resposta": "μὴ φεῦγε, ἀλλὰ μένε."
+    },
+    {
+     "pergunta": "Nós não ouvimos nada.",
+     "resposta": "οὐδὲν ἀκούομεν (ἡμεῖς)."
+    },
+    {
+     "pergunta": "Descei e persegui!",
+     "resposta": "καταβαίνετε καὶ διώκετε."
+    },
+    {
+     "pergunta": "Então vós dizeis a verdade.",
+     "resposta": "ἀληθῆ οὖν λέγετε (ὑμεῖς)."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1D"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 2 (Ὁ Ξανθίας)",
+   "cap. 3 (Ὁ ἄροτος)"
+  ],
+  "comparacao": "1D é a cena da captura de Hegéstrato: muitas perguntas com τί (\"o quê?\", \"por quê?\"), negações (οὐδέν, οὐ) e ordens no plural. A gramática é a mesma de 1C (ver as notas de 1C–D em 1C). No Athenaze, a cena equivalente é a do cap. 2β–3α, em que Diceópolis dá ordens ao escravo e aos bois — o mesmo jogo de imperativo, vocativo e μή.\n\nO Athenaze dá τί em duas funções (cap. 4β: advérbio \"por quê?\" e pronome \"o quê?\"), o que ajuda a ler frases como τί ποιεῖς; × τί καθεύδεις;. Na JACT, \"por quê?\" ainda aparece como διὰ τί.",
+  "complementos": [
+   "Athenaze cap. 4β, vocabulário (p. 46): τί; adv. \"por quê?\", pronome \"o quê?\" — compare τί ποιεῖς; (1D) com τί καθεύδεις; (Athenaze cap. 2α).",
+   "Athenaze cap. 2 (p. 14): οὐκ εἰμὶ ἀργός / οὐκ ἔστιν ἀργός — como fica o acento das enclíticas depois de οὐκ.",
+   "Athenaze cap. 3, Gram. 1b (p. 26): imperativos plurais σπεύδετε, φιλεῖτε, ἔστε, ἔλθετε (compare o ἔλθετε de 1C).",
+   "Vocabulário do Athenaze em comum: οὖν (cap. 1), τί (cap. 4), ὑμεῖς (cap. 5)."
+  ],
+  "citacoes": [
+   {
+    "grego": "τί ἔχεις ἐν τῇ δεξιᾷ, ὦ Ἡγέστρατε;",
+    "traducao": "O que tens na mão direita, Hegéstrato?",
+    "comentario": "JACT: τί = \"o quê?\" (objeto de ἔχεις), com vocativo.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 10,
+     "local": "1D"
+    }
+   },
+   {
+    "grego": "οὐδὲν ποιῶ ἔγωγε, ὦ κυβερνῆτα.",
+    "traducao": "Eu não estou fazendo nada, piloto.",
+    "comentario": "JACT: ἔγωγε = ἐγώ + γε, \"eu, pelo menos\" — ênfase cômica na mentira.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 10,
+     "local": "1D"
+    }
+   },
+   {
+    "grego": "τί οὕτω χαλεπὸς εἶ, ὦ δέσποτα;",
+    "traducao": "Por que és tão severo, patrão?",
+    "comentario": "Athenaze: τί = \"por quê?\", com a 2ª sg. de εἰμί e vocativo — o escravo se defende como Hegéstrato.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 25,
+     "local": "cap. 3α"
+    }
+   }
+  ]
+ }
+}

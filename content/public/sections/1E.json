@@ -1,0 +1,415 @@
+{
+ "id": "1E",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "A fuga de Hegéstrato",
+ "resumo": "Perseguido pelos marinheiros, Hegéstrato sobe ao convés e convence Zenótemis a pular com ele no mar, onde está o bote salva-vidas.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 12,
+  "local": "1E"
+ },
+ "vocab": [
+  {
+   "grego": "μέν ... δέ",
+   "lexical": "μέν ... δέ",
+   "classe": "expressão",
+   "glosa": "por um lado ... por outro",
+   "aprender": true,
+   "nota": "Contrasta duas ideias; muitas vezes basta traduzir δέ por 'mas' ou 'e'.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 13,
+    "local": "1E"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "ποῖ",
+   "lexical": "ποῖ;",
+   "classe": "advérbio",
+   "glosa": "para onde?",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 13,
+    "local": "1E"
+   }
+  },
+  {
+   "grego": "σεαυτόν",
+   "lexical": "σεαυτόν",
+   "classe": "pronome",
+   "glosa": "a ti mesmo; te",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 13,
+    "local": "1E"
+   }
+  },
+  {
+   "grego": "ἀκριβῶς",
+   "lexical": "ἀκριβῶς",
+   "classe": "advérbio",
+   "glosa": "precisamente; com exatidão",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1E–F (marcada [1E-F] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 269,
+    "local": "1E–F"
+   }
+  },
+  {
+   "grego": "βαθέως",
+   "lexical": "βαθέως",
+   "classe": "advérbio",
+   "glosa": "profundamente",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1E–F (marcada [1E-F] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 271,
+    "local": "1E–F"
+   }
+  },
+  {
+   "grego": "βοηθέω",
+   "lexical": "βοηθέω",
+   "classe": "verbo",
+   "glosa": "socorrer; ajudar (+ dat.)",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1E–F (marcada [1E-F] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 271,
+    "local": "1E–F"
+   }
+  },
+  {
+   "grego": "δηλόω",
+   "lexical": "δηλόω",
+   "classe": "verbo",
+   "glosa": "mostrar; revelar",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1E–F (marcada [1E-F] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 272,
+    "local": "1E–F"
+   }
+  },
+  {
+   "grego": "κακῶς",
+   "lexical": "κακῶς",
+   "classe": "advérbio",
+   "glosa": "mal",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1E–F (marcada [1E-F] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 277,
+    "local": "1E–F"
+   }
+  },
+  {
+   "grego": "καλῶς",
+   "lexical": "καλῶς",
+   "classe": "advérbio",
+   "glosa": "bem; belamente",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1E–F (marcada [1E-F] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 277,
+    "local": "1E–F"
+   }
+  },
+  {
+   "grego": "ὁράω",
+   "lexical": "ὁράω (ἰδ-)",
+   "classe": "verbo",
+   "glosa": "ver",
+   "aprender": true,
+   "paradigma": "orao-presente",
+   "partes": [
+    "ὁράω",
+    "ἰδ-"
+   ],
+   "nota": "Aprendida na lista de vocabulário da Gramática 1E–F (marcada [1E-F] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 281,
+    "local": "1E–F"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "ποιέω",
+   "lexical": "ποιέω",
+   "classe": "verbo",
+   "glosa": "fazer",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1E–F (marcada [1E-F] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 282,
+    "local": "1E–F"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "σαφῶς",
+   "lexical": "σαφῶς",
+   "classe": "advérbio",
+   "glosa": "claramente",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1E–F (marcada [1E-F] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 284,
+    "local": "1E–F"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "Verbos contratos em -άω, -έω, -όω (presente)",
+   "nota": "Quando o radical termina em α, ε ou ο, essa vogal se funde com a terminação: ὁρά-ω → ὁρῶ, ποιέ-ω → ποιῶ, δηλό-ω → δηλῶ. No dicionário o verbo aparece *sem* contração (ὁράω), mas no texto você sempre lê a forma contraída.\n\nPara reconhecer: o circunflexo na terminação (-ῶ, -εῖς, -οῦσι, -ᾷ) é o grande sinal de contrato. As desinências por trás são as mesmas de βαίνω.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "19–20",
+    "local": "1E–F, §23–24"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "39, 56",
+    "local": "cap. 4, Gram. 1 (-ε-); cap. 5, Gram. 1 (-α-)"
+   },
+   "paradigmas": [
+    "orao-presente",
+    "poieo-presente"
+   ],
+   "exemplos": [
+    {
+     "grego": "οἱ δὲ ναῦται βοηθοῦσι καὶ τὸν Ἡγέστρατον διώκουσιν.",
+     "traducao": "E os marinheiros acodem e perseguem Hegéstrato.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 12,
+      "local": "1E"
+     }
+    },
+    {
+     "grego": "τοὺς γὰρ ναύτας ἤδη γε σαφῶς ὁρῶ.",
+     "traducao": "Pois já estou vendo claramente os marinheiros!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 12,
+      "local": "1E"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Regras de contração",
+   "nota": "No presente bastam poucas regras: com α, o e ω dão ω; α + ε dá ᾱ (α + ει dá ᾳ). Com ε: ε + ε = ει, ε + ο = ου, ε + ω = ω (ε + ει/ου some no ditongo). Com ο: ο + ε/ο/ου = ου, qualquer combinação com ι dá οι, e ο + ω = ω.\n\nEstratégia: em vez de decorar o quadro inteiro, decore as três colunas ὁρῶ / ποιῶ / δηλῶ ao lado de βαίνω e compare.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "20–21",
+    "local": "1E–F, §25"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "39, 56",
+    "local": "cap. 4, Gram. 1; cap. 5, Gram. 1"
+   },
+   "paradigmas": [
+    "orao-presente",
+    "poieo-presente",
+    "verbo-presente-ativo"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἆρα ὁρᾶτε τὰ ἐμπόρια καὶ ὑμεῖς;",
+     "traducao": "Vocês também estão vendo os mercados?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 8,
+      "local": "1C"
+     }
+    },
+    {
+     "grego": "μέγα γὰρ βοῶ καὶ καλῶ, ἀλλ᾽ οὐκ ἀκούει ὁ κύων.",
+     "traducao": "Eu grito alto e chamo, mas o cachorro não ouve.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 55,
+      "local": "cap. 5α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Imperativo dos contratos: ποίει × ποιεῖ",
+   "nota": "Singular: ὅρα, ποίει, δήλου; plural: ὁρᾶτε, ποιεῖτε, δηλοῦτε (iguais ao indicativo). Cuidado com o acento: ποίει (\"faze!\") tem acento na primeira sílaba; ποιεῖ (\"ele faz\") tem circunflexo no fim. O mesmo vale para βοήθει × βοηθεῖ.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 22,
+    "local": "1E–F, §26–27"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "15, 56",
+    "local": "cap. 2, Gram. 3 (φίλει); cap. 5, Gram. 1 (τίμα)"
+   },
+   "paradigmas": [
+    "orao-presente",
+    "poieo-presente",
+    "verbo-imperativo"
+   ],
+   "exemplos": [
+    {
+     "grego": "μὴ κάθευδε, ὦ δοῦλε, ἀλλὰ πόνει.",
+     "traducao": "Não durmas, escravo, mas trabalha!",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 15,
+      "local": "cap. 2, Exercício 2γ"
+     }
+    },
+    {
+     "grego": "ἀλλὰ τί ποιεῖς, ὦ Ἡγέστρατε;",
+     "traducao": "Mas o que estás fazendo, Hegéstrato?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 12,
+      "local": "1E"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Advérbios em -ως",
+   "nota": "Advérbios de modo (\"-mente\") saem do genitivo plural masculino do adjetivo trocando -ν por -ς: καλῶν → καλῶς, κακῶν → κακῶς, σαφῶν → σαφῶς, βαθέων → βαθέως. Não se declinam. Ao ver -ως no fim de palavra, pense logo em \"de modo X\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "22–23",
+    "local": "1E–F, §28–29"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 50,
+    "local": "cap. 4, Gram. 7"
+   },
+   "exemplos": [
+    {
+     "grego": "κακοὶ γάρ εἰσιν οἱ ἄνθρωποι, ὦ Δικαιόπολι, καὶ κακῶς ἀποθνῄσκουσιν.",
+     "traducao": "São homens maus, Diceópolis, e morrem de modo vil.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 14,
+      "local": "1F"
+     }
+    },
+    {
+     "grego": "ὁ οὖν Ξανθίας βραδέως ἐκβαίνει ἐκ τοῦ οἴκου.",
+     "traducao": "Xântias, então, sai devagar de casa.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 13,
+      "local": "cap. 2α"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "1E-o1",
+   "tipo": "transformar",
+   "titulo": "Contrair e traduzir",
+   "enunciado": "Escreva a forma contraída e traduza.",
+   "itens": [
+    {
+     "pergunta": "ὁρά-ομεν",
+     "resposta": "ὁρῶμεν — nós vemos"
+    },
+    {
+     "pergunta": "ποιέ-ουσι",
+     "resposta": "ποιοῦσι(ν) — eles fazem"
+    },
+    {
+     "pergunta": "δηλό-ει",
+     "resposta": "δηλοῖ — ele mostra"
+    },
+    {
+     "pergunta": "βοηθέ-ετε",
+     "resposta": "βοηθεῖτε — vós ajudais / ajudai!"
+    },
+    {
+     "pergunta": "ὁρά-εις",
+     "resposta": "ὁρᾷς — tu vês"
+    },
+    {
+     "pergunta": "ποίε-ε (imperativo)",
+     "resposta": "ποίει — faze! (≠ ποιεῖ, ele faz)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1E"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 4 (Πρὸς τῇ κρήνῃ)",
+   "cap. 5 (Ὁ λύκος)"
+  ],
+  "comparacao": "A JACT apresenta os três tipos de contrato juntos, com um quadro de contrações completo. O Athenaze vai devagar: usa φιλέω (-ε-) desde o cap. 1, dá as regras do -ε- no cap. 4, as do -α- no cap. 5 e deixa o -ο- para o cap. 15. Para o estudante, o Athenaze é mais leve; a JACT é mais completa e oferece a boa \"estratégia (b)\": ver os contratos como variações de βαίνω.\n\nO Athenaze explica melhor o *acento* (cap. 5, Gram. 2: acento recessivo, e por que τιμά-ω vira τιμῶ com circunflexo). Ordem sugerida: estudar ὁρῶ / ποιῶ / δηλῶ na JACT, depois fazer os exercícios 5β e 5γ do Athenaze (p. 57) como treino rápido de reconhecimento.",
+  "complementos": [
+   "Athenaze cap. 4, Gram. 1 (p. 39) e cap. 5, Gram. 1 (p. 56): infinitivos contratos φιλεῖν e τιμᾶν (atenção: τιμᾶν, sem iota subscrito).",
+   "Athenaze cap. 5, Gram. 2 (pp. 56–57): acento recessivo dos verbos e a regra \"agudo sobre a 1ª vogal que contrai vira circunflexo\".",
+   "Athenaze cap. 5α, vocabulário (p. 54): mais contratos úteis — βοάω (gritar), ζητέω (procurar), τιμάω (honrar).",
+   "Athenaze cap. 4, Gram. 7 (p. 50): a mesma regra dos advérbios (καλῶν > καλῶς); o cap. 4β usa ἀληθῶς, ταχέως, βραδέως."
+  ],
+  "citacoes": [
+   {
+    "grego": "ὁ μὲν Ἡγέστρατος φεύγει κάτωθεν, οἱ δὲ ναῦται βοηθοῦσι καὶ τὸν Ἡγέστρατον διώκουσιν.",
+    "traducao": "Hegéstrato foge lá de baixo, e os marinheiros acodem e o perseguem.",
+    "comentario": "JACT: verbo comum (φεύγει, διώκουσιν) ao lado de um contrato em -ε- (βοηθοῦσι).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 12,
+     "local": "1E"
+    }
+   },
+   {
+    "grego": "ὁ Φίλιππος λαγὼν ὁρᾷ ἐν τῷ ἀγρῷ τρέχοντα καὶ βοᾷ, “ἴθι δή, Ἄργε, δίωκε.”",
+    "traducao": "Filipe vê uma lebre correndo no campo e grita: \"Vai, Argos, persegue!\"",
+    "comentario": "Athenaze: dois contratos em -α- (ὁρᾷ, βοᾷ), o mesmo ὁράω da JACT, e δίωκε.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 54,
+     "local": "cap. 5α (legenda)"
+    }
+   },
+   {
+    "grego": "τί δέ με καλεῖτε, κύριε κύριε, καὶ οὐ ποιεῖτε ἃ λέγω;",
+    "traducao": "Por que me chamais \"Senhor, Senhor\" e não fazeis o que eu digo?",
+    "comentario": "Athenaze (Lucas 6,46): ποιεῖτε, 2ª pl. de ποιέω, e καλεῖτε.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 35,
+     "local": "cap. 3, New Testament Greek"
+    }
+   }
+  ]
+ }
+}

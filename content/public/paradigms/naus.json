@@ -1,0 +1,44 @@
+{
+  "id": "naus",
+  "titulo": "3ª declinação irregular — ναῦς",
+  "grupo": "substantivo",
+  "colunas": [
+    "Singular",
+    "Plural"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "ναῦς",
+        "νῆες"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "ναῦν",
+        "ναῦς"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "νεώς",
+        "νεῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "νηΐ",
+        "ναυσί(ν)"
+      ]
+    }
+  ],
+  "nota": "Totalmente irregular: decore-a. Cuidado com ναῦς, que é nom. sg. e ac. pl.; o artigo resolve (ἡ ναῦς / τὰς ναῦς).",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "3C–E"
+  }
+}

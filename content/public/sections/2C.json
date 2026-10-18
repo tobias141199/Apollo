@@ -1,0 +1,235 @@
+{
+ "id": "2C",
+ "secao": 2,
+ "parte": 1,
+ "titulo": "A versão do avô",
+ "resumo": "O capitão acusa o rapsodo de falar bobagens e passa a contar a batalha como lhe contou o avô, que lutou em Salamina: a noite de espera e o grito de guerra grego ao amanhecer.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 26,
+  "local": "2C"
+ },
+ "vocab": [
+  {
+   "grego": "ἅμα",
+   "lexical": "ἅμα",
+   "classe": "advérbio",
+   "glosa": "ao mesmo tempo",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  },
+  {
+   "grego": "αὖθις",
+   "lexical": "αὖθις",
+   "classe": "advérbio",
+   "glosa": "outra vez",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "βάρβαρος",
+   "lexical": "βάρβαρος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "bárbaro; estrangeiro",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  },
+  {
+   "grego": "ἐμός",
+   "lexical": "ἐμός ή όν",
+   "classe": "adjetivo",
+   "glosa": "meu",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  },
+  {
+   "grego": "ἡσυχάζω",
+   "lexical": "ἡσυχάζω",
+   "classe": "verbo",
+   "glosa": "ficar quieto; estar em silêncio",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  },
+  {
+   "grego": "κάλλιστος",
+   "lexical": "κάλλιστος η ον",
+   "classe": "adjetivo",
+   "glosa": "o mais belo; belíssimo; excelente",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  },
+  {
+   "grego": "λόγος",
+   "lexical": "λόγος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "relato; narrativa",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  },
+  {
+   "grego": "πότερον ... ἤ",
+   "lexical": "πότερον . . . ἤ",
+   "classe": "conjunção",
+   "glosa": "se ... ou",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  },
+  {
+   "grego": "σιωπάω",
+   "lexical": "σιωπάω",
+   "classe": "verbo",
+   "glosa": "estar em silêncio",
+   "aprender": true,
+   "paradigma": "orao-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  },
+  {
+   "grego": "σκοπέω",
+   "lexical": "σκοπέω",
+   "classe": "verbo",
+   "glosa": "olhar; refletir; observar; examinar",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  },
+  {
+   "grego": "ψευδῶς",
+   "lexical": "ψευδῶς",
+   "classe": "advérbio",
+   "glosa": "falsamente",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 27,
+    "local": "2C"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "2C-o1",
+   "tipo": "transformar",
+   "titulo": "Sanduíche ↔ artigo repetido",
+   "enunciado": "Reescreva cada expressão usando a repetição do artigo e traduza.",
+   "itens": [
+    {
+     "pergunta": "ὁ ἐμὸς πάππος",
+     "resposta": "ὁ πάππος ὁ ἐμός — o meu avô"
+    },
+    {
+     "pergunta": "τὰ περὶ Σαλαμῖνα πράγματα",
+     "resposta": "τὰ πράγματα τὰ περὶ Σαλαμῖνα — os fatos de Salamina"
+    },
+    {
+     "pergunta": "ὁ τῶν Ἑλλήνων λόγος",
+     "resposta": "ὁ λόγος ὁ τῶν Ἑλλήνων — o relato dos gregos"
+    },
+    {
+     "pergunta": "τὰ καλὰ ἔργα",
+     "resposta": "τὰ ἔργα τὰ καλά — os belos feitos"
+    },
+    {
+     "pergunta": "ἡ τῶν Περσῶν στρατιά",
+     "resposta": "ἡ στρατιὰ ἡ τῶν Περσῶν — o exército dos persas"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "2C"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 5 (Ὁ λύκος)"
+  ],
+  "comparacao": "Nas duas histórias quem conta é um avô (ὁ πάππος): na JACT, o avô do capitão lutou em Salamina; no Athenaze cap. 5, o avô de Filipe acompanha a caçada ao lobo. O vocabulário de 2C gira em torno de falar e calar (λόγος, σιωπάω, ἡσυχάζω, ψευδῶς) e de possessivos (ἐμός).\n\nNa gramática, a JACT mostra a repetição do artigo na prática (ὁ πάππος ὁ ἐμός, τὰ ἔργα τὰ τῶν Ἑλλήνων) e a explica nos §61–63. O Athenaze sistematiza melhor: no cap. 5, Gram. 7–8, distingue posição atributiva e predicativa e dá o quadro completo dos possessivos. Também mostra o contrato em -α (τιμάω) que explica σιωπᾷ e ὁρᾷ. Sugestão: depois de ler 2C, faça o quadro de τιμάω (Athenaze p. 56) e leia os exemplos de ἐμός/σός da p. 66.",
+  "complementos": [
+   "Athenaze cap. 5, Gram. 8 (pp. 66–67): quadro dos possessivos ἐμός, σός, ἡμέτερος, ὑμέτερος e o genitivo αὐτοῦ, αὐτῆς, αὐτῶν para 'dele, dela, deles', que ficam fora do grupo artigo + substantivo.",
+   "Athenaze cap. 5, Gram. 7 (p. 66): posição atributiva × predicativa — ἡ καλὴ οἰκία / ἡ οἰκία ἡ καλή 'a casa bela' × καλὴ ἡ οἰκία 'a casa é bela'.",
+   "Athenaze cap. 5, Gram. 1 (p. 56): quadro do contrato em -α ativo (τιμάω), modelo de σιωπάω, νικάω e τολμάω. Regras: α + ο/ω/ου → ω; α + ε → ᾱ; α + ει → ᾳ.",
+   "Vocabulário: ὁ πάππος 'avô' (Athenaze cap. 5α, p. 54); αὖθις já no cap. 3α (p. 24); ἡσυχάζω aparece como glosa no cap. 1β (p. 8)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ὁ γὰρ πάππος ὁ ἐμὸς Σαλαμινομάχης.",
+    "traducao": "Pois o meu avô combateu em Salamina.",
+    "comentario": "Possessivo com artigo repetido: ὁ πάππος ὁ ἐμός = ὁ ἐμὸς πάππος.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 26,
+     "local": "2C"
+    }
+   },
+   {
+    "grego": "ὁ μὲν ἐμὸς κύων τὸν λύκον διώκει, ὁ δὲ κύων ὁ σὸς πρὸς τῇ ὁδῷ καθίζει.",
+    "traducao": "O meu cão persegue o lobo, mas o teu cão está sentado junto à estrada.",
+    "comentario": "As duas posições atributivas lado a lado: ὁ ἐμὸς κύων (sanduíche) e ὁ κύων ὁ σός (artigo repetido).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 66,
+     "local": "cap. 5, Gram. 8"
+    }
+   },
+   {
+    "grego": "σὺ δὲ πῶς οἶσθα πότερον τὰ ἀληθῆ λέγω ἢ ψευδῆ;",
+    "traducao": "E tu, como sabes se digo a verdade ou mentiras?",
+    "comentario": "πότερον … ἤ introduz uma pergunta dupla ('se… ou…'); τὰ ἀληθῆ é neutro plural substantivado.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 26,
+     "local": "2C"
+    }
+   }
+  ]
+ }
+}

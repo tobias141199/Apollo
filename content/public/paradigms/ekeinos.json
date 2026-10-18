@@ -1,0 +1,77 @@
+{
+  "id": "ekeinos",
+  "titulo": "Demonstrativo ἐκεῖνος ἐκείνη ἐκεῖνο — 'aquele'",
+  "grupo": "pronome",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "ἐκεῖν|ος",
+        "ἐκείν|η",
+        "ἐκεῖν|ο"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "ἐκεῖν|ον",
+        "ἐκείν|ην",
+        "ἐκεῖν|ο"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "ἐκείν|ου",
+        "ἐκείν|ης",
+        "ἐκείν|ου"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "ἐκείν|ῳ",
+        "ἐκείν|ῃ",
+        "ἐκείν|ῳ"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "ἐκεῖν|οι",
+        "ἐκεῖν|αι",
+        "ἐκεῖν|α"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "ἐκείν|ους",
+        "ἐκείν|ας",
+        "ἐκεῖν|α"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "ἐκείν|ων",
+        "ἐκείν|ων",
+        "ἐκείν|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "ἐκείν|οις",
+        "ἐκείν|αις",
+        "ἐκείν|οις"
+      ]
+    }
+  ],
+  "nota": "Declina-se como αὐτός (neutro sg. em -ο, sem ν). Como οὗτος, fica fora do bloco artigo + nome: ἐκείνη ἡ ναῦς 'aquele navio'."
+}

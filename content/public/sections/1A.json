@@ -1,0 +1,450 @@
+{
+ "id": "1A",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "Partida de Bizâncio",
+ "resumo": "O navio de Hegéstrato e Zenótemis sai de Bizâncio, recolhe passageiros em Quios e na Eubeia e se aproxima de Atenas. Enquanto todos admiram a Acrópole, ouve-se um barulho estranho.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 4,
+  "local": "1A"
+ },
+ "vocab": [
+  {
+   "grego": "δέ",
+   "lexical": "δέ",
+   "classe": "partícula",
+   "glosa": "e; mas",
+   "aprender": true,
+   "nota": "Pospositiva: nunca vem em primeiro lugar na frase.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 5,
+    "local": "1A"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ἔπειτα",
+   "lexical": "ἔπειτα",
+   "classe": "advérbio",
+   "glosa": "então; depois; em seguida",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 5,
+    "local": "1A"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "καί",
+   "lexical": "καί",
+   "classe": "conjunção",
+   "glosa": "e",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 5,
+    "local": "1A"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "τε ... καί",
+   "lexical": "τε ... καί",
+   "classe": "expressão",
+   "glosa": "tanto ... como; A e B",
+   "aprender": true,
+   "nota": "τε é enclítico e vem depois da primeira palavra ligada.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 5,
+    "local": "1A"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "ἀκρόπολις",
+   "lexical": "ἀκρόπολις, ἡ (3e)",
+   "classe": "substantivo",
+   "glosa": "acrópole; cidadela",
+   "aprender": true,
+   "paradigma": "polis-asty",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 269,
+    "local": "1A–B"
+   }
+  },
+  {
+   "grego": "βαίνω",
+   "lexical": "βαίνω (βα-)",
+   "classe": "verbo",
+   "glosa": "andar; ir; vir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "βαίνω",
+    "βα-"
+   ],
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 271,
+    "local": "1A–B"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "γῆ",
+   "lexical": "γῆ, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "terra",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 271,
+    "local": "1A–B"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "καλός",
+   "lexical": "καλός ή όν",
+   "classe": "adjetivo",
+   "glosa": "belo; bom",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 277,
+    "local": "1A–B"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ὁ ἡ τό",
+   "lexical": "ὁ ἡ τό",
+   "classe": "artigo",
+   "glosa": "o, a (artigo definido)",
+   "aprender": true,
+   "paradigma": "artigo",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 280,
+    "local": "1A–B"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ναύτης",
+   "lexical": "ναύτης, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "marinheiro",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 280,
+    "local": "1A–B"
+   }
+  },
+  {
+   "grego": "νεώριον",
+   "lexical": "νεώριον, τό (2b)",
+   "classe": "substantivo",
+   "glosa": "estaleiro",
+   "aprender": true,
+   "paradigma": "decl2-neut",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 280,
+    "local": "1A–B"
+   }
+  },
+  {
+   "grego": "Παρθενών",
+   "lexical": "Παρθενών, ὁ (3a)",
+   "classe": "nome próprio",
+   "glosa": "o Partenon",
+   "aprender": true,
+   "paradigma": "decl3-a",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 282,
+    "local": "1A–B"
+   }
+  },
+  {
+   "grego": "πλοῖον",
+   "lexical": "πλοῖον, τό (2b)",
+   "classe": "substantivo",
+   "glosa": "navio; barco",
+   "aprender": true,
+   "paradigma": "decl2-neut",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 282,
+    "local": "1A–B"
+   }
+  },
+  {
+   "grego": "ῥαψῳδός",
+   "lexical": "ῥαψῳδός, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "rapsodo (recitador de Homero)",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1A–B (marcada [1A-B] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 284,
+    "local": "1A–B"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "O artigo definido ὁ, ἡ, τό",
+   "nota": "O artigo muda de forma conforme *caso*, *gênero* e *número*. Por enquanto, o que importa na leitura é o nominativo (sujeito) e o acusativo (objeto): ὁ / ἡ / τό marcam o sujeito no singular, τόν / τήν / τό o objeto. Genitivo e dativo aparecem já nas tabelas porque logo virão depois de preposições (ἐν Βυζαντίῳ).\n\nDica prática: decore a tabela inteira do artigo agora — ela é o molde de quase todas as terminações da 1ª e da 2ª declinação.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "8–9",
+    "local": "1A–B, §8"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 50,
+    "local": "cap. 4, Gram. 8"
+   },
+   "paradigmas": [
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "τὸ πλοῖόν ἐστιν ἐν Βυζαντίῳ.",
+     "traducao": "O navio está em Bizâncio.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 4,
+      "local": "1A",
+      "linhas": "l. 1"
+     }
+    },
+    {
+     "grego": "ὁ Ζηνόθεμις ὁρᾷ τήν τε ἀκρόπολιν καὶ τὸν Παρθενῶνα.",
+     "traducao": "Zenótemis vê a Acrópole e o Partenon.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 4,
+      "local": "1A"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Concordância: o artigo como âncora",
+   "nota": "O artigo concorda com o seu substantivo em caso, gênero e número; por isso ele mostra a *função* da palavra mesmo quando você ainda não sabe declinar o substantivo. Em grego a ordem das palavras é livre: quem diz quem é o sujeito é a terminação (e o artigo), não a posição.\n\nAo ler, faça sempre a pergunta: este artigo é nominativo ou acusativo? Ex.: em τὸν ψόφον ἀκούουσιν, τόν já avisa que ψόφον é objeto.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "9–11",
+    "local": "1A–B, §9"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "4–5",
+    "local": "cap. 1, Gram. 2"
+   },
+   "paradigmas": [
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἐξαίφνης ὅ τε Δικαιόπολις καὶ ὁ κυβερνήτης ψόφον ἀκούουσιν.",
+     "traducao": "De repente, tanto Diceópolis quanto o piloto ouvem um barulho.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 4,
+      "local": "1A"
+     }
+    },
+    {
+     "grego": "ὁ ἄνθρωπος γεωργεῖ τὸν κλῆρον.",
+     "traducao": "O homem cultiva o (seu) sítio.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 5,
+      "local": "cap. 1, Gram. 2"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Adjetivos do tipo καλός, καλή, καλόν",
+   "nota": "καλός tem as mesmas terminações do artigo (com -ος/-ον no masc./neutro sg.): quem sabe ὁ ἡ τό já sabe quase todo καλός. O adjetivo concorda com o substantivo em caso, gênero e número.\n\nRepare na frase exclamativa ὡς καλός ἐστιν… (\"como é belo…!\") e na ausência frequente de ἐστί na segunda metade (καλὴ δὲ ἡ ἀκρόπολις).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "11–13",
+    "local": "1A–B, §10–11"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 48,
+    "local": "cap. 4, Gram. 6"
+   },
+   "paradigmas": [
+    "adj-kalos"
+   ],
+   "exemplos": [
+    {
+     "grego": "ὡς καλός ἐστιν ὁ Παρθενών, καλὴ δὲ ἡ ἀκρόπολις.",
+     "traducao": "Como é belo o Partenon, e bela a Acrópole!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 6,
+      "local": "1B"
+     }
+    },
+    {
+     "grego": "ὡς καλόν ἐστι τὸ νεώριον, καλὸς δὲ ὁ Πειραιεύς.",
+     "traducao": "Como é belo o estaleiro, e belo o Pireu!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 6,
+      "local": "1B"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "O vocativo (ὦ + nome)",
+   "nota": "O vocativo é o caso de quem é chamado. Geralmente vem com ὦ (que não se traduz, ou vira \"ó\"). Muitas vezes é igual ao nominativo; quando não é, a diferença costuma estar no singular: ὦ Δικαιόπολι, ὦ Ζηνόθεμι, ὦ κυβερνῆτα, ὦ καλέ.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 12,
+    "local": "1A–B, §10"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 20,
+    "local": "cap. 2, Gram. 4"
+   },
+   "paradigmas": [
+    "adj-kalos",
+    "decl2-masc"
+   ],
+   "exemplos": [
+    {
+     "grego": "δεῦρο ἐλθέ, ὦ Δικαιόπολι, καὶ βλέπε.",
+     "traducao": "Vem cá, Diceópolis, e olha!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 6,
+      "local": "1B"
+     }
+    },
+    {
+     "grego": "ἐλθὲ δεῦρο, ὦ Ξανθία.",
+     "traducao": "Vem cá, Xântias!",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 12,
+      "local": "cap. 2α"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "1A-o1",
+   "tipo": "morfologia",
+   "titulo": "O artigo como pista",
+   "enunciado": "Diga o caso, o gênero e o número de cada expressão (use só o artigo como pista) e traduza.",
+   "itens": [
+    {
+     "pergunta": "τὸν ῥαψῳδόν",
+     "resposta": "acusativo masculino singular — o rapsodo (objeto)"
+    },
+    {
+     "pergunta": "ἡ γῆ",
+     "resposta": "nominativo feminino singular — a terra (sujeito)"
+    },
+    {
+     "pergunta": "οἱ ναῦται",
+     "resposta": "nominativo masculino plural — os marinheiros (sujeito)"
+    },
+    {
+     "pergunta": "τὴν ἀκρόπολιν",
+     "resposta": "acusativo feminino singular — a Acrópole (objeto)"
+    },
+    {
+     "pergunta": "τὸ πλοῖον",
+     "resposta": "nominativo ou acusativo neutro singular — o navio (só o contexto decide)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1A"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 1 (Ὁ Δικαιόπολις)",
+   "cap. 2 (Ὁ Ξανθίας)"
+  ],
+  "comparacao": "A JACT abre com o quadro *completo* do artigo (quatro casos, sg. e pl.) e pede que você o decore logo, usando-o como chave de leitura. O Athenaze vai em doses: no cap. 1 só nominativo e acusativo singular (ὁ / τόν), no cap. 2 o singular inteiro, no cap. 3 o plural e só no cap. 4 a tabela completa com o feminino.\n\nPara quem estuda pela JACT, o cap. 1 do Athenaze é um ótimo *reforço* de concordância e de sujeito × objeto, com frases bem curtas sobre o lavrador Diceópolis. Ordem sugerida: ler 1A na JACT, depois o cap. 1α do Athenaze como leitura extra, e voltar à tabela do artigo da JACT.",
+  "complementos": [
+   "Athenaze cap. 1, Gram. 3 (p. 6): rotular as funções na frase — S (sujeito), C (complemento), DO (objeto direto), LV/TV/IV (verbo de ligação/transitivo/intransitivo). Bom exercício para fixar a lógica de 1A.",
+   "Athenaze cap. 1, Gram. 4 (p. 6): o artigo às vezes equivale a um possessivo — ὁ ἄνθρωπος γεωργεῖ τὸν κλῆρον, \"o homem cultiva o seu sítio\".",
+   "Athenaze cap. 1, Gram. 5 (p. 9): acentos agudo, grave e circunflexo, e por que καλός vira καλὸς antes de outra palavra.",
+   "Vocabulário do cap. 1 (p. 2) que reaparece na JACT: ὁ ἄνθρωπος, καλός, πολύς, λέγει, ἀλλά, γάρ, οὖν, δέ, καί, οὐ/οὐκ/οὐχ."
+  ],
+  "citacoes": [
+   {
+    "grego": "τὸ μὲν οὖν πλοῖον πλεῖ, ὁ δὲ Ζηνόθεμις πρὸς τὴν γῆν βλέπει.",
+    "traducao": "O navio, então, navega, e Zenótemis olha para a terra.",
+    "comentario": "JACT: sujeito marcado pelo artigo nominativo (τό, ὁ) e objeto de preposição no acusativo (τὴν γῆν).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 4,
+     "local": "1A"
+    }
+   },
+   {
+    "grego": "ὁ Δικαιόπολις Ἀθηναῖός ἐστιν· οἰκεῖ δὲ ὁ Δικαιόπολις οὐκ ἐν ταῖς Ἀθήναις ἀλλὰ ἐν τοῖς ἀγροῖς.",
+    "traducao": "Diceópolis é ateniense; mas Diceópolis não mora em Atenas, e sim no campo.",
+    "comentario": "Athenaze: a primeira frase do livro — mesmo herói, mesmo uso de δέ, ἐστί e ἐν + dativo.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 3,
+     "local": "cap. 1α",
+     "linhas": "l. 1–2"
+    }
+   },
+   {
+    "grego": "ὁ κλῆρός ἐστι μικρός.",
+    "traducao": "O sítio é pequeno.",
+    "comentario": "Athenaze: o adjetivo concorda com o sujeito também depois de ἐστί (o \"complemento\").",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 5,
+     "local": "cap. 1, Gram. 2"
+    }
+   }
+  ]
+ }
+}

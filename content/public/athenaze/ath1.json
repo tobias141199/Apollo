@@ -1,0 +1,196 @@
+{
+ "id": "ath1",
+ "capitulo": 1,
+ "tituloGrego": "Ὁ Δικαιόπολις",
+ "titulo": "Diceópolis, o lavrador",
+ "resumo": "Conhecemos Diceópolis, um pequeno lavrador ateniense que mora no campo, trabalha duro no seu sítio e, mesmo reclamando da vida, gosta de ser livre. Na parte β ele tira pedras do campo sob o sol forte, descansa um pouco debaixo de uma árvore e volta para casa ao pôr do sol.",
+ "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1" },
+ "vocab": [
+  { "grego": "εἰμί", "lexical": "ἐστί(ν) (εἰμί)", "classe": "verbo", "glosa": "ele/ela é; está", "aprender": true, "paradigma": "eimi", "nota": "Forma vista no capítulo: ἐστί(ν), 3ª pessoa do singular. É enclítica e tem ν móvel (ἐστίν antes de vogal ou no fim da oração).", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "λέγω", "lexical": "λέγει (λέγω)", "classe": "verbo", "glosa": "dizer; contar; falar", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "οἰκέω", "lexical": "οἰκεῖ (οἰκέω)", "classe": "verbo", "glosa": "morar; habitar", "aprender": true, "paradigma": "poieo-presente", "nota": "Verbo contrato: οἰκέ-ει > οἰκεῖ.", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "πονέω", "lexical": "πονεῖ (πονέω)", "classe": "verbo", "glosa": "trabalhar (duro)", "aprender": true, "paradigma": "poieo-presente", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "φιλέω", "lexical": "φιλεῖ (φιλέω)", "classe": "verbo", "glosa": "amar; gostar de", "aprender": true, "paradigma": "poieo-presente", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "χαίρω", "lexical": "χαίρει (χαίρω)", "classe": "verbo", "glosa": "alegrar-se; estar contente", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "ἀγρός", "lexical": "ἀγρός, ὁ", "classe": "substantivo", "glosa": "campo (terra cultivada)", "aprender": true, "paradigma": "decl2-masc", "nota": "No plural, ἐν τοῖς ἀγροῖς = \"no campo\", isto é, fora da cidade.", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "ἄνθρωπος", "lexical": "ἄνθρωπος, ὁ", "classe": "substantivo", "glosa": "homem; ser humano; pessoa", "aprender": true, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "αὐτουργός", "lexical": "αὐτουργός, ὁ", "classe": "substantivo", "glosa": "lavrador (que trabalha a própria terra)", "aprender": true, "paradigma": "decl2-masc", "nota": "Literalmente \"quem faz o trabalho por si mesmo\" (αὐτο- + ἔργον).", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "οἶκος", "lexical": "οἶκος, ὁ", "classe": "substantivo", "glosa": "casa; lar; moradia", "aprender": true, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "πόνος", "lexical": "πόνος, ὁ", "classe": "substantivo", "glosa": "trabalho pesado; labuta", "aprender": true, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "σῖτος", "lexical": "σῖτος, ὁ", "classe": "substantivo", "glosa": "grão, trigo; comida", "aprender": true, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "καλός", "lexical": "καλός", "classe": "adjetivo", "glosa": "belo; bom", "aprender": true, "paradigma": "adj-kalos", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "μακρός", "lexical": "μακρός", "classe": "adjetivo", "glosa": "longo; comprido; grande", "aprender": true, "paradigma": "adj-hemeteros", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "μικρός", "lexical": "μικρός", "classe": "adjetivo", "glosa": "pequeno", "aprender": true, "paradigma": "adj-hemeteros", "nota": "O Athenaze marca o ι longo (μῑκρός); aqui escrevemos sem mácron, como a JACT.", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "πολύς", "lexical": "πολύς", "classe": "adjetivo", "glosa": "muito; no plural, muitos", "aprender": true, "paradigma": "adj-polys", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "ἐν ταῖς Ἀθήναις", "lexical": "ἐν ταῖς Ἀθήναις", "classe": "expressão", "glosa": "em Atenas", "aprender": true, "nota": "Ἀθῆναι, \"Atenas\", é plural em grego.", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "οὐ", "lexical": "οὐ, οὐκ, οὐχ", "classe": "advérbio", "glosa": "não", "aprender": true, "nota": "οὐ antes de consoante, οὐκ antes de vogal com espírito brando, οὐχ antes de vogal com espírito áspero (οὐχ αἱρεῖ).", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "οὖν", "lexical": "οὖν", "classe": "advérbio", "glosa": "então; portanto; por isso", "aprender": true, "nota": "Pospositivo: nunca vem em primeiro lugar na oração.", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "ἀλλά", "lexical": "ἀλλά", "classe": "conjunção", "glosa": "mas", "aprender": true, "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "γάρ", "lexical": "γάρ", "classe": "conjunção", "glosa": "pois; porque", "aprender": true, "nota": "Pospositivo.", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "καί", "lexical": "καί", "classe": "conjunção", "glosa": "e", "aprender": true, "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "δέ", "lexical": "δέ", "classe": "partícula", "glosa": "e; mas", "aprender": true, "nota": "Pospositivo.", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "Ἀθηναῖος", "lexical": "Ἀθηναῖος", "classe": "adjetivo", "glosa": "ateniense", "aprender": true, "paradigma": "adj-hemeteros", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "Δικαιόπολις", "lexical": "Δικαιόπολις, ὁ", "classe": "nome próprio", "glosa": "Diceópolis", "aprender": true, "nota": "O nome junta δίκαιο- (\"justo\") e πόλις (\"cidade\"): algo como \"cidadão honesto\". Vocativo: ὦ Δικαιόπολι.", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+  { "grego": "ὁ", "lexical": "ὁ (acus. τόν)", "classe": "artigo", "glosa": "o (artigo definido masculino)", "aprender": true, "paradigma": "artigo", "nota": "Às vezes não se traduz (ὁ Δικαιόπολις = Diceópolis), às vezes vale um possessivo (τὸν κλῆρον = o seu sítio). Não existe artigo indefinido em grego.", "fonte": { "livro": "Athenaze", "pagina": 2, "local": "cap. 1α" } },
+
+  { "grego": "γεωργέω", "lexical": "γεωργεῖ (γεωργέω)", "classe": "verbo", "glosa": "cultivar; lavrar a terra", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 2" } },
+  { "grego": "κλῆρος", "lexical": "κλῆρος, ὁ", "classe": "substantivo", "glosa": "sítio; lote de terra", "aprender": false, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 3" } },
+  { "grego": "βίος", "lexical": "βίος, ὁ", "classe": "substantivo", "glosa": "vida (modo de vida)", "aprender": false, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 3" } },
+  { "grego": "ἀεί", "lexical": "ἀεί", "classe": "advérbio", "glosa": "sempre", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 4" } },
+  { "grego": "πολλάκις", "lexical": "πολλάκις", "classe": "advérbio", "glosa": "muitas vezes; com frequência", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 5" } },
+  { "grego": "στενάζω", "lexical": "στενάζει (στενάζω)", "classe": "verbo", "glosa": "gemer; suspirar", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 5" } },
+  { "grego": "ὦ Ζεῦ", "lexical": "ὦ Ζεῦ", "classe": "expressão", "glosa": "ó Zeus! (exclamação)", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 5" } },
+  { "grego": "ἀπέραντος", "lexical": "ἀπέραντος", "classe": "adjetivo", "glosa": "sem fim; interminável", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 6" } },
+  { "grego": "παρέχω", "lexical": "παρέχει (παρέχω)", "classe": "verbo", "glosa": "fornecer; dar", "aprender": false, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 7" } },
+  { "grego": "ἄοκνος", "lexical": "ἄοκνος", "classe": "adjetivo", "glosa": "incansável; disposto", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 7" } },
+  { "grego": "ἐλεύθερος", "lexical": "ἐλεύθερος", "classe": "adjetivo", "glosa": "livre", "aprender": false, "paradigma": "adj-hemeteros", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 8" } },
+  { "grego": "ἱκανός", "lexical": "ἱκανός", "classe": "adjetivo", "glosa": "suficiente; bastante", "aprender": false, "paradigma": "adj-kalos", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 10" } },
+
+  { "grego": "αἴρω", "lexical": "αἴρει (αἴρω)", "classe": "verbo", "glosa": "levantar; erguer", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+  { "grego": "βαδίζω", "lexical": "βαδίζει (βαδίζω)", "classe": "verbo", "glosa": "andar; ir (a pé)", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+  { "grego": "καθίζω", "lexical": "καθίζει (καθίζω)", "classe": "verbo", "glosa": "sentar-se", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+  { "grego": "φέρω", "lexical": "φέρει (φέρω)", "classe": "verbo", "glosa": "carregar; levar; trazer", "aprender": true, "paradigma": "verbo-presente-ativo", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+  { "grego": "ἥλιος", "lexical": "ἥλιος, ὁ", "classe": "substantivo", "glosa": "sol", "aprender": true, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+  { "grego": "χρόνος", "lexical": "χρόνος, ὁ", "classe": "substantivo", "glosa": "tempo", "aprender": true, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+  { "grego": "αὐτόν", "lexical": "αὐτόν", "classe": "pronome", "glosa": "o; ele (como objeto)", "aprender": true, "paradigma": "autos", "nota": "Acusativo masculino singular de αὐτός.", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+  { "grego": "ἰσχυρός", "lexical": "ἰσχυρός", "classe": "adjetivo", "glosa": "forte", "aprender": true, "paradigma": "adj-hemeteros", "nota": "O Athenaze marca o υ longo (ἰσχῡρός).", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+  { "grego": "χαλεπός", "lexical": "χαλεπός", "classe": "adjetivo", "glosa": "difícil; duro; (de pessoa) severo", "aprender": true, "paradigma": "adj-kalos", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+  { "grego": "πρός", "lexical": "πρός + acus.", "classe": "preposição", "glosa": "para; em direção a", "aprender": true, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β" } },
+
+  { "grego": "σκάπτω", "lexical": "σκάπτει (σκάπτω)", "classe": "verbo", "glosa": "cavar", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 1" } },
+  { "grego": "λίθος", "lexical": "λίθος, ὁ", "classe": "substantivo", "glosa": "pedra", "aprender": false, "paradigma": "decl2-masc", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 2" } },
+  { "grego": "ἐκ", "lexical": "ἐκ + gen.", "classe": "preposição", "glosa": "para fora de; de", "aprender": false, "nota": "ἐκ τοῦ ἀγροῦ = para fora do campo.", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 2" } },
+  { "grego": "μέγας", "lexical": "μέγαν (μέγας)", "classe": "adjetivo", "glosa": "grande", "aprender": false, "paradigma": "adj-megas", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 3" } },
+  { "grego": "ἕρμα", "lexical": "ἕρμα, τό", "classe": "substantivo", "glosa": "monte de pedras", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 3" } },
+  { "grego": "πολὺν χρόνον", "lexical": "πολὺν χρόνον", "classe": "expressão", "glosa": "por muito tempo", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 4" } },
+  { "grego": "κάμνω", "lexical": "κάμνει (κάμνω)", "classe": "verbo", "glosa": "cansar-se; estar cansado", "aprender": false, "nota": "μάλα κάμνει = está muito cansado.", "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 4" } },
+  { "grego": "φλέγω", "lexical": "φλέγει (φλέγω)", "classe": "verbo", "glosa": "arder; queimar", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 4" } },
+  { "grego": "κατατρίβω", "lexical": "κατατρίβει (κατατρίβω)", "classe": "verbo", "glosa": "desgastar; esgotar", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 5" } },
+  { "grego": "ὑπὸ τῷ δένδρῳ", "lexical": "ὑπὸ τῷ δένδρῳ", "classe": "expressão", "glosa": "debaixo da árvore", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 5" } },
+  { "grego": "ἡσυχάζω", "lexical": "ἡσυχάζει (ἡσυχάζω)", "classe": "verbo", "glosa": "descansar; ficar quieto", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 5" } },
+  { "grego": "δι’ ὀλίγου", "lexical": "δι’ ὀλίγου", "classe": "expressão", "glosa": "logo; em pouco tempo", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 6" } },
+  { "grego": "ἐπαίρει ἑαυτόν", "lexical": "ἐπαίρει ἑαυτόν", "classe": "expressão", "glosa": "levanta-se", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 6" } },
+  { "grego": "τέλος", "lexical": "τέλος (adv.)", "classe": "advérbio", "glosa": "por fim; finalmente", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 6" } },
+  { "grego": "καταδύνω", "lexical": "καταδύνει (καταδύνω)", "classe": "verbo", "glosa": "pôr-se (o sol)", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 7" } },
+  { "grego": "οὐκέτι", "lexical": "οὐκέτι", "classe": "advérbio", "glosa": "não mais; já não", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 8, "local": "cap. 1β", "linhas": "l. 7" } },
+  { "grego": "ὀκνέω", "lexical": "ὀκνεῖ (ὀκνέω)", "classe": "verbo", "glosa": "fugir do trabalho; hesitar", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 10, "local": "cap. 1, Ὁ κλῆρος" } },
+  { "grego": "χωρέω", "lexical": "χωρεῖ (χωρέω)", "classe": "verbo", "glosa": "mover-se; avançar", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 11, "local": "cap. 1, Grego clássico (Heráclito)" } },
+  { "grego": "μένω", "lexical": "μένει (μένω)", "classe": "verbo", "glosa": "ficar; permanecer (igual)", "aprender": false, "fonte": { "livro": "Athenaze", "pagina": 11, "local": "cap. 1, Grego clássico (Heráclito)" } },
+  { "grego": "εὐαγγέλιον", "lexical": "εὐαγγέλιον, τό", "classe": "substantivo", "glosa": "boa notícia; evangelho", "aprender": false, "paradigma": "decl2-neut", "fonte": { "livro": "Athenaze", "pagina": 11, "local": "cap. 1, Grego do Novo Testamento" } }
+ ],
+ "gramatica": [
+  {
+   "topico": "O verbo: radical e terminação; a 3ª pessoa do singular",
+   "nota": "Todo verbo grego tem um *radical*, que dá o sentido (λυ-, \"soltar\"), e uma *terminação*, que diz quem faz a ação. Neste capítulo só aparece a 3ª pessoa do singular do presente: λύει, \"ele/ela solta\". Em português traduzimos por \"solta\", \"está soltando\" ou \"solta de fato\", conforme soar melhor.\n\nHá três tipos já no cap. 1: o verbo comum (λύει, λέγει, φέρει), o verbo *contrato*, em que a vogal final do radical se funde com a terminação (φιλε- + -ει > φιλεῖ; por isso o circunflexo), e o irregular ἐστί(ν), \"é\". ἐστί é *enclítico*: apoia-se na palavra anterior e costuma perder o acento. O ν do fim é o *ν móvel*, usado antes de vogal ou no fim da oração.\n\nNa leitura, olhe sempre o fim do verbo: -ει / -εῖ = \"ele/ela\". O sujeito pode nem aparecer.",
+   "jact": { "livro": "JACT-Gramatica", "pagina": "14–16", "local": "1C–D, §12–16b" },
+   "athenaze": { "livro": "Athenaze", "pagina": 4, "local": "cap. 1, Gram. 1" },
+   "paradigmas": ["verbo-presente-ativo", "poieo-presente", "eimi"],
+   "exemplos": [
+    { "grego": "γεωργεῖ οὖν τὸν κλῆρον καὶ πονεῖ ἐν τοῖς ἀγροῖς.", "traducao": "Por isso cultiva o seu sítio e trabalha no campo.", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 2–3" } },
+    { "grego": "πολλάκις οὖν χαίρει· ἐλεύθερος γάρ ἐστι καὶ αὐτουργός.", "traducao": "Por isso muitas vezes está contente: pois é livre e dono do próprio trabalho.", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 8" } }
+   ]
+  },
+  {
+   "topico": "Substantivos: gênero, caso e concordância (nominativo e acusativo)",
+   "nota": "Todo substantivo tem *gênero* (masculino, feminino ou neutro), muitas vezes sem relação com o sexo: ἀγρός, \"campo\", é masculino. Por isso o Athenaze manda aprender cada palavra *com o artigo*: ὁ (masc.), ἡ (fem.), τό (neutro).\n\nA terminação mostra a *função* da palavra (o *caso*). Neste capítulo só dois casos: o *nominativo* (-ος), para o sujeito e para o complemento de ἐστί, e o *acusativo* (-ον), para o objeto direto. κλῆρος é sujeito; κλῆρον é objeto. Como quem manda é a terminação, a ordem das palavras pode mudar sem mudar o sentido básico: τὸν κλῆρον γεωργεῖ ὁ ἄνθρωπος continua sendo \"o homem cultiva o sítio\".\n\nArtigo e adjetivo *concordam* com o substantivo em gênero, número e caso: ὁ καλὸς ἀγρός (nom.), τὸν μικρὸν οἶκον (acus.). A JACT explica o mesmo na Introdução Gramatical (§6–7), com o exemplo ἡ γυνὴ πείθει τὸν ἄνθρωπον.",
+   "jact": { "livro": "JACT-Gramatica", "pagina": "6–7", "local": "Introdução Gramatical, §6–7" },
+   "athenaze": { "livro": "Athenaze", "pagina": "4–5", "local": "cap. 1, Gram. 2" },
+   "paradigmas": ["decl2-masc", "artigo", "adj-kalos"],
+   "exemplos": [
+    { "grego": "ὁ γὰρ κλῆρός ἐστι μικρός, μακρὸς δὲ ὁ πόνος.", "traducao": "Pois o sítio é pequeno, e longo o trabalho.", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 3–4" } },
+    { "grego": "φιλεῖ δὲ τὸν οἶκον.", "traducao": "E ama a sua casa.", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 8–9" } }
+   ]
+  },
+  {
+   "topico": "Funções na frase: sujeito, complemento, objeto; verbos de ligação, transitivos e intransitivos",
+   "nota": "O Athenaze propõe um hábito útil: antes de traduzir, marque cada palavra. S = sujeito; C = complemento (o que vem depois de \"é\"); DO = objeto direto; LV = verbo de ligação (ἐστί); TV = verbo transitivo (pede objeto: γεωργεῖ τὸν κλῆρον); IV = verbo intransitivo (não pede objeto: οἰκεῖ ἐν τοῖς ἀγροῖς).\n\nO complemento pode ser um adjetivo (ὁ κλῆρός ἐστι μικρός) ou um substantivo (ὁ Δικαιόπολις αὐτουργός ἐστιν) e fica no *nominativo*, como o sujeito. É exatamente o que a JACT chama de predicativo do sujeito (§45–47). Em português usamos as mesmas siglas traduzidas, se preferir: S, P (predicativo), OD, VL, VT, VI.",
+   "jact": { "livro": "JACT-Gramatica", "pagina": 37, "local": "1H–J, §45–47" },
+   "athenaze": { "livro": "Athenaze", "pagina": 6, "local": "cap. 1, Gram. 3" },
+   "exemplos": [
+    { "grego": "ὁ Δικαιόπολις αὐτουργός ἐστιν.", "traducao": "Diceópolis é lavrador.", "comentario": "S + C + LV.", "fonte": { "livro": "Athenaze", "pagina": 6, "local": "cap. 1, Gram. 3" } },
+    { "grego": "ὁ Δικαιόπολις οἰκεῖ ἐν τοῖς ἀγροῖς.", "traducao": "Diceópolis mora no campo.", "comentario": "S + IV (ἐν τοῖς ἀγροῖς é locução preposicional e não se marca).", "fonte": { "livro": "Athenaze", "pagina": 6, "local": "cap. 1, Gram. 3" } }
+   ]
+  },
+  {
+   "topico": "Usos do artigo definido",
+   "nota": "O grego usa o artigo onde o português às vezes não usa, e vice-versa. Com nomes próprios ele pode ficar sem tradução (ὁ Δικαιόπολις = \"Diceópolis\"; aliás, o português do Brasil também diz \"o Diceópolis\"). E muitas vezes o artigo equivale a um *possessivo*: ὁ ἄνθρωπος γεωργεῖ τὸν κλῆρον = \"o homem cultiva o *seu* sítio\".\n\nNão existe artigo indefinido: ἄνθρωπος sozinho já pode ser \"um homem\".",
+   "jact": { "livro": "JACT-Gramatica", "pagina": "8–9", "local": "1A–B, §8" },
+   "athenaze": { "livro": "Athenaze", "pagina": 6, "local": "cap. 1, Gram. 4" },
+   "paradigmas": ["artigo"],
+   "exemplos": [
+    { "grego": "ὁ ἄνθρωπος γεωργεῖ τὸν κλῆρον.", "traducao": "O homem cultiva o seu sítio.", "fonte": { "livro": "Athenaze", "pagina": 6, "local": "cap. 1, Gram. 4" } }
+   ]
+  },
+  {
+   "topico": "Acentos: agudo, grave, circunflexo e as enclíticas",
+   "nota": "Há três acentos: agudo (ά), grave (ὰ) e circunflexo (ᾶ). O agudo só cai numa das três últimas sílabas. Um agudo na *última* sílaba vira grave quando outra palavra vem logo depois sem pontuação: ἀλλά + καλός > ἀλλὰ καλός.\n\nExceção: antes de uma *enclítica* (como ἐστί) o agudo final se mantém e a enclítica perde o acento: χαλεπός ἐστιν. Se a palavra anterior é proparoxítona (ἄνθρωπος) ou tem circunflexo na penúltima (οἶκος), ela ganha um agudo extra na última: ἄνθρωπός ἐστιν, οἶκός ἐστιν. Se é paroxítona (πόνος), a enclítica de duas sílabas guarda o seu acento: πόνος ἐστίν.\n\nPara ler, isso explica acentos \"estranhos\" no texto (κλῆρός ἐστι). Para escrever grego nos exercícios, siga as regras com cuidado. A JACT trata das enclíticas mais adiante (§39–42), sem tanto detalhe sobre o acento.",
+   "jact": { "livro": "JACT-Gramatica", "pagina": "29–30", "local": "1G, §39–42" },
+   "athenaze": { "livro": "Athenaze", "pagina": 9, "local": "cap. 1, Gram. 5" },
+   "exemplos": [
+    { "grego": "ὦ Ζεῦ, χαλεπός ἐστιν ὁ βίος.", "traducao": "Ó Zeus, a vida é dura!", "comentario": "χαλεπός mantém o agudo antes da enclítica ἐστιν.", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 5" } },
+    { "grego": "ἀλλὰ ἰσχυρός ἐστιν ὁ ἄνθρωπος καὶ ἄοκνος.", "traducao": "Mas o homem é forte e incansável.", "comentario": "ἀλλά > ἀλλὰ antes de outra palavra.", "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 7" } }
+   ]
+  }
+ ],
+ "cultura": {
+  "titulo": "O lavrador ateniense",
+  "resumo": "A maior parte dos atenienses vivia no campo, em pequenos sítios, e não na cidade; Diceópolis mora numa aldeia da Ática a uns 16 km de Atenas. Nas planícies plantava-se grão e hortaliças; nas colinas, uva e oliva, e criavam-se ovelhas e cabras. Os cidadãos eram divididos em quatro classes segundo a produção da terra, e lavradores como Diceópolis (os zeugitas, donos de uma junta de bois) formavam a infantaria pesada. As fontes, sobretudo as comédias de Aristófanes, pintam esses lavradores como a espinha dorsal da democracia: trabalhadores, econômicos e espertos. O próprio Diceópolis vem da peça Os Acarnenses (425 a.C.).",
+  "fonte": { "livro": "Athenaze", "pagina": "6–7", "local": "cap. 1, The Athenian Farmer" }
+ },
+ "exercicios": [
+  {
+   "id": "ath1-o1",
+   "tipo": "traduzir-gp",
+   "titulo": "Sujeito, objeto e complemento",
+   "enunciado": "Traduza e diga a função de cada substantivo (S = sujeito, C = complemento, OD = objeto direto). Repare que a ordem das palavras não decide nada: as terminações decidem.",
+   "itens": [
+    { "pergunta": "τὸν σῖτον φέρει ὁ αὐτουργός.", "resposta": "O lavrador carrega o grão. (σῖτον = OD; αὐτουργός = S)" },
+    { "pergunta": "ὁ οἶκός ἐστι μικρός.", "resposta": "A casa é pequena. (οἶκος = S; μικρός = C)" },
+    { "pergunta": "ὁ ἄνθρωπος αἴρει τὸν λίθον.", "resposta": "O homem levanta a pedra. (ἄνθρωπος = S; λίθον = OD)" },
+    { "pergunta": "μακρὸς δέ ἐστιν ὁ χρόνος.", "resposta": "E o tempo é longo. (χρόνος = S; μακρός = C)" },
+    { "pergunta": "ὁ Δικαιόπολις οὐ φιλεῖ τὸν πόνον.", "resposta": "Diceópolis não gosta do trabalho. (Δικαιόπολις = S; πόνον = OD)" },
+    { "pergunta": "καλὸς γάρ ἐστιν ὁ ἥλιος.", "resposta": "Pois o sol é belo. (ἥλιος = S; καλός = C)" },
+    { "pergunta": "πρὸς τὸν οἶκον βαδίζει ὁ ἄνθρωπος· ἰσχυρὸς γάρ ἐστιν.", "resposta": "O homem anda para casa, pois é forte. (ἄνθρωπος = S; ἰσχυρός = C; τὸν οἶκον vem depois de preposição e não se marca)" }
+   ],
+   "gabarito": "projeto",
+   "fonte": { "livro": "original", "local": "cap. 1" }
+  }
+ ],
+ "jact": {
+  "correspondentes": ["1A", "1B", "1H"],
+  "comparacao": "Os dois livros começam com um Diceópolis, mas em mundos diferentes: na JACT ele é um passageiro de navio numa história de golpe; no Athenaze é um lavrador da Ática. O Athenaze vai devagar de propósito: no cap. 1 só existe a 3ª pessoa do singular do verbo e dois casos (nominativo e acusativo), com frases curtíssimas e muito vocabulário do dia a dia do campo. A JACT, já em 1A–B, mostra o artigo inteiro e várias pessoas do verbo.\n\nO Athenaze explica melhor três coisas que a JACT só dá de passagem: a marcação das funções na frase (S, C, DO, LV, TV, IV), o artigo valendo um possessivo e as regras de acento com as enclíticas (ἄνθρωπός ἐστιν). A JACT, por sua vez, ensina mais cedo a ler com a tabela do artigo como chave.\n\nOrdem sugerida: leia 1A na JACT; em seguida faça o cap. 1 do Athenaze inteiro (α e β) como leitura de reforço de sujeito × objeto e de vocabulário básico; depois siga para 1B. Volte à Gram. 3 deste capítulo quando chegar ao predicativo do sujeito em 1H.",
+  "complementos": [
+   "Rotular as funções da frase (S, C, DO, LV, TV, IV) antes de traduzir — a JACT não propõe esse método.",
+   "Regras práticas de acento com enclíticas (χαλεπός ἐστιν, ἄνθρωπός ἐστιν, πόνος ἐστίν), que a JACT não detalha nas primeiras seções.",
+   "Vocabulário do campo que a JACT só traz mais tarde ou não traz: ἀγρός, αὐτουργός, σῖτος, κλῆρος, ἥλιος, λίθος, βαδίζω, καθίζω.",
+   "Vocabulário comum aos dois livros já nesta etapa: ἄνθρωπος, καλός, λέγω, φέρω, ἀλλά, γάρ, δέ, καί, οὖν, οὐ/οὐκ/οὐχ.",
+   "Na JACT vêm antes: o artigo completo (1A–B, §8), as 1ª e 2ª pessoas do verbo (1C–D) e as formas ὁρῶ / ὁρᾷς."
+  ],
+  "citacoes": [
+   {
+    "grego": "τὸ πλοῖόν ἐστιν ἐν Βυζαντίῳ.",
+    "traducao": "O navio está em Bizâncio.",
+    "comentario": "JACT: a primeira frase do curso — sujeito no nominativo, ἐστίν e ἐν + dativo.",
+    "fonte": { "livro": "JACT-Textos", "pagina": 4, "local": "1A", "linhas": "l. 1" }
+   },
+   {
+    "grego": "ὁ Δικαιόπολις Ἀθηναῖός ἐστιν· οἰκεῖ δὲ ὁ Δικαιόπολις οὐκ ἐν ταῖς Ἀθήναις ἀλλὰ ἐν τοῖς ἀγροῖς.",
+    "traducao": "Diceópolis é ateniense; mas não mora em Atenas, e sim no campo.",
+    "comentario": "Athenaze: a mesma estrutura (sujeito, ἐστίν, ἐν + dativo), com o mesmo herói.",
+    "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 1–2" }
+   },
+   {
+    "grego": "ὦ Ζεῦ. ὡς καλός ἐστιν ὁ Παρθενών.",
+    "traducao": "Ó Zeus! Como é belo o Partenon!",
+    "comentario": "JACT: oxítona + enclítica — καλός mantém o agudo.",
+    "fonte": { "livro": "JACT-Textos", "pagina": 6, "local": "1B", "linhas": "l. 8" }
+   },
+   {
+    "grego": "ὦ Ζεῦ, χαλεπός ἐστιν ὁ βίος.",
+    "traducao": "Ó Zeus, a vida é dura!",
+    "comentario": "Athenaze: a mesma exclamação e a mesma regra de acento (cap. 1, Gram. 5).",
+    "fonte": { "livro": "Athenaze", "pagina": 3, "local": "cap. 1α", "linhas": "l. 5" }
+   }
+  ]
+ }
+}

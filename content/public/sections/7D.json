@@ -1,0 +1,396 @@
+{
+ "id": "7D",
+ "secao": 7,
+ "parte": 2,
+ "titulo": "Sofistas no Liceu",
+ "resumo": "Sócrates conta a Críton que encontrou os sofistas Eutidemo e Dionisodoro no Liceu e lhes pediu que exortassem o jovem Clínias à filosofia. Eutidemo lança uma pergunta capciosa e o rapaz, embaraçado, acaba respondendo que quem aprende são os sábios.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 79,
+  "local": "7D"
+ },
+ "vocab": [
+  {
+   "grego": "ἀνδρεῖος",
+   "lexical": "ἀνδρεῖος α ον",
+   "classe": "adjetivo",
+   "glosa": "corajoso; viril",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "ἀποκρίνομαι",
+   "lexical": "ἀποκρίνομαι (ἀποκρινα-)",
+   "classe": "verbo",
+   "glosa": "responder",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "partes": [
+    "ἀποκρίνομαι",
+    "ἀποκρινα-"
+   ],
+   "nota": "Futuro ἀποκρινοῦμαι.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   },
+   "athenaze": "cap. 7"
+  },
+  {
+   "grego": "ἀρετή",
+   "lexical": "ἀρετή, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "excelência; virtude; coragem",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   },
+   "athenaze": "cap. 15"
+  },
+  {
+   "grego": "δήπου",
+   "lexical": "δήπου",
+   "classe": "partícula",
+   "glosa": "claro; certamente",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   }
+  },
+  {
+   "grego": "ἥδομαι",
+   "lexical": "ἥδομαι",
+   "classe": "verbo",
+   "glosa": "alegrar-se; gostar; apreciar",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "nota": "Com particípio ou dativo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   }
+  },
+  {
+   "grego": "ἦν δ’ ἐγώ",
+   "lexical": "ἦν δ’ ἐγώ",
+   "classe": "expressão",
+   "glosa": "eu disse",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   }
+  },
+  {
+   "grego": "ἦ δ’ ὅς",
+   "lexical": "ἦ δ’ ὅς",
+   "classe": "expressão",
+   "glosa": "ele disse",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   }
+  },
+  {
+   "grego": "νεανίσκος",
+   "lexical": "νεανίσκος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "jovem; rapaz",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   }
+  },
+  {
+   "grego": "προτρέπω",
+   "lexical": "προτρέπω",
+   "classe": "verbo",
+   "glosa": "impelir; dirigir para; exortar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   }
+  },
+  {
+   "grego": "φιλοσοφία",
+   "lexical": "φιλοσοφία, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "filosofia",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 80,
+    "local": "7D"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "O particípio aoristo 1º (sigmático), ativo e médio",
+   "nota": "Para achar o radical do aoristo: pegue o indicativo aoristo, tire o aumento e a desinência (ἔ-παυσα → παυσα-). Some -ς, -σα, -ν (tema -αντ-) para o ativo, e -μενος -η -ον para o médio: παύσας, παύσασα, παῦσαν; παυσάμενος.\n\nO ativo declina como πᾶς (3ª–1ª–3ª declinação), e o médio como καλός. Na leitura, o sinal é o *-σα-* sem aumento seguido de -ντ- ou -μεν-. Verbos líquidos não têm σ (ἀποκρινάμενος), mas o -α- continua lá.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "142–143",
+    "local": "7D–F, §162–164"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 199,
+    "local": "cap. 12, Gram. 2 (e Gram. 3, aoristo assigmático, pp. 206–207)"
+   },
+   "paradigmas": [
+    "part-aoristo-fraco"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἀπορήσας δ’ ἔβλεπεν εἰς ἐμέ, καὶ ἠρυθρίασεν.",
+     "traducao": "Embaraçado, olhou para mim e ficou vermelho.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 79,
+      "local": "7D"
+     }
+    },
+    {
+     "grego": "σπονδὴν ποιησάμενος τὸν Δία ηὔξατο σῴζειν πάντας.",
+     "traducao": "Depois de fazer uma libação, pediu a Zeus que salvasse a todos.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 195,
+      "local": "cap. 12α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Aspecto: particípio presente × particípio aoristo",
+   "nota": "A diferença entre παύων e παύσας não é, antes de tudo, de tempo, mas de *aspecto*. O presente mostra a ação como processo em curso; o aoristo, como um fato pontual, visto como um todo.\n\nNa prática, o particípio aoristo costuma indicar algo concluído antes do verbo principal (\"depois de...\", \"tendo...\"), mas pode também ser simultâneo (γελάσας \"com uma risada\"). Traduza com liberdade: \"tendo rido\", \"riu e...\", \"com uma risada\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "144–145",
+    "local": "7D–F, §165–166"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "178–180",
+    "local": "cap. 11, Gram. 3 (Aspect)"
+   },
+   "paradigmas": [
+    "part-presente-ativo",
+    "part-aoristo-fraco"
+   ],
+   "exemplos": [
+    {
+     "grego": "καὶ ἐν τούτῳ ὁ Διονυσόδωρος ἐγέλασεν, γελάσας δέ, ‘καὶ μήν’, ἦ δ’ ὅς",
+     "traducao": "E nisso Dionisodoro deu uma risada e, rindo, disse: \"E de fato...\"",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 79,
+      "local": "7D"
+     }
+    },
+    {
+     "grego": "ἀποκρινάμενος εἶπεν.",
+     "traducao": "Disse em resposta.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 179,
+      "local": "cap. 11, Gram. 3d"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "ᾔδη \"eu sabia\": o passado de οἶδα",
+   "nota": "οἶδα é presente no sentido (\"sei\"), e o seu passado é ᾔδη \"eu sabia\": ᾔδη, ᾔδησθα, ᾔδει(ν), ᾖσμεν, ᾖστε, ᾖσαν (ou ᾔδεσαν). A gramática da JACT imprime sem iota subscrito (ἤδη), mas os textos usam ᾔδη, ᾖσμεν.\n\nCuidado com o advérbio ἤδη \"já\", muito comum no Athenaze: o contexto (e o iota subscrito) resolve.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 146,
+    "local": "7D–F, §167"
+   },
+   "paradigmas": [],
+   "exemplos": [
+    {
+     "grego": "ᾔδη γὰρ ὅτι οὐδὲν οἶδα.",
+     "traducao": "Pois eu sabia que nada sei.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 78,
+      "local": "7C"
+     }
+    },
+    {
+     "grego": "οὐ μὰ Δία. μαθηταὶ γὰρ ὄντες, οὐδὲν ᾖσμεν.",
+     "traducao": "Por Zeus, não! Pois, sendo alunos, não sabíamos nada.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 81,
+      "local": "7E"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "φημί \"digo\", ἔφην \"eu disse\"; ἦν δ’ ἐγώ, ἦ δ’ ὅς",
+   "nota": "φημί é atemático e quase todo enclítico: φημί, φής, φησί(ν), φαμέν, φατέ, φασί(ν); inf. φάναι; passado ἔφην, ἔφησθα/ἔφης, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν. Ele costuma vir *dentro* da fala citada.\n\nNos diálogos de Platão aparecem ainda ἦν δ’ ἐγώ \"disse eu\" e ἦ δ’ ὅς \"disse ele\". Para \"digo que...\" em português → grego, use por enquanto λέγω ὅτι.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "146–147",
+    "local": "7D–F, §168a"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 174,
+    "local": "cap. 11α, vocabulário (ἔφη); φησί(ν) desde o cap. 1"
+   },
+   "paradigmas": [],
+   "exemplos": [
+    {
+     "grego": "‘δοκοῦμέν γε δή, ὦ Σώκρατες’, ἦ δ’ ὅς.",
+     "traducao": "\"Parecemos, sim, Sócrates\", disse ele.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 79,
+      "local": "7D"
+     }
+    },
+    {
+     "grego": "«χαίρετε, ὦ πάππα καὶ ἄδελφε,» ἔφη· «πῶς ἔχετε;»",
+     "traducao": "\"Salve, papai e irmão\", disse; \"como estão?\"",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 175,
+      "local": "cap. 11α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Mais sobre o predicativo: οἱ σοφοί εἰσιν οἱ μανθάνοντες",
+   "nota": "Normalmente o predicativo é o termo *sem* artigo. Mas, quando os dois lados têm artigo, o grego está identificando dois grupos: οἱ σοφοί εἰσιν οἱ μανθάνοντες \"os que aprendem são os sábios\".\n\nComo sempre, o predicativo tende a vir primeiro. Na tradução, pergunte qual grupo está sendo definido pelo outro.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 147,
+    "local": "7D–F, §168b"
+   },
+   "paradigmas": [
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἀποκρινάμενος ἔτυχεν ὅτι οἱ σοφοί εἰσιν οἱ μανθάνοντες.",
+     "traducao": "acabara de responder que os que aprendem são os sábios.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 79,
+      "local": "7D"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "7D-o1",
+   "tipo": "morfologia",
+   "titulo": "Particípio aoristo 1º",
+   "enunciado": "Dê o particípio aoristo (nom. masc. sg.) e traduza.",
+   "itens": [
+    {
+     "pergunta": "ἀπορέω",
+     "resposta": "ἀπορήσας: tendo ficado em dúvida, embaraçado"
+    },
+    {
+     "pergunta": "προτρέπω",
+     "resposta": "προτρέψας: tendo exortado"
+    },
+    {
+     "pergunta": "ἀποκρίνομαι (ἀποκρινα-)",
+     "resposta": "ἀποκρινάμενος: tendo respondido, em resposta"
+    },
+    {
+     "pergunta": "ἀκούω",
+     "resposta": "ἀκούσας: tendo ouvido"
+    },
+    {
+     "pergunta": "ἐξετάζω",
+     "resposta": "ἐξετάσας: tendo examinado"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "7D"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 11 (Ὁ ἰατρός)",
+   "cap. 12 (Πρὸς τὸν Πειραιᾶ)"
+  ],
+  "comparacao": "A JACT chega ao particípio aoristo pelo aoristo 1º (παύσας) e só em 7G–H passa ao 2º (λαβών). O Athenaze faz o caminho inverso: começa pelo aoristo 2º no cap. 11 (ἐλθών, ἰδών, εἰπών) e deixa o sigmático para o cap. 12. As duas ordens funcionam; o importante é ter as duas tabelas lado a lado.\n\nSobre o *aspecto*, a JACT (§165–166) é mais rica e discute casos difíceis (\"com uma risada\" × \"rindo\"). O Athenaze (cap. 11, Gram. 3) é mais curto e esquemático, cobrindo indicativo, imperativo, infinitivo e particípio, e é ótimo como resumo para revisar. Sugestão: leia o resumo do Athenaze antes de 7D e a discussão da JACT depois do texto.",
+  "complementos": [
+   "Aspecto também no imperativo e no infinitivo: ἄκουε (processo) × λαβοῦ (ato único) (Athenaze, cap. 11, Gram. 3b–c, p. 179).",
+   "Aoristo gnômico, para verdades gerais: παθὼν νήπιος ἔμαθεν (Athenaze, cap. 11, Gram. 3a, p. 179).",
+   "Aoristo assigmático dos verbos líquidos (ἀπεκρινάμην, ἀπέκτεινα), base de ἀποκρινάμενος (Athenaze, cap. 12, Gram. 3, p. 206).",
+   "ἔφη já aparece como vocabulário no cap. 11α (p. 174), e φᾱσί(ν) no cap. 6."
+  ],
+  "citacoes": [
+   {
+    "grego": "ὁ δ’ Εὐθύδημος εὐθὺς ἀνδρείως ἀπεκρίνατο.",
+    "traducao": "E Eutidemo respondeu imediatamente, com coragem.",
+    "comentario": "Aoristo assigmático de ἀποκρίνομαι; o particípio será ἀποκρινάμενος.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 79,
+     "local": "7D"
+    }
+   },
+   {
+    "grego": "ὁ δὲ ἀδελφὸς πρὸς τὴν θύραν ἐλθὼν καὶ τὸν Δικαιόπολιν καὶ τὸν πατέρα ἰδών, «χαίρετε» ἔφη.",
+    "traducao": "O irmão veio até a porta, viu Diceópolis e o pai e disse: \"Salve!\"",
+    "comentario": "Dois particípios aoristos antes do verbo principal, como os de 7D.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 175,
+     "local": "cap. 11α"
+    }
+   },
+   {
+    "grego": "ἀπορήσας δ’ ἔβλεπεν εἰς ἐμέ, καὶ ἠρυθρίασεν.",
+    "traducao": "Embaraçado, olhou para mim e ficou vermelho.",
+    "comentario": "Particípio aoristo de ἀπορέω: o embaraço é um fato pontual.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 79,
+     "local": "7D"
+    }
+   }
+  ]
+ }
+}

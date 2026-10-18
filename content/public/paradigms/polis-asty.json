@@ -1,0 +1,63 @@
+{
+  "id": "polis-asty",
+  "titulo": "3ª declinação em -ις e -υ — πόλις (3e), ἄστυ (3f)",
+  "grupo": "substantivo",
+  "colunas": [
+    "πόλις sg.",
+    "πόλις pl.",
+    "ἄστυ sg.",
+    "ἄστυ pl."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "πόλ|ις",
+        "πόλ|εις",
+        "ἄστ|υ",
+        "ἄστ|η"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "πόλ|ιν",
+        "πόλ|εις",
+        "ἄστ|υ",
+        "ἄστ|η"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "πόλ|εως",
+        "πόλ|εων",
+        "ἄστ|εως",
+        "ἄστ|εων"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "πόλ|ει",
+        "πόλ|εσι(ν)",
+        "ἄστ|ει",
+        "ἄστ|εσι(ν)"
+      ]
+    },
+    {
+      "rotulo": "Voc.",
+      "celulas": [
+        "πόλ|ι",
+        "πόλ|εις",
+        "ἄστ|υ",
+        "ἄστ|η"
+      ]
+    }
+  ],
+  "nota": "O tema troca ι/υ por ε fora do nom./ac. sg. Gen. sg. em -εως (com acento na antepenúltima apesar do ω). Em πόλεις, nom. e ac. pl. são iguais.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "4A–B"
+  }
+}

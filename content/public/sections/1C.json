@@ -1,0 +1,455 @@
+{
+ "id": "1C",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "Zenótemis se desespera",
+ "resumo": "Zenótemis insiste em elogiar os navios mercantes, mas o capitão quer descobrir de onde vem o barulho e decide descer ao porão, para aflição de Zenótemis.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 8,
+  "local": "1C"
+ },
+ "vocab": [
+  {
+   "grego": "ἀλλά",
+   "lexical": "ἀλλά",
+   "classe": "conjunção",
+   "glosa": "mas",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 9,
+    "local": "1C"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "γάρ",
+   "lexical": "γάρ",
+   "classe": "partícula",
+   "glosa": "pois",
+   "aprender": true,
+   "nota": "Pospositiva.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 9,
+    "local": "1C"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ἡμεῖς",
+   "lexical": "ἡμεῖς",
+   "classe": "pronome",
+   "glosa": "nós",
+   "aprender": true,
+   "paradigma": "pron-pessoais",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 9,
+    "local": "1C"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "μή",
+   "lexical": "μή",
+   "classe": "advérbio",
+   "glosa": "não (com imperativo: não...!)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 9,
+    "local": "1C"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "οὐ",
+   "lexical": "οὐ, οὐκ, οὐχ",
+   "classe": "advérbio",
+   "glosa": "não",
+   "aprender": true,
+   "nota": "οὐκ antes de vogal com espírito brando; οὐχ antes de espírito áspero.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 9,
+    "local": "1C"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ὡς",
+   "lexical": "ὡς",
+   "classe": "advérbio",
+   "glosa": "como! (exclamação)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 9,
+    "local": "1C"
+   }
+  },
+  {
+   "grego": "ἀκούω",
+   "lexical": "ἀκούω",
+   "classe": "verbo",
+   "glosa": "ouvir; escutar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1C–D (marcada [1C-D] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 269,
+    "local": "1C–D"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "βλέπω",
+   "lexical": "βλέπω",
+   "classe": "verbo",
+   "glosa": "olhar (para)",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1C–D (marcada [1C-D] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 271,
+    "local": "1C–D"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "διώκω",
+   "lexical": "διώκω",
+   "classe": "verbo",
+   "glosa": "perseguir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1C–D (marcada [1C-D] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 272,
+    "local": "1C–D"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "εἰσβαίνω",
+   "lexical": "εἰσβαίνω",
+   "classe": "verbo",
+   "glosa": "entrar; embarcar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1C–D (marcada [1C-D] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 273,
+    "local": "1C–D"
+   }
+  },
+  {
+   "grego": "καταβαίνω",
+   "lexical": "καταβαίνω (καταβα-)",
+   "classe": "verbo",
+   "glosa": "descer",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "καταβαίνω",
+    "καταβα-"
+   ],
+   "nota": "Aprendida na lista de vocabulário da Gramática 1C–D (marcada [1C-D] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 278,
+    "local": "1C–D"
+   }
+  },
+  {
+   "grego": "μένω",
+   "lexical": "μένω (μεινα-)",
+   "classe": "verbo",
+   "glosa": "esperar; permanecer; ficar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "μένω",
+    "μεινα-"
+   ],
+   "nota": "Aprendida na lista de vocabulário da Gramática 1C–D (marcada [1C-D] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 279,
+    "local": "1C–D"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "φεύγω",
+   "lexical": "φεύγω (φυγ-)",
+   "classe": "verbo",
+   "glosa": "fugir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "φεύγω",
+    "φυγ-"
+   ],
+   "nota": "Aprendida na lista de vocabulário da Gramática 1C–D (marcada [1C-D] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 286,
+    "local": "1C–D"
+   },
+   "athenaze": "cap. 5"
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "Presente do indicativo ativo: verbos em -ω",
+   "nota": "A pessoa e o número estão na terminação: -ω, -εις, -ει, -ομεν, -ετε, -ουσι(ν). Por isso o grego quase nunca precisa de pronome sujeito: βαίνομεν já é \"nós vamos\". Uma forma grega vale por várias em português (βαίνει = ele vai / está indo / vai mesmo).\n\nO presente é *indicativo* (afirma um fato), *ativo* (o sujeito age). Aprendendo βαίνω, você conjuga ἀκούω, βλέπω, διώκω, μένω, φεύγω e quase todos os verbos regulares. Repare na vogal temática o/ε o/ε/ε/o entre o radical e a desinência.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "14–16",
+    "local": "1C–D, §12–16b"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "38–39",
+    "local": "cap. 4, Gram. 1"
+   },
+   "paradigmas": [
+    "verbo-presente-ativo"
+   ],
+   "exemplos": [
+    {
+     "grego": "ὁρῶμεν καὶ ἡμεῖς.",
+     "traducao": "Nós também vemos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 8,
+      "local": "1C"
+     }
+    },
+    {
+     "grego": "διὰ τί οὐ μένετε, ὦ φίλοι;",
+     "traducao": "Por que vocês não ficam, amigos?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 8,
+      "local": "1C"
+     }
+    },
+    {
+     "grego": "καταβαίνει μὲν οὖν ὁ κυβερνήτης, καταβαίνουσι δὲ ὅ τε Δικαιόπολις καὶ οἱ ναῦται.",
+     "traducao": "Desce, então, o piloto, e descem também Diceópolis e os marinheiros.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 10,
+      "local": "1D"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Verbos compostos (prefixo + verbo)",
+   "nota": "Um prefixo (quase sempre uma preposição) se cola ao verbo e muda o sentido de forma previsível: εἰσ-βαίνω \"entro, embarco\", κατα-βαίνω \"desço\", ἀνα-βαίνω \"subo\". As terminações não mudam. Vale a pena separar mentalmente o prefixo ao encontrar um verbo novo — como em português *im-portar, ex-portar*.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 16,
+    "local": "1C–D, §17"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 19,
+    "local": "cap. 2β, Word Building"
+   },
+   "paradigmas": [
+    "verbo-presente-ativo"
+   ],
+   "exemplos": [
+    {
+     "grego": "διὰ τί οὐ καταβαίνομεν ἡμεῖς;",
+     "traducao": "Por que nós não descemos?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 8,
+      "local": "1C"
+     }
+    },
+    {
+     "grego": "ὁ Δικαιόπολις ἐκβαίνει ἐκ τοῦ οἴκου καὶ καλεῖ τὸν Ξανθίαν.",
+     "traducao": "Diceópolis sai de casa e chama Xântias.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 12,
+      "local": "cap. 2α",
+      "linhas": "l. 1"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Imperativo e proibição (μή)",
+   "nota": "Ordem a uma pessoa: -ε (βαῖνε, βλέπε, ἄκουε); a várias: -ετε (βαίνετε). Para proibir, μή + imperativo: μὴ μένε, μὴ φροντίζετε. Atenção: a 2ª pl. do imperativo é igual à do indicativo (βαίνετε = \"ide!\" ou \"ides\") — o contexto, o ὦ e o μή ajudam a decidir.\n\nRegra prática: οὐ nega fatos; μή nega ordens (e desejos).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 17,
+    "local": "1C–D, §18–21"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "15, 26",
+    "local": "cap. 2, Gram. 3; cap. 3, Gram. 1b"
+   },
+   "paradigmas": [
+    "verbo-imperativo"
+   ],
+   "exemplos": [
+    {
+     "grego": "μὴ φροντίζετε. ἀλλὰ δεῦρο ἔλθετε καὶ βλέπετε.",
+     "traducao": "Não se preocupem! Mas venham cá e olhem!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 8,
+      "local": "1C"
+     }
+    },
+    {
+     "grego": "βοηθεῖτε, ὦ ναῦται, βοηθεῖτε καὶ διώκετε.",
+     "traducao": "Socorro, marinheiros, ajudem e persigam!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 10,
+      "local": "1D"
+     }
+    },
+    {
+     "grego": "μὴ οὕτως ἀργὸς ἴσθι ἀλλὰ σπεῦδε.",
+     "traducao": "Não sejas tão preguiçoso, mas anda depressa!",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 12,
+      "local": "cap. 2α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Vocativo com ordens",
+   "nota": "O vocativo (com ὦ) costuma acompanhar imperativos e verbos na 2ª pessoa: é o \"destinatário\" da ordem. No plural, vocativo = nominativo (ὦ ναῦται); no singular pode diferir (ὦ Ζηνόθεμι, ὦ Ἡγέστρατε, ὦ κυβερνῆτα).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "17–18",
+    "local": "1C–D, §22"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 20,
+    "local": "cap. 2, Gram. 4"
+   },
+   "paradigmas": [
+    "decl2-masc"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἄκουε, ὦ Ζηνόθεμι, καὶ μὴ λέγε ‘ὡς καλά ἐστι τὰ ἐμπόρια.’",
+     "traducao": "Escuta, Zenótemis, e não digas \"como são belos os mercados\".",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 8,
+      "local": "1C"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "1C-o1",
+   "tipo": "morfologia",
+   "titulo": "Indicativo ou imperativo?",
+   "enunciado": "Traduza e diga se a forma é indicativo ou imperativo (e a pessoa). Quando houver duas possibilidades, dê as duas.",
+   "itens": [
+    {
+     "pergunta": "φεύγουσιν",
+     "resposta": "eles fogem — indicativo, 3ª pl."
+    },
+    {
+     "pergunta": "μὴ μένε",
+     "resposta": "não fiques! — imperativo negativo, 2ª sg."
+    },
+    {
+     "pergunta": "ἀκούετε",
+     "resposta": "vós ouvis (indicativo) ou ouvi! (imperativo) — 2ª pl."
+    },
+    {
+     "pergunta": "καταβαίνομεν",
+     "resposta": "nós descemos — indicativo, 1ª pl."
+    },
+    {
+     "pergunta": "βλέπε, ὦ ναῦτα",
+     "resposta": "olha, marinheiro! — imperativo, 2ª sg."
+    },
+    {
+     "pergunta": "οὐ διώκεις",
+     "resposta": "tu não persegues — indicativo, 2ª sg. (οὐ, não μή)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1C"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 2 (Ὁ Ξανθίας)",
+   "cap. 3 (Ὁ ἄροτος)",
+   "cap. 4 (Πρὸς τῇ κρήνῃ)"
+  ],
+  "comparacao": "A JACT dá de uma vez as seis pessoas do presente, o imperativo e a terminologia (tempo, modo, voz). O Athenaze espalha isso por três capítulos: singular e imperativo singular no cap. 2, 3ª pl., imperativo plural e infinitivo no cap. 3, e o quadro completo só no cap. 4. A explicação de *modo* do Athenaze (cap. 2, Gram. 1: o indicativo afirma fatos; o imperativo dá ordens) é mais concreta.\n\nUm detalhe útil: o Athenaze ensina desde o cap. 1 o verbo contrato φιλέω ao lado de λύω, enquanto a JACT só trata dos contratos em 1E–F. Ordem sugerida: estude a tabela de βαίνω da JACT; depois leia as cenas de ordens do Athenaze (caps. 2α e 3α), que repetem muito os mesmos padrões.",
+  "complementos": [
+   "Athenaze cap. 3, Gram. 1c (p. 27): o infinitivo presente em -ειν (λύειν, \"soltar\") e εἶναι (\"ser\"), que a JACT só traz mais adiante.",
+   "Athenaze cap. 2, Gram. 7 (p. 21): acento recessivo dos verbos — ἐλαύνει, mas imperativo ἔλαυνε; σπεύδει, mas σπεῦδε.",
+   "Athenaze cap. 2β, Word Building (p. 19): exercício de deduzir compostos (προσφέρει, ἐκφέρει, εἰσελαύνει…).",
+   "Vocabulário do Athenaze em comum: βλέπω e βαίνω (cap. 2), μένω (cap. 3), ἀκούω (cap. 4), διώκω e φεύγω (cap. 5)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ποῖ βαίνετε ὑμεῖς; ποῖ βαίνετε; διὰ τί οὐ μένετε, ὦ φίλοι; μὴ φροντίζετε.",
+    "traducao": "Aonde vocês vão? Aonde vão? Por que não ficam, amigos? Não se preocupem!",
+    "comentario": "JACT: 2ª pl. do indicativo (βαίνετε, μένετε) e imperativo negativo (μὴ φροντίζετε) lado a lado.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 8,
+     "local": "1C"
+    }
+   },
+   {
+    "grego": "“σπεύδετε, ὦ βόες,” φησίν· “μὴ μένετε.”",
+    "traducao": "\"Andem, bois\", diz ele, \"não fiquem parados!\"",
+    "comentario": "Athenaze: imperativo plural e proibição com μή — e o mesmo verbo μένω.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 24,
+     "local": "cap. 3α"
+    }
+   },
+   {
+    "grego": "ἐλθὲ δεῦρο, ὦ Ξανθία. τί καθεύδεις;",
+    "traducao": "Vem cá, Xântias. Por que estás dormindo?",
+    "comentario": "Athenaze: o mesmo ἐλθὲ δεῦρο + vocativo que Zenótemis usa em 1B–1C.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 12,
+     "local": "cap. 2α"
+    }
+   }
+  ]
+ }
+}

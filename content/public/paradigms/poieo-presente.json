@@ -1,0 +1,77 @@
+{
+  "id": "poieo-presente",
+  "titulo": "Verbo contrato em -έω — ποιέω, presente",
+  "grupo": "verbo",
+  "colunas": [
+    "Indicativo ativo",
+    "Imperativo ativo",
+    "Indicativo médio"
+  ],
+  "linhas": [
+    {
+      "rotulo": "1ª sg.",
+      "celulas": [
+        "ποι|ῶ",
+        "—",
+        "ποι|οῦμαι"
+      ]
+    },
+    {
+      "rotulo": "2ª sg.",
+      "celulas": [
+        "ποι|εῖς",
+        "ποί|ει",
+        "ποι|ῇ / ποι|εῖ"
+      ]
+    },
+    {
+      "rotulo": "3ª sg.",
+      "celulas": [
+        "ποι|εῖ",
+        "—",
+        "ποι|εῖται"
+      ]
+    },
+    {
+      "rotulo": "1ª pl.",
+      "celulas": [
+        "ποι|οῦμεν",
+        "—",
+        "ποι|ούμεθα"
+      ]
+    },
+    {
+      "rotulo": "2ª pl.",
+      "celulas": [
+        "ποι|εῖτε",
+        "ποι|εῖτε",
+        "ποι|εῖσθε"
+      ]
+    },
+    {
+      "rotulo": "3ª pl.",
+      "celulas": [
+        "ποι|οῦσι(ν)",
+        "—",
+        "ποι|οῦνται"
+      ]
+    },
+    {
+      "rotulo": "Infinitivo",
+      "celulas": [
+        "ποι|εῖν",
+        "—",
+        "ποι|εῖσθαι"
+      ]
+    }
+  ],
+  "nota": "Contrações: ε + ω → ω, ε + ε → ει, ε + ο → ου, ε + ει → ει, ε + ου → ου. Por isso as terminações são as de παύω 'fundidas' com o ε do tema. Ex. médio: ἀφικνοῦμαι.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "1E–F"
+  },
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 5"
+  }
+}

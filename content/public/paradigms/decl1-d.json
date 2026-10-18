@@ -1,0 +1,63 @@
+{
+  "id": "decl1-d",
+  "titulo": "1ª declinação masculina — ναύτης, νεανίας (1d)",
+  "grupo": "substantivo",
+  "colunas": [
+    "ναύτης sg.",
+    "ναύτης pl.",
+    "νεανίας sg.",
+    "νεανίας pl."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "ναύτ|ης",
+        "ναῦτ|αι",
+        "νεανί|ας",
+        "νεανί|αι"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "ναύτ|ην",
+        "ναύτ|ας",
+        "νεανί|αν",
+        "νεανί|ας"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "ναύτ|ου",
+        "ναυτ|ῶν",
+        "νεανί|ου",
+        "νεανι|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "ναύτ|ῃ",
+        "ναύτ|αις",
+        "νεανί|ᾳ",
+        "νεανί|αις"
+      ]
+    },
+    {
+      "rotulo": "Voc.",
+      "celulas": [
+        "ναῦτ|α",
+        "ναῦτ|αι",
+        "νεανί|α",
+        "νεανί|αι"
+      ]
+    }
+  ],
+  "nota": "Masculinos da 1ª declinação: nom. em -ης/-ας e genitivo singular em -ου, emprestado da 2ª declinação. O vocativo de -της é -τα (ὦ ναῦτα, ὦ δέσποτα).",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 5"
+  }
+}

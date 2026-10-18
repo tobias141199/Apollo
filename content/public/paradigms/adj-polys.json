@@ -1,0 +1,81 @@
+{
+  "id": "adj-polys",
+  "titulo": "πολύς πολλή πολύ — 'muito'",
+  "grupo": "adjetivo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "πολ|ύς",
+        "πολλ|ή",
+        "πολ|ύ"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "πολ|ύν",
+        "πολλ|ήν",
+        "πολ|ύ"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "πολλ|οῦ",
+        "πολλ|ῆς",
+        "πολλ|οῦ"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "πολλ|ῷ",
+        "πολλ|ῇ",
+        "πολλ|ῷ"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "πολλ|οί",
+        "πολλ|αί",
+        "πολλ|ά"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "πολλ|ούς",
+        "πολλ|άς",
+        "πολλ|ά"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "πολλ|ῶν",
+        "πολλ|ῶν",
+        "πολλ|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "πολλ|οῖς",
+        "πολλ|αῖς",
+        "πολλ|οῖς"
+      ]
+    }
+  ],
+  "nota": "Só o nom. e ac. sg. masc./neut. têm o tema πολ-; todo o resto é καλός com o tema πολλ-.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "3C–E"
+  }
+}

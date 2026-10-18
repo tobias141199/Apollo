@@ -1,0 +1,65 @@
+{
+  "id": "verbo-aoristo-forte",
+  "titulo": "Aoristo forte (2º aoristo) — ἔλαβον, ἐλαβόμην",
+  "grupo": "verbo",
+  "colunas": [
+    "Ativo",
+    "Médio"
+  ],
+  "linhas": [
+    {
+      "rotulo": "1ª sg.",
+      "celulas": [
+        "ἔλαβ|ον",
+        "ἐλαβ|όμην"
+      ]
+    },
+    {
+      "rotulo": "2ª sg.",
+      "celulas": [
+        "ἔλαβ|ες",
+        "ἐλάβ|ου"
+      ]
+    },
+    {
+      "rotulo": "3ª sg.",
+      "celulas": [
+        "ἔλαβ|ε(ν)",
+        "ἐλάβ|ετο"
+      ]
+    },
+    {
+      "rotulo": "1ª pl.",
+      "celulas": [
+        "ἐλάβ|ομεν",
+        "ἐλαβ|όμεθα"
+      ]
+    },
+    {
+      "rotulo": "2ª pl.",
+      "celulas": [
+        "ἐλάβ|ετε",
+        "ἐλάβ|εσθε"
+      ]
+    },
+    {
+      "rotulo": "3ª pl.",
+      "celulas": [
+        "ἔλαβ|ον",
+        "ἐλάβ|οντο"
+      ]
+    },
+    {
+      "rotulo": "Infinitivo",
+      "celulas": [
+        "λαβ|εῖν",
+        "λαβ|έσθαι"
+      ]
+    }
+  ],
+  "nota": "Terminações iguais às do imperfeito, mas sobre um tema diferente do presente (λαμβάνω → λαβ-). Para distinguir do imperfeito, compare o tema: ἐλάμβανον (imperf.) × ἔλαβον (aor.). O infinitivo ativo é oxítono: λαβεῖν, ἰδεῖν, ἐλθεῖν.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 11"
+  }
+}

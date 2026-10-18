@@ -1,0 +1,510 @@
+{
+ "id": "4C",
+ "secao": 4,
+ "parte": 2,
+ "titulo": "Um suplicante no santuário",
+ "resumo": "Um estrangeiro perseguido corre para o santuário de Héracles e se torna suplicante. Chegam o arauto e os Onze para prendê-lo, apesar dos protestos de Diceópolis.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 48,
+  "local": "4C"
+ },
+ "vocab": [
+  {
+   "grego": "ἀνομία",
+   "lexical": "ἀνομία, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "falta de lei; ilegalidade",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 49,
+    "local": "4C"
+   }
+  },
+  {
+   "grego": "ἀπάγω",
+   "lexical": "ἀπάγω (ἀπαγαγ-)",
+   "classe": "verbo",
+   "glosa": "levar embora; levar preso",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἀπάγω",
+    "ἀπαγαγ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 49,
+    "local": "4C"
+   }
+  },
+  {
+   "grego": "ἀποφεύγω",
+   "lexical": "ἀποφεύγω (ἀποφυγ-)",
+   "classe": "verbo",
+   "glosa": "escapar; fugir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἀποφεύγω",
+    "ἀποφυγ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 49,
+    "local": "4C"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "δοῦλος",
+   "lexical": "δοῦλος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "escravo",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 49,
+    "local": "4C"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "ἱερόν",
+   "lexical": "ἱερόν, τό (2b)",
+   "classe": "substantivo",
+   "glosa": "templo; santuário",
+   "aprender": true,
+   "paradigma": "decl2-neut",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 49,
+    "local": "4C"
+   },
+   "athenaze": "cap. 9"
+  },
+  {
+   "grego": "ἱκέτης",
+   "lexical": "ἱκέτης, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "suplicante",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 49,
+    "local": "4C"
+   }
+  },
+  {
+   "grego": "μά",
+   "lexical": "μά (+ ac.)",
+   "classe": "partícula",
+   "glosa": "por …! (juramento, + ac.; geralmente negativo: οὐ μὰ Δία)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 49,
+    "local": "4C"
+   }
+  },
+  {
+   "grego": "ξένος",
+   "lexical": "ξένος / ξεῖνος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "estrangeiro; hóspede",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "ξεῖνος é a forma épica/jônica.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 49,
+    "local": "4C"
+   },
+   "athenaze": "cap. 7"
+  },
+  {
+   "grego": "ὀρθός",
+   "lexical": "ὀρθός ή όν",
+   "classe": "adjetivo",
+   "glosa": "reto; correto; direito",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 49,
+    "local": "4C"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "Particípio presente ativo: παύων παύουσα παῦον",
+   "nota": "Tema do presente + -ων -ουσα -ον (radical -οντ- no masculino e neutro, -ουσ- no feminino). As terminações são exatamente as de ὤν οὖσα ὄν, que você já sabe: modelo 3-1-3. Para reconhecer na leitura, procure *-οντ-* ou *-ουσ-* depois do tema de um verbo.\n\nNos contratos, a vogal do tema se funde com a terminação pelas regras de sempre: ποιέ-ων > ποιῶν (ποιοῦντ-), τιμά-ων > τιμῶν (τιμῶντ-), δηλό-ων > δηλῶν (δηλοῦντ-). Cuidado: τιμῶν pode ser nom. masc. sg. ou nom./ac. neutro sg., e o dativo plural παύουσι(ν) é igual à 3ª pessoa do plural do presente.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "82–84",
+    "local": "4C–D, §89–91"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "134–137",
+    "local": "cap. 9, Gram. 1"
+   },
+   "paradigmas": [
+    "part-presente-ativo",
+    "part-on"
+   ],
+   "exemplos": [
+    {
+     "grego": "οὐ μὰ Δία. ὁρῶ γὰρ αὐτὸν προστρέχοντα.",
+     "traducao": "Por Zeus, claro que não! Estou vendo ele correndo na nossa direção.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 48,
+      "local": "4C",
+      "linhas": "l. 7"
+     }
+    },
+    {
+     "grego": "ὁ δὲ ξένος οὐ παύεται βοῶν καὶ δηλῶν τί πάσχει ὑπὸ τῶν Ἀθηναίων.",
+     "traducao": "E o estrangeiro não para de gritar e de mostrar o que sofre nas mãos dos atenienses.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 51,
+      "local": "4D",
+      "linhas": "l. 39–40"
+     }
+    },
+    {
+     "grego": "καθιζόμενοι θεῶνται τοὺς ἀνθρώπους σπεύδοντας καὶ βοῶντας καὶ θόρυβον ποιοῦντας.",
+     "traducao": "Sentados, observam as pessoas correndo, gritando e fazendo barulho.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 133,
+      "local": "cap. 9α",
+      "linhas": "l. 4–5"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Particípio presente médio: παυόμενος παυομένη παυόμενον",
+   "nota": "Tema do presente + -όμενος -ομένη -όμενον, declinado como καλός (2-1-2). A marca a procurar é *-μεν-*. Serve para os verbos médios e depoentes (ἐπικαλέομαι, ὀλοφύρομαι, πορεύομαι, φοβέομαι).\n\nNos contratos a fusão acontece antes do -μεν-: φοβέ-ομενος > φοβούμενος, θεά-ομενος > θεώμενος, ἐπικαλέ-ομενος > ἐπικαλούμενος. Depois disso as terminações são as mesmas de παυόμενος.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "84–85",
+    "local": "4C–D, §92–93"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "114–116",
+    "local": "cap. 8, Gram. 1"
+   },
+   "paradigmas": [
+    "part-medio"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἐπικαλεῖται ἡμᾶς ὁ ξένος, ὦ ῥαψῳδέ, καὶ οὐ παύεται ἐπικαλούμενος.",
+     "traducao": "O estrangeiro está nos chamando, rapsodo, e não para de chamar.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 50,
+      "local": "4D",
+      "linhas": "l. 14–15"
+     }
+    },
+    {
+     "grego": "ἐν δὲ τούτῳ ὅ τε Δικαιόπολις καὶ ὁ δοῦλος οὐ παύονται ἐργαζόμενοι.",
+     "traducao": "Enquanto isso, Diceópolis e o escravo não param de trabalhar.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 112,
+      "local": "cap. 8α",
+      "linhas": "l. 1–2"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Artigo + particípio: ὁ φεύγων, 'o que foge'",
+   "nota": "Com o artigo, o particípio vira um substantivo: ὁ φεύγων = 'o que foge, o fugitivo'; οἱ διώκοντες = 'os que perseguem, os perseguidores'; αἱ βαίνουσαι = 'as mulheres que andam'. O gênero e o número do artigo dizem quem é a pessoa.\n\nNa tradução, uma oração relativa ('aquele que...', 'os que...') quase sempre funciona melhor. Tudo o que fica entre o artigo e o particípio pertence a ele: τοὺς ἐφ’ ἱκετείαν τρεπομένους = 'os que se voltam à súplica'.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 85,
+    "local": "4C–D, §94"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 148,
+    "local": "cap. 9, Gram. 6e"
+   },
+   "exemplos": [
+    {
+     "grego": "μὴ ἄπαγε τὸν φεύγοντα, ὦ κῆρυξ, καίπερ Λακεδαιμόνιον ὄντα.",
+     "traducao": "Não leves embora o fugitivo, arauto, embora ele seja espartano.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 48,
+      "local": "4C",
+      "linhas": "l. 28–29"
+     }
+    },
+    {
+     "grego": "ἆρ’ ἀποκτείνετε τοὺς ἐφ’ ἱκετείαν τρεπομένους;",
+     "traducao": "Matais os que se voltam para a súplica?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 50,
+      "local": "4D",
+      "linhas": "l. 29–30"
+     }
+    },
+    {
+     "grego": "οἱ δὲ παρόντες πάντες βοῶσιν.",
+     "traducao": "E todos os presentes gritam.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 143,
+      "local": "cap. 9β",
+      "linhas": "l. 21"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Verbos e expressões com particípio: τυγχάνω, λανθάνω, φθάνω, φαίνομαι, παύομαι, δῆλός εἰμι, καίπερ",
+   "nota": "Nesses verbos o particípio carrega a ação principal, e o verbo flexionado dá só uma 'nuance'. Traduza o particípio como verbo principal:\n\n- τυγχάνω φεύγων: 'por acaso estou fugindo', 'acontece que fujo'\n- λανθάνω σε φεύγων: 'fujo sem que você perceba'\n- φθάνω σε φεύγων: 'fujo antes de você'\n- φαίνομαι φεύγων: 'evidentemente estou fugindo'\n- παύομαι φεύγων: 'paro de fugir'; δῆλός εἰμι φεύγων: 'é claro que estou fugindo'\n- καίπερ + particípio: 'embora'\n\nO particípio concorda com o sujeito (ou, em λανθάνω e φθάνω, a pessoa que não percebe ou fica para trás vai no acusativo).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "86–87",
+    "local": "4C–D, §95–96"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 115,
+    "local": "cap. 8, Gram. 1c (παύομαι + particípio)"
+   },
+   "exemplos": [
+    {
+     "grego": "ἴσως δοῦλός τίς ἐστι καὶ ἀποφεύγων τυγχάνει.",
+     "traducao": "Talvez seja um escravo e acontece que está fugindo.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 48,
+      "local": "4C",
+      "linhas": "l. 9"
+     }
+    },
+    {
+     "grego": "ἀλλὰ ὁ ἀνὴρ φθάνει τοὺς ἕνδεκα εἰς τὸ ἱερὸν τρέχων.",
+     "traducao": "Mas o homem chega correndo ao santuário antes dos Onze.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 48,
+      "local": "4C",
+      "linhas": "l. 18–19"
+     }
+    },
+    {
+     "grego": "ὢ τῆς ἀνομίας. δυστυχὴς δὴ φαίνεται ὢν ὁ ξένος.",
+     "traducao": "Que falta de lei! O estrangeiro é evidentemente infeliz.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 49,
+      "local": "4C",
+      "linhas": "l. 35"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "3ª declinação, tipo 3g: βασιλεύς",
+   "nota": "Os nomes em *-εύς* são masculinos e têm o radical βασιλευ- antes de consoante e βασιλε- antes de vogal: βασιλέ-ως (gen.), βασιλεῖ (dat.), βασιλέ-α (ac.), βασιλῆς ou βασιλεῖς (nom. pl.). O genitivo em -εως lembra πόλεως, mas o nominativo -εύς e o artigo masculino evitam confusão.\n\nDeclinam-se igual: ὁ ἱερεύς ('sacerdote'), ὁ Πειραιεύς, ὁ Θησεύς, ὁ Ὀδυσσεύς. ὁ βασιλεύς sem artigo ou como 'o Grande Rei' (βασιλεὺς ὁ μέγας) costuma ser o rei da Pérsia.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 87,
+    "local": "4C–D, §97"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 146,
+    "local": "cap. 9, Gram. 4"
+   },
+   "paradigmas": [
+    "decl3-g"
+   ],
+   "exemplos": [
+    {
+     "grego": "πρεσβευτής τις, καὶ πορευόμενος τυγχάνει πρὸς βασιλέα τὸν μέγαν.",
+     "traducao": "Um embaixador, e acontece que está a caminho do Grande Rei.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 50,
+      "local": "4D",
+      "linhas": "l. 36–37"
+     }
+    },
+    {
+     "grego": "ἔπειτα δὲ προχωρεῖ ὁ τοῦ Διονύσου ἱερεύς.",
+     "traducao": "Depois avança o sacerdote de Dioniso.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 143,
+      "local": "cap. 9β",
+      "linhas": "l. 8–9"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Elisão e crase",
+   "nota": "*Elisão*: uma vogal breve no fim de palavra cai antes de outra vogal, e o apóstrofo marca a queda: δεῦρ’ ἐλθέ (= δεῦρο), δ’ ὄντα (= δὲ). Se a palavra seguinte tem espírito áspero, a consoante que sobra fica aspirada: π > φ, τ > θ (ἐπί + ἱκετείαν > ἐφ’ ἱκετείαν; κατα- + ὁράω > καθοράω).\n\n*Crase*: duas vogais de palavras diferentes se fundem numa só: ὦ ἄνδρες > ὦνδρες, τὰ ἀγαθά > τἀγαθά. Se aparece um espírito ou uma coronis onde você não esperava, desfaça a crase para achar as duas palavras.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "87–88",
+    "local": "4C–D, §98–100"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "58–59",
+    "local": "cap. 5, Gram. 4 (elisão)"
+   },
+   "exemplos": [
+    {
+     "grego": "βαρὺς γάρ ἐστιν ὁ νεκρὸς οὗτος, βαρὺν δ’ ὄντα βραδέως δὴ φέρω ἔγωγε.",
+     "traducao": "Este cadáver é pesado, e, como é pesado, eu o carrego devagar.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 45,
+      "local": "4B",
+      "linhas": "l. 2–3"
+     }
+    },
+    {
+     "grego": "δῆλον ὅτι ἐφ’ ἱκετείαν τρέπεται.",
+     "traducao": "É claro que ele se volta à súplica.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 48,
+      "local": "4C",
+      "linhas": "l. 15"
+     }
+    },
+    {
+     "grego": "ἐπικαλοῦμαι ὑμᾶς, ὦνδρες.",
+     "traducao": "Eu vos invoco, senhores!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 50,
+      "local": "4D",
+      "linhas": "l. 12"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "4C-o1",
+   "tipo": "completar",
+   "titulo": "Particípio presente ativo",
+   "enunciado": "Complete com o particípio presente ativo do verbo entre parênteses, concordando com a palavra a que ele se refere. Depois traduza.",
+   "itens": [
+    {
+     "pergunta": "ὁρῶ τὸν ξένον εἰς τὸ ἱερὸν ____ (τρέχω).",
+     "resposta": "τρέχοντα. Vejo o estrangeiro correndo para o santuário."
+    },
+    {
+     "pergunta": "ὁ δοῦλος λανθάνει τὸν δεσπότην ____ (ἀποφεύγω).",
+     "resposta": "ἀποφεύγων. O escravo foge sem que o senhor perceba."
+    },
+    {
+     "pergunta": "αἱ γυναῖκες τυγχάνουσι τὸν ἱκέτην ____ (ὁράω).",
+     "resposta": "ὁρῶσαι. Acontece que as mulheres estão vendo o suplicante."
+    },
+    {
+     "pergunta": "ὁ ἱκέτης φθάνει τοὺς ἄνδρας εἰς τὸ ἱερὸν ____ (φεύγω).",
+     "resposta": "φεύγων. O suplicante chega fugindo ao santuário antes dos homens."
+    },
+    {
+     "pergunta": "οἱ ξένοι δῆλοί εἰσι κακόν τι ____ (ποιέω).",
+     "resposta": "ποιοῦντες. É evidente que os estrangeiros estão fazendo algo de mau."
+    },
+    {
+     "pergunta": "μὴ κώλυε τοὺς τὸν δοῦλον ____ (ἀπάγω).",
+     "resposta": "ἀπάγοντας. Não impeças os que estão levando embora o escravo."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "4C"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 8 (Πρὸς τὸ ἄστυ)",
+   "cap. 9 (Ἡ πανήγυρις)"
+  ],
+  "comparacao": "Aqui os dois livros se cruzam em ordem inversa. A JACT ensina primeiro o particípio ativo (παύων, §90) e depois o médio (παυόμενος, §92). O Athenaze faz o contrário: o médio no cap. 8 (porque é declinado como καλός, que o aluno já conhece) e o ativo só no cap. 9, depois de πᾶς πᾶσα πᾶν, que serve de modelo para o 3-1-3. Para quem acha os quadros 3-1-3 difíceis, a ordem do Athenaze é mais suave.\n\nO forte da JACT nesta parte são as expressões com particípio (τυγχάνω, λανθάνω, φθάνω, φαίνομαι, δῆλός εἰμι, καίπερ). O texto 4C usa todas elas, e o Athenaze Book I só traz παύομαι + particípio (cap. 8) e τέρπομαι + particípio (vocabulário 9β). Já o Athenaze explica melhor os *usos* do particípio (circunstancial, atributivo, complementar: cap. 8, Gram. 1) e o artigo + particípio (cap. 9, Gram. 6e).\n\n*Ordem sugerida:* leia 4C; depois faça os exercícios 8β e 9β do Athenaze como treino extra de formas antes de 4D.",
+  "complementos": [
+   "Athenaze cap. 8, Gram. 1 (pp. 114–115): nomes para os três usos do particípio (circunstancial, atributivo, complementar) e o aviso de que o particípio presente indica aspecto (ação em curso), não tempo.",
+   "Athenaze cap. 9, Gram. 1 (pp. 136–137): quadros completos dos particípios contratos φιλῶν e τιμῶν, com a contração passo a passo (φιλέ-ων > φιλῶν).",
+   "Athenaze cap. 9, Gram. 2 (p. 145): ὁ γέρων, γέροντος 'velho' declina-se como um particípio ativo, um bom atalho para memorizar o quadro.",
+   "Athenaze cap. 9, Gram. 6 (p. 148): outros usos do artigo (οἱ νῦν, αἱ ἐν τῇ ἀγορᾷ, τὰ τῆς πόλεως), úteis para ler os textos de 4C–D."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἢ λανθάνει σε ὁ ἀνὴρ δεῦρο τρέχων;",
+    "traducao": "Ou você não percebe o homem correndo para cá?",
+    "comentario": "JACT: λανθάνω + particípio. Ao pé da letra: 'o homem passa despercebido a você, correndo para cá'.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 48,
+     "local": "4C",
+     "linhas": "l. 6"
+    }
+   },
+   {
+    "grego": "ὁ δὲ Φίλιππος ἀλλαντοπώλην ὁρᾷ διὰ τοῦ ὁμίλου ὠθιζόμενον καὶ τὰ ὤνια βοῶντα.",
+    "traducao": "Filipe vê um vendedor de linguiças abrindo caminho na multidão e apregoando a mercadoria.",
+    "comentario": "Athenaze: um médio (ὠθιζόμενον) e um ativo contrato (βοῶντα) na mesma frase, ambos concordando com o objeto.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 133,
+     "local": "cap. 9α",
+     "linhas": "l. 6–7"
+    }
+   },
+   {
+    "grego": "ἰδού. τρέχει γὰρ ὁ ἀνὴρ εἰς τὸ Ἡράκλειον ἱερόν.",
+    "traducao": "Olha! O homem está correndo para o santuário de Héracles.",
+    "comentario": "JACT: τὸ ἱερόν como lugar de asilo.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 48,
+     "local": "4C",
+     "linhas": "l. 13"
+    }
+   },
+   {
+    "grego": "τὸ τῆς Παρθένου ἱερὸν ὁρῶσιν ἐναντίον καὶ τὴν τῆς Ἀθηνᾶς εἰκόνα, μεγίστην οὖσαν.",
+    "traducao": "Veem à frente o templo da Virgem e a estátua de Atena, que é enorme.",
+    "comentario": "Athenaze: o mesmo ἱερόν, agora o Partenon, e um οὖσαν concordando com εἰκόνα.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 134,
+     "local": "cap. 9α",
+     "linhas": "l. 18–19"
+    }
+   }
+  ]
+ }
+}

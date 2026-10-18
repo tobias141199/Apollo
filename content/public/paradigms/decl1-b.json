@@ -1,0 +1,44 @@
+{
+  "id": "decl1-b",
+  "titulo": "1ª declinação feminina em -ᾱ — οἰκία (1b)",
+  "grupo": "substantivo",
+  "colunas": [
+    "Singular",
+    "Plural"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "οἰκί|α",
+        "οἰκί|αι"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "οἰκί|αν",
+        "οἰκί|ας"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "οἰκί|ας",
+        "οἰκι|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "οἰκί|ᾳ",
+        "οἰκί|αις"
+      ]
+    }
+  ],
+  "nota": "Depois de ε, ι ou ρ o α é longo e se mantém em todo o singular (θύρα, θυσία, σοφία). Atenção: οἰκίας pode ser gen. sg. ou ac. pl. — o artigo (τῆς / τάς) desfaz a ambiguidade.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 4"
+  }
+}

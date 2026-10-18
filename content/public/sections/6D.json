@@ -1,0 +1,389 @@
+{
+ "id": "6D",
+ "secao": 6,
+ "parte": 2,
+ "titulo": "Um aluno sem jeito",
+ "resumo": "Endividado por causa do filho apaixonado por cavalos, Estrepsíades pede para aprender o argumento mais fraco; deitado num sofá cheio de percevejos, propõe roubar a lua para escapar dos credores, e Sócrates desiste dele.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 70,
+  "local": "6D"
+ },
+ "vocab": [
+  {
+   "grego": "ἀμαθής",
+   "lexical": "ἀμαθής ές",
+   "classe": "adjetivo",
+   "glosa": "ignorante",
+   "aprender": true,
+   "paradigma": "adj-alethes",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "ἄρα",
+   "lexical": "ἄρα",
+   "classe": "partícula",
+   "glosa": "então; nesse caso (inferência)",
+   "aprender": true,
+   "nota": "Não confundir com ἆρα, que introduz pergunta.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "γέρων",
+   "lexical": "γέρων (γεροντ-), ὁ (3a)",
+   "classe": "substantivo",
+   "glosa": "velho",
+   "aprender": true,
+   "paradigma": "decl3-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   },
+   "athenaze": "cap. 9"
+  },
+  {
+   "grego": "γνώμη",
+   "lexical": "γνώμη, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "mente; juízo; propósito; plano",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "δεξιός",
+   "lexical": "δεξιός ά όν",
+   "classe": "adjetivo",
+   "glosa": "direito (lado)",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "δεξιά",
+   "lexical": "δεξιά, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "mão direita",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   },
+   "athenaze": "cap. 9"
+  },
+  {
+   "grego": "δῆτα",
+   "lexical": "δῆτα",
+   "classe": "partícula",
+   "glosa": "então; de fato",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "δράω",
+   "lexical": "δράω (δρασ-)",
+   "classe": "verbo",
+   "glosa": "fazer; agir",
+   "aprender": true,
+   "paradigma": "orao-presente",
+   "partes": [
+    "δράω",
+    "δρασ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "εἰ",
+   "lexical": "εἰ",
+   "classe": "conjunção",
+   "glosa": "se",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   },
+   "athenaze": "cap. 11"
+  },
+  {
+   "grego": "ἐμαυτόν",
+   "lexical": "ἐμαυτόν ήν",
+   "classe": "pronome",
+   "glosa": "eu mesmo; a mim mesmo",
+   "aprender": true,
+   "nota": "Reflexivo: não tem nominativo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   },
+   "athenaze": "cap. 7"
+  },
+  {
+   "grego": "ἕτερος",
+   "lexical": "ἕτερος α ον",
+   "classe": "adjetivo",
+   "glosa": "um (ou o outro) de dois",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "ἥττων",
+   "lexical": "ἥττων ἧττον (ἡττον-)",
+   "classe": "adjetivo",
+   "glosa": "mais fraco; menor; inferior",
+   "aprender": true,
+   "nota": "Comparativo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "κλέπτω",
+   "lexical": "κλέπτω",
+   "classe": "verbo",
+   "glosa": "roubar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "κρείττων",
+   "lexical": "κρείττων κρεῖττον (κρειττον-)",
+   "classe": "adjetivo",
+   "glosa": "mais forte; maior; melhor",
+   "aprender": true,
+   "nota": "Comparativo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "οὗτος",
+   "lexical": "οὗτος",
+   "classe": "interjeição",
+   "glosa": "ei!; ei, tu!",
+   "aprender": true,
+   "nota": "O demonstrativo usado para chamar alguém.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "πάνυ",
+   "lexical": "πάνυ",
+   "classe": "advérbio",
+   "glosa": "muito; completamente; sem dúvida",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "πότερος",
+   "lexical": "πότερος α ον;",
+   "classe": "adjetivo",
+   "glosa": "qual (de dois)?",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "σελήνη",
+   "lexical": "σελήνη, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "lua",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "σός",
+   "lexical": "σός σή σόν",
+   "classe": "adjetivo",
+   "glosa": "teu",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "τήμερον",
+   "lexical": "τήμερον",
+   "classe": "advérbio",
+   "glosa": "hoje",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  },
+  {
+   "grego": "χρήσιμος",
+   "lexical": "χρήσιμος η ον",
+   "classe": "adjetivo",
+   "glosa": "útil; proveitoso",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 71,
+    "local": "6D"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "6D-o1",
+   "tipo": "traduzir-gp",
+   "titulo": "Discurso indireto e aoristos",
+   "enunciado": "Traduza para o português. No discurso indireto, ajuste o tempo do verbo subordinado ao português.",
+   "itens": [
+    {
+     "pergunta": "ὁ γέρων εἶπεν ὅτι ἡ σελήνη χρήσιμός ἐστιν.",
+     "resposta": "O velho disse que a lua era útil."
+    },
+    {
+     "pergunta": "ὁ Σωκράτης ἤρετο πότερον τῶν λόγων μανθάνει ὁ γέρων.",
+     "resposta": "Sócrates perguntou qual dos (dois) argumentos o velho estava aprendendo."
+    },
+    {
+     "pergunta": "ἔμαθον ὅτι ὁ ἕτερος λόγος κρείττων ἐστίν.",
+     "resposta": "Aprendi (fiquei sabendo) que um dos dois argumentos era mais forte."
+    },
+    {
+     "pergunta": "εἶπες ὅτι τὴν σελήνην ἔκλεψας;",
+     "resposta": "Disseste que roubaste (tinhas roubado) a lua?"
+    },
+    {
+     "pergunta": "τήμερον ἀμαθὴς ἐγένου, ὦ γέρον.",
+     "resposta": "Hoje te mostraste (te tornaste) um ignorante, velho."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "6D"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 11 (Ὁ ἰατρός)",
+   "cap. 12 (Πρὸς τὸν Πειραιᾶ)"
+  ],
+  "comparacao": "6D fecha a Seção 6 com aoristos dos dois tipos misturados (ἐγένου, ἔλαθον, ἐγενόμην, ἔπαθον, ἐφρόντισας) e com discurso indireto. O Athenaze ainda não tem uma lição sobre discurso indireto em Book I: ele simplesmente o usa nas leituras dos caps. 11–12 (ἔμαθεν ὅτι…, ἤρετο εἰ…) e explica εἰ \"se\" no vocabulário do cap. 11 (p. 175). Nesse ponto, a JACT (§148) é mais clara, porque avisa logo que o grego *mantém o tempo da fala original*.\n\nAs duas histórias, curiosamente, se espelham: o médico pergunta ao menino πῶς τυφλὸς ἐγένου; (Athenaze 11β) e Sócrates pergunta a Estrepsíades πῶς σὺ ὑπόχρεως ἐγένου; — a mesma pergunta, com o mesmo aoristo de γίγνομαι. Ler as duas passagens em seguida é um bom treino de reconhecimento.\n\nOrdem sugerida: leia 6D; depois o texto de Democedes (Athenaze, p. 192), curto e cheio de discurso indireto e de aoristos dos dois tipos; finalmente, faça os Exercícios de revisão da Seção 6 da JACT.",
+  "complementos": [
+   "Athenaze cap. 11, Vocabulário (p. 175): εἰ \"se\" também introduz pergunta indireta (\"se, se acaso\") — exatamente o uso de εἰ ἄρα λήσω τοὺς κόρεις (6D, l. 20).",
+   "Athenaze cap. 7, Gram. (reflexivos): quadro completo de ἐμαυτοῦ, σεαυτοῦ, ἑαυτοῦ — para ἐμαυτόν e σεαυτοῦ desta seção.",
+   "Athenaze cap. 5 (pronomes e adjetivos possessivos): ἐμός, σός, ἡμέτερος, ὑμέτερος — para τῶν σῶν λόγων (6D, l. 7).",
+   "Athenaze cap. 14 (comparação de adjetivos), fora do trecho equivalente: quando chegar lá, κρείττων e ἥττων aparecem como comparativos irregulares de ἀγαθός e κακός.",
+   "Vocabulário em comum: σός (cap. 5), ἐμαυτόν (cap. 7), γέρων e δεξιά (cap. 9), εἰ (cap. 11)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἀλλὰ πῶς σὺ ὑπόχρεως ἐγένου; πῶς τοῦτο πάσχεις;",
+    "traducao": "Mas como foi que te endividaste? Como isso te aconteceu?",
+    "comentario": "JACT: ἐγένου, 2ª sg. do aoristo segundo médio de γίγνομαι.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 70,
+     "local": "6D",
+     "linhas": "l. 3"
+    }
+   },
+   {
+    "grego": "δεῦρο ἐλθέ, ὦ παῖ. τί ἔπαθες; πῶς τυφλὸς ἐγένου;",
+    "traducao": "Vem cá, menino. O que te aconteceu? Como ficaste cego?",
+    "comentario": "Athenaze: a mesma pergunta com ἐγένου; ἐλθέ é o imperativo aoristo (acento irregular) de ἔρχομαι.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 187,
+     "local": "cap. 11β",
+     "linhas": "l. 23–24"
+    }
+   },
+   {
+    "grego": "ἔλαθον ἐμαυτὸν ἱππομανῆ τὸν υἱὸν ἔχων.",
+    "traducao": "Sem me dar conta, eu tinha um filho louco por cavalos.",
+    "comentario": "JACT: λανθάνω + particípio, com o reflexivo ἐμαυτόν.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 70,
+     "local": "6D",
+     "linhas": "l. 4"
+    }
+   },
+   {
+    "grego": "ὁ δὲ Δημοκήδης φοβούμενος εἶπεν ὅτι οὐκ ἔστιν ἰατρὸς σοφός.",
+    "traducao": "E Democedes, com medo, disse que não era um médico habilidoso.",
+    "comentario": "Athenaze: discurso indireto com ὅτι e o presente ἔστιν conservado; em português, \"era\".",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 192,
+     "local": "cap. 11, Ὁ Δημοκήδης",
+     "linhas": "l. 8"
+    }
+   }
+  ]
+ }
+}

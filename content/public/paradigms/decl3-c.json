@@ -1,0 +1,44 @@
+{
+  "id": "decl3-c",
+  "titulo": "3ª declinação neutra em -ος — πλῆθος (3c)",
+  "grupo": "substantivo",
+  "colunas": [
+    "Singular",
+    "Plural"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "πλῆθ|ος",
+        "πλήθ|η"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "πλῆθ|ος",
+        "πλήθ|η"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "πλήθ|ους",
+        "πληθ|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "πλήθ|ει",
+        "πλήθ|εσι(ν)"
+      ]
+    }
+  ],
+  "nota": "Não confunda com a 2ª declinação: o genitivo é -ους, e o plural nom./ac. é -η. Mesmo modelo: τεῖχος, τείχους; ἔτος; μέρος.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "4A–B"
+  }
+}

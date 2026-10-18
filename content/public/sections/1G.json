@@ -1,0 +1,772 @@
+{
+ "id": "1G",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "O navio está salvo?",
+ "resumo": "Diceópolis teme pelo navio e reza a Posídon, mas o capitão examina o casco e anuncia que estão a salvo e que o porto está perto.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 16,
+  "local": "1G"
+ },
+ "vocab": [
+  {
+   "grego": "διὰ τί",
+   "lexical": "διὰ τί;",
+   "classe": "expressão",
+   "glosa": "por quê?",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 17,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "νῦν",
+   "lexical": "νῦν",
+   "classe": "advérbio",
+   "glosa": "agora",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 17,
+    "local": "1G"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "ἀναβαίνω",
+   "lexical": "ἀναβαίνω (ἀναβα-)",
+   "classe": "verbo",
+   "glosa": "subir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἀναβαίνω",
+    "ἀναβα-"
+   ],
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 269,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "ἄνθρωπος",
+   "lexical": "ἄνθρωπος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "homem; pessoa",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 269,
+    "local": "1G"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ἀπό",
+   "lexical": "ἀπό (+ gen.)",
+   "classe": "preposição",
+   "glosa": "de; para longe de",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 270,
+    "local": "1G"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "ἀποθνῄσκω",
+   "lexical": "ἀποθνῄσκω (ἀποθαν-)",
+   "classe": "verbo",
+   "glosa": "morrer",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἀποθνῄσκω",
+    "ἀποθαν-"
+   ],
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 270,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "ἀποχωρέω",
+   "lexical": "ἀποχωρέω",
+   "classe": "verbo",
+   "glosa": "afastar-se; ir embora",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 270,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "γε",
+   "lexical": "γε",
+   "classe": "partícula",
+   "glosa": "pelo menos; de fato (realça a palavra anterior)",
+   "aprender": true,
+   "nota": "Enclítica. Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 271,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "δύω",
+   "lexical": "δύω",
+   "classe": "verbo",
+   "glosa": "afundar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 273,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "εἰς",
+   "lexical": "εἰς (+ ac.)",
+   "classe": "preposição",
+   "glosa": "para; em direção a; para dentro de",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 273,
+    "local": "1G"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "ἐκ",
+   "lexical": "ἐκ/ἐξ (+ gen.)",
+   "classe": "preposição",
+   "glosa": "de; para fora de",
+   "aprender": true,
+   "nota": "ἐξ antes de vogal. Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 273,
+    "local": "1G"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "ἐλθέ",
+   "lexical": "ἐλθέ",
+   "classe": "verbo",
+   "glosa": "vem!",
+   "aprender": true,
+   "nota": "Imperativo (pl. ἔλθετε 'vinde!'). Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 274,
+    "local": "1G"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "ἐμπόριον",
+   "lexical": "ἐμπόριον, τό (2b)",
+   "classe": "substantivo",
+   "glosa": "mercado; entreposto comercial",
+   "aprender": true,
+   "paradigma": "decl2-neut",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 274,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "ἐν",
+   "lexical": "ἐν (+ dat.)",
+   "classe": "preposição",
+   "glosa": "em; entre",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 274,
+    "local": "1G"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "ἔργον",
+   "lexical": "ἔργον, τό (2b)",
+   "classe": "substantivo",
+   "glosa": "trabalho; tarefa; obra",
+   "aprender": true,
+   "paradigma": "decl2-neut",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 275,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "ἔχω",
+   "lexical": "ἔχω (σχ-)",
+   "classe": "verbo",
+   "glosa": "ter; segurar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἔχω",
+    "σχ-"
+   ],
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 276,
+    "local": "1G"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "ἡμέτερος",
+   "lexical": "ἡμέτερος α ον",
+   "classe": "adjetivo",
+   "glosa": "nosso",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 276,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "θάλαττα",
+   "lexical": "θάλαττα, ἡ (1c)",
+   "classe": "substantivo",
+   "glosa": "mar",
+   "aprender": true,
+   "paradigma": "decl1-c",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 276,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "κακός",
+   "lexical": "κακός ή όν",
+   "classe": "adjetivo",
+   "glosa": "mau; ruim; covarde",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 277,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "κυβερνήτης",
+   "lexical": "κυβερνήτης, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "capitão; piloto",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 278,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "λέγω",
+   "lexical": "λέγω (εἰπ-)",
+   "classe": "verbo",
+   "glosa": "dizer; falar; contar; querer dizer",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "λέγω",
+    "εἰπ-"
+   ],
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 279,
+    "local": "1G"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "λέμβος",
+   "lexical": "λέμβος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "barco; bote salva-vidas",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 279,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "πλέω",
+   "lexical": "πλέω (πλευσα-)",
+   "classe": "verbo",
+   "glosa": "navegar",
+   "aprender": true,
+   "partes": [
+    "πλέω",
+    "πλευσα-"
+   ],
+   "nota": "Só contrai εε e εει (πλεῖ, πλεῖτε). Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 282,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "πρός",
+   "lexical": "πρός (+ ac.)",
+   "classe": "preposição",
+   "glosa": "para; em direção a",
+   "aprender": true,
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 283,
+    "local": "1G"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ῥίπτω",
+   "lexical": "ῥίπτω",
+   "classe": "verbo",
+   "glosa": "lançar; atirar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 284,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "σῴζω",
+   "lexical": "σῴζω",
+   "classe": "verbo",
+   "glosa": "salvar; manter a salvo",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 284,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "σῶος",
+   "lexical": "σῶος α ον",
+   "classe": "adjetivo",
+   "glosa": "salvo; a salvo; seguro",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 285,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "σωτηρία",
+   "lexical": "σωτηρία, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "salvação; segurança",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 285,
+    "local": "1G"
+   }
+  },
+  {
+   "grego": "φίλος",
+   "lexical": "φίλος η ον; φίλος, ὁ (2a)",
+   "classe": "adjetivo",
+   "glosa": "caro; querido; (subst.) amigo",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "nota": "Como substantivo, φίλος, ὁ = 'amigo' (2a). Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 286,
+    "local": "1G"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "φροντίζω",
+   "lexical": "φροντίζω",
+   "classe": "verbo",
+   "glosa": "pensar; preocupar-se",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Aprendida na lista de vocabulário da Gramática 1G (marcada [1G] no Vocabulário completo).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 286,
+    "local": "1G"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "2ª declinação: ἄνθρωπος (2a) e ἔργον (2b)",
+   "nota": "Os substantivos em -ος (2a, quase todos masculinos) e em -ον (2b, sempre neutros) têm as terminações do artigo e de καλός: -ος/-ον, -ου, -ῳ, -ε (voc.); plural -οι/-α, -ους/-α, -ων, -οις. As duas classes só diferem no nominativo/vocativo singular e no nom./voc./ac. plural.\n\nAtenção a ἄνθρωπος: o acento recua para a penúltima quando a última sílaba é longa (ἀνθρώπου, ἀνθρώπους), mas não em ἄνθρωποι.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "24–25",
+    "local": "1G, §30–33"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "20, 31–32",
+    "local": "cap. 2, Gram. 4; cap. 3, Gram. 2–3"
+   },
+   "paradigmas": [
+    "decl2-masc",
+    "decl2-neut"
+   ],
+   "exemplos": [
+    {
+     "grego": "σὺ δὲ ἀεὶ σῴζεις τοὺς ἀνθρώπους ἐκ τῆς θαλάττης.",
+     "traducao": "E tu sempre salvas os homens do mar.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 16,
+      "local": "1G"
+     }
+    },
+    {
+     "grego": "ἐγὼ γὰρ ὁ κυβερνήτης· ἐμὸν οὖν τὸ ἔργον.",
+     "traducao": "Pois o piloto sou eu; a tarefa, portanto, é minha.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 16,
+      "local": "1G"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Neutros: sujeito ou objeto? Neutro plural com verbo no singular",
+   "nota": "No neutro, nominativo e acusativo são sempre iguais (τὸ πλοῖον, τὰ πλοῖα) — nem o artigo ajuda; só o sentido da frase decide se é sujeito ou objeto. Se não estiver claro, teste as duas leituras.\n\nUm sujeito neutro plural normalmente leva o verbo no *singular*: τὰ πλοῖα βαίνει, \"os navios vão\". Não se assuste com o verbo \"errado\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "25–26",
+    "local": "1G, §34–35"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 32,
+    "local": "cap. 3, Gram. 2, nota 1"
+   },
+   "paradigmas": [
+    "decl2-neut",
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "σῶον μὲν γὰρ τὸ ἡμέτερον πλοῖον, σῶοι δὲ καὶ ἡμεῖς.",
+     "traducao": "Nosso navio está salvo, e nós também estamos salvos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 16,
+      "local": "1G"
+     }
+    },
+    {
+     "grego": "ὡς καλά ἐστι τὰ ἐμπόρια.",
+     "traducao": "Como são belos os mercados!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 8,
+      "local": "1C"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Adjetivos do tipo ἡμέτερος, -α, -ον (regra ε, ι, ρ)",
+   "nota": "ἡμέτερος declina como καλός, exceto no feminino singular, que tem α em vez de η: ἡμετέρα, ἡμετέραν, ἡμετέρας, ἡμετέρᾳ. A regra: se o radical termina em ε, ι ou ρ, o feminino singular mantém α (ἡμετέρα, ἀνδρεία, ἰσχυρά). No plural, tudo igual a καλός.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "26–27",
+    "local": "1G, §36–37"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "41, 49",
+    "local": "cap. 4, Gram. 3 (ὑδρία) e Gram. 6 (ῥᾴδιος)"
+   },
+   "paradigmas": [
+    "adj-hemeteros",
+    "adj-kalos"
+   ],
+   "exemplos": [
+    {
+     "grego": "καὶ οὐ βεβαία ἡ ἡμετέρα σωτηρία.",
+     "traducao": "E a nossa salvação não é segura.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 16,
+      "local": "1G"
+     }
+    },
+    {
+     "grego": "τὸ μὲν γὰρ ἡμέτερον πλοῖον σαφῶς καταδύνει εἰς τὴν θάλατταν.",
+     "traducao": "Pois o nosso navio está claramente afundando no mar.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 16,
+      "local": "1G"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Preposições e o caso que pedem",
+   "nota": "Cada preposição \"pede\" um caso: εἰς e πρός + acusativo (movimento *para*), ἀπό e ἐκ (ἐξ antes de vogal) + genitivo (movimento *de*), ἐν + dativo (lugar *onde*). Uma dica de memória: acusativo = para onde, genitivo = de onde, dativo = onde.\n\nCuidado com o português \"no\": \"entra *no* barco\" é εἰς (movimento), \"está *no* barco\" é ἐν.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "28–29",
+    "local": "1G, §38"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 20,
+    "local": "cap. 2, Gram. 5 (usos dos casos)"
+   },
+   "paradigmas": [
+    "artigo",
+    "decl2-masc"
+   ],
+   "exemplos": [
+    {
+     "grego": "ὁ γὰρ λέμβος ἐν τῇ θαλάττῃ ἐστίν.",
+     "traducao": "Pois o bote está no mar.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 12,
+      "local": "1E"
+     }
+    },
+    {
+     "grego": "ὁ δὲ λέμβος ἀπὸ τοῦ πλοίου ἀποχωρεῖ.",
+     "traducao": "E o bote se afasta do navio.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 14,
+      "local": "1F"
+     }
+    },
+    {
+     "grego": "ὁ δοῦλος ἐκβαίνει ἐκ τοῦ οἴκου.",
+     "traducao": "O escravo sai de casa.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 14,
+      "local": "cap. 2, Exercício 2α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Partículas: prepositivas, pospositivas e enclíticas",
+   "nota": "Partículas dão o tom da frase (ênfase, contraste, conclusão) e às vezes não se traduzem palavra por palavra. ἆρα, ἀλλά e καί vêm no início; γάρ, δέ, μέν, οὖν, γε, τε são *pospositivas*: nunca abrem a frase, vêm em geral em segundo lugar. γε e τε (e εἰμί, ἐστί) são *enclíticas*: perdem o acento e se apoiam na palavra anterior.\n\nNa leitura: ao achar γάρ ou δέ, a frase nova começou *uma palavra antes*.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "29–30",
+    "local": "1G, §39–42"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "2–3, 9",
+    "local": "cap. 1, vocabulário (postpositive) e Gram. 5 (enclíticas)"
+   },
+   "exemplos": [
+    {
+     "grego": "τοὺς γὰρ ναύτας ἤδη γε σαφῶς ὁρῶ.",
+     "traducao": "Pois os marinheiros eu já vejo, e claramente!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 12,
+      "local": "1E"
+     }
+    },
+    {
+     "grego": "αὐτουργὸς γάρ ἐστιν.",
+     "traducao": "Pois ele é lavrador.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 3,
+      "local": "cap. 1α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "μέν … δέ",
+   "nota": "μέν prepara, δέ responde: as duas partes ficam em paralelo. Traduza com \"mas\", \"enquanto\", \"e\" — raramente com o pesado \"por um lado… por outro\". Em série (μέν… δέ… δέ…), vira uma enumeração. Com o artigo, ὁ μὲν… ὁ δέ… = \"um… o outro…\"; e ὁ δέ sozinho no início da frase = \"e ele\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "30–31",
+    "local": "1G, §43"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "12, 58",
+    "local": "cap. 2α, vocabulário; cap. 5, Gram. 3"
+   },
+   "exemplos": [
+    {
+     "grego": "ἡμεῖς μὲν γὰρ ἀεί σοι θυσίας θύομεν, σὺ δὲ ἀεὶ σῴζεις τοὺς ἀνθρώπους.",
+     "traducao": "Nós sempre te oferecemos sacrifícios, e tu sempre salvas os homens.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 16,
+      "local": "1G"
+     }
+    },
+    {
+     "grego": "ὁ δεσπότης τὸν δοῦλον καλεῖ, ὁ δὲ οὐ πάρεστιν.",
+     "traducao": "O patrão chama o escravo, mas ele não está lá.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 58,
+      "local": "cap. 5, Gram. 3"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "1G-o1",
+   "tipo": "traduzir-pg",
+   "titulo": "Preposições e 2ª declinação",
+   "enunciado": "Traduza para o grego, escolhendo a preposição e o caso certos.",
+   "itens": [
+    {
+     "pergunta": "para dentro do navio",
+     "resposta": "εἰς τὸ πλοῖον"
+    },
+    {
+     "pergunta": "no mar",
+     "resposta": "ἐν τῇ θαλάττῃ"
+    },
+    {
+     "pergunta": "para longe dos homens",
+     "resposta": "ἀπὸ τῶν ἀνθρώπων"
+    },
+    {
+     "pergunta": "em direção ao nosso bote",
+     "resposta": "πρὸς τὸν ἡμέτερον λέμβον"
+    },
+    {
+     "pergunta": "para fora dos mercados",
+     "resposta": "ἐκ τῶν ἐμπορίων"
+    },
+    {
+     "pergunta": "Os navios estão salvos. (verbo no singular!)",
+     "resposta": "τὰ πλοῖα σῶά ἐστιν."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1G"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 2 (Ὁ Ξανθίας)",
+   "cap. 3 (Ὁ ἄροτος)",
+   "cap. 4 (Πρὸς τῇ κρήνῃ)"
+  ],
+  "comparacao": "Para a 2ª declinação, o Athenaze é mais gradual e visual: no cap. 2 o singular de ἀγρός/δένδρον com artigo e adjetivo (ὁ καλὸς ἀγρός), no cap. 3 o plural. As tabelas \"artigo + adjetivo + substantivo\" juntos são ótimas para memorizar. A JACT reúne 2a e 2b numa página e acrescenta duas coisas que o Athenaze ainda não destaca: o neutro plural com verbo no singular e a regra ε, ι, ρ para ἡμέτερος.\n\nPara as preposições, o Athenaze (cap. 2, Gram. 5) liga cada caso a uma ideia — genitivo \"de onde\", dativo \"onde\", acusativo \"para onde\" —, o que é mais fácil de lembrar. Já para as partículas, a JACT é bem mais rica (§39–43). Ordem sugerida: tabelas do Athenaze caps. 2–3 para decorar; depois os § da JACT para as partículas e o μέν… δέ.",
+  "complementos": [
+   "Athenaze cap. 2, Gram. 6 e cap. 3, Gram. 3 (pp. 20–21, 32): acento persistente dos nomes e por que ἀγρός vira ἀγροῦ, ἄνθρωπος vira ἀνθρώπου e οἶκος vira οἴκου.",
+   "Athenaze cap. 4, Gram. 5 (p. 48): há substantivos femininos da 2ª declinação, como ἡ ὁδός e ἡ νῆσος.",
+   "Athenaze cap. 5, Gram. 4 (p. 58): elisão — ἀλλὰ ἰδού > ἀλλ᾽ ἰδού, ἀπὸ Ἑλλάδος > ἀφ᾽ Ἑλλάδος.",
+   "Athenaze cap. 4, Gram. 3 (pp. 40–42): os quatro tipos da 1ª declinação feminina (κρήνη, ὑδρία, μέλιττα, μάχαιρα); θάλαττα, ἡ, de 1G, segue μέλιττα.",
+   "Vocabulário do Athenaze em comum: ἄνθρωπος e λέγω (cap. 1), εἰς e ἐλθέ (cap. 2), ἐκ e ἐν (cap. 3), ἀπό, ἔχω e φίλος (cap. 4), νῦν (cap. 5)."
+  ],
+  "citacoes": [
+   {
+    "grego": "τὸ μὲν γὰρ ἡμέτερον πλοῖον σαφῶς καταδύνει εἰς τὴν θάλατταν, ὁ δὲ ἡμέτερος λέμβος σαφῶς ἀποχωρεῖ.",
+    "traducao": "Pois o nosso navio está claramente afundando no mar, e o nosso bote claramente se afasta.",
+    "comentario": "JACT: 2b (πλοῖον) e 2a (λέμβος) com ἡμέτερος, εἰς + acusativo e μέν… δέ.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 16,
+     "local": "1G"
+    }
+   },
+   {
+    "grego": "ὁ Δικαιόπολις ἐκβαίνει ἐκ τοῦ οἴκου καὶ καλεῖ τὸν Ξανθίαν.",
+    "traducao": "Diceópolis sai de casa e chama Xântias.",
+    "comentario": "Athenaze: ἐκ + genitivo da 2ª declinação (τοῦ οἴκου) e o composto ἐκβαίνει.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 12,
+     "local": "cap. 2α",
+     "linhas": "l. 1"
+    }
+   },
+   {
+    "grego": "πολλοὶ γάρ εἰσιν οἱ λίθοι.",
+    "traducao": "Pois as pedras são muitas.",
+    "comentario": "Athenaze: nominativo plural 2a (οἱ λίθοι) e γάρ pospositivo.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 31,
+     "local": "cap. 3β"
+    }
+   }
+  ]
+ }
+}

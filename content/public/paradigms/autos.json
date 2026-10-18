@@ -1,0 +1,77 @@
+{
+  "id": "autos",
+  "titulo": "αὐτός αὐτή αὐτό",
+  "grupo": "pronome",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "αὐτ|ός",
+        "αὐτ|ή",
+        "αὐτ|ό"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "αὐτ|όν",
+        "αὐτ|ήν",
+        "αὐτ|ό"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "αὐτ|οῦ",
+        "αὐτ|ῆς",
+        "αὐτ|οῦ"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "αὐτ|ῷ",
+        "αὐτ|ῇ",
+        "αὐτ|ῷ"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "αὐτ|οί",
+        "αὐτ|αί",
+        "αὐτ|ά"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "αὐτ|ούς",
+        "αὐτ|άς",
+        "αὐτ|ά"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "αὐτ|ῶν",
+        "αὐτ|ῶν",
+        "αὐτ|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "αὐτ|οῖς",
+        "αὐτ|αῖς",
+        "αὐτ|οῖς"
+      ]
+    }
+  ],
+  "nota": "Três usos: fora do nominativo e sem artigo = 'ele, ela, o, a' (αὐτόν 'o'); sem artigo ao lado de um nome = 'ele mesmo' (αὐτὸς ὁ ἀνήρ); entre artigo e nome = 'o mesmo' (ὁ αὐτὸς ἀνήρ). Neutro sg. em -ό, sem ν."
+}

@@ -1,0 +1,69 @@
+{
+  "id": "verbo-presente-ativo",
+  "titulo": "Presente ativo — παύω",
+  "grupo": "verbo",
+  "colunas": [
+    "Indicativo",
+    "Imperativo"
+  ],
+  "linhas": [
+    {
+      "rotulo": "1ª sg.",
+      "celulas": [
+        "παύ|ω",
+        "—"
+      ]
+    },
+    {
+      "rotulo": "2ª sg.",
+      "celulas": [
+        "παύ|εις",
+        "παῦ|ε"
+      ]
+    },
+    {
+      "rotulo": "3ª sg.",
+      "celulas": [
+        "παύ|ει",
+        "—"
+      ]
+    },
+    {
+      "rotulo": "1ª pl.",
+      "celulas": [
+        "παύ|ομεν",
+        "—"
+      ]
+    },
+    {
+      "rotulo": "2ª pl.",
+      "celulas": [
+        "παύ|ετε",
+        "παύ|ετε"
+      ]
+    },
+    {
+      "rotulo": "3ª pl.",
+      "celulas": [
+        "παύ|ουσι(ν)",
+        "—"
+      ]
+    },
+    {
+      "rotulo": "Infinitivo",
+      "celulas": [
+        "παύ|ειν",
+        "—"
+      ]
+    }
+  ],
+  "nota": "As terminações já indicam a pessoa: não é preciso pronome sujeito. O ν entre parênteses (ν efelcístico) aparece antes de vogal ou no fim da frase. 2ª pl. do indicativo e do imperativo são iguais (παύετε).",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "1C–D"
+  },
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 2"
+  }
+}

@@ -1,0 +1,188 @@
+{
+ "id": "7F",
+ "secao": 7,
+ "parte": 2,
+ "titulo": "A virada de Dionisodoro",
+ "resumo": "Dionisodoro retoma o argumento e faz Clínias admitir que são os sábios que aprendem o que o professor diz. Os discípulos aplaudem, e Sócrates e Clínias ficam perplexos e calados.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 82,
+  "local": "7F"
+ },
+ "vocab": [
+  {
+   "grego": "γελάω",
+   "lexical": "γελάω (γελασα-)",
+   "classe": "verbo",
+   "glosa": "rir",
+   "aprender": true,
+   "paradigma": "orao-presente",
+   "partes": [
+    "γελάω",
+    "γελασα-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 82,
+    "local": "7F"
+   }
+  },
+  {
+   "grego": "ἐκδέχομαι",
+   "lexical": "ἐκδέχομαι",
+   "classe": "verbo",
+   "glosa": "receber em troca; receber",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 82,
+    "local": "7F"
+   }
+  },
+  {
+   "grego": "ἐμπίπτω",
+   "lexical": "ἐμπίπτω (ἐμπεσ-)",
+   "classe": "verbo",
+   "glosa": "cair em; cair sobre; lançar-se sobre",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἐμπίπτω",
+    "ἐμπεσ-"
+   ],
+   "nota": "Com ἐν ou εἰς.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 82,
+    "local": "7F"
+   },
+   "athenaze": "cap. 15"
+  },
+  {
+   "grego": "ἐπαινέω",
+   "lexical": "ἐπαινέω (ἐπαινεσα-)",
+   "classe": "verbo",
+   "glosa": "louvar; aprovar",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "partes": [
+    "ἐπαινέω",
+    "ἐπαινεσα-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 82,
+    "local": "7F"
+   }
+  },
+  {
+   "grego": "εὐθύς",
+   "lexical": "εὐθύς",
+   "classe": "advérbio",
+   "glosa": "imediatamente; diretamente",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 82,
+    "local": "7F"
+   },
+   "athenaze": "cap. 10"
+  },
+  {
+   "grego": "φημί",
+   "lexical": "φημί",
+   "classe": "verbo",
+   "glosa": "dizer",
+   "aprender": true,
+   "nota": "Passado ἔφην \"eu disse\", ἔφη \"ele disse\".",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 82,
+    "local": "7F"
+   },
+   "athenaze": "cap. 11"
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "7F-o1",
+   "tipo": "transformar",
+   "titulo": "Do presente ao aoristo",
+   "enunciado": "Troque o particípio presente pelo particípio aoristo correspondente (mesmo caso, gênero e número) e explique a diferença de sentido.",
+   "itens": [
+    {
+     "pergunta": "γελῶντες",
+     "resposta": "γελάσαντες: \"rindo\" (processo) → \"com uma risada\" (fato pontual)"
+    },
+    {
+     "pergunta": "ἐπαινοῦσα",
+     "resposta": "ἐπαινέσασα: \"elogiando\" → \"tendo elogiado\""
+    },
+    {
+     "pergunta": "ὁμολογοῦντα (ac. masc. sg.)",
+     "resposta": "ὁμολογήσαντα: \"concordando\" → \"tendo concordado\""
+    },
+    {
+     "pergunta": "ἐκδεχόμενος",
+     "resposta": "ἐκδεξάμενος: \"recebendo\" → \"tendo recebido\""
+    },
+    {
+     "pergunta": "θορυβοῦντας",
+     "resposta": "θορυβήσαντας: \"fazendo barulho\" → \"tendo aplaudido\""
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "7F"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 12 (Πρὸς τὸν Πειραιᾶ)",
+   "cap. 15 (Ἡ ἐν τῇ Σαλαμῖνι μάχη)"
+  ],
+  "comparacao": "7F é uma cena de plateia: os alunos *aplaudem e riem* (θορυβήσαντες, γελάσαντες) e Dionisodoro *apanha* o argumento como uma bola (ἐκδεξάμενος). São particípios aoristos 1º ativos e médios, exatamente o que o Athenaze treina no cap. 12 (Gram. 2), com narrativa simples de viagem.\n\nO Athenaze ajuda especialmente com a declinação do particípio ativo (como πᾶς, πᾶσα, πᾶν), e a JACT com o sentido: aqui o aoristo marca reações pontuais, enquanto o imperfeito ἐσιωπῶμεν mostra o silêncio que dura.",
+  "complementos": [
+   "Declinação completa de λύσας, λύσασα, λῦσαν e regra: declina-se como πᾶς (Athenaze, cap. 12, Gram. 2, p. 199).",
+   "ἐμπίπτω + dativo \"cair sobre, atacar\" (Athenaze, vocabulário do cap. 15β), além do sentido de 7F, ἐν ἀπορίᾳ ἐμπίπτοντες.",
+   "εὐθύς \"imediatamente\" já está no vocabulário do Athenaze desde o cap. 10β."
+  ],
+  "citacoes": [
+   {
+    "grego": "οἱ δὲ μαθηταί, ἅμα θορυβήσαντές τε καὶ γελάσαντες, τὴν σοφίαν ταύτην ἐπῄνεσαν.",
+    "traducao": "E os alunos, aplaudindo e rindo ao mesmo tempo, elogiaram essa sabedoria.",
+    "comentario": "Dois particípios aoristos 1º ativos, simultâneos ao verbo principal.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 82,
+     "local": "7F"
+    }
+   },
+   {
+    "grego": "ἡ δὲ μήτηρ βοήσασα, «ὦ τλῆμον παῖ,» ἔφη, «τί ἔπαθες;»",
+    "traducao": "A mãe gritou: \"Pobre filho, o que te aconteceu?\"",
+    "comentario": "Mesmo tipo de particípio (βοήσασα, fem.) para uma reação pontual.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 195,
+     "local": "cap. 12α"
+    }
+   },
+   {
+    "grego": "ὥσπερ σφαῖραν εὐθὺς ἐξεδέξατο τὸν λόγον ὁ Διονυσόδωρος, ἐκδεξάμενος δέ",
+    "traducao": "Como uma bola, Dionisodoro imediatamente apanhou o argumento e, depois de apanhá-lo...",
+    "comentario": "Aoristo médio e logo o particípio aoristo médio retomando a ação.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 82,
+     "local": "7F"
+    }
+   }
+  ]
+ }
+}

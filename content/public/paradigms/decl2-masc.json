@@ -1,0 +1,55 @@
+{
+  "id": "decl2-masc",
+  "titulo": "2ª declinação masculina — ἄνθρωπος (2a)",
+  "grupo": "substantivo",
+  "colunas": [
+    "Singular",
+    "Plural"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "ἄνθρωπ|ος",
+        "ἄνθρωπ|οι"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "ἄνθρωπ|ον",
+        "ἀνθρώπ|ους"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "ἀνθρώπ|ου",
+        "ἀνθρώπ|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "ἀνθρώπ|ῳ",
+        "ἀνθρώπ|οις"
+      ]
+    },
+    {
+      "rotulo": "Voc.",
+      "celulas": [
+        "ἄνθρωπ|ε",
+        "ἄνθρωπ|οι"
+      ]
+    }
+  ],
+  "nota": "O acento recua quando a última sílaba é longa (ἀνθρώπου, ἀνθρώπους). Vocativo singular em -ε: ὦ ἄνθρωπε. Alguns nomes desta classe são femininos (ἡ ὁδός, ἡ νῆσος).",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "1G"
+  },
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 2"
+  }
+}

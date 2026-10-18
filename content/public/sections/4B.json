@@ -1,0 +1,321 @@
+{
+ "id": "4B",
+ "secao": 4,
+ "parte": 2,
+ "titulo": "Um funeral sem respeito",
+ "resumo": "Um jovem quer queimar o cadáver do irmão na pira preparada por um velho e agride Diceópolis. Diante da peste, ele despreza as leis e os deuses e diz que só honra Afrodite e o prazer.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 45,
+  "local": "4B"
+ },
+ "vocab": [
+  {
+   "grego": "ἀτιμάζω",
+   "lexical": "ἀτιμάζω",
+   "classe": "verbo",
+   "glosa": "desonrar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  },
+  {
+   "grego": "δεσπότης",
+   "lexical": "δεσπότης, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "senhor; dono",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "διαφθείρω",
+   "lexical": "διαφθείρω (διαφθειρα-)",
+   "classe": "verbo",
+   "glosa": "destruir; matar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "διαφθείρω",
+    "διαφθειρα-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  },
+  {
+   "grego": "θεός",
+   "lexical": "θεός, ὁ/ἡ (2a)",
+   "classe": "substantivo",
+   "glosa": "deus; deusa",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   },
+   "athenaze": "cap. 8"
+  },
+  {
+   "grego": "θνητός",
+   "lexical": "θνητός ή όν",
+   "classe": "adjetivo",
+   "glosa": "mortal",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  },
+  {
+   "grego": "κωλύω",
+   "lexical": "κωλύω",
+   "classe": "verbo",
+   "glosa": "impedir; deter",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  },
+  {
+   "grego": "μάλιστα",
+   "lexical": "μάλιστα (μάλα)",
+   "classe": "advérbio",
+   "glosa": "sobretudo; especialmente; sim (em respostas)",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "νεκρός",
+   "lexical": "νεκρός, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "cadáver; corpo (de morto)",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  },
+  {
+   "grego": "νόμος",
+   "lexical": "νόμος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "lei; costume; convenção",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  },
+  {
+   "grego": "νόσος",
+   "lexical": "νόσος, ἡ (2a)",
+   "classe": "substantivo",
+   "glosa": "doença; peste",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "nota": "Feminino, apesar da terminação -ος.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  },
+  {
+   "grego": "πυρά",
+   "lexical": "πυρά, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "pira funerária",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  },
+  {
+   "grego": "τιμάω",
+   "lexical": "τιμάω",
+   "classe": "verbo",
+   "glosa": "honrar",
+   "aprender": true,
+   "paradigma": "orao-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  },
+  {
+   "grego": "τύπτω",
+   "lexical": "τύπτω",
+   "classe": "verbo",
+   "glosa": "bater; golpear; agredir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "φέρω",
+   "lexical": "φέρω (ἐνεγκ-)",
+   "classe": "verbo",
+   "glosa": "carregar; levar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "φέρω",
+    "ἐνεγκ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "φόβος",
+   "lexical": "φόβος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "medo",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 47,
+    "local": "4B"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "4B-o1",
+   "tipo": "traduzir-gp",
+   "titulo": "ὤν, τις e οὐδείς na frase",
+   "enunciado": "Traduza para o português. Diga a que palavra cada forma de ὤν se refere e escolha a melhor tradução (causa, concessão ou oração relativa).",
+   "itens": [
+    {
+     "pergunta": "ὁ ἄνθρωπος, θνητὸς ὤν, τιμᾷ τοὺς θεούς.",
+     "resposta": "O homem, porque é mortal, honra os deuses. (ὤν → ὁ ἄνθρωπος, nom. masc. sg.)"
+    },
+    {
+     "pergunta": "τὴν πόλιν ὁρῶ κακοδαίμονα οὖσαν.",
+     "resposta": "Vejo que a cidade está infeliz. (οὖσαν → τὴν πόλιν, ac. fem. sg.)"
+    },
+    {
+     "pergunta": "οὐδεὶς κωλύει τὸν νεανίαν.",
+     "resposta": "Ninguém impede o jovem."
+    },
+    {
+     "pergunta": "νεκρόν τινα φέρει ὁ δοῦλος. τίς ἐστιν ὁ νεκρός;",
+     "resposta": "O escravo carrega um cadáver. Quem é o morto?"
+    },
+    {
+     "pergunta": "οἱ γεωργοί, πολλοὶ ὄντες, εἰς τὸ ἄστυ φέρουσι τὰ σκεύη.",
+     "resposta": "Os agricultores, que são muitos, levam a mobília para a cidade. (ὄντες → οἱ γεωργοί)"
+    },
+    {
+     "pergunta": "ἆρ’ οὐ φοβῇ τοὺς νόμους, πολίτης ὤν;",
+     "resposta": "Você não teme as leis, embora seja cidadão? (ou: sendo cidadão)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "4B"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 7 (Ὁ Κύκλωψ)",
+   "cap. 8 (Πρὸς τὸ ἄστυ)",
+   "cap. 9 (Ἡ πανήγυρις)"
+  ],
+  "comparacao": "4B é um texto sobre religião e respeito: o velho cobra do jovem que ele honre os deuses (τιμάω, θεός) e as leis (νόμος), e o jovem responde que a peste mata piedosos e ímpios igualmente. O Athenaze mostra o lado positivo da mesma religião cívica: Melissa quer ir à festa 'honrar o deus' (cap. 8α), e Filipe reza a Atena pela cidade (cap. 9α). Ler os dois lado a lado ajuda a fixar o vocabulário religioso (θεός, ἡ θεός, ἱερόν, βωμός, τιμάω) em contextos opostos.\n\nNa gramática, 4B é o texto onde ὤν e οὐδείς aparecem com mais frequência (θνητὸς ὤν, πολίτην ὄντα, οὐδὲν κωλύει). O Athenaze só traz o particípio ὤν no cap. 9; se você estuda pelos dois, faça antes o cap. 8, Gram. 1 (particípio médio), que explica com clareza os três usos do particípio (circunstancial, atributivo e complementar).",
+  "complementos": [
+   "Athenaze cap. 9 (vocabulário 9α, p. 133): ἡ θεός 'deusa'. Mesma palavra θεός com artigo feminino, como em εὔφρων ἡ θεός (4B).",
+   "Athenaze cap. 8, Gram. 1 (pp. 114–115): os três usos do particípio, circunstancial ('enquanto/porque'), atributivo ('que') e complementar (παύομαι + part.). É um bom resumo para quem acabou de ver ὤν.",
+   "Athenaze cap. 5 (vocabulário 5β): τύπτω 'golpear' e πάσχω 'sofrer' já aparecem lá, junto com ἀποφεύγω.",
+   "Athenaze cap. 7, Gram. 1 (p. 96): adjetivo usado como substantivo (πολλοί = 'muitos homens'), o que ajuda a ler ἐφήμεροι οἱ ἄνθρωποι e οἱ εὐσεβεῖς / οἱ ἀσεβεῖς em 4B."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἆρ’ οὐ σέβῃ τοὺς θεούς; ἆρ’ οὐ τιμᾷς τοὺς τῶν ἀνθρώπων νόμους;",
+    "traducao": "Não respeitas os deuses? Não honras as leis dos homens?",
+    "comentario": "JACT: τιμάω com os deuses e as leis, numa cena de desrespeito.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 46,
+     "local": "4B",
+     "linhas": "l. 21–22"
+    }
+   },
+   {
+    "grego": "ἆρ’ οὐκ ἐθέλεις καὶ σὺ τὴν ἑορτὴν θεᾶσθαι καὶ τὸν θεὸν τιμᾶν;",
+    "traducao": "Você também não quer assistir à festa e honrar o deus?",
+    "comentario": "Athenaze: τιμᾶν τὸν θεόν numa festa religiosa, o oposto da cena de 4B.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 114,
+     "local": "cap. 8α"
+    }
+   },
+   {
+    "grego": "ὦ μίαρε, τύπτεις ἐμὲ πολίτην ὄντα;",
+    "traducao": "Seu canalha, você bate em mim, que sou cidadão?",
+    "comentario": "JACT: ὄντα concorda com ἐμέ (acusativo): 'a mim, sendo cidadão'.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 45,
+     "local": "4B",
+     "linhas": "l. 12"
+    }
+   },
+   {
+    "grego": "σῷζε τὴν πόλιν καὶ σῷζε ἡμᾶς ἐκ πάντων κινδύνων.",
+    "traducao": "Salva a cidade e salva-nos de todos os perigos.",
+    "comentario": "Athenaze: a prece de Filipe a Atena, com o mesmo vocabulário religioso e cívico.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 134,
+     "local": "cap. 9α"
+    }
+   }
+  ]
+ }
+}

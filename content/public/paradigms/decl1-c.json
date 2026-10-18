@@ -1,0 +1,48 @@
+{
+  "id": "decl1-c",
+  "titulo": "1ª declinação feminina em -ᾰ breve — θάλαττα (1c)",
+  "grupo": "substantivo",
+  "colunas": [
+    "Singular",
+    "Plural"
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "θάλαττ|α",
+        "θάλαττ|αι"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "θάλαττ|αν",
+        "θαλάττ|ας"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "θαλάττ|ης",
+        "θαλαττ|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "θαλάττ|ῃ",
+        "θαλάττ|αις"
+      ]
+    }
+  ],
+  "nota": "O α breve do nom./ac. sg. vira -η no gen. e dat. sg. (θαλάττης, θαλάττῃ); o plural é igual ao de τιμή/οἰκία. Mesmo modelo: δόξα, δόξης.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "1G"
+  },
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 4"
+  }
+}

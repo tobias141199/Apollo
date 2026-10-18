@@ -1,0 +1,324 @@
+{
+ "id": "1H",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "O rapsodo homérico",
+ "resumo": "À noite, chegando ao porto, um rapsodo responde a tudo com versos de Homero, e Diceópolis começa a interrogá-lo à maneira de Sócrates.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 18,
+  "local": "1H"
+ },
+ "vocab": [
+  {
+   "grego": "δῆλος",
+   "lexical": "δῆλος η ον",
+   "classe": "adjetivo",
+   "glosa": "claro; evidente",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "nota": "δῆλόν ἐστι(ν) ὅτι… = 'é claro que…'.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 19,
+    "local": "1H"
+   }
+  },
+  {
+   "grego": "ὅτι",
+   "lexical": "ὅτι",
+   "classe": "conjunção",
+   "glosa": "que",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 19,
+    "local": "1H"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "παίζω",
+   "lexical": "παίζω (πρός + ac.)",
+   "classe": "verbo",
+   "glosa": "brincar; fazer graça (com)",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 19,
+    "local": "1H"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "Verbos irregulares εἰμί e οἶδα",
+   "nota": "εἰμί \"sou/estou\": εἰμί, εἶ, ἐστί(ν), ἐσμέν, ἐστέ, εἰσί(ν) — todas enclíticas, menos εἶ. οἶδα \"sei\": οἶδα, οἶσθα, οἶδε(ν), ἴσμεν, ἴστε, ἴσασι(ν). Não seguem βαίνω: é preciso decorar.\n\nCuidado na leitura: εἶ (\"és\") ≠ εἰ (\"se\"), e ἴσμεν/ἴστε não lembram οἶδα — vale fazer cartões só para elas. οἶδα é \"saber\" (fato), γιγνώσκω é \"conhecer, vir a saber\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 36,
+    "local": "1H–J, §44"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 39,
+    "local": "cap. 4, Gram. 1 (εἰμί)"
+   },
+   "paradigmas": [
+    "eimi"
+   ],
+   "exemplos": [
+    {
+     "grego": "ποῦ ἐσμεν ἡμεῖς, ὦ κυβερνῆτα; ἆρα οἶσθα σύ;",
+     "traducao": "Onde estamos, piloto? Tu sabes?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 18,
+      "local": "1H"
+     }
+    },
+    {
+     "grego": "οὐ γὰρ σαφῶς οἶδα ἔγωγε.",
+     "traducao": "Pois eu, ao menos, não sei com clareza.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 18,
+      "local": "1H"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Predicativo do sujeito: o mesmo caso dos dois lados de εἰμί",
+   "nota": "Com εἰμί, o que vem depois (adjetivo ou substantivo) fica no *nominativo*, como o sujeito. Como saber qual é o sujeito? Geralmente é o que tem artigo; o predicativo vem sem artigo: ῥαψῳδὸς ἄριστός ἐστιν ὁ Ὅμηρος = \"Homero é o melhor rapsodo\" (sujeito: ὁ Ὅμηρος), mesmo com a ordem invertida.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 37,
+    "local": "1H–J, §45–47"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "5–6",
+    "local": "cap. 1, Gram. 2–3 (complement)"
+   },
+   "paradigmas": [
+    "eimi"
+   ],
+   "exemplos": [
+    {
+     "grego": "σὺ οὖν, ὦ ῥαψῳδέ, στρατηγὸς ἄριστος εἶ τῶν Ἑλλήνων;",
+     "traducao": "Então tu, rapsodo, és o melhor general dos gregos?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 21,
+      "local": "1J"
+     }
+    },
+    {
+     "grego": "ὁ Δικαιόπολις αὐτουργός ἐστιν.",
+     "traducao": "Diceópolis é lavrador.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 6,
+      "local": "cap. 1, Gram. 3"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Elipse de εἰμί",
+   "nota": "O grego omite com frequência ἐστί/εἰσί, sobretudo em frases curtas e na segunda metade de um μέν… δέ. Se uma frase não tem verbo, acrescente \"é/são\". É o caso das inscrições de vasos (Μέμνων καλός, \"Mêmnon [é] belo\") e de muitos provérbios.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "37–38",
+    "local": "1H–J, §48"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 23,
+    "local": "cap. 2, Classical Greek (Calímaco)"
+   },
+   "paradigmas": [
+    "eimi"
+   ],
+   "exemplos": [
+    {
+     "grego": "δῆλόν ἐστιν ὅτι μῶρος ὁ ἡμέτερος ῥαψῳδός.",
+     "traducao": "Está claro que o nosso rapsodo é um tolo.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 18,
+      "local": "1H"
+     }
+    },
+    {
+     "grego": "μέγα βιβλίον μέγα κακόν.",
+     "traducao": "Livro grande, grande mal.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 23,
+      "local": "cap. 2, Classical Greek"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Adjetivos usados como substantivos",
+   "nota": "Com artigo, um adjetivo vira substantivo. O neutro plural significa \"coisas…\": τὰ ναυτικά \"os assuntos navais\", τὰ στρατηγικά \"o comando\", πολλά \"muitas coisas\". O neutro singular dá uma ideia abstrata (τὸ καλόν \"a beleza\"); o masculino e o feminino subentendem \"homem\" e \"mulher\" (οἱ σοφοί \"os sábios\").",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "38–39",
+    "local": "1H–J, §49–50"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 53,
+    "local": "cap. 4, New Testament Greek (Lc 6,45)"
+   },
+   "paradigmas": [
+    "adj-kalos"
+   ],
+   "exemplos": [
+    {
+     "grego": "γιγνώσκει γὰρ Ὅμηρος τά τε πολεμικὰ ἔργα καὶ τὰ ναυτικὰ καὶ τὰ στρατιωτικὰ καὶ τὰ στρατηγικά.",
+     "traducao": "Pois Homero conhece os feitos de guerra, a navegação, os assuntos militares e o comando.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 20,
+      "local": "1I"
+     }
+    },
+    {
+     "grego": "ὁ ἀγαθὸς ἄνθρωπος ἐκ τοῦ ἀγαθοῦ θησαυροῦ τῆς καρδίας προφέρει τὸ ἀγαθόν.",
+     "traducao": "O homem bom tira do bom tesouro do coração o bem.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 53,
+      "local": "cap. 4, New Testament Greek"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "τε … καί e τε … τε",
+   "nota": "τε (enclítico) vem logo *depois* da primeira palavra ligada e avisa \"vem mais um\"; καί vem *antes* da segunda. Traduza por \"tanto… quanto\" ou simplesmente \"e\". Com artigo, τε se mete entre artigo e nome: ὅ τε Δικαιόπολις καὶ ὁ ῥαψῳδός.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 39,
+    "local": "1H–J, §51"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 24,
+    "local": "cap. 3α, vocabulário"
+   },
+   "exemplos": [
+    {
+     "grego": "μία οὖν τέχνη ἥ τε ῥαψῳδικὴ καὶ ἡ στρατηγική;",
+     "traducao": "Então a arte do rapsodo e a do general são uma só?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 21,
+      "local": "1J"
+     }
+    },
+    {
+     "grego": "ἅμα οὖν ὅ τε δεσπότης καὶ ὁ δοῦλος αἴρουσι τὸν λίθον.",
+     "traducao": "Juntos, então, o patrão e o escravo levantam a pedra.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 25,
+      "local": "cap. 3α"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "1H-o1",
+   "tipo": "morfologia",
+   "titulo": "εἰμί e οἶδα",
+   "enunciado": "Traduza a forma e dê a mesma pessoa no outro número (sg. ↔ pl.).",
+   "itens": [
+    {
+     "pergunta": "οἶσθα",
+     "resposta": "tu sabes — pl.: ἴστε"
+    },
+    {
+     "pergunta": "ἐσμέν",
+     "resposta": "nós somos — sg.: εἰμί"
+    },
+    {
+     "pergunta": "οἶδε(ν)",
+     "resposta": "ele sabe — pl.: ἴσασι(ν)"
+    },
+    {
+     "pergunta": "εἶ",
+     "resposta": "tu és — pl.: ἐστέ"
+    },
+    {
+     "pergunta": "ἴσμεν",
+     "resposta": "nós sabemos — sg.: οἶδα"
+    },
+    {
+     "pergunta": "εἰσί(ν)",
+     "resposta": "eles são — sg.: ἐστί(ν)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1H"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 1 (Ὁ Δικαιόπολις)",
+   "cap. 4 (Πρὸς τῇ κρήνῃ)"
+  ],
+  "comparacao": "O Athenaze apresenta εἰμί aos poucos (ἐστί no cap. 1, singular no cap. 2, plural no cap. 3, quadro com imperativo ἴσθι/ἔστε e infinitivo εἶναι no cap. 4), mas só traz οἶδα bem mais tarde. Aqui a JACT é a referência principal. Em compensação, o Athenaze explica o \"complemento\" de εἰμί já no cap. 1 com frases mínimas (ὁ κλῆρός ἐστι μικρός) e um sistema de rótulos (S, LV, C) muito útil para quem tropeça na ordem livre.\n\nA elipse de ἐστί aparece no Athenaze desde a primeira página (μακρὸς δὲ ὁ πόνος) e nas máximas dos boxes \"Greek Wisdom\" e \"Classical Greek\" (μέτρον ἄριστον; μέγα βιβλίον μέγα κακόν) — ótimas para treinar. Sugestão: decorar εἰμί/οἶδα pela JACT e usar as máximas do Athenaze como cartões de revisão.",
+  "complementos": [
+   "Athenaze cap. 4, Gram. 1 (p. 39): imperativo de εἰμί (ἴσθι, ἔστε) e infinitivo εἶναι — μὴ ἀργὸς ἴσθι, \"não sejas preguiçoso\".",
+   "Athenaze cap. 1, Gram. 5 e cap. 2 (pp. 9, 14): acento das enclíticas — ἄνθρωπός ἐστι, οἶκός ἐστι, mas πόνος ἐστί; οὐκ ἔστιν.",
+   "Athenaze cap. 5, Gram. 3 (p. 58): artigo + δέ no início da frase = pronome (ὁ δέ \"e ele\") — outro uso do artigo \"sem substantivo\", vizinho de §50.",
+   "Vocabulário do Athenaze em comum: ὅτι e γιγνώσκω (cap. 5), ἀεί (cap. 4), πολύς/πολλοί (caps. 1 e 3). δῆλος, οἶδα e παίζω não aparecem nos caps. 1–5."
+  ],
+  "citacoes": [
+   {
+    "grego": "δῆλόν ἐστιν ὅτι ὁμηρίζει ὁ ἄνθρωπος. ῥαψῳδὸς οὖν ἐστιν.",
+    "traducao": "Está claro que o homem está citando Homero. É, então, um rapsodo.",
+    "comentario": "JACT: predicativo sem artigo (ῥαψῳδός) e δῆλόν ἐστιν ὅτι.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 18,
+     "local": "1H"
+    }
+   },
+   {
+    "grego": "χαλεπὸς δέ ἐστιν ὁ βίος· ὁ γὰρ κλῆρός ἐστι μικρός, μακρὸς δὲ ὁ πόνος.",
+    "traducao": "A vida é dura: o sítio é pequeno, e o trabalho é longo.",
+    "comentario": "Athenaze: predicativo no nominativo e, na última oração, elipse de ἐστί.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 3,
+     "local": "cap. 1α",
+     "linhas": "l. 3–4"
+    }
+   },
+   {
+    "grego": "μέτρον ἄριστον.",
+    "traducao": "A medida é o melhor.",
+    "comentario": "Athenaze (máxima de Cleobulo): elipse total do verbo, com ἄριστος, palavra de 1J.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 17,
+     "local": "cap. 2, Greek Wisdom"
+    }
+   }
+  ]
+ }
+}

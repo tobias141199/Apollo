@@ -1,0 +1,434 @@
+{
+ "id": "7A",
+ "secao": 7,
+ "parte": 2,
+ "titulo": "Sócrates explica sua fama",
+ "resumo": "Diante dos juízes, Sócrates promete contar a verdade sobre a origem das calúnias contra ele. Conta que seu amigo Querefonte foi a Delfos perguntar se havia alguém mais sábio que Sócrates, e a Pítia respondeu que não.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 74,
+  "local": "7A"
+ },
+ "vocab": [
+  {
+   "grego": "ἀλήθεια",
+   "lexical": "ἀλήθεια, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "verdade",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 75,
+    "local": "7A"
+   }
+  },
+  {
+   "grego": "βούλομαι",
+   "lexical": "βούλομαι",
+   "classe": "verbo",
+   "glosa": "querer, desejar",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 75,
+    "local": "7A"
+   },
+   "athenaze": "cap. 6"
+  },
+  {
+   "grego": "διαβάλλω",
+   "lexical": "διαβάλλω (διαβαλ-)",
+   "classe": "verbo",
+   "glosa": "caluniar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "διαβάλλω",
+    "διαβαλ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 75,
+    "local": "7A"
+   }
+  },
+  {
+   "grego": "δόξα",
+   "lexical": "δόξα, ἡ (1c)",
+   "classe": "substantivo",
+   "glosa": "reputação; opinião",
+   "aprender": true,
+   "paradigma": "decl1-c",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 75,
+    "local": "7A"
+   }
+  },
+  {
+   "grego": "ἑαυτόν",
+   "lexical": "ἑαυτόν ήν ό",
+   "classe": "pronome",
+   "glosa": "a si mesmo (reflexivo)",
+   "aprender": true,
+   "nota": "Não tem nominativo: ἑαυτόν, ἑαυτοῦ, ἑαυτῷ.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 75,
+    "local": "7A"
+   },
+   "athenaze": "cap. 7"
+  },
+  {
+   "grego": "ἤ",
+   "lexical": "ἤ",
+   "classe": "conjunção",
+   "glosa": "do que",
+   "aprender": true,
+   "nota": "Depois de comparativo: σοφώτερος ἢ Σωκράτης. Já aprendido como \"ou\".",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 75,
+    "local": "7A"
+   },
+   "athenaze": "cap. 14"
+  },
+  {
+   "grego": "ἴσως",
+   "lexical": "ἴσως",
+   "classe": "advérbio",
+   "glosa": "talvez",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 75,
+    "local": "7A"
+   }
+  },
+  {
+   "grego": "σοφία",
+   "lexical": "σοφία, ἡ (1b)",
+   "classe": "substantivo",
+   "glosa": "sabedoria",
+   "aprender": true,
+   "paradigma": "decl1-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 75,
+    "local": "7A"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "O infinitivo presente (ativo e médio)",
+   "nota": "O infinitivo presente apresenta a ação *em andamento*, sem pessoa nem tempo: παύειν \"parar\", παύεσθαι \"parar (-se), cessar\". A receita é simples: radical do presente + -ειν (ativo) ou -εσθαι (médio).\n\nNos contratos, a vogal do tema se funde com a terminação: τιμᾶν, ποιεῖν, δηλοῦν (ativo); θεᾶσθαι, φοβεῖσθαι, δηλοῦσθαι (médio). Repare que τιμᾶν e δηλοῦν *não* têm iota: a terminação antiga era -εν. A negação do infinitivo é normalmente μή.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "134–135",
+    "local": "7A–C, §150–151"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 27,
+    "local": "cap. 3, Gram. 1c (ativo); cap. 6, Gram. 3, pp. 76–77 (médio)"
+   },
+   "paradigmas": [
+    "infinitivos"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἡμεῖς γὰρ οὐ βουλόμεθα διαβάλλειν σε.",
+     "traducao": "Pois nós não queremos caluniar-te.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 74,
+      "local": "7A"
+     }
+    },
+    {
+     "grego": "οὐ δυνατόν ἐστιν αἴρειν αὐτόν.",
+     "traducao": "Não é possível levantá-lo.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 25,
+      "local": "cap. 3α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Infinitivos irregulares: εἶναι, ἰέναι, εἰδέναι",
+   "nota": "Três infinitivos para decorar já: εἰμί → εἶναι \"ser, estar\"; εἶμι → ἰέναι \"ir\"; οἶδα → εἰδέναι \"saber\". Todos terminam em *-ναι*, marca que voltará em outros verbos.\n\nAtenção: εἶμι no indicativo tem sentido de futuro (\"irei\"), mas ἰέναι vale simplesmente \"ir\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 135,
+    "local": "7A–C, §152"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "168–169",
+    "local": "cap. 10, Gram. 6 (εἶμι, ἰέναι)"
+   },
+   "paradigmas": [
+    "infinitivos",
+    "eimi"
+   ],
+   "exemplos": [
+    {
+     "grego": "δῆλον ὅτι δεῖ με εἰς Δελφοὺς ἰέναι, καὶ μαντεύεσθαι.",
+     "traducao": "É claro que preciso ir a Delfos e consultar o oráculo.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 74,
+      "local": "7A"
+     }
+    },
+    {
+     "grego": "οὗτος μὲν γὰρ δοκεῖ τι εἰδέναι, οὐδὲν εἰδώς.",
+     "traducao": "Pois este parece saber algo, sem saber nada.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 76,
+      "local": "7B"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Verbos e expressões que pedem infinitivo",
+   "nota": "βούλομαι \"quero\", δοκέω \"pareço\", δεῖ \"é preciso\" e ἀνάγκη ἐστί \"é forçoso\" se completam com um infinitivo.\n\nCom δεῖ, quem *precisa* vai para o *acusativo*: δεῖ με ἰέναι \"preciso ir\". Com ἀνάγκη ἐστί, a pessoa obrigada vai para o acusativo (às vezes dativo). Na leitura, ao ver δεῖ ou ἀνάγκη, procure logo um acusativo + infinitivo.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "135–136",
+    "local": "7A–C, §153"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 170,
+    "local": "cap. 10, Gram. 8 (verbos impessoais)"
+   },
+   "paradigmas": [
+    "infinitivos"
+   ],
+   "exemplos": [
+    {
+     "grego": "καὶ μὴν ἀνάγκη ἐστὶ τὸν θεὸν λέγειν τὴν ἀλήθειαν.",
+     "traducao": "E de fato é forçoso que o deus diga a verdade.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 74,
+      "local": "7A"
+     }
+    },
+    {
+     "grego": "δεῖ ἡμᾶς πρὸ τῆς νυκτὸς ἐκεῖσε παρεῖναι.",
+     "traducao": "Precisamos estar lá antes da noite.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 170,
+      "local": "cap. 10, Gram. 8"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Comparativo e superlativo regulares (-τερος, -τατος)",
+   "nota": "O comparativo leva -τερος -α -ον e o superlativo -τατος -η -ον. Antes deles vem -ο- se a sílaba anterior é longa (δεινότερος, δηλότατος) e -ω- se é breve (σοφώτερος, σοφώτατος): o grego evita três breves seguidas.\n\nO comparativo declina-se como ἡμέτερος, e o superlativo como καλός. \"Do que\" é ἤ, com os dois termos no mesmo caso. Sem comparação expressa, o comparativo vale \"bastante...\" e o superlativo \"muito..., -íssimo\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "136–137",
+    "local": "7A–C, §154–158"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "234–237",
+    "local": "cap. 14, Gram. 1 e 4"
+   },
+   "paradigmas": [
+    "adj-hemeteros",
+    "adj-kalos"
+   ],
+   "exemplos": [
+    {
+     "grego": "βούλομαι δ’ εἰδέναι εἴ τίς ἐστι σοφώτερος ἢ Σωκράτης.",
+     "traducao": "Quero saber se alguém é mais sábio do que Sócrates.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 74,
+      "local": "7A"
+     }
+    },
+    {
+     "grego": "οἱ Ἕλληνες ἀνδρειότατα μαχόμενοι τοὺς βαρβάρους ἤμυνον.",
+     "traducao": "Os gregos, lutando com a máxima bravura, rechaçavam os bárbaros.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 232,
+      "local": "cap. 14α (legenda)"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Comparativos irregulares (ἀμείνων, κακίων, μείζων, πλείων…)",
+   "nota": "Os adjetivos mais comuns têm comparação irregular, como \"bom/melhor\" em português: ἀγαθός → ἀμείνων/βελτίων, ἄριστος/βέλτιστος; κακός → κακίων/χείρων, κάκιστος/χείριστος; καλός → καλλίων, κάλλιστος; μέγας → μείζων, μέγιστος; πολύς → πλείων, πλεῖστος.\n\nOs comparativos em -ων seguem a 3ª declinação (tema em -ον-), com formas curtas alternativas: ἀμείνω (= ἀμείνονα), ἀμείνους (= ἀμείνονες/-ας). Vale a pena decorar a lista inteira de uma vez.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "137–138",
+    "local": "7A–C, §159–160"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 235,
+    "local": "cap. 14, Gram. 2"
+   },
+   "paradigmas": [],
+   "exemplos": [
+    {
+     "grego": "καὶ ‘τὸν ἥττονα λόγον κρείττονα ποιεῖν’.",
+     "traducao": "e \"tornar mais forte o argumento mais fraco\".",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 78,
+      "local": "7C"
+     }
+    },
+    {
+     "grego": "οὐδὲν ἄμεινον ἔπραττον ἢ οἱ ἄλλοι.",
+     "traducao": "não se saíam nada melhor do que os outros.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 234,
+      "local": "cap. 14α"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "O imperfeito de εἶμι: ᾖα \"eu ia\"",
+   "nota": "εἶμι (\"irei\") tem um imperfeito próprio: ᾖα (ou ᾔειν), ᾔεισθα, ᾔει(ν), ᾖμεν, ᾖτε, ᾖσαν (ou ᾔεσαν). Na prática, ᾖα funciona como o imperfeito de ἔρχομαι: \"eu ia, estava indo\".\n\nNão confunda com ἦ/ἦν \"eu era\" (de εἰμί): o imperfeito de εἶμι tem *iota subscrito* em todas as formas. Os compostos seguem o mesmo modelo (ἀπῇα \"eu ia embora\").",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "138–139",
+    "local": "7A–C, §161"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 215,
+    "local": "cap. 13, Gram. 1"
+   },
+   "paradigmas": [
+    "verbo-imperfeito"
+   ],
+   "exemplos": [
+    {
+     "grego": "ᾔει οὖν ὁ Χαιρεφῶν εἰς Δελφούς.",
+     "traducao": "Querefonte, então, foi a Delfos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 74,
+      "local": "7A"
+     }
+    },
+    {
+     "grego": "ἐντεῦθεν ἐπ’ ἄλλον τινὰ σοφὸν ᾖα.",
+     "traducao": "Dali fui a outro sábio.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 76,
+      "local": "7B"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "7A-o1",
+   "tipo": "morfologia",
+   "titulo": "Comparativo e superlativo",
+   "enunciado": "Dê o comparativo e o superlativo (nom. masc. sg.) e traduza.",
+   "itens": [
+    {
+     "pergunta": "σοφός",
+     "resposta": "σοφώτερος, σοφώτατος: mais sábio, o mais sábio"
+    },
+    {
+     "pergunta": "δεινός",
+     "resposta": "δεινότερος, δεινότατος: mais hábil/terrível, o mais hábil/terrível"
+    },
+    {
+     "pergunta": "μῶρος",
+     "resposta": "μωρότερος, μωρότατος: mais tolo, o mais tolo"
+    },
+    {
+     "pergunta": "ἀγαθός",
+     "resposta": "ἀμείνων (βελτίων), ἄριστος (βέλτιστος): melhor, o melhor"
+    },
+    {
+     "pergunta": "μέγας",
+     "resposta": "μείζων, μέγιστος: maior, o maior"
+    },
+    {
+     "pergunta": "πολύς",
+     "resposta": "πλείων, πλεῖστος: mais, o mais (numeroso)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "7A"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 14 (Ἡ ἐν ταῖς Θερμοπύλαις μάχη)",
+   "cap. 3 (Ὁ ἄροτος)",
+   "cap. 6 (Ὁ μῦθος)"
+  ],
+  "comparacao": "A JACT junta em 7A–C três assuntos (infinitivo, verbos que pedem infinitivo e comparação) porque a *Apologia* de Sócrates gira em torno de \"quem é mais sábio\". O Athenaze espalha os mesmos pontos: o infinitivo ativo aparece já no cap. 3, o médio no cap. 6, e a comparação só no cap. 14, com a batalha das Termópilas.\n\nPara o infinitivo, o Athenaze é mais gradual e vale como revisão rápida. Para a comparação, o cap. 14 é *mais completo*: traz o genitivo de comparação, o dativo de diferença (πολλῷ μείζων) e ὡς + superlativo (ὡς τάχιστα), que a JACT ainda não mostrou. Sugestão: leia 7A com a JACT §154–158 e depois o cap. 14, Gram. 1–4, como complemento.",
+  "complementos": [
+   "Genitivo de comparação no lugar de ἤ: ὁ ἀνὴρ μείζων ἐστὶ τοῦ παιδός (Athenaze, cap. 14, Gram. 4, p. 237).",
+   "ὡς + superlativo = \"o mais... possível\": ὡς τάχιστα, ὡς ἀνδρειότατα (Athenaze, cap. 14, Gram. 4, p. 237; ὡς τάχιστα já no vocabulário do cap. 12α).",
+   "Comparação de advérbios: ἀνδρείως, ἀνδρειότερον, ἀνδρειότατα; εὖ, ἄμεινον, ἄριστα; μάλα, μᾶλλον, μάλιστα (Athenaze, cap. 14, Gram. 3, p. 236).",
+   "Adjetivos da 3ª declinação: ἀληθέστερος, σωφρονέστερος (Athenaze, cap. 14, Gram. 1, p. 235)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἴσως γὰρ Σωκράτης σοφώτατός ἐστιν ἀνθρώπων.",
+    "traducao": "Pois talvez Sócrates seja o mais sábio dos homens.",
+    "comentario": "Superlativo + genitivo partitivo (\"dos homens\").",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 74,
+     "local": "7A"
+    }
+   },
+   {
+    "grego": "ὁ Λεωνίδης πάντων τῶν στρατιωτῶν ἄριστος ἦν.",
+    "traducao": "Leônidas era o melhor de todos os soldados.",
+    "comentario": "A mesma construção no Athenaze, com o superlativo irregular ἄριστος.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 237,
+     "local": "cap. 14, Gram. 4"
+    }
+   },
+   {
+    "grego": "ἡμεῖς γὰρ οὐ βουλόμεθα διαβάλλειν σε.",
+    "traducao": "Pois nós não queremos caluniar-te.",
+    "comentario": "βούλομαι + infinitivo presente.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 74,
+     "local": "7A"
+    }
+   }
+  ]
+ }
+}

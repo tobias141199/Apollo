@@ -1,0 +1,211 @@
+{
+ "id": "1J",
+ "secao": 1,
+ "parte": 1,
+ "titulo": "O melhor general da Grécia",
+ "resumo": "Levando o raciocínio ao absurdo, Diceópolis faz o rapsodo admitir que seria o melhor general dos gregos, e os marinheiros riem da sua tolice.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 21,
+  "local": "1J"
+ },
+ "vocab": [
+  {
+   "grego": "ἀεί",
+   "lexical": "ἀεί",
+   "classe": "advérbio",
+   "glosa": "sempre",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 21,
+    "local": "1J"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "ἄριστος",
+   "lexical": "ἄριστος η ον",
+   "classe": "adjetivo",
+   "glosa": "o melhor; muito bom",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 21,
+    "local": "1J"
+   }
+  },
+  {
+   "grego": "εἰμί",
+   "lexical": "εἰμί",
+   "classe": "verbo",
+   "glosa": "ser; estar",
+   "aprender": true,
+   "paradigma": "eimi",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 21,
+    "local": "1J"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "Ἕλλην",
+   "lexical": "Ἕλλην (Ἑλλην-), ὁ (3a)",
+   "classe": "substantivo",
+   "glosa": "grego; heleno",
+   "aprender": true,
+   "paradigma": "decl3-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 21,
+    "local": "1J"
+   }
+  },
+  {
+   "grego": "ἤ",
+   "lexical": "ἤ",
+   "classe": "conjunção",
+   "glosa": "ou",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 21,
+    "local": "1J"
+   }
+  },
+  {
+   "grego": "ναῦς",
+   "lexical": "ναῦς, ἡ (irreg.)",
+   "classe": "substantivo",
+   "glosa": "navio",
+   "aprender": true,
+   "paradigma": "naus",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 21,
+    "local": "1J"
+   }
+  },
+  {
+   "grego": "οἶδα",
+   "lexical": "οἶδα",
+   "classe": "verbo",
+   "glosa": "saber",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 21,
+    "local": "1J"
+   }
+  },
+  {
+   "grego": "πῶς γὰρ οὔ",
+   "lexical": "πῶς γὰρ οὔ;",
+   "classe": "expressão",
+   "glosa": "claro!; como não?",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 21,
+    "local": "1J"
+   }
+  },
+  {
+   "grego": "στρατηγός",
+   "lexical": "στρατηγός, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "general",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 21,
+    "local": "1J"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "1J-o1",
+   "tipo": "outro",
+   "titulo": "Quem é o sujeito?",
+   "enunciado": "Em cada frase, aponte o sujeito (pelo artigo) e o predicativo, e traduza.",
+   "itens": [
+    {
+     "pergunta": "στρατηγὸς ἄριστός ἐστιν ὁ ῥαψῳδός.",
+     "resposta": "Sujeito: ὁ ῥαψῳδός; predicativo: στρατηγὸς ἄριστος — O rapsodo é um excelente general."
+    },
+    {
+     "pergunta": "ὁ στρατηγὸς Ἕλλην ἐστίν.",
+     "resposta": "Sujeito: ὁ στρατηγός; predicativo: Ἕλλην — O general é grego."
+    },
+    {
+     "pergunta": "μῶροι οἱ ναῦται.",
+     "resposta": "Sujeito: οἱ ναῦται; predicativo: μῶροι (εἰσί subentendido) — Os marinheiros são tolos."
+    },
+    {
+     "pergunta": "ἆρα ἔμπειρος εἶ σύ;",
+     "resposta": "Sujeito: σύ; predicativo: ἔμπειρος — Tu és experiente?"
+    },
+    {
+     "pergunta": "δῆλον ὅτι ἀεὶ παίζεις.",
+     "resposta": "Sujeito: a oração ὅτι…; predicativo: δῆλον (ἐστί subentendido) — É claro que estás sempre brincando."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "1J"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 2 (Ὁ Ξανθίας)",
+   "cap. 4 (Πρὸς τῇ κρήνῃ)"
+  ],
+  "comparacao": "1J fecha a Seção 1 com o \"silogismo\" de Diceópolis: εἰμί com predicativo sem artigo (στρατηγὸς ἄριστος εἶ), elipse do verbo, ἤ \"ou\" e πῶς γὰρ οὔ;. Tudo isso está nas notas de 1H–J (em 1H). No Athenaze, o quadro completo de εἰμί (cap. 4, Gram. 1) e as máximas curtas com elipse são o melhor paralelo.\n\nSugestão de revisão para o fim da Seção 1: reler os caps. 1–4 do Athenaze inteiros, de uma vez. Com o vocabulário e a gramática de 1A–1J você entende quase tudo; o que falta (1ª declinação, terceira declinação reconhecida pelo artigo) está explicado ali mesmo.",
+  "complementos": [
+   "Athenaze cap. 4, Gram. 1 (p. 39): quadro de εἰμί com imperativo (ἴσθι, ἔστε) e infinitivo (εἶναι).",
+   "Athenaze cap. 4, Gram. 8 (p. 50): o artigo como indicador de caso permite ler nomes da 3ª declinação como τῶν Ἑλλήνων ou ἡ ναῦς antes de estudá-los (exercício 4κ: τὴν ναῦν, τοῖς παισί).",
+   "Athenaze cap. 2, Greek Wisdom (p. 17): μέτρον ἄριστον — ἄριστος em frase sem verbo.",
+   "Vocabulário do Athenaze em comum: ἀεί (cap. 4), εἰμί/ἐστί (cap. 1)."
+  ],
+  "citacoes": [
+   {
+    "grego": "οἱ Ἕλληνες ἀεὶ παῖδές εἰσιν.",
+    "traducao": "Os gregos são sempre crianças.",
+    "comentario": "JACT: sujeito com artigo, predicativo sem artigo (παῖδες) — a última frase da Seção 1.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 21,
+     "local": "1J"
+    }
+   },
+   {
+    "grego": "μῶρος οὖν ἐστιν ὁ ἄριστος τῶν Ἑλλήνων στρατηγός.",
+    "traducao": "Logo, o melhor general dos gregos é um tolo.",
+    "comentario": "JACT: o predicativo μῶρος vem antes, mas o artigo mostra que o sujeito é ὁ… στρατηγός.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 21,
+     "local": "1J"
+    }
+   },
+   {
+    "grego": "μὴ ἀργὸς ἴσθι.",
+    "traducao": "Não sejas preguiçoso!",
+    "comentario": "Athenaze: imperativo de εἰμί, com predicativo no nominativo — forma que a JACT ainda não deu.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 15,
+     "local": "cap. 2, Gram. 3"
+    }
+   }
+  ]
+ }
+}

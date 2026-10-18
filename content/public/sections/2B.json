@@ -1,0 +1,224 @@
+{
+ "id": "2B",
+ "secao": 2,
+ "parte": 1,
+ "titulo": "O relato do rapsodo",
+ "resumo": "O rapsodo conta, em estilo pomposo e repetitivo, como os atenienses, poucos e assustados, venceram a enorme frota persa e salvaram a Grécia.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 24,
+  "local": "2B"
+ },
+ "vocab": [
+  {
+   "grego": "ἀγαθός",
+   "lexical": "ἀγαθός ή όν",
+   "classe": "adjetivo",
+   "glosa": "bom; nobre; corajoso",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 25,
+    "local": "2B"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "Ἀθηναῖος",
+   "lexical": "Ἀθηναῖος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "ateniense",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 25,
+    "local": "2B"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ἀπορέω",
+   "lexical": "ἀπορέω",
+   "classe": "verbo",
+   "glosa": "estar perdido; estar sem recursos",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 25,
+    "local": "2B"
+   }
+  },
+  {
+   "grego": "βέβαιος",
+   "lexical": "βέβαιος α ον",
+   "classe": "adjetivo",
+   "glosa": "firme; seguro",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 25,
+    "local": "2B"
+   }
+  },
+  {
+   "grego": "βραδέως",
+   "lexical": "βραδέως",
+   "classe": "advérbio",
+   "glosa": "lentamente",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 25,
+    "local": "2B"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "νικάω",
+   "lexical": "νικάω",
+   "classe": "verbo",
+   "glosa": "vencer; derrotar",
+   "aprender": true,
+   "paradigma": "orao-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 25,
+    "local": "2B"
+   }
+  },
+  {
+   "grego": "ὅσος",
+   "lexical": "ὅσος η ον",
+   "classe": "adjetivo",
+   "glosa": "quanto!; quão grande!",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 25,
+    "local": "2B"
+   }
+  },
+  {
+   "grego": "πίπτω",
+   "lexical": "πίπτω (πεσ-)",
+   "classe": "verbo",
+   "glosa": "cair; sucumbir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "πίπτω",
+    "πεσ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 25,
+    "local": "2B"
+   },
+   "athenaze": "cap. 3"
+  },
+  {
+   "grego": "τέλος",
+   "lexical": "τέλος",
+   "classe": "advérbio",
+   "glosa": "no fim; por fim",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 25,
+    "local": "2B"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "2B-o1",
+   "tipo": "morfologia",
+   "titulo": "1ª declinação: genitivo singular e plural",
+   "enunciado": "Escreva o genitivo singular e o genitivo plural, com artigo, e diga o tipo (1a, 1b, 1c, 1d).",
+   "itens": [
+    {
+     "pergunta": "ἡ βοή",
+     "resposta": "τῆς βοῆς / τῶν βοῶν (1a)"
+    },
+    {
+     "pergunta": "ἡ ἀπορία",
+     "resposta": "τῆς ἀπορίας / τῶν ἀποριῶν (1b)"
+    },
+    {
+     "pergunta": "ἡ τόλμα",
+     "resposta": "τῆς τόλμης / τῶν τολμῶν (1c)"
+    },
+    {
+     "pergunta": "ὁ ναύτης",
+     "resposta": "τοῦ ναύτου / τῶν ναυτῶν (1d)"
+    },
+    {
+     "pergunta": "ἡ στρατιά",
+     "resposta": "τῆς στρατιᾶς / τῶν στρατιῶν (1b)"
+    },
+    {
+     "pergunta": "ἡ νίκη",
+     "resposta": "τῆς νίκης / τῶν νικῶν (1a)"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "2B"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 4 (Πρὸς τῇ κρήνῃ)",
+   "cap. 5 (Ὁ λύκος)"
+  ],
+  "comparacao": "O relato do rapsodo é cheio de substantivos da 1ª declinação (στρατιά, ἀπορία, τόλμα, βοή, ἐλευθερία) e de genitivos (ἡ τῶν Περσῶν στρατιά). A JACT reúne os quatro tipos da 1ª declinação de uma vez (§55–58). O Athenaze distribui o mesmo conteúdo pelo cap. 4: femininos na parte α, masculinos na β. Ele acrescenta notas sobre o acento e o adjetivo de três terminações (καλός, ῥᾴδιος) logo em seguida.\n\nPara memorizar, a tabela da JACT com artigo é mais direta. Para entender *por que* ἀπορία mantém o ᾱ e θάλαττα não, o Athenaze é mais claro: ele dá a regra do ε, ι, ρ e um quarto tipo, μάχαιρα. Sugestão: leia o texto de 2B, estude os §55–58 e confira os quadros do Athenaze pp. 40–42.",
+  "complementos": [
+   "Athenaze cap. 4, Gram. 3 (p. 42): Tipo 4, μάχαιρα — α breve no nom./ac. sg., mas, como há ρ antes, ᾱ no gen./dat. (μαχαίρας, μαχαίρᾳ). A JACT só mostra o tipo θάλαττα.",
+   "Athenaze cap. 4, Gram. 3, nota 4 (p. 41): o gen. pl. de toda a 1ª declinação leva circunflexo na última sílaba (-ῶν), porque vem de -άων contraído.",
+   "Athenaze cap. 4, Gram. 6 (pp. 48–49): adjetivos com ε, ι ou ρ antes de -ος fazem o feminino em -ᾱ (ῥᾴδιος, ῥᾳδία). É o caso de βέβαιος, βεβαία (2B) e ἐλεύθερος, ἐλευθέρα (2D).",
+   "Athenaze cap. 5, Word Building (p. 64): βοάω → ἡ βοή, νικάω → ἡ νίκη, τιμάω → ἡ τιμή. O verbo contrato em -άω e o substantivo da 1ª declinação têm o mesmo radical.",
+   "Vocabulário: ἀγαθός no Athenaze cap. 5β (p. 62), só como 'bom'; a JACT acrescenta 'nobre, corajoso'. πίπτω já no cap. 3α (p. 24)."
+  ],
+  "citacoes": [
+   {
+    "grego": "πολλὴ μὲν γὰρ ἡ τῶν Περσῶν στρατιά, ὀλίγοι δὲ οἱ Ἀθηναῖοι.",
+    "traducao": "Pois o exército dos persas é grande, e os atenienses são poucos.",
+    "comentario": "Genitivo em sanduíche (ἡ τῶν Περσῶν στρατιά) e frases sem verbo 'ser', em posição predicativa.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 24,
+     "local": "2B"
+    }
+   },
+   {
+    "grego": "ἡ γὰρ ἀρετὴ καὶ ἡ τόλμα τήν τε ὕβριν καὶ τὸ πλῆθος ἀεὶ νικῶσιν.",
+    "traducao": "Pois a coragem e a ousadia sempre vencem a arrogância e o número.",
+    "comentario": "ἀρετή (1a) e τόλμα (1c) lado a lado; νικῶσιν é contrato em -α (como τιμῶσιν no Athenaze cap. 5).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 24,
+     "local": "2B"
+    }
+   },
+   {
+    "grego": "μέγας γάρ ἐστιν ὁ λύκος καὶ ἄγριος. σὺ δέ, ὦ Ἄργε, ἀγαθὸς εἶ κύων.",
+    "traducao": "Pois o lobo é grande e feroz. E tu, Argos, és um bom cão.",
+    "comentario": "ἀγαθός aparece aqui pela primeira vez no Athenaze. Compare com ἀγαθὸν γὰρ ἡ ἐλευθερία em 2B, onde o neutro significa 'uma coisa boa'.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 63,
+     "local": "cap. 5β"
+    }
+   }
+  ]
+ }
+}

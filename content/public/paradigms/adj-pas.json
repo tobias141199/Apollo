@@ -1,0 +1,81 @@
+{
+  "id": "adj-pas",
+  "titulo": "πᾶς πᾶσα πᾶν — 'todo, cada'",
+  "grupo": "adjetivo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "πᾶς",
+        "πᾶσ|α",
+        "πᾶν"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "πάντ|α",
+        "πᾶσ|αν",
+        "πᾶν"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "παντ|ός",
+        "πάσ|ης",
+        "παντ|ός"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "παντ|ί",
+        "πάσ|ῃ",
+        "παντ|ί"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "πάντ|ες",
+        "πᾶσ|αι",
+        "πάντ|α"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "πάντ|ας",
+        "πάσ|ας",
+        "πάντ|α"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "πάντ|ων",
+        "πασ|ῶν",
+        "πάντ|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "πᾶ|σι(ν)",
+        "πάσ|αις",
+        "πᾶ|σι(ν)"
+      ]
+    }
+  ],
+  "nota": "Masc. e neutro: 3ª declinação (tema παντ-); feminino: 1ª declinação em -ᾰ (como θάλαττα). Com artigo, 'todo, inteiro' (ἡ πᾶσα πόλις); sem artigo, 'todos' ou 'cada'.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 9"
+  }
+}

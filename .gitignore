@@ -1,0 +1,10 @@
+*.pdf
+ocr/
+content/private/
+node_modules/
+dist/
+.DS_Store
+smoke/
+tsconfig.tsbuildinfo
+.candidatos/
+.continue/

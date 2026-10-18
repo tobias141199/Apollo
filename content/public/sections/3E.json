@@ -1,0 +1,236 @@
+{
+  "id": "3E",
+  "secao": 3,
+  "parte": 1,
+  "titulo": "Preces e partida",
+  "resumo": "Tripulação e trierarca embarcam; depois de orações e de uma libação a Posídon, a trirreme zarpa no ritmo marcado pelo contramestre.",
+  "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 39,
+    "local": "3E"
+  },
+  "vocab": [
+    {
+      "grego": "δή",
+      "lexical": "δή",
+      "classe": "partícula",
+      "glosa": "então; de fato",
+      "aprender": true,
+      "nota": "Dá ênfase; com imperativo: \"vamos, então!\".",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 39,
+        "local": "3E"
+      },
+      "athenaze": "cap. 6"
+    },
+    {
+      "grego": "ἐμβαίνω",
+      "lexical": "ἐμβαίνω (ἐμβα-)",
+      "classe": "verbo",
+      "glosa": "embarcar",
+      "aprender": true,
+      "paradigma": "verbo-presente-ativo",
+      "partes": [
+        "ἐμβαίνω",
+        "ἐμβα-"
+      ],
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 39,
+        "local": "3E"
+      }
+    },
+    {
+      "grego": "εὐχή",
+      "lexical": "εὐχή, ἡ (1a)",
+      "classe": "substantivo",
+      "glosa": "prece; oração",
+      "aprender": true,
+      "paradigma": "decl1-a",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 39,
+        "local": "3E"
+      }
+    },
+    {
+      "grego": "εὔχομαι",
+      "lexical": "εὔχομαι",
+      "classe": "verbo",
+      "glosa": "orar; fazer uma prece",
+      "aprender": true,
+      "paradigma": "verbo-presente-medio",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 39,
+        "local": "3E"
+      },
+      "athenaze": "cap. 8"
+    },
+    {
+      "grego": "θυσία",
+      "lexical": "θυσία, ἡ (1b)",
+      "classe": "substantivo",
+      "glosa": "sacrifício",
+      "aprender": true,
+      "paradigma": "decl1-b",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 39,
+        "local": "3E"
+      }
+    },
+    {
+      "grego": "θύω",
+      "lexical": "θύω",
+      "classe": "verbo",
+      "glosa": "sacrificar",
+      "aprender": true,
+      "paradigma": "verbo-presente-ativo",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 39,
+        "local": "3E"
+      }
+    },
+    {
+      "grego": "κελεύω",
+      "lexical": "κελεύω",
+      "classe": "verbo",
+      "glosa": "ordenar; mandar",
+      "aprender": true,
+      "paradigma": "verbo-presente-ativo",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 39,
+        "local": "3E"
+      }
+    },
+    {
+      "grego": "σπένδω",
+      "lexical": "σπένδω",
+      "classe": "verbo",
+      "glosa": "fazer libações",
+      "aprender": true,
+      "paradigma": "verbo-presente-ativo",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 39,
+        "local": "3E"
+      }
+    },
+    {
+      "grego": "σπονδή",
+      "lexical": "σπονδή, ἡ (1a)",
+      "classe": "substantivo",
+      "glosa": "libação",
+      "aprender": true,
+      "paradigma": "decl1-a",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 39,
+        "local": "3E"
+      }
+    }
+  ],
+  "gramatica": [],
+  "exercicios": [
+    {
+      "id": "3E-o1",
+      "tipo": "traduzir-gp",
+      "titulo": "Antes de zarpar",
+      "enunciado": "Traduza. Repare nos pares verbo + substantivo da mesma família (σπένδω/σπονδή, εὔχομαι/εὐχή, θύω/θυσία).",
+      "itens": [
+        {
+          "pergunta": "ὁ τριήραρχος σπονδὴν σπένδει.",
+          "resposta": "O trierarca faz uma libação."
+        },
+        {
+          "pergunta": "οἱ ναῦται τὰς εὐχὰς εὔχονται.",
+          "resposta": "Os marinheiros fazem as preces."
+        },
+        {
+          "pergunta": "πολλὰς θυσίας τοῖς θεοῖς θύομεν.",
+          "resposta": "Oferecemos muitos sacrifícios aos deuses."
+        },
+        {
+          "pergunta": "ἐπειδὴ ὁ κελευστὴς κελεύει, οἱ ναῦται ἐμβαίνουσιν.",
+          "resposta": "Quando o contramestre ordena, os marinheiros embarcam."
+        },
+        {
+          "pergunta": "ὦ Ζεῦ, σῷζε ταύτας τὰς ναῦς.",
+          "resposta": "Ó Zeus, salva estes navios!"
+        },
+        {
+          "pergunta": "ἐκεῖνος δὴ κελεύει ἡμᾶς ἐμβαίνειν.",
+          "resposta": "É ele, de fato, que nos manda embarcar."
+        }
+      ],
+      "gabarito": "projeto",
+      "fonte": {
+        "livro": "original",
+        "local": "3E"
+      }
+    }
+  ],
+  "textos": [],
+  "athenaze": {
+    "capitulos": [
+      "cap. 8 (Πρὸς τὸ ἄστυ)",
+      "cap. 9 (Ἡ πανήγυρις)"
+    ],
+    "comparacao": "3E fecha a seção com a partida do navio e um ritual religioso: libação (σπονδή, σπένδω), prece (εὐχή, εὔχομαι) e sacrifício (θυσία, θύω). Esse vocabulário aparece no Athenaze nos caps. 8 e 9, quando a família de Diceópolis faz uma libação a Zeus antes de partir para a cidade e depois vai à festa de Atena: Filipe reza à deusa pedindo que salve a cidade, em uma prece com a mesma forma da oração do trierarca a Posêidon (vocativo, título do deus, imperativo σῷζε).\n\nPara a gramática, 3E retoma ναῦς (ἐμβαίνουσι εἰς τὰς ναῦς) e ἐκεῖνος como pronome. O quadro completo de ναῦς está no Athenaze, cap. 9, Gram. 4 (p. 146), ao lado de βασιλεύς e βοῦς, com a explicação histórica do digama (ναϝ-), que torna a irregularidade compreensível. Ordem sugerida: leia 3E; depois compare as duas preces (JACT 3E, l. 10–12; Athenaze cap. 9α, p. 134) e estude o quadro de ναῦς no Athenaze.",
+    "complementos": [
+      "Athenaze cap. 9, Gram. 4 (p. 146): ναῦς, βοῦς e βασιλεύς juntos; os radicais ναυ-/νη-/νε- vêm de um antigo ναϝ- (compare o latim *navis*).",
+      "Athenaze cap. 8β (p. 123): σπονδὴν ποιοῦμαι \"fazer uma libação\", outra forma de dizer σπονδὴν σπένδω, e εὔχομαι + acusativo e infinitivo (\"rezar para que…\").",
+      "Athenaze cap. 8β, vocabulário (p. 122): εὔχομαι \"rezo\", + dativo \"rezo a\"; ὁ βωμός \"altar\"; Ζεύς, Διός, Διί, Δία, ὦ Ζεῦ.",
+      "Athenaze cap. 9β, vocabulário (p. 142): ὁ ἱερεύς \"sacerdote\", τὸ ἱερεῖον \"vítima do sacrifício\", ἵλεως \"propício\" — palavras de culto que complementam θυσία e θύω.",
+      "Vocabulário em comum: δή (cap. 6), εὔχομαι (cap. 8)."
+    ],
+    "citacoes": [
+      {
+        "grego": "νῦν γὰρ σπονδὴν τοῖς θεοῖς σπένδω καὶ τὰς εὐχὰς εὔχομαι.",
+        "traducao": "Pois agora faço uma libação aos deuses e digo as preces.",
+        "comentario": "JACT: objeto da mesma família do verbo (σπονδὴν σπένδω, εὐχὰς εὔχομαι).",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 39,
+          "local": "3E",
+          "linhas": "l. 7–8"
+        }
+      },
+      {
+        "grego": "σπονδὴν δὲ ποιούμενος τὸν Δία εὔχεται σῴζειν πάντας πρὸς τὸ ἄστυ πορευομένους.",
+        "traducao": "E, fazendo uma libação, pede a Zeus que salve todos os que vão para a cidade.",
+        "comentario": "Athenaze: libação e prece antes de uma viagem, com Δία (ac. de Ζεύς).",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 123,
+          "local": "cap. 8β"
+        }
+      },
+      {
+        "grego": "σὺ μὲν γὰρ σωτὴρ ἄριστος τῶν ναυτῶν… σῷζε ἡμᾶς ἐπὶ τὴν πατρίδα πάλιν.",
+        "traducao": "Pois tu és o melhor salvador dos marinheiros… salva-nos de volta para a pátria.",
+        "comentario": "JACT: prece a Posêidon com σωτήρ e πατρίς (3a).",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 39,
+          "local": "3E",
+          "linhas": "l. 10–12"
+        }
+      },
+      {
+        "grego": "ὦ Ἀθηνᾶ Παρθένε, παῖ Διός, πολιοῦχε, ἵλεως ἴσθι καὶ ἄκουέ μου εὐχομένου.",
+        "traducao": "Atena Virgem, filha de Zeus, protetora da cidade, sê propícia e escuta minha prece.",
+        "comentario": "Athenaze: a mesma estrutura de prece (vocativo, títulos do deus, imperativos), com παῖ e Διός.",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 134,
+          "local": "cap. 9α"
+        }
+      }
+    ]
+  }
+}

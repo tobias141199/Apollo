@@ -1,0 +1,81 @@
+{
+  "id": "part-medio",
+  "titulo": "Particípio médio — παυόμενος παυομένη παυόμενον",
+  "grupo": "verbo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "παυ|όμενος",
+        "παυ|ομένη",
+        "παυ|όμενον"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "παυ|όμενον",
+        "παυ|ομένην",
+        "παυ|όμενον"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "παυ|ομένου",
+        "παυ|ομένης",
+        "παυ|ομένου"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "παυ|ομένῳ",
+        "παυ|ομένῃ",
+        "παυ|ομένῳ"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "παυ|όμενοι",
+        "παυ|όμεναι",
+        "παυ|όμενα"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "παυ|ομένους",
+        "παυ|ομένας",
+        "παυ|όμενα"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "παυ|ομένων",
+        "παυ|ομένων",
+        "παυ|ομένων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "παυ|ομένοις",
+        "παυ|ομέναις",
+        "παυ|ομένοις"
+      ]
+    }
+  ],
+  "nota": "Todo particípio em -μενος declina-se como καλός. Futuro médio: παυσόμενος; aoristo fraco: παυσάμενος; aoristo forte: λαβόμενος; contratos: ποιούμενος, θεώμενος.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 8"
+  }
+}

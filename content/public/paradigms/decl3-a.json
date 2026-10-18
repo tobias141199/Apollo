@@ -1,0 +1,58 @@
+{
+  "id": "decl3-a",
+  "titulo": "3ª declinação, temas em consoante — λιμήν, νύξ (3a)",
+  "grupo": "substantivo",
+  "colunas": [
+    "λιμήν sg.",
+    "λιμήν pl.",
+    "νύξ sg.",
+    "νύξ pl."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "λιμήν",
+        "λιμέν|ες",
+        "νύξ",
+        "νύκτ|ες"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "λιμέν|α",
+        "λιμέν|ας",
+        "νύκτ|α",
+        "νύκτ|ας"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "λιμέν|ος",
+        "λιμέν|ων",
+        "νυκτ|ός",
+        "νυκτ|ῶν"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "λιμέν|ι",
+        "λιμέ|σι(ν)",
+        "νυκτ|ί",
+        "νυ|ξί(ν)"
+      ]
+    }
+  ],
+  "nota": "Descubra o tema pelo genitivo (λιμέν-ος, νυκτ-ός) e acrescente as terminações -α, -ος, -ι / -ες, -ας, -ων, -σι(ν). Nos temas de uma sílaba (νύξ), o acento passa para a terminação no gen. e dat.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "3A–B"
+  },
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 7"
+  }
+}

@@ -1,0 +1,290 @@
+[
+ {
+  "jact": "1A–B",
+  "athenaze": [
+   "cap. 1 Gram. 2–4",
+   "cap. 2 Gram. 4",
+   "cap. 3 Gram. 2",
+   "cap. 4 Gram. 6, 8"
+  ],
+  "topicos": [
+   "artigo definido",
+   "concordância",
+   "adjetivos tipo καλός",
+   "vocativo"
+  ],
+  "nota": "O Athenaze dá o artigo aos poucos (caps. 1–4); a JACT dá o quadro completo de uma vez. O cap. 1 do Athenaze serve de leitura extra de sujeito e objeto."
+ },
+ {
+  "jact": "1C–D",
+  "athenaze": [
+   "cap. 2 Gram. 1, 3",
+   "cap. 2β Word Building",
+   "cap. 3 Gram. 1",
+   "cap. 4 Gram. 1"
+  ],
+  "topicos": [
+   "presente do indicativo ativo em -ω",
+   "verbos compostos",
+   "imperativo e μή",
+   "vocativo com ordens"
+  ],
+  "nota": "O Athenaze divide as pessoas do verbo entre os caps. 2 e 4 e traz o infinitivo (cap. 3), que a JACT ainda não dá."
+ },
+ {
+  "jact": "1E–F",
+  "athenaze": [
+   "cap. 4 Gram. 1, 7",
+   "cap. 5 Gram. 1–2"
+  ],
+  "topicos": [
+   "verbos contratos -άω/-έω/-όω",
+   "regras de contração",
+   "imperativos contratos",
+   "advérbios em -ως"
+  ],
+  "nota": "Contratos em -ε- no cap. 4 e em -α- no cap. 5; os em -ο- só no cap. 15. O Athenaze explica melhor o acento."
+ },
+ {
+  "jact": "1G",
+  "athenaze": [
+   "cap. 1 Gram. 5",
+   "cap. 2 Gram. 4–6",
+   "cap. 3 Gram. 2–3",
+   "cap. 4 Gram. 3, 5, 6",
+   "cap. 5 Gram. 3–4"
+  ],
+  "topicos": [
+   "2ª declinação (2a/2b)",
+   "neutros e neutro plural com verbo no singular",
+   "ἡμέτερος e regra ε/ι/ρ",
+   "preposições e casos",
+   "partículas e enclíticas",
+   "μέν … δέ"
+  ],
+  "nota": "As tabelas artigo + adjetivo + substantivo do Athenaze são as melhores para decorar. As partículas e o neutro plural com verbo no singular só estão na JACT."
+ },
+ {
+  "jact": "1H–J",
+  "athenaze": [
+   "cap. 1 Gram. 2–3",
+   "cap. 2 Classical Greek/Greek Wisdom",
+   "cap. 3α vocab.",
+   "cap. 4 Gram. 1",
+   "cap. 4 NT Greek"
+  ],
+  "topicos": [
+   "εἰμί e οἶδα",
+   "predicativo do sujeito",
+   "elipse de εἰμί",
+   "adjetivos substantivados",
+   "τε … καί"
+  ],
+  "nota": "οἶδα não aparece no Athenaze caps. 1–5. As máximas curtas do Athenaze (μέτρον ἄριστον; μέγα βιβλίον μέγα κακόν) são boas para treinar a elipse."
+ },
+ {
+  "jact": "2A–D",
+  "athenaze": [
+   "cap. 4",
+   "cap. 5",
+   "cap. 6"
+  ],
+  "topicos": [
+   "Voz média: presente e imperativo (JACT §52; Athenaze cap. 6, Gram. 2–3)",
+   "Verbos depoentes (Athenaze cap. 6, Gram. 3, 5)",
+   "Contratos médios θεάομαι/φοβέομαι/δουλόομαι (JACT §53–54; Athenaze cap. 6, Gram. 3; contratos em -ο- só no cap. 15)",
+   "1ª declinação, tipos 1a–1d (JACT §55–58; Athenaze cap. 4, Gram. 3–4)",
+   "Genitivo 'de' (JACT §59–60; Athenaze cap. 2, Gram. 4; cap. 3, Gram. 2)",
+   "Sanduíche / repetição do artigo / artigo + preposição (JACT §61–63; Athenaze cap. 5, Gram. 7–8, posição atributiva e possessivos)",
+   "Preposições com acusativo e dativo (JACT §64–65; Athenaze cap. 6, Gram. 6–7)",
+   "Advérbios em -ως (Athenaze cap. 4, Gram. 7; só no vocabulário da JACT)"
+  ],
+  "nota": "A gramática de JACT 2A–D está espalhada por três capítulos do Athenaze: 1ª declinação e advérbios no cap. 4, contratos em -α, posição atributiva e possessivos no cap. 5, voz média, depoentes e preposições no cap. 6. O Athenaze ensina a voz média bem mais tarde que a JACT. Leitura paralela sugerida: Athenaze cap. 6β (Teseu e o Minotauro) com 2D."
+ },
+ {
+  "jact": "3A–B",
+  "athenaze": [
+   "cap. 5",
+   "cap. 7",
+   "cap. 8"
+  ],
+  "topicos": [
+   "3ª declinação, temas em consoante (λιμήν, νύξ, λαμπάς, παῖς)",
+   "radical, gênero e genitivo; ἀνήρ",
+   "pronomes pessoais ἐγώ, σύ, ἡμεῖς, ὑμεῖς"
+  ],
+  "nota": "3ª declinação: Athenaze cap. 7, Gram. 2–3 e 5 (pp. 97–99, 106–107); ἀνήρ: cap. 8, Gram. 2 (pp. 124–125); pronomes: cap. 5, Gram. 6 (pp. 64–65). Palavras como παῖς, ἀνήρ e νύξ já aparecem como vocabulário nos caps. 3–6."
+ },
+ {
+  "jact": "3C–E",
+  "athenaze": [
+   "cap. 3",
+   "cap. 4",
+   "cap. 7",
+   "cap. 8",
+   "cap. 9",
+   "cap. 14"
+  ],
+  "topicos": [
+   "οὗτος e ἐκεῖνος (adjetivo e pronome; οὑτοσί)",
+   "πολύς e μέγας",
+   "ναῦς e Ζεύς",
+   "negações acumuladas",
+   "elipse; adjetivo com valor de advérbio ou de substantivo"
+  ],
+  "nota": "πολύς/μέγας: cap. 4β, p. 49; adjetivo substantivado: cap. 7, Gram. 1 (p. 96); Ζεύς: vocabulário do cap. 8β (ὦ Ζεῦ já no cap. 3); ναῦς: cap. 9, Gram. 4 (p. 146); demonstrativos só no cap. 14, Gram. 5 (p. 245), muito depois da JACT. O vocabulário de culto de 3E corresponde aos caps. 8β–9."
+ },
+ {
+  "jact": "4A–B",
+  "athenaze": [
+   "cap. 7 Gram. 3, 7, 8, 9",
+   "cap. 8 Gram. 5",
+   "cap. 9 Gram. 1, 3"
+  ],
+  "topicos": [
+   "3ª declinação 3b/3c (πρᾶγμα, πλῆθος)",
+   "3ª declinação 3e/3f (πόλις, πρέσβυς, ἄστυ)",
+   "adjetivo εὔφρων (= σώφρων)",
+   "τίς/τις",
+   "οὐδείς e o modelo 3-1-3",
+   "particípio ὤν οὖσα ὄν"
+  ],
+  "nota": "O Athenaze espalha por três capítulos o que a JACT dá em 4A–B: ὄνομα, σώφρων e τίς/τις no cap. 7; εἷς/οὐδείς no cap. 8; πόλις/ἄστυ e ὤν no cap. 9. A cena de Atenas lotada (8β–9α) é paralela a 4A. O neutro em -ος (τεῖχος) só vem no cap. 13."
+ },
+ {
+  "jact": "4C–D",
+  "athenaze": [
+   "cap. 8 Gram. 1",
+   "cap. 9 Gram. 1, 4, 6e",
+   "cap. 5 Gram. 4"
+  ],
+  "topicos": [
+   "particípio presente ativo e contratos",
+   "particípio presente médio",
+   "artigo + particípio",
+   "τυγχάνω/λανθάνω/φθάνω/φαίνομαι/παύομαι/δῆλός εἰμι/καίπερ + particípio",
+   "3ª declinação 3g (βασιλεύς)",
+   "elisão e crase"
+  ],
+  "nota": "A ordem é inversa nos dois livros: o Athenaze dá o médio no cap. 8 e o ativo no cap. 9; a JACT dá o ativo primeiro. Das expressões com particípio, o Athenaze Book I só traz παύομαι (e τέρπομαι no vocabulário 9β). A elisão está no cap. 5 (pp. 58–59); não encontrei a crase. A procissão de 9β (κῆρυξ, ὑπηρέται, ἱερεύς, βωμός) é paralela a 4D."
+ },
+ {
+  "jact": "5A–B",
+  "athenaze": [
+   "cap. 13 Gram. 1–2",
+   "cap. 11 Gram. 8",
+   "cap. 12 Gram. 5",
+   "cap. 5 Gram. 7"
+  ],
+  "topicos": [
+   "Pretérito imperfeito ativo e médio",
+   "Aumento silábico e temporal",
+   "Aumento nos verbos compostos",
+   "Imperfeito dos verbos contratos",
+   "Usos e identificação do imperfeito",
+   "Imperfeito de εἰμί",
+   "Adjetivo em posição predicativa"
+  ],
+  "nota": "O Athenaze ensina o aumento junto com o aoristo (caps. 11–12) e só chega ao imperfeito no cap. 13, que corresponde quase ponto por ponto a §101–110. A posição predicativa já aparece no cap. 5. A leitura 13α (pp. 212–213) é praticamente um exercício de imperfeitos."
+ },
+ {
+  "jact": "5C–D",
+  "athenaze": [
+   "cap. 10 Gram. 1–7, 9",
+   "cap. 6 Gram. 2",
+   "cap. 7 Gram. 8–9",
+   "cap. 8 Gram. 2",
+   "cap. 13 Gram. 4"
+  ],
+  "topicos": [
+   "Futuro ativo e médio",
+   "Futuro de radicais em consoante e de contratos",
+   "Futuros sem σ (líquidas, nasais, -ίζω)",
+   "Futuros médios e futuros irregulares",
+   "Futuro de εἰμί e o verbo εἶμι",
+   "Significado da voz média",
+   "Interrogativos, indefinidos e relativos",
+   "Substantivos 3d (τριήρης, Σωκράτης, Περικλῆς)",
+   "πατήρ, μήτηρ, θυγάτηρ"
+  ],
+  "nota": "O cap. 10 do Athenaze cobre §112–123 na mesma ordem. A voz média vem do cap. 6, πατήρ do cap. 8, τριήρης e ἀληθής do cap. 13. O Athenaze acrescenta o particípio futuro de finalidade (cap. 10, Gram. 7)."
+ },
+ {
+  "jact": "6A–B",
+  "athenaze": [
+   "cap. 12, Gram. 1–5",
+   "cap. 11, Gram. 3 e 8"
+  ],
+  "topicos": [
+   "Aoristo primeiro (sigmático): indicativo ativo e médio",
+   "Formando o radical do aoristo: consoantes, contratos e líquidas",
+   "O aumento no aoristo (vogal inicial e verbos compostos)",
+   "Do aoristo ao dicionário",
+   "Aspecto: aoristo × imperfeito",
+   "Substantivos do tipo 3h: ὀφρύς, ἡ"
+  ],
+  "nota": "A JACT ensina o aoristo sigmático antes do temático; o Athenaze faz o contrário (cap. 11 temático, cap. 12 sigmático). O aspecto está no cap. 11, Gram. 3 (pp. 178–179) e o aumento no cap. 11, Gram. 8 e cap. 12, Gram. 5. O tipo 3h (ὀφρύς) não aparece no Athenaze. Cena paralela: βάλλ’ ἐς κόρακας / κόπτω τὴν θύραν no cap. 11β, p. 187."
+ },
+ {
+  "jact": "6C–D",
+  "athenaze": [
+   "cap. 11, Gram. 1–2, 5–7",
+   "cap. 11 (leituras α, β e Democedes)"
+  ],
+  "topicos": [
+   "Aoristo segundo (temático): indicativo ativo e médio",
+   "Radicais de aoristo segundo para decorar",
+   "τί; \"por quê?\"",
+   "Discurso indireto com ὅτι / ὡς",
+   "Partículas: ἀλλά, δέ (ὁ δέ), δή"
+  ],
+  "nota": "O aoristo segundo corresponde quase ponto por ponto ao cap. 11 (pp. 176–181, 189–190). O Athenaze não tem lição de discurso indireto no Book I; só o usa nas leituras (p. 175 ἔμαθεν ὅτι…, p. 192 ἤρετο εἰ…, εἶπεν ὅτι…) e dá εἰ 'se' no vocabulário do cap. 11. τί 'por quê?' e as partículas aparecem só no uso."
+ },
+ {
+  "jact": "7A–C",
+  "athenaze": [
+   "cap. 3 Gram. 1",
+   "cap. 6 Gram. 3",
+   "cap. 14 Gram. 1–3"
+  ],
+  "topicos": [
+   "infinitivo presente ativo e médio",
+   "infinitivos irregulares (εἶναι, ἰέναι, εἰδέναι)",
+   "verbos que pedem infinitivo",
+   "comparativo e superlativo",
+   "imperfeito de εἶμι"
+  ],
+  "nota": "O infinitivo aparece cedo no Athenaze (cap. 3) e a comparação só no cap. 14; a JACT reúne os dois em 7A–C."
+ },
+ {
+  "jact": "7D–F",
+  "athenaze": [
+   "cap. 11",
+   "cap. 12"
+  ],
+  "topicos": [
+   "particípio aoristo 1º ativo e médio",
+   "aspecto: particípio presente × aoristo",
+   "ᾔδη (passado de οἶδα)",
+   "φημί / ἔφην"
+  ],
+  "nota": "Os particípios do aoristo são apresentados no Athenaze junto com o próprio aoristo (caps. 11–12)."
+ },
+ {
+  "jact": "7G–H",
+  "athenaze": [
+   "cap. 11 Gram. 2–3 (particípio aoristo 2º, p. 180)",
+   "cap. 5 Gram. 6, 8, 9 (αὐτός, ὁ αὐτός)",
+   "cap. 7 (Reflexive Pronouns, pp. 100–101)",
+   "cap. 16 Gram. 2 (δύναμαι)"
+  ],
+  "topicos": [
+   "particípio aoristo 2º ativo e médio",
+   "αὐτός: pronome e intensivo",
+   "pronomes reflexivos",
+   "ὁ αὐτός",
+   "δύναμαι"
+  ],
+  "nota": "O Athenaze ensina o particípio do aoristo 2º já no cap. 11, antes do 1º; αὐτός e os reflexivos aparecem cedo (caps. 5 e 7); δύναμαι só ganha tabela no cap. 16."
+ }
+]

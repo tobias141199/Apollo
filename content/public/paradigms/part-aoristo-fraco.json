@@ -1,0 +1,81 @@
+{
+  "id": "part-aoristo-fraco",
+  "titulo": "Particípio aoristo fraco ativo — παύσας παύσασα παῦσαν",
+  "grupo": "verbo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "παύ|σας",
+        "παύ|σασα",
+        "παῦ|σαν"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "παύ|σαντα",
+        "παύ|σασαν",
+        "παῦ|σαν"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "παύ|σαντος",
+        "παυ|σάσης",
+        "παύ|σαντος"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "παύ|σαντι",
+        "παυ|σάσῃ",
+        "παύ|σαντι"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "παύ|σαντες",
+        "παύ|σασαι",
+        "παύ|σαντα"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "παύ|σαντας",
+        "παυ|σάσας",
+        "παύ|σαντα"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "παυ|σάντων",
+        "παυ|σασῶν",
+        "παυ|σάντων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "παύ|σασι(ν)",
+        "παυ|σάσαις",
+        "παύ|σασι(ν)"
+      ]
+    }
+  ],
+  "nota": "Sem aumento! Tema + σαντ- (masc./neut.) e σασα (fem.). Indica geralmente ação anterior à do verbo principal: παύσας 'tendo feito parar, depois de fazer parar'. Médio: παυσάμενος -η -ον.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 12"
+  }
+}

@@ -1,0 +1,528 @@
+{
+ "id": "6C",
+ "secao": 6,
+ "parte": 2,
+ "titulo": "Sócrates no cesto",
+ "resumo": "Estrepsíades chama Sócrates, conta o que ouviu sobre a experiência da pulga e pergunta por que ele fica pendurado no ar; Sócrates explica que a terra atrapalharia seu pensamento.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 68,
+  "local": "6C"
+ },
+ "vocab": [
+  {
+   "grego": "ἀπέρχομαι",
+   "lexical": "ἀπέρχομαι (ἀπελθ-)",
+   "classe": "verbo",
+   "glosa": "partir; ir embora",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "partes": [
+    "ἀπέρχομαι",
+    "ἀπελθ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   },
+   "athenaze": "cap. 6"
+  },
+  {
+   "grego": "βιάζομαι",
+   "lexical": "βιάζομαι",
+   "classe": "verbo",
+   "glosa": "usar força; forçar passagem",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  },
+  {
+   "grego": "εἶτα",
+   "lexical": "εἶτα",
+   "classe": "advérbio",
+   "glosa": "então; em seguida",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  },
+  {
+   "grego": "ἐξευρίσκω",
+   "lexical": "ἐξευρίσκω (ἐξευρ-)",
+   "classe": "verbo",
+   "glosa": "descobrir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἐξευρίσκω",
+    "ἐξευρ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  },
+  {
+   "grego": "ἥλιος",
+   "lexical": "ἥλιος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "sol",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "ὁπόσος",
+   "lexical": "ὁπόσος η ον",
+   "classe": "adjetivo",
+   "glosa": "quanto; quantos",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  },
+  {
+   "grego": "πηδάω",
+   "lexical": "πηδάω",
+   "classe": "verbo",
+   "glosa": "pular; saltar",
+   "aprender": true,
+   "paradigma": "orao-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  },
+  {
+   "grego": "πόρρω",
+   "lexical": "πόρρω",
+   "classe": "advérbio",
+   "glosa": "longe; distante",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  },
+  {
+   "grego": "πρῶτος",
+   "lexical": "πρῶτος η ον",
+   "classe": "adjetivo",
+   "glosa": "primeiro",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "πρῶτον",
+   "lexical": "πρῶτον",
+   "classe": "advérbio",
+   "glosa": "primeiro; em primeiro lugar",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "Σωκράτης",
+   "lexical": "Σωκράτης, ὁ (3d)",
+   "classe": "nome próprio",
+   "glosa": "Sócrates",
+   "aprender": true,
+   "paradigma": "decl3-d",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  },
+  {
+   "grego": "τί",
+   "lexical": "τί;",
+   "classe": "pronome",
+   "glosa": "por quê?",
+   "aprender": true,
+   "paradigma": "tis-tis",
+   "nota": "Já visto como \"o quê?\" (1D); aqui, o sentido \"por quê?\".",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  },
+  {
+   "grego": "τίθημι",
+   "lexical": "τίθημι (θε-)",
+   "classe": "verbo",
+   "glosa": "pôr; colocar",
+   "aprender": true,
+   "partes": [
+    "τίθημι",
+    "θε-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  },
+  {
+   "grego": "χωρίον",
+   "lexical": "χωρίον, τό (2b)",
+   "classe": "substantivo",
+   "glosa": "lugar; espaço; região",
+   "aprender": true,
+   "paradigma": "decl2-neut",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 69,
+    "local": "6C"
+   }
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "Aoristo segundo (temático): indicativo ativo e médio",
+   "nota": "Alguns verbos não fazem o aoristo com -σα: usam um *radical diferente* e as mesmas desinências do imperfeito. ἔλαβον = \"eu peguei\" (presente λαμβάνω); ἐγενόμην = \"eu me tornei\" (presente γίγνομαι). O sentido é o mesmo do aoristo primeiro.\n\nAtivo: -ον, -ες, -ε(ν), -ομεν, -ετε, -ον; médio: -όμην, -ου, -ετο, -όμεθα, -εσθε, -οντο. Como as terminações são idênticas às do imperfeito, *só o radical* distingue os dois tempos: ἐλάμβανον (\"eu pegava\", radical do presente) × ἔλαβον (\"eu peguei\", radical do aoristo).",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "124–125",
+    "local": "6C–D, §144–145"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "176–177",
+    "local": "cap. 11, Gram. 1–2"
+   },
+   "paradigmas": [
+    "verbo-aoristo-forte",
+    "verbo-imperfeito"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἦλθον μαθητὴς εἰς τὸ φροντιστήριον.",
+     "traducao": "Vim como aluno para o pensatório.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 68,
+      "local": "6C",
+      "linhas": "l. 7"
+     }
+    },
+    {
+     "grego": "ἐπειδὴ δὲ ψυχρὸς ἐγένετο ὁ κηρός, ἡ ψύλλα ἔσχεν ἐμβάδας τινὰς Περσικάς.",
+     "traducao": "E quando a cera esfriou, a pulga ficou com uma espécie de sapatos persas.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 68,
+      "local": "6C",
+      "linhas": "l. 14–15"
+     }
+    },
+    {
+     "grego": "τί ποτε ἔπαθεν ὁ παῖς; εἰσέλθετε καὶ εἴπετέ μοι τί ἐγένετο.",
+     "traducao": "O que foi que aconteceu ao menino? Entrai e dizei-me o que houve.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 175,
+      "local": "cap. 11α",
+      "linhas": "l. 16–17"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Radicais de aoristo segundo para decorar",
+   "nota": "Esses radicais não se deduzem: têm de ser decorados, de preferência junto com o presente. Os mais comuns: γίγνομαι → ἐγενόμην; εὑρίσκω → ηὗρον; ἔχω → ἔσχον; λαμβάνω → ἔλαβον; μανθάνω → ἔμαθον; τυγχάνω → ἔτυχον; λανθάνω → ἔλαθον; πάσχω → ἔπαθον.\n\nAlguns usam um radical totalmente diferente (como \"vou\" × \"fui\"): ἔρχομαι → ἦλθον; λέγω → εἶπον; ὁράω → εἶδον; τρέχω → ἔδραμον. Muitas vezes o radical do aoristo é uma versão *mais curta* do presente (μανθαν- → μαθ-, λαμβαν- → λαβ-): tirar o -αν-/-ν- e o -σκ- ajuda a reconhecer.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "125–126",
+    "local": "6C–D, §146"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "180–181, 189",
+    "local": "cap. 11, Gram. 5–6"
+   },
+   "paradigmas": [
+    "verbo-aoristo-forte"
+   ],
+   "exemplos": [
+    {
+     "grego": "οὐδέποτε εἶδον ἔγωγε πρᾶγμα οὕτω σοφόν.",
+     "traducao": "Eu nunca vi uma coisa tão engenhosa.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 68,
+      "local": "6C",
+      "linhas": "l. 18"
+     }
+    },
+    {
+     "grego": "οὐδέποτε γὰρ ἐξηῦρον ἐγὼ τὰ μετέωρα πράγματα οὐδ’ ἔμαθον οὐδέν, ἀπὸ τῆς γῆς σκοπῶν.",
+     "traducao": "Pois eu nunca descobri as coisas do alto, nem aprendi coisa alguma, observando a partir da terra.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 68,
+      "local": "6C",
+      "linhas": "l. 29–30"
+     }
+    },
+    {
+     "grego": "ὁ δὲ τῆς τοῦ πατρὸς χειρὸς ἐλάβετο.",
+     "traducao": "E ele segurou a mão do pai.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 187,
+      "local": "cap. 11β",
+      "linhas": "l. 3"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "τί; \"por quê?\"",
+   "nota": "τί, além de \"o quê?\", é muito usado como \"por quê?\". É um acusativo neutro usado como advérbio, literalmente \"quanto a quê?\". Quando τί aparece com um verbo que já tem objeto (ou que não admite objeto), leia \"por quê?\": τί με καλεῖς; = \"por que me chamas?\".\n\nO sentido fica explícito em διὰ τί; (\"por causa de quê?\"), que você já conhece.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "126",
+    "local": "6C–D, §147"
+   },
+   "paradigmas": [
+    "tis-tis"
+   ],
+   "exemplos": [
+    {
+     "grego": "τί με καλεῖς, ὦ ἐφήμερε;",
+     "traducao": "Por que me chamas, ó criatura de um dia?",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 68,
+      "local": "6C",
+      "linhas": "l. 6"
+     }
+    },
+    {
+     "grego": "τί οὐκ ἐπανέρχεσθε εἰς τοὺς ἀγροὺς ἀλλ’ ἔτι μένετε ἐν τῷ ἄστει;",
+     "traducao": "Por que não voltais para o campo, mas continuais na cidade?",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 175,
+      "local": "cap. 11α",
+      "linhas": "l. 12–13"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Discurso indireto com ὅτι / ὡς",
+   "nota": "Para relatar o que alguém disse, o grego usa ὅτι (ou ὡς) \"que\" e *conserva o tempo da fala original*. Em português ajustamos o tempo ao verbo principal no passado: εἶπον ὅτι ὁ Σωκράτης δεινός ἐστιν = \"disseram que Sócrates *era* hábil\" (a fala original foi \"é hábil\"). Um aoristo na fala original pode virar \"correu\" ou \"tinha corrido\".\n\nO mesmo vale para perguntas indiretas (com τίς, διὰ τί, ὁπόσος, εἰ \"se\"): ἠρώτησα διὰ τί Σωκράτης σοφός ἐστιν = \"perguntei por que Sócrates era sábio\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "126–127",
+    "local": "6C–D, §148"
+   },
+   "exemplos": [
+    {
+     "grego": "εἶπε γὰρ ὁ μαθητὴς ὡς ψύλλα τις ἔδακε τὴν Χαιρεφῶντος ὀφρῦν.",
+     "traducao": "Pois o aluno disse que uma pulga tinha mordido a sobrancelha de Querefonte.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 68,
+      "local": "6C",
+      "linhas": "l. 11"
+     }
+    },
+    {
+     "grego": "ἡ δὲ Μυρρίνη, ἐπεὶ ἔμαθεν ὅτι τυφλός ἐστιν ὁ παῖς, ...",
+     "traducao": "E Mirrine, quando soube que o menino estava cego, ...",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 175,
+      "local": "cap. 11α",
+      "linhas": "l. 1"
+     }
+    },
+    {
+     "grego": "ὁ οὖν βασιλεὺς ... ἤρετο εἰ δύναται τὸν πόδα ἰατρεύειν.",
+     "traducao": "Então o rei ... perguntou se ele podia tratar o pé.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 192,
+      "local": "cap. 11, Ὁ Δημοκήδης",
+      "linhas": "l. 7"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Partículas: ἀλλά, δέ (ὁ δέ), δή",
+   "nota": "ἀλλά (\"mas\") vem no início da oração e, na fala, muitas vezes só marca mudança de assunto: ἀλλ’ εἰπέ μοι = \"bom, diz-me\". δέ liga orações e muitas vezes nem se traduz; com o artigo, ὁ δέ / ἡ δέ / οἱ δέ indica *troca de sujeito*: \"e ele (o outro)…\".\n\nδή reforça a palavra anterior e chama a atenção do ouvinte (εἰπὲ δή, \"diz lá!\"); às vezes soa irônico. δέ e δή são *pospositivas*: nunca abrem a frase, ficam em segundo lugar.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "127",
+    "local": "6C–D, §149"
+   },
+   "paradigmas": [
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἀλλὰ τίς ἡ φροντίς, εἰπὲ δή.",
+     "traducao": "Bom, mas qual é o pensamento? Diz lá!",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 64,
+      "local": "6A",
+      "linhas": "l. 18"
+     }
+    },
+    {
+     "grego": "οὐ διδάξω σ’ οὐκέτι, ἀμαθῆ δὴ ὄντα.",
+     "traducao": "Não te ensino mais, já que és mesmo um ignorante.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 71,
+      "local": "6D",
+      "linhas": "l. 45–46"
+     }
+    },
+    {
+     "grego": "ὁ δὲ ἀδελφὸς ἰδὼν τὸν παῖδα τυφλὸν ὄντα, «ὦ Ζεῦ», ἔφη.",
+     "traducao": "E o irmão, vendo que o menino estava cego, disse: \"Ó Zeus!\"",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 175,
+      "local": "cap. 11α",
+      "linhas": "l. 15–16"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "6C-o1",
+   "tipo": "morfologia",
+   "titulo": "Aoristos segundos",
+   "enunciado": "Dê a 3ª pessoa do singular do aoristo indicativo de cada verbo e traduza.",
+   "itens": [
+    {
+     "pergunta": "λαμβάνω",
+     "resposta": "ἔλαβε(ν) — ele pegou"
+    },
+    {
+     "pergunta": "μανθάνω",
+     "resposta": "ἔμαθε(ν) — ele aprendeu"
+    },
+    {
+     "pergunta": "ὁράω",
+     "resposta": "εἶδε(ν) — ele viu"
+    },
+    {
+     "pergunta": "λέγω",
+     "resposta": "εἶπε(ν) — ele disse"
+    },
+    {
+     "pergunta": "ἀπέρχομαι",
+     "resposta": "ἀπῆλθε(ν) — ele partiu"
+    },
+    {
+     "pergunta": "ἐξευρίσκω",
+     "resposta": "ἐξηῦρε(ν) — ele descobriu"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "6C"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 11 (Ὁ ἰατρός)"
+  ],
+  "comparacao": "Aqui a correspondência é quase perfeita: o cap. 11 do Athenaze é o capítulo do aoristo temático, com os mesmos verbos da JACT (λαμβάνω, μανθάνω, πάσχω, γίγνομαι, εὑρίσκω, ἔχω) e os supletivos ἦλθον, εἶπον, εἶδον, ἔδραμον (Gram. 5–6). A JACT dá só o indicativo e insiste no contraste com o imperfeito (§145, quadro presente/imperfeito/aoristo), o que é ótimo para a leitura; o Athenaze dá também imperativo, infinitivo e particípio (ἐλθέ, ἰδών, εἰπών), formas que aparecem em todo o texto de 6C (δεῦρ’ ἐλθέ, εἰπέ μοι).\n\nO texto do cap. 11α–β (pp. 175 e 187) é um excelente reforço: é uma história curta cheia de ἔπαθεν, ἐγένετο, ἦλθεν, εἶπον, ἔμαθεν. Ordem sugerida: §144–146 da JACT; depois leia 11α e sublinhe todo aoristo; por fim, decore a lista do Athenaze (pp. 180–181), que já traz o futuro junto (λαμβάνω, λήψομαι, ἔλαβον).",
+  "complementos": [
+   "Athenaze cap. 11, Gram. 5 (pp. 180–181): mais aoristos temáticos com futuro — ἄγω → ἤγαγον, ἀποθνῄσκω → ἀπέθανον, ἀφικνέομαι → ἀφικόμην, βάλλω → ἔβαλον, λείπω → ἔλιπον, πίπτω → ἔπεσον, φεύγω → ἔφυγον, πίνω → ἔπιον.",
+   "Athenaze cap. 11, Gram. 6 (p. 189): αἱρέω → εἷλον e φέρω → ἤνεγκον, além dos supletivos que a JACT dá; e a regra de que εἰπ- conserva o \"aumento\" fora do indicativo (εἰπέ, εἰπών).",
+   "Athenaze cap. 11, Gram. 7 (pp. 189–190): imperativos com acento irregular — ἐλθέ, εἰπέ, ἰδέ, εὑρέ, λαβέ (no plural, regulares: ἔλθετε, εἴπετε).",
+   "Athenaze cap. 11β, Word Building (pp. 188–189): μανθάνω → ὁ μαθητής, ἡ μάθησις, τὸ μάθημα — família de μαθητής, palavra-chave de 6A–D.",
+   "Vocabulário em comum: ἥλιος (cap. 1), πρῶτον (cap. 4), πρῶτος (cap. 5), ἀπέρχομαι (cap. 6)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἦλθον μαθητὴς εἰς τὸ φροντιστήριον. ἤδη γάρ σε ἤκουσα ὡς εἶ σοφός.",
+    "traducao": "Vim como aluno para o pensatório. Pois já ouvi dizer que és sábio.",
+    "comentario": "JACT: aoristo segundo (ἦλθον) ao lado de um aoristo primeiro (ἤκουσα); e ὡς + presente no discurso indireto.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 68,
+     "local": "6C",
+     "linhas": "l. 7"
+    }
+   },
+   {
+    "grego": "τί ποτε ἔπαθεν ὁ παῖς; εἰσέλθετε καὶ εἴπετέ μοι τί ἐγένετο.",
+    "traducao": "O que foi que aconteceu ao menino? Entrai e dizei-me o que houve.",
+    "comentario": "Athenaze: três aoristos segundos (ἔπαθεν, εἰσέλθετε, εἴπετε) e ἐγένετο, o médio de γίγνομαι.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 175,
+     "local": "cap. 11α",
+     "linhas": "l. 16–17"
+    }
+   },
+   {
+    "grego": "οὐ γὰρ ἔλαθές με ἄγροικος ὤν, καὶ ἀμαθής.",
+    "traducao": "Pois não me escapou que és um matuto, e ignorante.",
+    "comentario": "JACT: λανθάνω → ἔλαθον + particípio, \"não passar despercebido\".",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 68,
+     "local": "6C",
+     "linhas": "l. 22"
+    }
+   },
+   {
+    "grego": "ὁ δὲ τῆς τοῦ πατρὸς χειρὸς ἐλάβετο ἀλλ’ ὅμως πρὸς τοὺς λίθους πταίων πρὸς τὴν γῆν κατέπεσεν.",
+    "traducao": "Ele segurou a mão do pai, mas, mesmo assim, tropeçando nas pedras, caiu no chão.",
+    "comentario": "Athenaze: ἐλάβετο, aoristo segundo médio de λαμβάνω (+ genitivo, \"agarrar\"), e κατέπεσεν, de καταπίπτω.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 187,
+     "local": "cap. 11β",
+     "linhas": "l. 3–4"
+    }
+   }
+  ]
+ }
+}

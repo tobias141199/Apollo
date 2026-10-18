@@ -1,0 +1,65 @@
+{
+  "id": "verbo-presente-medio",
+  "titulo": "Presente médio — παύομαι",
+  "grupo": "verbo",
+  "colunas": [
+    "Indicativo",
+    "Imperativo"
+  ],
+  "linhas": [
+    {
+      "rotulo": "1ª sg.",
+      "celulas": [
+        "παύ|ομαι",
+        "—"
+      ]
+    },
+    {
+      "rotulo": "2ª sg.",
+      "celulas": [
+        "παύ|ῃ / παύ|ει",
+        "παύ|ου"
+      ]
+    },
+    {
+      "rotulo": "3ª sg.",
+      "celulas": [
+        "παύ|εται",
+        "—"
+      ]
+    },
+    {
+      "rotulo": "1ª pl.",
+      "celulas": [
+        "παυ|όμεθα",
+        "—"
+      ]
+    },
+    {
+      "rotulo": "2ª pl.",
+      "celulas": [
+        "παύ|εσθε",
+        "παύ|εσθε"
+      ]
+    },
+    {
+      "rotulo": "3ª pl.",
+      "celulas": [
+        "παύ|ονται",
+        "—"
+      ]
+    },
+    {
+      "rotulo": "Infinitivo",
+      "celulas": [
+        "παύ|εσθαι",
+        "—"
+      ]
+    }
+  ],
+  "nota": "Marcas do médio: -μαι, -σαι (> -ῃ/-ει), -ται, -μεθα, -σθε, -νται. Muitos verbos só existem no médio (ἀφικνέομαι, βούλομαι); traduza-os como ativos. παύομαι = 'paro (de fazer algo)'.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 6"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "part-presente-ativo",
+  "titulo": "Particípio presente ativo — παύων παύουσα παῦον",
+  "grupo": "verbo",
+  "colunas": [
+    "Masc.",
+    "Fem.",
+    "Neut."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom. sg.",
+      "celulas": [
+        "παύ|ων",
+        "παύ|ουσα",
+        "παῦ|ον"
+      ]
+    },
+    {
+      "rotulo": "Ac. sg.",
+      "celulas": [
+        "παύ|οντα",
+        "παύ|ουσαν",
+        "παῦ|ον"
+      ]
+    },
+    {
+      "rotulo": "Gen. sg.",
+      "celulas": [
+        "παύ|οντος",
+        "παυ|ούσης",
+        "παύ|οντος"
+      ]
+    },
+    {
+      "rotulo": "Dat. sg.",
+      "celulas": [
+        "παύ|οντι",
+        "παυ|ούσῃ",
+        "παύ|οντι"
+      ]
+    },
+    {
+      "rotulo": "Nom. pl.",
+      "celulas": [
+        "παύ|οντες",
+        "παύ|ουσαι",
+        "παύ|οντα"
+      ]
+    },
+    {
+      "rotulo": "Ac. pl.",
+      "celulas": [
+        "παύ|οντας",
+        "παυ|ούσας",
+        "παύ|οντα"
+      ]
+    },
+    {
+      "rotulo": "Gen. pl.",
+      "celulas": [
+        "παυ|όντων",
+        "παυ|ουσῶν",
+        "παυ|όντων"
+      ]
+    },
+    {
+      "rotulo": "Dat. pl.",
+      "celulas": [
+        "παύ|ουσι(ν)",
+        "παυ|ούσαις",
+        "παύ|ουσι(ν)"
+      ]
+    }
+  ],
+  "nota": "Masc. e neutro: 3ª declinação (tema παυοντ-); feminino: 1ª declinação como θάλαττα. Cuidado: παύουσι(ν) pode ser dat. pl. do particípio ou 3ª pl. do presente. Contratos: ποιῶν ποιοῦσα ποιοῦν; ὁρῶν ὁρῶσα ὁρῶν.",
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 8"
+  }
+}

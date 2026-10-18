@@ -1,0 +1,359 @@
+{
+ "id": "7H",
+ "secao": 7,
+ "parte": 2,
+ "titulo": "Citas e amazonas se unem",
+ "resumo": "Um jovem cita se aproxima de uma amazona, e logo os dois povos passam a viver juntos. As amazonas recusam a vida das mulheres citas e convencem os rapazes a buscar sua herança e partir com elas para além do rio Tanais.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 86,
+  "local": "7H"
+ },
+ "vocab": [
+  {
+   "grego": "ἄγω",
+   "lexical": "ἄγω (ἀγαγ-)",
+   "classe": "verbo",
+   "glosa": "conduzir; trazer",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἄγω",
+    "ἀγαγ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 2"
+  },
+  {
+   "grego": "αὐτός",
+   "lexical": "αὐτός ή ό",
+   "classe": "pronome",
+   "glosa": "ele mesmo; ela mesma; si mesmo",
+   "aprender": true,
+   "paradigma": "autos",
+   "nota": "Com artigo (ὁ αὐτός) significa \"o mesmo\".",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "ὁ αὐτός",
+   "lexical": "ὁ αὐτός",
+   "classe": "pronome",
+   "glosa": "o mesmo",
+   "aprender": true,
+   "paradigma": "autos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "διαβαίνω",
+   "lexical": "διαβαίνω (διαβα-)",
+   "classe": "verbo",
+   "glosa": "atravessar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "διαβαίνω",
+    "διαβα-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   }
+  },
+  {
+   "grego": "δύναμαι",
+   "lexical": "δύναμαι",
+   "classe": "verbo",
+   "glosa": "poder; ser capaz",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 16"
+  },
+  {
+   "grego": "δύο",
+   "lexical": "δύο",
+   "classe": "numeral",
+   "glosa": "dois",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 7"
+  },
+  {
+   "grego": "ἐπανέρχομαι",
+   "lexical": "ἐπανέρχομαι (ἐπανελθ-)",
+   "classe": "verbo",
+   "glosa": "voltar; retornar",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "partes": [
+    "ἐπανέρχομαι",
+    "ἐπανελθ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 9"
+  },
+  {
+   "grego": "καταλαμβάνω",
+   "lexical": "καταλαμβάνω (καταλαβ-)",
+   "classe": "verbo",
+   "glosa": "encontrar; deparar com; surpreender",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "καταλαμβάνω",
+    "καταλαβ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 16"
+  },
+  {
+   "grego": "κτῆμα",
+   "lexical": "κτῆμα (κτηματ-), τό (3b)",
+   "classe": "substantivo",
+   "glosa": "posse; propriedade",
+   "aprender": true,
+   "paradigma": "decl3-b",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   }
+  },
+  {
+   "grego": "μετά",
+   "lexical": "μετά",
+   "classe": "preposição",
+   "glosa": "depois de (+ ac.)",
+   "aprender": true,
+   "nota": "Com genitivo: com.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 6"
+  },
+  {
+   "grego": "οἰκέω",
+   "lexical": "οἰκέω",
+   "classe": "verbo",
+   "glosa": "morar (em); viver",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 1"
+  },
+  {
+   "grego": "πάλιν",
+   "lexical": "πάλιν",
+   "classe": "advérbio",
+   "glosa": "de novo; outra vez",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   }
+  },
+  {
+   "grego": "ποταμός",
+   "lexical": "ποταμός, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "rio",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 16"
+  },
+  {
+   "grego": "σημεῖον",
+   "lexical": "σημεῖον, τό (2b)",
+   "classe": "substantivo",
+   "glosa": "sinal",
+   "aprender": true,
+   "paradigma": "decl2-neut",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   }
+  },
+  {
+   "grego": "ὑμέτερος",
+   "lexical": "ὑμέτερος α ον",
+   "classe": "adjetivo",
+   "glosa": "vosso",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "φωνέω",
+   "lexical": "φωνέω",
+   "classe": "verbo",
+   "glosa": "falar",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   }
+  },
+  {
+   "grego": "φωνή",
+   "lexical": "φωνή, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "voz; idioma; língua",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 87,
+    "local": "7H"
+   }
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "7H-o1",
+   "tipo": "traduzir-gp",
+   "titulo": "αὐτός, ὁ αὐτός, ἑαυτόν",
+   "enunciado": "Traduza, prestando atenção à posição de αὐτός e ao reflexivo.",
+   "itens": [
+    {
+     "pergunta": "ὁ νεανίας αὐτὸς ἦλθεν.",
+     "resposta": "O próprio jovem veio."
+    },
+    {
+     "pergunta": "ὁ αὐτὸς νεανίας ἦλθεν.",
+     "resposta": "O mesmo jovem veio."
+    },
+    {
+     "pergunta": "ἡ Ἀμαζὼν αὐτὸν εἶδεν.",
+     "resposta": "A amazona o viu."
+    },
+    {
+     "pergunta": "αἱ Ἀμαζόνες τὸ αὐτὸ ἐποίουν.",
+     "resposta": "As amazonas faziam a mesma coisa."
+    },
+    {
+     "pergunta": "οἱ Σκύθαι ἑαυτοὺς οὐκ ἐφύλαττον.",
+     "resposta": "Os citas não se vigiavam (a si mesmos)."
+    },
+    {
+     "pergunta": "οὐ δυνάμεθα αὐτοὶ τὸν ποταμὸν διαβαίνειν.",
+     "resposta": "Nós mesmos não podemos atravessar o rio."
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "7H"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 11 (Ὁ ἰατρός)",
+   "cap. 5 (Ὁ λύκος)",
+   "cap. 16 (Μετὰ τὴν ἐν τῇ Σαλαμῖνι μάχην)"
+  ],
+  "comparacao": "7H é o melhor texto da Parte 2 para treinar αὐτός: na primeira frase longa aparecem αὐτή \"ela mesma\", τὸ αὐτό \"a mesma coisa\" e τὴν Ἀμαζόνα αὐτήν \"a própria amazona\". O Athenaze não tem um texto tão concentrado; seus exemplos (cap. 5, Gram. 9) são frases soltas, úteis para fixar a regra da posição do artigo.\n\nPara δύναμαι, a situação se inverte: o Athenaze usa δύναται e ἐδύναντο desde o cap. 7 como vocabulário glosado e, no cap. 11, já mistura δύναμαι com particípios aoristos (μαθοῦσα, ἀφικόμενος), exatamente como 7H. A tabela formal, porém, só vem no cap. 16. Sugestão: depois de 7H, leia a história de Demócedes (Athenaze, fim do cap. 11, pp. 192–193), que revisa quase tudo de 7G–H.",
+  "complementos": [
+   "Imperfeito de δύναμαι: ἐδυνάμην, ἐδύνατο, ἐδύναντο (Athenaze, cap. 16, Gram. 2, p. 277); a JACT só usa as formas no texto (ἐδύνατο, ἐδύναντο em 7H).",
+   "Futuro δυνήσομαι, \"poderei\" (Athenaze, cap. 11β, glosa, p. 188).",
+   "A história de Demócedes (Athenaze, cap. 11, pp. 192–193) traz λαβόντες, πεσών, μαθών, ἰδών, ἐδύναντο e ἑαυτόν num texto curto: ótima revisão de 7G–H.",
+   "Provérbio de Heráclito com ὁ αὐτός: δὶς ἐς τὸν αὐτὸν ποταμὸν οὐκ ἂν ἐμβαίης (Athenaze, cap. 5, Gram. 9, p. 69)."
+  ],
+  "citacoes": [
+   {
+    "grego": "σημαίνουσα ὅτι αὐτὴ τὸ αὐτὸ ποιήσει καὶ ἑτέραν Ἀμαζόνα ἄξει.",
+    "traducao": "indicando que ela mesma faria o mesmo e traria outra amazona.",
+    "comentario": "αὐτή (nominativo = \"ela mesma\") × τὸ αὐτό (com artigo = \"o mesmo\").",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 86,
+     "local": "7H",
+     "linhas": "l. 4"
+    }
+   },
+   {
+    "grego": "αἱ αὐταὶ γυναῖκες",
+    "traducao": "as mesmas mulheres",
+    "comentario": "No Athenaze, o mesmo critério: αὐτός em posição atributiva = \"o mesmo\".",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 69,
+     "local": "cap. 5, Gram. 9"
+    }
+   },
+   {
+    "grego": "οὐ γὰρ δυνάμεθα οἰκεῖν ἐν τούτῳ τῷ χώρῳ, διαρπάσασαι τὴν γῆν.",
+    "traducao": "Pois não podemos morar nesta região, depois de termos devastado a terra.",
+    "comentario": "δύναμαι + infinitivo, com particípio aoristo 1º (διαρπάσασαι).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 86,
+     "local": "7H",
+     "linhas": "l. 22–23"
+    }
+   },
+   {
+    "grego": "ἡ δὲ Μυρρίνη πάντα μαθοῦσα, «ἔστω· οὐ δυνάμεθα τῇ ἀνάγκῃ μάχεσθαι.»",
+    "traducao": "E Mirrine, sabendo de tudo, disse: \"Seja; não podemos lutar contra a necessidade.\"",
+    "comentario": "Particípio aoristo 2º (μαθοῦσα) e δυνάμεθα + infinitivo, como em 7H.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 188,
+     "local": "cap. 11β"
+    }
+   }
+  ]
+ }
+}

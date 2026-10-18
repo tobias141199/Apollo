@@ -1,0 +1,474 @@
+{
+ "id": "7G",
+ "secao": 7,
+ "parte": 2,
+ "titulo": "Gregos, amazonas e citas",
+ "resumo": "As amazonas capturadas matam os gregos no mar e chegam à terra dos citas, que as combatem sem saber que são mulheres. Ao descobrir isso, os citas mandam seus jovens acampar perto delas sem lutar.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 82,
+  "local": "7G"
+ },
+ "vocab": [
+  {
+   "grego": "ἀναιρέω",
+   "lexical": "ἀναιρέω (ἀνελ-)",
+   "classe": "verbo",
+   "glosa": "recolher; pegar",
+   "aprender": true,
+   "paradigma": "poieo-presente",
+   "partes": [
+    "ἀναιρέω",
+    "ἀνελ-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 85,
+    "local": "7G"
+   }
+  },
+  {
+   "grego": "ἀποβαίνω",
+   "lexical": "ἀποβαίνω (ἀποβα-)",
+   "classe": "verbo",
+   "glosa": "desembarcar; partir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "partes": [
+    "ἀποβαίνω",
+    "ἀποβα-"
+   ],
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 85,
+    "local": "7G"
+   }
+  },
+  {
+   "grego": "ἕπομαι",
+   "lexical": "ἕπομαι (σπ-)",
+   "classe": "verbo",
+   "glosa": "seguir",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "partes": [
+    "ἕπομαι",
+    "σπ-"
+   ],
+   "nota": "Pede dativo. Aoristo ἑσπόμην.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 85,
+    "local": "7G"
+   },
+   "athenaze": "cap. 8"
+  },
+  {
+   "grego": "μάχη",
+   "lexical": "μάχη, ἡ (1a)",
+   "classe": "substantivo",
+   "glosa": "batalha; luta",
+   "aprender": true,
+   "paradigma": "decl1-a",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 85,
+    "local": "7G"
+   },
+   "athenaze": "cap. 13"
+  },
+  {
+   "grego": "μέντοι",
+   "lexical": "μέντοι",
+   "classe": "partícula",
+   "glosa": "porém; no entanto",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 85,
+    "local": "7G"
+   }
+  },
+  {
+   "grego": "νομίζω",
+   "lexical": "νομίζω",
+   "classe": "verbo",
+   "glosa": "pensar; considerar; reconhecer",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Com dois acusativos: considerar alguém algo.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 85,
+    "local": "7G"
+   }
+  },
+  {
+   "grego": "φυλάττω",
+   "lexical": "φυλάττω",
+   "classe": "verbo",
+   "glosa": "vigiar; guardar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 85,
+    "local": "7G"
+   },
+   "athenaze": "cap. 5"
+  }
+ ],
+ "gramatica": [
+  {
+   "topico": "O particípio aoristo 2º ativo: λαβών, λαβοῦσα, λαβόν",
+   "nota": "Os verbos de aoristo 2º formam o particípio sobre o radical do aoristo, sem aumento: ἔ-λαβ-ον → λαβ-, ἦλθον → ἐλθ-, εἶδον → ἰδ-, ηὗρον → εὑρ-. A esse radical somam-se as mesmas terminações do particípio presente ativo: -ών, -οῦσα, -όν (tema -οντ-).\n\nA diferença em relação ao presente está só no *radical* e no acento: λαμβάνων \"pegando\" × λαβών \"tendo pegado\", com acento na terminação (λαβών, λαβοῦσα, λαβόν). Por isso, decorar as partes principais (o radical entre parênteses no vocabulário, como ἀγαγ-, ἀνελ-) é o que permite reconhecer esses particípios na leitura.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "151–152",
+    "local": "7G–H, §169–170"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "177–181",
+    "local": "cap. 11, Gram. 2–3 (particípios do aoristo 2º, p. 180)"
+   },
+   "paradigmas": [
+    "part-aoristo-forte",
+    "part-presente-ativo"
+   ],
+   "exemplos": [
+    {
+     "grego": "λαβόντες δ’ αὐτάς, ἀπῆλθον ἐν τρισὶ πλοίοις.",
+     "traducao": "E, tendo-as capturado, partiram em três navios.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 83,
+      "local": "7G",
+      "linhas": "l. 3"
+     }
+    },
+    {
+     "grego": "ὁ οὖν βασιλεὺς ἰδὼν αὐτὸν ἐθαύμασε.",
+     "traducao": "O rei, então, ao vê-lo, ficou admirado.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 192,
+      "local": "cap. 11, leitura final (Demócedes)"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "O particípio aoristo 2º médio: γενόμενος, ἀφικόμενος",
+   "nota": "O médio segue a mesma lógica: radical do aoristo 2º + -όμενος, -ομένη, -όμενον, declinado como καλός. Assim ἐγενόμην → γενόμενος, ἀφικόμην → ἀφικόμενος, ἐπυθόμην → πυθόμενος.\n\nA terminação é idêntica à do particípio presente médio (παυόμενος); o que muda é o radical: γιγνόμενος \"tornando-se\" × γενόμενος \"tendo-se tornado\". Nos depoentes de aoristo 2º (ἀφικνέομαι, γίγνομαι), traduza ativamente: ἀφικόμεναι \"tendo chegado\".",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 152,
+    "local": "7G–H, §171"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 180,
+    "local": "cap. 11, Gram. 3 (2nd aorist middle participles)"
+   },
+   "paradigmas": [
+    "part-medio"
+   ],
+   "exemplos": [
+    {
+     "grego": "τέλος δ’ εἰς τὴν τῶν Σκυθῶν γῆν ἀφικόμεναι καὶ ἀποβᾶσαι ἀπὸ τῶν πλοίων, ηὗρον ἱπποφόρβιον.",
+     "traducao": "Por fim, tendo chegado à terra dos citas e desembarcado dos navios, encontraram uma manada de cavalos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 84,
+      "local": "7G",
+      "linhas": "l. 8–9"
+     }
+    },
+    {
+     "grego": "οἱ δὲ λοιποὶ τῶν νεανιῶν, μαθόντες τὰ γενόμενα, ἐποίουν τὸ αὐτὸ καὶ αὐτοί.",
+     "traducao": "Os demais jovens, ao saberem do que acontecera, faziam eles mesmos o mesmo.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 86,
+      "local": "7H",
+      "linhas": "l. 7–8"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "αὐτός: \"ele/ela\" (fora do nominativo) e \"o próprio\"",
+   "nota": "αὐτός, αὐτή, αὐτό declina como καλός, mas com neutro em -ό (como οὗτος, ἐκεῖνος). Fora do nominativo e não no início da oração, ele é simplesmente o pronome de 3ª pessoa: αὐτόν \"o\", αὐτῆς \"dela\", αὐτοῖς \"a eles\".\n\nNo nominativo, ou junto de um substantivo em posição predicativa (fora do bloco artigo + nome), significa \"o próprio, ele mesmo\": αὐτὸς ὁ Σωκράτης ou ὁ Σωκράτης αὐτός \"o próprio Sócrates\". Quando o pronome precisa de ênfase, o grego prefere οὗτος ou ἐκεῖνος.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "153–154",
+    "local": "7G–H, §172–174"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "65–69",
+    "local": "cap. 5, Gram. 6 (pronome) e Gram. 9 (adjetivo intensivo)"
+   },
+   "paradigmas": [
+    "autos"
+   ],
+   "exemplos": [
+    {
+     "grego": "τότε δὴ οἱ Ἕλληνες ἐνίκησαν αὐτὰς ἐν τῇ μάχῃ.",
+     "traducao": "Então os gregos as venceram na batalha.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 83,
+      "local": "7G",
+      "linhas": "l. 1–2"
+     }
+    },
+    {
+     "grego": "τὴν Ἀμαζόνα αὐτὴν ηὗρεν, ἑτέραν ἀγαγοῦσαν Ἀμαζόνα.",
+     "traducao": "Encontrou a própria amazona, que tinha trazido outra amazona.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 86,
+      "local": "7H",
+      "linhas": "l. 6–7"
+     }
+    },
+    {
+     "grego": "ὁ δοῦλος πάρεστιν· αὐτὸς αἴρει τὸν λίθον.",
+     "traducao": "O escravo está aqui; ele mesmo levanta a pedra.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 68,
+      "local": "cap. 5, Gram. 9"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "Pronomes reflexivos: ἐμαυτόν, σεαυτόν, ἑαυτόν (αὑτόν)",
+   "nota": "Os reflexivos juntam o pronome pessoal com αὐτός: ἐμ-αυτόν \"a mim mesmo\", σε-αυτόν \"a ti mesmo\", ἑ-αυτόν \"a si mesmo\" (contraído αὑτόν, com espírito *áspero*). No plural das 1ª e 2ª pessoas, as duas palavras ficam separadas: ἡμᾶς αὐτούς, ὑμᾶς αὐτούς. Não há nominativo.\n\nO reflexivo remete ao sujeito da oração, ou ao sujeito do verbo principal quando está dentro de um infinitivo: ἡ Ἀμαζὼν ἔπεισε τὸν ἄνδρα ἑαυτὴν λύειν \"a amazona convenceu o homem a soltá-la (a ela própria)\". Já αὐτήν aí apontaria para outra mulher. Na leitura, cuidado para não confundir αὑτόν (reflexivo) com αὐτόν (\"o\").",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "154–155",
+    "local": "7G–H, §174–175"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "100–101",
+    "local": "cap. 7, Reflexive Pronouns"
+   },
+   "paradigmas": [
+    "pron-pessoais",
+    "autos"
+   ],
+   "exemplos": [
+    {
+     "grego": "τοὺς ἑαυτῶν νεανίσκους ἀπέπεμψαν εἰς αὐτάς.",
+     "traducao": "Enviaram os seus próprios jovens até elas.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 84,
+      "local": "7G",
+      "linhas": "l. 14"
+     }
+    },
+    {
+     "grego": "δώδεκα οὖν τῶν ἑταίρων κελεύει ἑαυτῷ ἕπεσθαι.",
+     "traducao": "Ordena, então, que doze dos companheiros o sigam.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 101,
+      "local": "cap. 7, Reflexive Pronouns"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "ὁ αὐτός: \"o mesmo\"",
+   "nota": "Com o artigo antes (posição atributiva), αὐτός passa a significar \"o mesmo\": ὁ αὐτὸς νεανίας \"o mesmo jovem\", τὸ αὐτό \"a mesma coisa\". Compare: ὁ νεανίας αὐτός (ou αὐτὸς ὁ νεανίας) \"o próprio jovem\".\n\nA regra prática é olhar para o artigo: se ele vem logo antes de αὐτός, é \"o mesmo\"; se αὐτός está fora do bloco artigo + nome, é \"o próprio\". 7H brinca com os dois sentidos na mesma frase.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": 155,
+    "local": "7G–H, §176"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": 69,
+    "local": "cap. 5, Gram. 9"
+   },
+   "paradigmas": [
+    "autos",
+    "artigo"
+   ],
+   "exemplos": [
+    {
+     "grego": "τῇ δ’ ὑστεραίᾳ ἐλθὼν αὐτὸς εἰς τὸ αὐτὸ χωρίον",
+     "traducao": "e, no dia seguinte, tendo ele mesmo ido ao mesmo lugar",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 86,
+      "local": "7H",
+      "linhas": "l. 5–6"
+     }
+    },
+    {
+     "grego": "οὐ γὰρ οἱ αὐτοὶ οἵ τε ἡμέτεροι νόμοι καὶ οἱ τῶν Σκυθῶν.",
+     "traducao": "Pois os nossos costumes e os dos citas não são os mesmos.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 86,
+      "local": "7H",
+      "linhas": "l. 14–15"
+     }
+    },
+    {
+     "grego": "δὶς ἐς τὸν αὐτὸν ποταμὸν οὐκ ἂν ἐμβαίης.",
+     "traducao": "Não se pode entrar duas vezes no mesmo rio (Heráclito).",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 69,
+      "local": "cap. 5, Gram. 9"
+     }
+    }
+   ]
+  },
+  {
+   "topico": "δύναμαι \"posso, sou capaz\"",
+   "nota": "δύναμαι é um depoente *atemático*: as terminações médias vão direto sobre o radical δυνα-, sem vogal temática e sem contração. Presente: δύναμαι, δύνασαι, δύναται, δυνάμεθα, δύνασθε, δύνανται; infinitivo δύνασθαι; particípio δυνάμενος; imperfeito ἐδυνάμην, ἐδύνατο.\n\nO -α- aparece em todas as formas, o que facilita reconhecê-lo. Completa-se com infinitivo: οὐ δυνάμεθα οἰκεῖν \"não podemos morar\". O mesmo modelo servirá para outros verbos, como ἀνίσταμαι.",
+   "jact": {
+    "livro": "JACT-Gramatica",
+    "pagina": "155–156",
+    "local": "7G–H, §177"
+   },
+   "athenaze": {
+    "livro": "Athenaze",
+    "pagina": "276–277",
+    "local": "cap. 16, Gram. 2"
+   },
+   "paradigmas": [
+    "infinitivos"
+   ],
+   "exemplos": [
+    {
+     "grego": "ἡμεῖς οὐ δυνάμεθα οἰκεῖν μετὰ τῶν ὑμετέρων γυναικῶν.",
+     "traducao": "Nós não podemos viver com as vossas mulheres.",
+     "fonte": {
+      "livro": "JACT-Textos",
+      "pagina": 86,
+      "local": "7H",
+      "linhas": "l. 13–14"
+     }
+    },
+    {
+     "grego": "οὐ δυνάμεθα τῇ ἀνάγκῃ μάχεσθαι.",
+     "traducao": "Não podemos lutar contra a necessidade.",
+     "fonte": {
+      "livro": "Athenaze",
+      "pagina": 188,
+      "local": "cap. 11β"
+     }
+    }
+   ]
+  }
+ ],
+ "exercicios": [
+  {
+   "id": "7G-o1",
+   "tipo": "morfologia",
+   "titulo": "Particípio aoristo 2º",
+   "enunciado": "Dê o particípio aoristo (nom. sg.) no gênero indicado e traduza.",
+   "itens": [
+    {
+     "pergunta": "λαμβάνω (masc.)",
+     "resposta": "λαβών: tendo pegado, tendo capturado"
+    },
+    {
+     "pergunta": "ὁράω (fem.)",
+     "resposta": "ἰδοῦσα: tendo visto, ao ver"
+    },
+    {
+     "pergunta": "ἀφικνέομαι (masc.)",
+     "resposta": "ἀφικόμενος: tendo chegado"
+    },
+    {
+     "pergunta": "ἀναιρέω (masc. pl.)",
+     "resposta": "ἀνελόντες: tendo recolhido"
+    },
+    {
+     "pergunta": "μανθάνω (fem. pl.)",
+     "resposta": "μαθοῦσαι: tendo aprendido, ao saberem"
+    },
+    {
+     "pergunta": "γίγνομαι (neutro)",
+     "resposta": "γενόμενον: tendo-se tornado, tendo acontecido"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "7G"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 11 (Ὁ ἰατρός)",
+   "cap. 5 (Ὁ λύκος)",
+   "cap. 7 (Ὁ Κύκλωψ)",
+   "cap. 16 (Μετὰ τὴν ἐν τῇ Σαλαμῖνι μάχην)"
+  ],
+  "comparacao": "Em 7G a JACT completa o quadro dos particípios aoristos com o aoristo 2º (λαβών, γενόμενος). O Athenaze já fez isso no cap. 11, *antes* do aoristo 1º: quem estudou o cap. 11 encontra aqui o mesmo quadro (com λιπών como modelo) e a mesma lista de verbos (ἄγω, εὑρίσκω, λαμβάνω, μανθάνω, πίπτω...). A lista de aoristos 2º do Athenaze (cap. 11, p. 181) é um ótimo resumo para decorar.\n\nJá αὐτός e os reflexivos chegam muito cedo no Athenaze (caps. 5 e 7), espalhados em seções curtas; a JACT junta tudo num só lugar (§172–176), com a distinção \"ele\" × \"o próprio\" × \"o mesmo\" e a nota útil sobre o reflexivo indireto (ἑαυτήν dentro de infinitivo). δύναμαι, por sua vez, só ganha tabela no cap. 16 do Athenaze. Sugestão: leia 7G com a JACT e use o cap. 5, Gram. 9 como exercício de reforço.",
+  "complementos": [
+   "Lista dos aoristos 2º mais comuns com particípio: ἀγαγών, ἀποθανών, ἀφικόμενος, γενόμενος, εὑρών, λαβών, μαθών, παθών, πεσών, φυγών (Athenaze, cap. 11, p. 181).",
+   "Pronome possessivo de 3ª pessoa: o genitivo αὐτοῦ, αὐτῆς, αὐτῶν (\"dele, dela, deles\") em posição predicativa (Athenaze, cap. 5, Gram. 8, p. 67).",
+   "Exercício de reflexivos com espelho (κάτοπτρον): σεαυτὴν ἐν τῷ κατόπτρῳ ὁρᾷς (Athenaze, cap. 7, Exercise 7γ, pp. 101–102).",
+   "δύναμαι ao lado de outros atemáticos, κεῖμαι e ἐπίσταμαι (Athenaze, cap. 16, Gram. 2, pp. 276–277)."
+  ],
+  "citacoes": [
+   {
+    "grego": "λαβόντες δ’ αὐτάς, ἀπῆλθον ἐν τρισὶ πλοίοις· οὐ μέντοι ἀφίκοντο εἰς τὴν πατρίδα.",
+    "traducao": "E, tendo-as capturado, partiram em três navios; não chegaram, porém, à pátria.",
+    "comentario": "Particípio aoristo 2º (λαβόντες) + αὐτάς como simples pronome \"as\".",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 83,
+     "local": "7G",
+     "linhas": "l. 3–4"
+    }
+   },
+   {
+    "grego": "ὁ δὲ ἀδελφὸς πρὸς τὴν θύραν ἐλθὼν καὶ τὸν Δικαιόπολιν ἰδών, «χαῖρε, ὦ ἄδελφε», ἔφη.",
+    "traducao": "O irmão, tendo vindo até a porta e visto Diceópolis, disse: \"Salve, irmão\".",
+    "comentario": "O Athenaze usa esta frase para mostrar que o particípio aoristo indica ação simples e anterior.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 180,
+     "local": "cap. 11, Gram. 3"
+    }
+   },
+   {
+    "grego": "τοὺς ἑαυτῶν νεανίσκους ἀπέπεμψαν εἰς αὐτάς",
+    "traducao": "enviaram os seus próprios jovens até elas",
+    "comentario": "Reflexivo (ἑαυτῶν, \"deles mesmos\") e pronome não reflexivo (αὐτάς) lado a lado.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 84,
+     "local": "7G",
+     "linhas": "l. 14"
+    }
+   },
+   {
+    "grego": "δώδεκα οὖν τῶν ἑταίρων κελεύει ἑαυτῷ ἕπεσθαι.",
+    "traducao": "Ordena, então, que doze dos companheiros o sigam.",
+    "comentario": "Reflexivo indireto: ἑαυτῷ remete a Ulisses, sujeito de κελεύει, como no exemplo da amazona na JACT §175.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 101,
+     "local": "cap. 7, Reflexive Pronouns"
+    }
+   }
+  ]
+ }
+}

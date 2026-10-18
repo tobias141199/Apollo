@@ -1,0 +1,331 @@
+{
+ "id": "5D",
+ "secao": 5,
+ "parte": 2,
+ "titulo": "O pensatório dos sofistas",
+ "resumo": "O pai mostra a Fidípides o pensatório, onde se ensina o argumento injusto que livraria a família das dívidas. O rapaz recusa, e o velho decide matricular-se ele mesmo.",
+ "fonte": {
+  "livro": "JACT-Textos",
+  "pagina": 60,
+  "local": "5D"
+ },
+ "vocab": [
+  {
+   "grego": "ἄδικος",
+   "lexical": "ἄδικος ον",
+   "classe": "adjetivo",
+   "glosa": "injusto",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "nota": "Duas terminações: o feminino é igual ao masculino.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   }
+  },
+  {
+   "grego": "αὔριον",
+   "lexical": "αὔριον",
+   "classe": "advérbio",
+   "glosa": "amanhã",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   },
+   "athenaze": "cap. 11"
+  },
+  {
+   "grego": "γε",
+   "lexical": "γε",
+   "classe": "partícula",
+   "glosa": "pelo menos; de fato",
+   "aprender": true,
+   "nota": "Enclítica; restringe ou enfatiza a palavra anterior.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   },
+   "athenaze": "cap. 8"
+  },
+  {
+   "grego": "δέχομαι",
+   "lexical": "δέχομαι",
+   "classe": "verbo",
+   "glosa": "receber",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   },
+   "athenaze": "cap. 6"
+  },
+  {
+   "grego": "διδάσκω",
+   "lexical": "διδάσκω",
+   "classe": "verbo",
+   "glosa": "ensinar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   }
+  },
+  {
+   "grego": "δίκαιος",
+   "lexical": "δίκαιος α ον",
+   "classe": "adjetivo",
+   "glosa": "justo",
+   "aprender": true,
+   "paradigma": "adj-hemeteros",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   }
+  },
+  {
+   "grego": "εἰσέρχομαι",
+   "lexical": "εἰσέρχομαι (εἰσελθ-)",
+   "classe": "verbo",
+   "glosa": "entrar",
+   "aprender": true,
+   "paradigma": "verbo-presente-medio",
+   "partes": [
+    "εἰσέρχομαι",
+    "εἰσελθ-"
+   ],
+   "nota": "Futuro: εἴσειμι 'entrarei'.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   },
+   "athenaze": "cap. 10"
+  },
+  {
+   "grego": "ἔνδον",
+   "lexical": "ἔνδον",
+   "classe": "advérbio",
+   "glosa": "dentro",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   }
+  },
+  {
+   "grego": "καὶ δὴ καί",
+   "lexical": "καὶ δὴ καί",
+   "classe": "expressão",
+   "glosa": "além disso; e mais",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   }
+  },
+  {
+   "grego": "κόπτω",
+   "lexical": "κόπτω",
+   "classe": "verbo",
+   "glosa": "bater (em), golpear; cortar",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   },
+   "athenaze": "cap. 11"
+  },
+  {
+   "grego": "λόγος",
+   "lexical": "λόγος, ὁ (2a)",
+   "classe": "substantivo",
+   "glosa": "argumento, razão; palavra; relato",
+   "aprender": true,
+   "paradigma": "decl2-masc",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   },
+   "athenaze": "cap. 11"
+  },
+  {
+   "grego": "μαθητής",
+   "lexical": "μαθητής, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "aluno, estudante",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   }
+  },
+  {
+   "grego": "οὔτε … οὔτε",
+   "lexical": "οὔτε … οὔτε",
+   "classe": "conjunção",
+   "glosa": "nem… nem",
+   "aprender": true,
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   },
+   "athenaze": "cap. 5"
+  },
+  {
+   "grego": "πείθω",
+   "lexical": "πείθω",
+   "classe": "verbo",
+   "glosa": "persuadir",
+   "aprender": true,
+   "paradigma": "verbo-presente-ativo",
+   "nota": "Médio πείθομαι = obedecer (5B).",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   },
+   "athenaze": "cap. 4"
+  },
+  {
+   "grego": "σοφιστής",
+   "lexical": "σοφιστής, ὁ (1d)",
+   "classe": "substantivo",
+   "glosa": "sofista, pensador",
+   "aprender": true,
+   "paradigma": "decl1-d",
+   "nota": "Marcado [5D] no vocabulário completo, embora não apareça na lista da p. 62.",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   }
+  },
+  {
+   "grego": "σοφός",
+   "lexical": "σοφός ή όν",
+   "classe": "adjetivo",
+   "glosa": "sábio, inteligente",
+   "aprender": true,
+   "paradigma": "adj-kalos",
+   "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 62,
+    "local": "5D"
+   },
+   "athenaze": "cap. 11"
+  }
+ ],
+ "gramatica": [],
+ "exercicios": [
+  {
+   "id": "5D-o1",
+   "tipo": "morfologia",
+   "titulo": "εἶμι ou εἰμί? Futuro ou presente?",
+   "enunciado": "Traduza cada forma e diga de qual verbo vem (εἰμί \"ser\", εἶμι \"irei\" ou outro) e em que tempo está.",
+   "itens": [
+    {
+     "pergunta": "εἴσειμι",
+     "resposta": "vou entrar — futuro de εἰσέρχομαι (composto de εἶμι)"
+    },
+    {
+     "pergunta": "εἰσί",
+     "resposta": "eles são — presente de εἰμί"
+    },
+    {
+     "pergunta": "εἶσι",
+     "resposta": "ele irá — εἶμι (futuro)"
+    },
+    {
+     "pergunta": "ἔσονται",
+     "resposta": "eles serão — futuro de εἰμί"
+    },
+    {
+     "pergunta": "μαθήσεσθε",
+     "resposta": "vocês aprenderão — futuro de μανθάνω"
+    },
+    {
+     "pergunta": "διαφθερεῖ",
+     "resposta": "ele destruirá — futuro (sem σ) de διαφθείρω"
+    }
+   ],
+   "gabarito": "projeto",
+   "fonte": {
+    "livro": "original",
+    "local": "5D"
+   }
+  }
+ ],
+ "textos": [],
+ "athenaze": {
+  "capitulos": [
+   "cap. 10 (Ἡ συμφορά)",
+   "cap. 11 (Ὁ ἰατρός)"
+  ],
+  "comparacao": "5D é a grande leitura de futuros da Seção 5 (veja as notas de gramática em 5C): μαθήσονται, λήψονται, γενήσομαι, γνώσομαι (irregulares de §120), διαφθερεῖ e ἐκβαλῶ (futuros sem σ), ἀκούσομαι e φεύξομαι (futuros médios) e, sobretudo, εἴσειμι/εἴσει/εἴσεισι/εἴσιμεν, o futuro de εἰσέρχομαι. Vale reler o trecho procurando todos os εἶμι e conferindo, pelo acento, que não são formas de εἰμί.\n\nNo Athenaze, o paralelo mais próximo é o começo do cap. 11 (pp. 175–176): Diceópolis bate à porta do irmão (ἔκοψε τὴν θύραν), como Estrepsíades à porta do pensatório, e o irmão promete para amanhã um médico sábio (σοφὸν ἰατρόν… αὔριον… κομιῷ), com um futuro de verbo em -ίζω. O cap. 10β (p. 169) traz a lista de compostos de ἔρχομαι com seus futuros em -ειμι, inclusive εἰσέρχομαι → εἴσειμι.",
+  "complementos": [
+   "Athenaze cap. 10, Gram. 6 (p. 169): ἰέναι e ἰών de εἶμι servem de infinitivo e particípio *presentes* de ἔρχομαι em ático (εἰσιέναι = \"entrar\").",
+   "Athenaze cap. 11, vocabulário (p. 174): κόπτω com futuro κόψω e aoristo ἔκοψα, e σοφός com o sentido de \"hábil, competente\", além de \"sábio\" — útil para entender o σοφὸς ἰατρός e os σοφισταί.",
+   "Athenaze cap. 12, Word Building (p. 206): δίκαιος / ἄδικος e αἴτιος / ἀναίτιος — o prefixo ἀ- de negação, o mesmo de ἄδικος λόγος.",
+   "Vocabulário em comum: πείθω (cap. 4), οὔτε… οὔτε (cap. 5), δέχομαι (cap. 6), γε (cap. 8, em εὖ γε), εἰσέρχομαι (cap. 10), αὔριον, κόπτω, λόγος e σοφός (cap. 11)."
+  ],
+  "citacoes": [
+   {
+    "grego": "ἀλλὰ ποιήσω τοῦτο καὶ κόψω τὴν θύραν καὶ βοήσομαι.",
+    "traducao": "Pois vou fazer isso: vou bater à porta e gritar.",
+    "comentario": "JACT: três futuros — de contrato (ποιήσω), de labial (κόψω) e médio com sentido ativo (βοήσομαι).",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 62,
+     "local": "5D"
+    }
+   },
+   {
+    "grego": "ἐπεὶ δ’ ἀφίκοντο, ὁ μὲν Δικαιόπολις ἔκοψε τὴν θύραν.",
+    "traducao": "Quando chegaram, Diceópolis bateu à porta.",
+    "comentario": "Athenaze: a mesma expressão κόπτω τὴν θύραν, aqui no aoristo.",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": 175,
+     "local": "cap. 11α"
+    }
+   },
+   {
+    "grego": "πείθουσι τοὺς μαθητὰς οἱ ἄνδρες οὗτοι, διδάσκοντες ἀεὶ καὶ χρήματα πολλὰ δεχόμενοι.",
+    "traducao": "Esses homens convencem os alunos, sempre ensinando e recebendo muito dinheiro.",
+    "comentario": "JACT: πείθω ativo (\"persuadir\") e δέχομαι, verbo só médio.",
+    "fonte": {
+     "livro": "JACT-Textos",
+     "pagina": 60,
+     "local": "5D"
+    }
+   },
+   {
+    "grego": "ἐγὼ σοφὸν ἰατρὸν ἔγνωκα καὶ αὔριον, εἴ σοι δοκεῖ, κομιῶ ὑμᾶς παρὰ αὐτόν.",
+    "traducao": "Conheço um médico competente e amanhã, se você achar bom, levo vocês até ele.",
+    "comentario": "Athenaze: σοφός e αὔριον, com κομιῶ, futuro sem σ de κομίζω (como νομιῶ em §118).",
+    "fonte": {
+     "livro": "Athenaze",
+     "pagina": "175–176",
+     "local": "cap. 11α"
+    }
+   }
+  ]
+ }
+}

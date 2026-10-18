@@ -1,0 +1,58 @@
+{
+  "id": "decl2-neut",
+  "titulo": "2ª declinação neutra — ἔργον, πλοῖον (2b)",
+  "grupo": "substantivo",
+  "colunas": [
+    "ἔργον sg.",
+    "ἔργον pl.",
+    "πλοῖον sg.",
+    "πλοῖον pl."
+  ],
+  "linhas": [
+    {
+      "rotulo": "Nom.",
+      "celulas": [
+        "ἔργ|ον",
+        "ἔργ|α",
+        "πλοῖ|ον",
+        "πλοῖ|α"
+      ]
+    },
+    {
+      "rotulo": "Ac.",
+      "celulas": [
+        "ἔργ|ον",
+        "ἔργ|α",
+        "πλοῖ|ον",
+        "πλοῖ|α"
+      ]
+    },
+    {
+      "rotulo": "Gen.",
+      "celulas": [
+        "ἔργ|ου",
+        "ἔργ|ων",
+        "πλοί|ου",
+        "πλοί|ων"
+      ]
+    },
+    {
+      "rotulo": "Dat.",
+      "celulas": [
+        "ἔργ|ῳ",
+        "ἔργ|οις",
+        "πλοί|ῳ",
+        "πλοί|οις"
+      ]
+    }
+  ],
+  "nota": "Nos neutros, nominativo e acusativo são sempre iguais, e o plural termina em -α. Sujeito neutro plural leva o verbo no singular: τὰ πλοῖα βαίνει.",
+  "jact": {
+    "livro": "JACT-Gramatica",
+    "local": "1G"
+  },
+  "athenaze": {
+    "livro": "Athenaze",
+    "local": "cap. 3"
+  }
+}

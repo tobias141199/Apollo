@@ -1,0 +1,294 @@
+{
+  "id": "3B",
+  "secao": 3,
+  "parte": 1,
+  "titulo": "Alarme no Pireu",
+  "resumo": "À noite o porto se enche de gente e barulho; Protarco corre para casa buscar as armas e o vizinho Polo apanha seu equipamento de remador para a batalha naval.",
+  "fonte": {
+    "livro": "JACT-Textos",
+    "pagina": 32,
+    "local": "3B"
+  },
+  "vocab": [
+    {
+      "grego": "δεινός",
+      "lexical": "δεινός ή όν",
+      "classe": "adjetivo",
+      "glosa": "terrível; funesto; hábil",
+      "aprender": true,
+      "paradigma": "adj-kalos",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 6"
+    },
+    {
+      "grego": "ἐγώ",
+      "lexical": "ἐγώ",
+      "classe": "pronome",
+      "glosa": "eu",
+      "aprender": true,
+      "paradigma": "pron-pessoais",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 2"
+    },
+    {
+      "grego": "εὖ",
+      "lexical": "εὖ",
+      "classe": "advérbio",
+      "glosa": "bem",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 8"
+    },
+    {
+      "grego": "ἡμεῖς",
+      "lexical": "ἡμεῖς",
+      "classe": "pronome",
+      "glosa": "nós",
+      "aprender": true,
+      "paradigma": "pron-pessoais",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 5"
+    },
+    {
+      "grego": "θεάομαι",
+      "lexical": "θεάομαι",
+      "classe": "verbo",
+      "glosa": "contemplar; ver; assistir",
+      "aprender": true,
+      "paradigma": "orao-presente",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 8"
+    },
+    {
+      "grego": "θόρυβος",
+      "lexical": "θόρυβος, ὁ (2a)",
+      "classe": "substantivo",
+      "glosa": "alvoroço; tumulto",
+      "aprender": true,
+      "paradigma": "decl2-masc",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      }
+    },
+    {
+      "grego": "οἰκία",
+      "lexical": "οἰκία, ἡ (1b)",
+      "classe": "substantivo",
+      "glosa": "casa",
+      "aprender": true,
+      "paradigma": "decl1-b",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 5"
+    },
+    {
+      "grego": "οἴκαδε",
+      "lexical": "οἴκαδε",
+      "classe": "advérbio",
+      "glosa": "para casa",
+      "aprender": true,
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 4"
+    },
+    {
+      "grego": "ὅπλα",
+      "lexical": "ὅπλα, τά (2b)",
+      "classe": "substantivo",
+      "glosa": "armas",
+      "aprender": true,
+      "paradigma": "decl2-neut",
+      "nota": "Usado no plural.",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      }
+    },
+    {
+      "grego": "πορεύομαι",
+      "lexical": "πορεύομαι",
+      "classe": "verbo",
+      "glosa": "viajar; ir; marchar",
+      "aprender": true,
+      "paradigma": "verbo-presente-medio",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 6"
+    },
+    {
+      "grego": "σύ",
+      "lexical": "σύ",
+      "classe": "pronome",
+      "glosa": "tu; você",
+      "aprender": true,
+      "paradigma": "pron-pessoais",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 3"
+    },
+    {
+      "grego": "ὑμεῖς",
+      "lexical": "ὑμεῖς",
+      "classe": "pronome",
+      "glosa": "vós; vocês",
+      "aprender": true,
+      "paradigma": "pron-pessoais",
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      },
+      "athenaze": "cap. 5"
+    },
+    {
+      "grego": "φαίνομαι",
+      "lexical": "φαίνομαι (φαν-)",
+      "classe": "verbo",
+      "glosa": "aparecer; parecer",
+      "aprender": true,
+      "paradigma": "verbo-presente-medio",
+      "partes": [
+        "φαίνομαι",
+        "φαν-"
+      ],
+      "fonte": {
+        "livro": "JACT-Textos",
+        "pagina": 33,
+        "local": "3B"
+      }
+    }
+  ],
+  "gramatica": [],
+  "exercicios": [
+    {
+      "id": "3B-o1",
+      "tipo": "traduzir-gp",
+      "titulo": "Quem é quem? Pronomes pessoais",
+      "enunciado": "Traduza. Atenção às formas dos pronomes e ao nominativo usado para contraste.",
+      "itens": [
+        {
+          "pergunta": "ἐγὼ μὲν σπεύδω, σὺ δὲ μένεις.",
+          "resposta": "Eu me apresso, mas tu ficas."
+        },
+        {
+          "pergunta": "ὁ γείτων ἡμᾶς οὐχ ὁρᾷ.",
+          "resposta": "O vizinho não nos vê."
+        },
+        {
+          "pergunta": "ἆρα πορεύῃ μετ’ ἐμοῦ, ὦ φίλε;",
+          "resposta": "Vais comigo, amigo?"
+        },
+        {
+          "pergunta": "δεινὸς ὁ κίνδυνος ἡμῖν.",
+          "resposta": "O perigo é terrível para nós."
+        },
+        {
+          "pergunta": "ὑμεῖς μὲν οἴκαδε πορεύεσθε, ἡμεῖς δὲ ἐπὶ τὰ ὅπλα.",
+          "resposta": "Vós ides para casa; nós, às armas."
+        },
+        {
+          "pergunta": "τίς ὑμῶν τὴν λαμπάδα φέρει;",
+          "resposta": "Qual de vós leva a tocha?"
+        }
+      ],
+      "gabarito": "projeto",
+      "fonte": {
+        "livro": "original",
+        "local": "3B"
+      }
+    }
+  ],
+  "textos": [],
+  "athenaze": {
+    "capitulos": [
+      "cap. 5 (Ὁ λύκος)",
+      "cap. 8 (Πρὸς τὸ ἄστυ) — vocabulário"
+    ],
+    "comparacao": "Os pronomes pessoais aparecem de formas diferentes nos dois livros. A JACT dá o quadro completo em 3A–B (§68) e insiste no *uso enfático* do nominativo (ἐγὼ μέν… σὺ δέ…), que o texto de 3B explora no diálogo entre Protarco e Polo (μετὰ ἐμοῦ, μετὰ σοῦ). O Athenaze introduz ἐγώ e σύ cedo, como vocabulário (caps. 2–3), e dá o quadro no cap. 5, Gram. 6, logo seguido dos possessivos ἐμός, σός, ἡμέτερος, ὑμέτερος (Gram. 8) e do uso de αὐτοῦ/αὐτῶν como \"dele/deles\".\n\nA observação do Athenaze de que as formas fortes (ἐμέ, ἐμοί, σοῦ) aparecem depois de preposição explica bem o μετὰ ἐμοῦ / μετὰ σοῦ de 3B. Ordem sugerida: quadro da JACT §68, depois os exercícios de leitura do Athenaze, cap. 5, Ex. 5ζ (p. 67), que são frases curtas só com pronomes e possessivos.",
+    "complementos": [
+      "Athenaze cap. 5, Gram. 6 (p. 65): as formas acentuadas ἐμοῦ, ἐμοί, ἐμέ são usadas para contrastar e depois de preposições (ἐπ’ ἐμέ) — exatamente o μετὰ ἐμοῦ de 3B.",
+      "Athenaze cap. 5, Gram. 8 (pp. 66–67): possessivos ἐμός, σός, ἡμέτερος, ὑμέτερος, e a 3ª pessoa αὐτοῦ, αὐτῆς, αὐτῶν (\"dele, dela, deles\"), que a JACT trata depois.",
+      "Athenaze cap. 5, Gram. 5 (p. 64): sujeito neutro plural leva verbo no singular (τὰ πρόβατα πολὺν θόρυβον ποιεῖ) — útil para frases como τὰ πυρὰ δηλοῖ (3A).",
+      "Vocabulário em comum: ἐγώ (cap. 2), σύ (cap. 3), οἴκαδε (cap. 4), ἡμεῖς, ὑμεῖς, οἰκία (cap. 5), δεινός e πορεύομαι (cap. 6), εὖ e θεάομαι (cap. 8)."
+    ],
+    "citacoes": [
+      {
+        "grego": "ἀλλὰ διὰ τί σὺ οὐ μετὰ ἐμοῦ πορεύῃ; — καὶ δὴ μετὰ σοῦ πορεύομαι.",
+        "traducao": "Mas por que tu não vens comigo? — Pois bem, vou contigo.",
+        "comentario": "JACT: σύ enfático e as formas fortes ἐμοῦ/σοῦ depois de preposição.",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 32,
+          "local": "3B",
+          "linhas": "l. 17–18"
+        }
+      },
+      {
+        "grego": "ἐγὼ μὲν γὰρ ὑμᾶς καλῶ, ὑμεῖς δὲ οὐκ ἀκούετε.",
+        "traducao": "Pois eu chamo vocês, mas vocês não escutam.",
+        "comentario": "Athenaze: o mesmo contraste ἐγὼ μέν… ὑμεῖς δέ… da JACT §68b.",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 67,
+          "local": "cap. 5, Ex. 5ζ"
+        }
+      },
+      {
+        "grego": "πολὺς γίγνεται ἐν τῷ λιμένι θόρυβος, πολλαὶ δὲ αἱ βοαί.",
+        "traducao": "Grande tumulto surge no porto, e muitos são os gritos.",
+        "comentario": "JACT: θόρυβος, βοή e πολύς, palavras que o Athenaze também usa em cenas de confusão.",
+        "fonte": {
+          "livro": "JACT-Textos",
+          "pagina": 32,
+          "local": "3B",
+          "linhas": "l. 1–2"
+        }
+      },
+      {
+        "grego": "τὰ πρόβατα πολὺν θόρυβον ποιεῖ.",
+        "traducao": "As ovelhas fazem muito barulho.",
+        "comentario": "Athenaze: πολὺν θόρυβον e o verbo no singular com sujeito neutro plural.",
+        "fonte": {
+          "livro": "Athenaze",
+          "pagina": 64,
+          "local": "cap. 5, Gram. 5"
+        }
+      }
+    ]
+  }
+}
