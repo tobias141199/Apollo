@@ -3,7 +3,7 @@
 // Se a lição tiver pouco material, completa com revisão do vocabulário das lições anteriores.
 import { paradigmaPorId, passosTrilha, vocabulario, type Licao } from '../content'
 import type { Vocab } from '../content/schema'
-import { LETRAS, PALAVRAS_LEITURA } from '../alfabeto/letras'
+import { ACENTO_AGUDO, ACENTO_CIRCUNFLEXO, ACENTO_GRAVE, COM_SIGMA, ESPIRITO_ASPERO, ESPIRITO_BRANDO, LEITURAS, LETRAS, LETRAS_TRAICOEIRAS, PALAVRAS_LEITURA, REGRAS } from '../alfabeto/letras'
 import { chave } from './greek'
 
 export interface Pergunta {
@@ -88,18 +88,83 @@ export function gerarAvaliacao(l: Licao): Pergunta[] {
   return embaralhar(perguntas).slice(0, TAMANHO)
 }
 
-/** Lição 0: reconhecer as letras (6) e ler palavras (4). */
+// ---------------------------------------------------------------------------------------------
+// Lição 0: 20 perguntas — letras (inclusive as que se confundem e o ς), leitura com transliteração,
+// espíritos, acentos, sigma final e as regras de escrita.
+
+export const TAMANHO_ALFABETO = 20
+
+/** "Qual destas palavras tem X?": uma certa e três de outros grupos. */
+const qualDestas = (id: string, enunciado: string, certas: string[], outras: string[]): Pergunta => {
+  const certa = embaralhar(certas)[0]
+  return { id, enunciado, opcoes: opcoes(certa, outras), certa, opcoesGrego: true }
+}
+
+/** Grafias erradas do sigma: troca σ por ς e vice-versa nas posições de sigma. */
+function perguntaSigma(palavra: string): Pergunta {
+  const pos = [...palavra].map((c, i) => (c === 'σ' || c === 'ς') ? i : -1).filter(i => i >= 0)
+  const variantes = new Set<string>()
+  for (let m = 1; m < 1 << pos.length; m++) {
+    const cs = [...palavra]
+    pos.forEach((p, k) => { if (m & (1 << k)) cs[p] = cs[p] === 'σ' ? 'ς' : 'σ' })
+    variantes.add(cs.join(''))
+  }
+  // poucas variantes (uma só posição): acrescenta grafias com σ/ς em lugares impossíveis
+  const extras = [`ς${palavra.slice(1)}`, palavra.replace(/ς$/, 'σ'), palavra.replace(/σ/, 'ς')]
+  return {
+    id: `sigma:${palavra}`, enunciado: 'Qual destas está escrita corretamente?',
+    opcoes: opcoes(palavra, [...variantes, ...extras].filter(v => v !== palavra)), certa: palavra, opcoesGrego: true,
+  }
+}
+
+const regra = (r: typeof REGRAS[number]): Pergunta => ({ id: `regra:${r.pergunta}`, enunciado: r.pergunta, opcoes: embaralhar([...r.opcoes]), certa: r.opcoes[0] })
+
 function avaliacaoAlfabeto(): Pergunta[] {
-  const letras = embaralhar(LETRAS).slice(0, 6).map(l => {
-    const maiuscula = Math.random() < .4
-    return {
-      id: `letra:${l.nome}`, enunciado: 'Que letra é esta?', destaque: maiuscula ? l.maiuscula : l.minuscula, destaqueGrego: true,
-      opcoes: opcoes(l.nomePt, LETRAS.map(x => x.nomePt)), certa: l.nomePt,
-    }
+  const nomePorForma = (f: string) => LETRAS.find(l => l.minuscula === f || l.maiuscula === f)!
+  // 4 letras, metade delas das que se confundem; e o ς
+  const formas = unicos([...embaralhar(LETRAS_TRAICOEIRAS).slice(0, 2), ...embaralhar(LETRAS).slice(0, 6).map(l => Math.random() < .5 ? l.maiuscula : l.minuscula)]).slice(0, 4)
+  const letras: Pergunta[] = formas.map(f => {
+    const l = nomePorForma(f)
+    return { id: `letra:${f}`, enunciado: 'Que letra é esta?', destaque: f, destaqueGrego: true, opcoes: opcoes(l.nomePt, LETRAS.map(x => x.nomePt)), certa: l.nomePt }
   })
-  const palavras = embaralhar(PALAVRAS_LEITURA).slice(0, 4).map(p => ({
+  const sigmaFinal: Pergunta = { id: 'letra:ς', enunciado: 'Que letra é esta?', destaque: 'ς', destaqueGrego: true,
+    opcoes: embaralhar(['sigma, no fim da palavra', 'zeta', 'csi', 'gama']), certa: 'sigma, no fim da palavra' }
+  const leituras: Pergunta[] = embaralhar(LEITURAS).slice(0, 4).map(p => ({
+    id: `leitura:${p.grego}`, enunciado: 'Como se lê (transliteração)?', destaque: p.grego, destaqueGrego: true,
+    opcoes: embaralhar([p.certa, ...p.erradas]), certa: p.certa,
+  }))
+  const espiritos = [
+    qualDestas('espirito:aspero', 'Qual destas palavras tem espírito áspero (lê-se com h)?', ESPIRITO_ASPERO, embaralhar(ESPIRITO_BRANDO).slice(0, 3)),
+    qualDestas('espirito:brando', 'Qual destas palavras tem espírito brando (sem h)?', ESPIRITO_BRANDO, embaralhar(ESPIRITO_ASPERO).slice(0, 3)),
+  ]
+  const acentos = [
+    qualDestas('acento:circunflexo', 'Qual destas palavras tem acento circunflexo?', ACENTO_CIRCUNFLEXO,
+      embaralhar([...ACENTO_AGUDO, ...ACENTO_GRAVE]).filter(x => !ACENTO_CIRCUNFLEXO.includes(x)).slice(0, 3)),
+    qualDestas('acento:grave', 'Qual destas palavras tem acento grave?', ACENTO_GRAVE,
+      embaralhar([...ACENTO_AGUDO, ...ACENTO_CIRCUNFLEXO]).slice(0, 3)),
+    qualDestas('acento:agudo', 'Qual destas palavras tem acento agudo?', ACENTO_AGUDO.filter(x => !ESPIRITO_ASPERO.includes(x)),
+      embaralhar([...ACENTO_CIRCUNFLEXO, ...ACENTO_GRAVE]).slice(0, 3)),
+  ]
+  const sigmas = embaralhar(COM_SIGMA).slice(0, 2).map(perguntaSigma)
+  const regras = (['espíritos', 'acentos', 'escrita'] as const).map(t => regra(embaralhar(REGRAS.filter(r => r.tema === t))[0]))
+  const palavra = embaralhar(PALAVRAS_LEITURA).slice(0, 1).map(p => ({
     id: `palavra:${p.grego}`, enunciado: 'Leia: que palavra portuguesa vem daqui?', destaque: p.grego, destaqueGrego: true,
     opcoes: opcoes(p.pt, PALAVRAS_LEITURA.map(x => x.pt)), certa: p.pt,
   }))
-  return embaralhar([...letras, ...palavras])
+  // letras 4 + ς 1 + leitura 4 + espíritos 2 + acentos 3 + sigma 2 + regras 3 + palavra 1 = 20
+  return embaralhar([...letras, sigmaFinal, ...leituras, ...espiritos, ...acentos, ...sigmas, ...regras, ...palavra])
+}
+
+/** Para o treino (sem nota): só espíritos, acentos, sigma e regras, sorteados de novo a cada vez. */
+export function perguntaDeSinais(): Pergunta {
+  const tipos = [
+    () => qualDestas('t', 'Qual destas palavras tem espírito áspero (lê-se com h)?', ESPIRITO_ASPERO, embaralhar(ESPIRITO_BRANDO).slice(0, 3)),
+    () => qualDestas('t', 'Qual destas palavras tem espírito brando (sem h)?', ESPIRITO_BRANDO, embaralhar(ESPIRITO_ASPERO).slice(0, 3)),
+    () => qualDestas('t', 'Qual destas palavras tem acento circunflexo?', ACENTO_CIRCUNFLEXO, embaralhar([...ACENTO_AGUDO, ...ACENTO_GRAVE]).filter(x => !ACENTO_CIRCUNFLEXO.includes(x)).slice(0, 3)),
+    () => qualDestas('t', 'Qual destas palavras tem acento grave?', ACENTO_GRAVE, embaralhar([...ACENTO_AGUDO, ...ACENTO_CIRCUNFLEXO]).slice(0, 3)),
+    () => perguntaSigma(embaralhar(COM_SIGMA)[0]),
+    () => regra(embaralhar(REGRAS)[0]),
+    () => { const p = embaralhar(LEITURAS)[0]; return { id: 't', enunciado: 'Como se lê (transliteração)?', destaque: p.grego, destaqueGrego: true, opcoes: embaralhar([p.certa, ...p.erradas]), certa: p.certa } },
+  ]
+  return embaralhar(tipos)[0]()
 }

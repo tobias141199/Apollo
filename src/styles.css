@@ -442,10 +442,6 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
 .mini-letra:hover { border-color: var(--terracota); }
 .mini-letra .letra-animada { border: none; }
 .mini-letra .gr { font-family: var(--grego); font-size: 1.1rem; }
-.sinais dl { display: grid; grid-template-columns: max-content 1fr; gap: .6rem 1.2rem; }
-.sinais dt { font-family: var(--sans); font-weight: 600; font-size: .9rem; color: var(--tinta-2); white-space: nowrap; }
-.sinais dt .gr { font-family: var(--grego); font-size: 1.2rem; color: var(--verniz); margin-right: .3rem; }
-.sinais dd { margin: 0; }
 .testes-alfabeto { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1rem; }
 .teste-alfabeto { border: 1px solid var(--argila-2); background: var(--argila); border-radius: 6px; padding: 1rem; }
 .teste-alfabeto h3 { margin-top: 0; font-size: 1rem; font-family: var(--sans); font-weight: 600; }
@@ -527,8 +523,6 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
   .linha-tempo > li { padding-left: calc(var(--x) * 2 + 12px); }
   .passo-tempo.atual .passo-cartao { flex-direction: column; align-items: stretch; padding: 0 .8rem .8rem 0; }
   .passo-tempo.atual .continuar { margin-left: 1rem; text-align: center; }
-  .sinais dl { grid-template-columns: 1fr; }
-  .sinais dd { margin-bottom: .4rem; }
   .face { min-height: 300px; }
   .etiqueta, .cartao-rotulo { padding-left: 1.1rem; padding-right: 1.1rem; }
   .glosa-cartao { font-size: 1.3rem; }
@@ -684,3 +678,23 @@ a.marca-livro + a.marca-livro { margin-left: .3em; }
 .pratica-nota.ok b { color: var(--ok); }
 .pratica-detalhe { color: var(--tinta-3); font-size: .8rem; }
 .traco-3 { stroke: var(--terracota); }
+
+/* Lição 0: sinais da escrita */
+.bloco-sinal { margin: 1.4rem 0; padding: 1rem 1.2rem; border-left: 3px solid var(--terracota); background: var(--papel-2); border-radius: 0 6px 6px 0; }
+.bloco-sinal h3 { margin: 0 0 .5rem; }
+.bloco-sinal h3 .gr { font-family: var(--grego); color: var(--terracota); margin-right: .4rem; letter-spacing: .1em; }
+.bloco-sinal .gr { font-family: var(--grego); font-size: 1.08em; }
+.bloco-sinal ol, .bloco-sinal ul { margin: .4rem 0; padding-left: 1.3rem; }
+.bloco-sinal li { margin: .35rem 0; }
+.bloco-sinal p { margin: .4rem 0; }
+.tabela-acentos { width: 100%; border-collapse: collapse; font-size: .92rem; margin: .7rem 0; }
+.tabela-acentos th { text-align: left; font-family: var(--sans); font-size: .75rem; color: var(--tinta-3); font-weight: 600; border-bottom: 1px solid var(--linha); padding: .3rem .5rem .3rem 0; }
+.tabela-acentos td { padding: .45rem .5rem .45rem 0; border-bottom: 1px dashed var(--linha); vertical-align: top; }
+.teste-enunciado { font-family: var(--sans); font-size: .88rem; color: var(--tinta-2); margin: 0 0 .5rem; min-height: 2.4em; }
+.teste-sinais .teste-opcoes button { font-size: .88rem; }
+.teste-sinais .teste-opcoes button.gr { font-family: var(--grego); font-size: 1.15rem; }
+@media (max-width: 560px) {
+  .tabela-acentos thead { display: none; }
+  .tabela-acentos tr { display: block; padding: .5rem 0; border-bottom: 1px dashed var(--linha); }
+  .tabela-acentos td { display: block; border: none; padding: .1rem 0; }
+}

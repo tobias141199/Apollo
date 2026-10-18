@@ -55,7 +55,7 @@ export function Avaliacao({ l, exigencia }: { l: Licao; exigencia?: React.ReactN
   if (fase === 'inicio') return (
     <div className="avaliacao">
       <h2>Avaliação da lição</h2>
-      <p>{perguntas.length} perguntas de múltipla escolha sobre o vocabulário e as formas desta lição.
+      <p>{perguntas.length} perguntas de múltipla escolha sobre {l.id === 'alfabeto' ? 'as letras, a leitura, os espíritos, os acentos e o sigma final' : 'o vocabulário e as formas desta lição'}.
         Acerte <b>{pct(NOTA_MINIMA)}</b> ou mais para {proxima ? <>liberar <b>{proxima.rotulo}</b></> : 'concluir a trilha'}.</p>
       {registro && (
         <p className={`avaliacao-situacao ${aprovada ? 'ok' : ''}`}>

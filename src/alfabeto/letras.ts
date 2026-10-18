@@ -149,3 +149,61 @@ export const PALAVRAS_LEITURA: { grego: string; pt: string }[] = [
   { grego: 'Ἀθηνᾶ', pt: 'Atena' }, { grego: 'Ἀπόλλων', pt: 'Apolo' }, { grego: 'Ἑρμῆς', pt: 'Hermes' },
   { grego: 'Ἀφροδίτη', pt: 'Afrodite' },
 ]
+
+// ---------------------------------------------------------------------------------------------
+// Material da avaliação da Lição 0 (seleção e textos nossos). Transliteração: η = ē, ω = ō,
+// υ = y, χ = ch, φ = ph, θ = th, espírito áspero = h, ῥ = rh, γγ = ng; o acento é mantido.
+
+/** Palavras para ler: a transliteração certa e três erradas, cada uma com um erro típico. */
+export const LEITURAS: { grego: string; certa: string; erradas: string[] }[] = [
+  { grego: 'ἡμέρα', certa: 'hēméra', erradas: ['ēméra', 'heméra', 'hēmérha'] },
+  { grego: 'ὁδός', certa: 'hodós', erradas: ['odós', 'hōdós', 'hodóz'] },
+  { grego: 'ἵππος', certa: 'híppos', erradas: ['íppos', 'hípos', 'hýppos'] },
+  { grego: 'ὕδωρ', certa: 'hýdōr', erradas: ['ýdōr', 'hýdor', 'hídōr'] },
+  { grego: 'ῥήτωρ', certa: 'rhḗtōr', erradas: ['rḗtōr', 'rhḗtor', 'hrḗtōr'] },
+  { grego: 'Ἑλλάς', certa: 'Hellás', erradas: ['Ellás', 'Hēllás', 'Helás'] },
+  { grego: 'ἀγρός', certa: 'agrós', erradas: ['hagrós', 'agrōs', 'akrós'] },
+  { grego: 'ἄνθρωπος', certa: 'ánthrōpos', erradas: ['hánthrōpos', 'ántrōpos', 'ánthropos'] },
+  { grego: 'εἰρήνη', certa: 'eirḗnē', erradas: ['heirḗnē', 'eirénē', 'irḗnē'] },
+  { grego: 'αὐτός', certa: 'autós', erradas: ['hautós', 'avtós', 'autōs'] },
+  { grego: 'ἄγγελος', certa: 'ángelos', erradas: ['ággelos', 'hángelos', 'ángelōs'] },
+  { grego: 'θεός', certa: 'theós', erradas: ['teós', 'theōs', 'heós'] },
+  { grego: 'χώρα', certa: 'chṓra', erradas: ['hṓra', 'chóra', 'xṓra'] },
+  { grego: 'ψυχή', certa: 'psychḗ', erradas: ['psichḗ', 'psychá', 'phychḗ'] },
+  { grego: 'φιλοσοφία', certa: 'philosophía', erradas: ['pilosopía', 'philozophía', 'phylosophía'] },
+  { grego: 'ξένος', certa: 'xénos', erradas: ['zénos', 'chénos', 'xḗnos'] },
+]
+
+/** Palavras com espírito áspero e com espírito brando. */
+export const ESPIRITO_ASPERO = ['ἡμέρα', 'ὁδός', 'ἵππος', 'ὕδωρ', 'ἥλιος', 'ἑπτά', 'ἱστορία', 'ῥήτωρ', 'ὥρα', 'αἷμα', 'Ἑλλάς', 'ἅμα']
+export const ESPIRITO_BRANDO = ['ἀγρός', 'ἄνθρωπος', 'ἔργον', 'ὄνομα', 'ἰδέα', 'αὐτός', 'οἶκος', 'εἰρήνη', 'ἐγώ', 'ὀφθαλμός', 'ἀήρ', 'ἄγγελος']
+
+/** Palavras pelo acento que levam (o grave aparece quando outra palavra vem em seguida). */
+export const ACENTO_AGUDO = ['λόγος', 'ἀγρός', 'θεός', 'φίλος', 'ψυχή', 'χώρα', 'ἄνθρωπος', 'ἡμέρα']
+export const ACENTO_CIRCUNFLEXO = ['σῶμα', 'δρᾶμα', 'πνεῦμα', 'γῆ', 'μῦθος', 'σῖτος', 'οἶκος', 'Ζεῦ']
+export const ACENTO_GRAVE = ['καὶ', 'τὸν', 'τὴν', 'καλὸς', 'ἀγαθὸς', 'σοφὸς', 'ἀγρὸν', 'θεὸς']
+
+/** Palavras com sigma no meio e no fim (pelo menos dois sigmas minúsculos), para a pergunta da grafia correta. */
+export const COM_SIGMA = ['σοφός', 'σεισμός', 'στάσις', 'ὅσος', 'θεσμός', 'σεισμοῖς', 'ἱστός', 'σοφίας']
+
+/** Perguntas sobre as regras (a primeira opção é a certa; a ordem é sorteada na hora). */
+export const REGRAS: { pergunta: string; opcoes: [string, string, string, string]; tema: 'espíritos' | 'acentos' | 'escrita' }[] = [
+  { tema: 'espíritos', pergunta: 'O espírito áspero (como em ἁ) indica…', opcoes: ['um som de h antes da vogal', 'que a vogal é longa', 'que a sílaba é a mais forte', 'que a palavra é estrangeira'] },
+  { tema: 'espíritos', pergunta: 'Que palavras levam espírito?', opcoes: ['todas as que começam por vogal ou ditongo (e as que começam por ρ)', 'só as que começam por consoante', 'só os nomes próprios', 'só as palavras de uma sílaba'] },
+  { tema: 'espíritos', pergunta: 'Numa palavra que começa por ditongo (αὐτός, εἰρήνη), o espírito fica…', opcoes: ['sobre a segunda vogal do ditongo', 'sobre a primeira vogal', 'antes da palavra, separado', 'sobre a última sílaba'] },
+  { tema: 'espíritos', pergunta: 'O ρ e o υ no começo da palavra…', opcoes: ['levam sempre espírito áspero (ῥ, ὑ)', 'levam sempre espírito brando', 'nunca levam espírito', 'levam sempre acento grave'] },
+  { tema: 'espíritos', pergunta: 'Numa maiúscula (Ὁ, Ἀθῆναι), o espírito se escreve…', opcoes: ['antes da letra, no alto à esquerda', 'em cima da letra', 'depois da letra', 'embaixo da letra'] },
+  { tema: 'acentos', pergunta: 'O acento circunflexo (como em ῶ) só pode ficar…', opcoes: ['sobre vogal longa ou ditongo, numa das duas últimas sílabas', 'sobre qualquer vogal, em qualquer sílaba', 'só na primeira sílaba da palavra', 'só sobre vogais breves'] },
+  { tema: 'acentos', pergunta: 'Em que sílabas o acento agudo pode ficar?', opcoes: ['numa das três últimas', 'só na última', 'em qualquer sílaba', 'só na primeira'] },
+  { tema: 'acentos', pergunta: 'Quando aparece o acento grave?', opcoes: ['no lugar do agudo da última sílaba, quando outra palavra vem logo depois', 'em toda palavra no fim da frase', 'sobre as vogais longas', 'no lugar do circunflexo'] },
+  { tema: 'acentos', pergunta: 'Espírito e acento na mesma vogal: como se escrevem?', opcoes: ['o espírito vem antes do agudo ou do grave (ἄ, ἃ) e fica embaixo do circunflexo (ἆ)', 'o acento vem sempre antes do espírito', 'nunca aparecem juntos', 'o espírito fica embaixo da vogal'] },
+  { tema: 'acentos', pergunta: 'No grego antigo, o acento marcava…', opcoes: ['a altura da voz (a sílaba soava mais aguda)', 'a duração da vogal', 'uma pausa', 'o fim da frase'] },
+  { tema: 'escrita', pergunta: 'Quando se usa ς?', opcoes: ['só no fim da palavra', 'só no começo da palavra', 'no meio da palavra', 'antes de vogal'] },
+  { tema: 'escrita', pergunta: 'O que é o iota subscrito (ᾳ, ῃ, ῳ)?', opcoes: ['um ι pequeno escrito embaixo de α, η ou ω', 'um acento especial', 'um espírito escrito embaixo', 'um sinal de vogal breve'] },
+  { tema: 'escrita', pergunta: 'Em ΠΡΟΣ ΤΗΙ ΚΡΗΝΗΙ (só maiúsculas), o Ι escrito depois do Η corresponde a…', opcoes: ['um iota subscrito', 'um iota acentuado', 'um ditongo ει', 'um erro de cópia'] },
+  { tema: 'escrita', pergunta: 'Como soa o γ em ἄγγελος?', opcoes: ['o primeiro γ soa como n (ánguelos)', 'os dois soam como g (ággelos)', 'o primeiro γ não soa', 'como o j de “jarro”'] },
+  { tema: 'escrita', pergunta: 'O ponto e vírgula grego (;) equivale a…', opcoes: ['ponto de interrogação', 'ponto e vírgula', 'dois-pontos', 'ponto final'] },
+]
+
+/** Letras fáceis de confundir com letras do nosso alfabeto (entram com mais frequência na avaliação). */
+export const LETRAS_TRAICOEIRAS = ['ν', 'υ', 'ρ', 'η', 'ω', 'χ', 'ξ', 'ζ', 'γ', 'ψ', 'Η', 'Ρ', 'Χ', 'Υ', 'Ν', 'Σ']

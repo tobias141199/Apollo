@@ -8,6 +8,8 @@ import { GRUPOS, LETRAS, PALAVRAS_LEITURA, type Letra } from '../alfabeto/letras
 import { LetraAnimada } from '../alfabeto/LetraAnimada'
 import { Pratica } from '../alfabeto/Pratica'
 import { Avaliacao } from '../components/Avaliacao'
+import { Sinais } from '../alfabeto/Sinais'
+import { perguntaDeSinais } from '../lib/avaliacao'
 import { Certo, Lapis, Tocar } from '../components/Icones'
 import { registrarEscrita, useProgresso } from '../lib/progresso'
 
@@ -107,23 +109,7 @@ export function Alfabeto() {
         {([1, 2, 3, 4] as const).map(g => <Grupo key={g} g={g} aoEscolher={i => escolher(i, true)} />)}
       </section>
 
-      <section className="sinais">
-        <h2>Sinais e sons especiais</h2>
-        <dl>
-          <dt><span className="gr">ἁ ἀ</span> espíritos</dt>
-          <dd>Toda palavra que começa por vogal leva um “espírito”. O <b>áspero</b> (aberto para a direita, como em <span className="gr">ἁ</span>) soa como um h aspirado: <span className="gr">ἡμέρα</span> = hēméra. O <b>brando</b> (aberto para a esquerda, como em <span className="gr">ἀ</span>) não soa: <span className="gr">ἀγρός</span> = agrós.</dd>
-          <dt><span className="gr">ά ὰ ᾶ</span> acentos</dt>
-          <dd>Marcam a sílaba de destaque. No grego antigo o acento era de <b>altura</b> (a voz subia), não de força. Por enquanto, leia a sílaba acentuada com mais ênfase.</dd>
-          <dt><span className="gr">ει ου</span> ditongos</dt>
-          <dd><span className="gr">ει</span> soa como o “ei” de “lei” (ou um ê longo); <span className="gr">ου</span> soa como “u” longo: <span className="gr">οὐ</span> = “u”.</dd>
-          <dt><span className="gr">γγ γκ</span></dt>
-          <dd>O primeiro γ soa como n: <span className="gr">ἄγγελος</span> = ánguelos (daí “anjo”).</dd>
-          <dt><span className="gr">ᾳ ῃ ῳ</span> iota subscrito</dt>
-          <dd>Um ι pequeno escrito embaixo da vogal. Era pronunciado no período clássico; hoje costumamos não pronunciá-lo, mas ele faz parte da grafia.</dd>
-          <dt><span className="gr">· ;</span> pontuação</dt>
-          <dd>O ponto alto (<span className="gr">·</span>) vale como dois-pontos ou ponto e vírgula; o <b>;</b> grego é o nosso ponto de interrogação.</dd>
-        </dl>
-      </section>
+      <Sinais />
 
       <section>
         <h2>Treino rápido</h2>
@@ -131,6 +117,7 @@ export function Alfabeto() {
         <div className="testes-alfabeto">
           <TesteLetra />
           <TestePalavra />
+          <TreinoSinais />
         </div>
       </section>
 
@@ -219,4 +206,34 @@ function TestePalavra() {
   const sorteio = useSorteio(PALAVRAS_LEITURA, p => p.pt)
   return <Teste titulo="Leia: que palavra portuguesa vem daqui?" sorteio={sorteio} chave={p => p.pt} rotulo={p => p.pt}
     pergunta={p => <span className="gr pergunta-palavra">{p.grego}</span>} />
+}
+
+/** Treino sem nota: espíritos, acentos, sigma final, leitura e regras, uma pergunta nova a cada vez. */
+function TreinoSinais() {
+  const [n, setN] = useState(0)
+  const q = useMemo(() => perguntaDeSinais(), [n])
+  const [escolha, setEscolha] = useState<string | null>(null)
+  const [placar, setPlacar] = useState({ certas: 0, total: 0 })
+  const responder = (o: string) => {
+    if (escolha) return
+    setEscolha(o)
+    setPlacar(p => ({ certas: p.certas + (o === q.certa ? 1 : 0), total: p.total + 1 }))
+  }
+  return (
+    <div className="teste-alfabeto teste-sinais">
+      <h3>Espíritos, acentos e sigma</h3>
+      <p className="teste-enunciado">{q.enunciado}</p>
+      {q.destaque && <div className="teste-pergunta"><span className="gr pergunta-palavra">{q.destaque}</span></div>}
+      <div className="teste-opcoes">
+        {q.opcoes.map(o => (
+          <button key={o} onClick={() => responder(o)}
+            className={`${q.opcoesGrego ? 'gr' : ''} ${escolha ? o === q.certa ? 'certa' : o === escolha ? 'errada' : '' : ''}`}>{o}</button>
+        ))}
+      </div>
+      <div className="teste-rodape">
+        <span>{placar.certas} de {placar.total}</span>
+        {escolha && <button className="botao" onClick={() => { setEscolha(null); setN(n + 1) }}>Próxima ›</button>}
+      </div>
+    </div>
+  )
 }
